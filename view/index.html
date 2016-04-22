@@ -1,0 +1,40 @@
+<!doctype html>
+<!--ng-app 告诉agularjs处理整个html页并引导应用-->
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+</head>
+<body>
+    <!-- yourname 是一个模型变量 ng-model 绑定模型变量 模型变量在多处地方 一处改变全部改变 双向绑定-->
+    your name :<input type="text" ng-model="yourname" placeholder="world">
+    <hr>
+    hello ! {{yourname || 'world'}} !
+
+    <!--控制器的方法 -->
+    <div class="phone-list" ng-controller="phoneListCtrl">
+        <ul class="phones">
+            <!--迭代器 filter作为一个过滤器 过滤数据模型query-->
+            <!--迭代器 ng-repeat-->
+            <li ng-repeat="phone in phones | filter:query">
+                {{phone.name}}
+                <p>{{phone.snippet}}</p>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <script type="text/javascript">
+        // 需要使用服务时。必须以参数形式传 入
+        //
+        function phoneListCtrl($scope,$http) {
+            $http.get("../static/json_data/phone.json").success(function(data){
+                console.log(data);
+                $scope.phones = data;
+            });
+        }
+    </script>
+</body>
+</html>
