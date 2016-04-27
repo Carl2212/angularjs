@@ -1,0 +1,30 @@
+[
+  {
+    "map" : "Product",
+    "smap" :  ["Security Cameras","Network Systems","IP Kits","Recording Solutions","Storage Solutions","Camera Lenses","Monitors","Controller Systems","Accessories","Samsung Consumer Products"]
+  },
+  {
+    "map" : "Case",
+    "smap" :  ["Security Cameras","Network Systems","IP Kits","Recording Solutions","Storage Solutions","Camera Lenses","Monitors","Controller Systems","Accessories","Samsung Consumer Products"]
+  },
+  {
+    "map" : "WiseNet",
+    "smap" :  ["2MP WiseNet Lite","1.3MP WiseNet Lite"]
+  },
+  {
+    "map" : "Tools",
+    "smap" :  ["2015 Product Comparison Chart","Bandwidth/Storage v4.26 Calculator","2015 Catalog Full Product Line","Download Center","Samsung Product Selector v2.25","Samsung Field Of View Calculator V 4.0","iPOLiS Device Manager v1.18","Samsung IP Installer Tool V2.01","Samsung Online Tool Updater V1.3.2","iPOLiS Network Design Tool V1.6.8","Network & Analog Visio Shape Tool","Techwin SD Card Player V1.20","HDD Compatible List V7.2","VMS Compatibility Charts","Mounting Accessory Selection Guide Ver 4.8","IP Camera Temp. Power, Heater Table v1.2","iPOLis ToolBox Online"]
+  },
+  {
+    "map" : "Training",
+    "smap" :  ["Samsung IP Institute","Online Training"]
+  },
+  {
+    "map" : "Sales",
+    "smap" :  ["North America Sales Region","Manufacturer Representatives","Samsung Strategic Distributors","Minimum Advertised Price (MAP) Policy","Order Samsung Literature"]
+  },
+  {
+    "map" : "Support",
+    "smap" :  ["Customer Service","Technical Support","Warranty Policy","Repair Form"]
+  }
+]
