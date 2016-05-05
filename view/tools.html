@@ -1,0 +1,22 @@
+<div id="tools">
+    <div class="intro" ng-controller="toolsCtrl">
+        <div class="detail">
+            <span class="left-txt">
+                <pathlist>导航目录</pathlist>
+                <h1>{{itemmaps.name}}</h1>
+                <span  ng-bind-html="itemmaps.detail | trusttoHtml"></span>
+            </span>
+            <span class="right-logo">
+                <img src="/source/img/samsungbiglogo.ashx">
+            </span>
+        </div>
+        <scorllbarmodule></scorllbarmodule>
+    </div>
+    <div class="lbox" ng-controller="linkbox_ctrl">
+        <ul class="link-box h-dist">
+            <expanderhdist expander="catalog"></expanderhdist>
+            <expanderhdist expander="contact"></expanderhdist>
+            <expanderhdist expander="events"></expanderhdist>
+        </ul>
+    </div>
+</div>

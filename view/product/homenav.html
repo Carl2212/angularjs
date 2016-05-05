@@ -1,0 +1,60 @@
+<div id="product-next-nav" ng-controller="homenavCtrl">
+    <div class="intro">
+        <div class="detail">
+            <span class="left-txt">
+                <pathlist>导航目录</pathlist>
+                <h1>{{maintxt[item].name}}</h1>
+                <em>{{maintxt[item].brief}}</em>
+                <p>{{maintxt[item].detail}}</p>
+            </span>
+            <span class="right-logo">
+                <img ng-src="/source/img/samsungbiglogo.ashx">
+            </span>
+        </div>
+    </div>
+    <div class="lr-content">
+        <div class="l-nav">
+            <ul class="list-nav">
+                <li class="first-nav" ng-repeat="itemmap in itemmaps">
+                    <a href="{{path}}/{{itemmap.map | titlefilter}}">{{itemmap.map}}»</a>
+                    <hr>
+                    <ul>
+                        <li class="second-nav" ng-repeat="smap in itemmap.smap">
+                            <a href="{{path}}/{{itemmap.map | titlefilter}}/{{smap | titlefilter}}">
+                                {{smap}}»
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="lbox" ng-controller="linkbox_ctrl">
+            <ul class="link-box z-dist">
+                <expanderzdist expander="catalog"></expanderzdist>
+                <expanderzdist expander="contact"></expanderzdist>
+                <expanderzdist expander="events"></expanderzdist>
+            </ul>
+        </div>
+        </div>
+        <div class="r-nav">
+            <ul class="icon-list-nav">
+                <li class="first-nav" ng-repeat="itemmap in itemmaps">
+                    <span class="first-nav-title">{{itemmap.map}}»</span>
+                    <ul class="icon-list">
+                        <li class="map-item" ng-repeat="smap in itemmap.smap track by $index">
+                            <a class="map" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | titlefilter}}">
+                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | titlefilter)].img}}"></span>
+                                <em>{{smap}}»</em>
+                                <hr>
+                            </a>
+                            <div class="smap-bottom">
+                                <span class="smap">{{maintxt[(smap | titlefilter)].brief}}</span>
+                                <a class="btn" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | titlefilter}}">VIEW PRODUCTS»</a>
+                            </div>
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

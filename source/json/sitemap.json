@@ -1,0 +1,630 @@
+[{
+    "site":{
+      "products":{
+        "map" : "Products",
+        "smap" :  ["Security Cameras","Network Systems","IP Kits","Recording Solutions","Storage Solutions","Camera Lenses","Monitors","Controller Systems","Accessories","Samsung Consumer Products","Site Map"]
+      },
+      "case_studies":{
+        "map" : "Case Studies",
+        "smap" : ["Commercial", "City Surveillance", "Education", "Government", "Retail","Transportation","Utilities"]
+      },
+      "wisenet_lite":{
+        "map" : "WiseNet Lite",
+        "smap" :  ["2MP WiseNet Lite","1.3MP WiseNet Lite"]
+      },
+      "tools":{
+        "map" : "Tools",
+        "smap" :  ["2015 Product Comparison Chart","Bandwidth/Storage v4.26 Calculator","2015 Catalog Full Product Line","Download Center","Samsung Product Selector v2.25","Samsung Field Of View Calculator V 4.0","iPOLiS Device Manager v1.18","Samsung IP Installer Tool V2.01","Samsung Online Tool Updater V1.3.2","iPOLiS Network Design Tool V1.6.8","Network & Analog Visio Shape Tool","Techwin SD Card Player V1.20","HDD Compatible List V7.2","VMS Compatibility Charts","Mounting Accessory Selection Guide Ver 4.8","IP Camera Temp. Power, Heater Table v1.2","iPOLis ToolBox Online"]
+      },
+      "training":{
+        "map" : "Training",
+        "smap" :  ["Samsung IP Institute","Online Training"]
+      },
+      "sales":{
+        "map" : "Sales",
+        "smap" :  ["North America Sales Region","Manufacturer Representatives","Samsung Strategic Distributors","Minimum Advertised Price (MAP) Policy","Order Samsung Literature"]
+      },
+      "support":{
+        "map" : "Support",
+        "smap" :  ["Customer Service","Technical Support","Warranty Policy","Repair Form"]
+      }
+    },
+  "products" :[
+    {
+      "map" : "Security Cameras",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" : ["IP Cameras","Analog Cameras","Mobile Apps"]
+    },
+    {
+      "map" : "Network Systems",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" : ["Network Video Recorders","Switches Ethernet","Network Software"]
+    },
+    {
+      "map" : "IP Kits",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["4 Channel IP Kit","8 Channel IP Kit","16 Channel IP Kit"]
+    },
+    {
+      "map" : "Recording Solutions",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Digital Video Recorders","Encoders/Decoders"]
+    },
+    {
+      "map" : "Storage Solutions",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Seneca"]
+    },
+    {
+      "map" : "Camera Lenses",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Motorized Zoom Lenses","Vari-Focal Lenses","Megapixel Lenses"]
+    },
+    {
+      "map" : "Monitors",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["LCD Monitors","LED Monitors"]
+    },
+    {
+      "map" : "Controller Systems",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Remote Camera Control","Systems"]
+    },
+    {
+     "map" : "Accessories",
+      "img" : "/source/img/product/security_cameras.ashx",
+     "smap" :["Camera Accessories","Camera Power Supplies","Accessory Selector Guide"]
+    }
+  ],
+  "security_cameras" :{
+    "ip_cameras":{
+      "map":"IP Cameras",
+      "smap":["WiseNet Lite","Box","Bullet","Fixed Domes","Vandal-Resistant Domes","PTZ Domes","Wireless"]
+    },
+    "analog_cameras":{
+      "map":"Analog Cameras",
+      "smap":["Beyond Series","WiseNet HD+ Series","Box","Bullet","Fixed Domes","Vandal-Resistant Domes","Positioning System","PTZ Cameras","UTP Cameras"]
+    },
+    "mobile_apps":{
+      "map":"Mobile Apps",
+      "smap":["SSM Apps","iPolis Apps"]
+    }
+  },
+  "mobile_apps":[
+    {
+      "map":"WiseNet Lite",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Box",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Bullet",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fisheye",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fixed Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Vandal-Resistant Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"PTZ Dome",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Wireless",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    }
+  ],
+  "wisenet_lite": {
+    "snp_l5233":{
+      "map":"SNP-L5233",
+      "new" : true,
+      "brief" : "1.3Megapixel HD 23x Network PTZ Dome Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/SNP-5300.ashx","/source/img/product/ipcamera/wisenetlite/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "snp_l5233h":{
+      "map":"SNP-L5233H",
+      "new" : true,
+      "brief" : "1.3Megapixel HD 23x Network PTZ Dome Camera",
+      "detail" :"The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/SNP-5300H.ashx"],
+      "element" : [{
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li> 16 : 9 HD (720p) resolution support</li><li> 4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support / IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only) </li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233H_Specifications.pdf'>SNP-L5233H_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233H_AE.zip'>SNP-L5233H_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233H_CAD.zip'>SNP-L5233H_CAD.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233H_Usermanual.pdf'>SNP-L5233H_Usermanual.pdf</a>"
+      }]
+    },
+    "snp_l6233": {
+      "map": "SNP-L6233",
+      "new": true,
+      "brief": "2Megapixel HD 23x Network PTZ Dome Camera",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/SNP-5300_PD1.ashx"
+      ],
+      "element": {
+        "Overview": "<h3>Key Features:</h3><ul><li>Max. 2M (1920 x 1080) resolution</li><li>16 : 9 Full HD (1080p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>H.264, MJPEG dual codec, Multiple streaming</li><li> Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L6233H), IK10 (SNP-L6233 + SHP-3701H only)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SNP-L6233_H_Specifications.pdf'>SNP-L6233_H_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNP-L6233_AE_.zip'>SNP-L6233_AE_.zip</a>",
+        "Drawing": "<a href='/scource/zip/SNP-L6233_CAD.zip'>SNP-L6233_CAD.zip</a>",
+        "Manual": "<a href='/scource/zip/SNP-L6233_Usermanual.pdf'>SNP-L6233_Usermanual.pdf</a>"
+      }
+    },
+    "snp_l6233h": {
+      "map": "SNP-L6233H",
+      "new": true,
+      "brief": "2Megapixel HD 23x Network PTZ Dome Camera",
+      "detail":"The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Outdoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/SNP-5300H_PD1.ashx"
+      ],
+      "element": {
+        "Overview": "<h3>Key Features:</h3><ul><li>Max. 2M (1920 x 1080) resolution</li><li>16 : 9 Full HD (1080p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L6233H), IK10 (SNP-L6233 + SHP-3701H only)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SNP-L6233_H_Specifications.pdf'>SNP-L6233_H_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/Product_SpecificationsSNP-L6233H_AE.zip'>Product_SpecificationsSNP-L6233H_AE.zip</a>",
+        "Drawing": "<a href='/scource/zip/SNP-L6233H_CAD.zip'>SNP-L6233H_CAD.zip</a>",
+        "Manual": "<a href='/scource/zip/SNP-L6233H_Usermanual.pdf'>SNP-L6233H_Usermanual.pdf</a>"
+      }
+    },
+
+    "sno_l6083r": {
+      "map": "SNO-L6083R",
+      "new": false,
+      "brief": "2MP Full HD Weatherproof IR",
+      "detail":"The SNO-L6083R delivers 2 megapixel FullHD video in an outdoor bullet camera.  IR LEDs allow visibility in total darkness up to 20 meters.  The 2.8-12mm varifocal lens provides a wide range of installation environments.  The camera also conforms to IP66 and IK10 ratings for weather/dust proofing and vandal impact rating.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/SNO-L6083R_PD1.ashx","/source/img/product/ipcamera/wisenetlite/SNO-L6083R_PD2.ashx","/source/img/product/ipcamera/wisenetlite/SNO-L6083R_PD3.ashx"
+      ],
+      "element": {
+        "Overview": "<h3>Key Features:</h3><ul><li>30fps@all resolutions (H.264)</li><li>4.3x (2.8 ~ 12mm) varifocal lens   </li><li>Motion detection, Tampering </li><li>IR viewable length 65ft </li><li>Hallway view support (Rotate  90˚/270˚) </li><li>IK10, IP66</li></ul>",
+        "Specifications": "<a href='/scource/zip/SNO-L6083R_Specifications.pdf'>SNO-L6083R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNO-L6083R_AE.zip'>SNO-L6083R_AE.zip</a>",
+        "Drawing": "<a href='/scource/zip/CAD_SNO-L6083R.zip'>CAD_SNO-L6083R.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SNO-L6083R_Certifications.zip'>SNO-L6083R_Certifications.zip</a>",
+        "Manual": "<a href='/scource/zip/User_Manual_SNO-L6083R_ENGLISH.pdf'>User_Manual_SNO-L6083R_ENGLISH.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl6013_Series_1_01_150918.zip'>sndl6013_Series_1_01_150918.zip</a>"
+      }
+    },
+    "sno_l6013r": {
+      "map": "SNO-L6013R",
+      "new": false,
+      "brief": "2MP Full HD Weatherproof IR",
+      "detail":"The SNO-L6013R is a 2 megapixel FullHD outdoor bullet camera with a wide angle 3.6mm lens.  It is IP66 rated for waterproofing for outdoor installations.  The IR LEDs provide visibility up to 20 meters.  The SDHC memory card recording slot creates a simple recording solution up to 32Gb.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/SNO-L6013R_PD1.ashx","/source/img/product/ipcamera/wisenetlite/SNO-L6013R_PD2.ashx"
+      ],
+      "element": {
+        "Overview": "<h3>Key Features:</h3><ul><li>30fps@all resolutions (H.264)</li><li>3.6mm fixed lens</li><li>Motion detection, Tampering  </li><li>IR viewable length 65ft </li><li>Hallway view support  (Rotate 90˚/270˚) </li><li>IP66</li></ul>",
+        "Specifications": "<a href='/scource/zip/SNO-L6013R_Specifications.pdf'>SNO-L6013R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SND-L6013R_AE_150330.zip'>SND-L6013R_AE_150330.zip</a>",
+        "Drawing": "<a href='/scource/zip/CAD_SNO-L6013R.zip'>CAD_SNO-L6013R.zip</a>",
+        "Manual" :"<a href='/scource/zip/User-Manual_SNO-L6013R_ENGLISH.pdf'>User-Manual_SNO-L6013R_ENGLISH.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl6013_Series_1_01_150918.zip'>sndl6013_Series_1_01_150918.zip</a>"
+      }
+    },
+    "snp_l6013": {
+      "map": "SND-L6013",
+      "new": false,
+      "brief": "2MP Full HD",
+      "detail":"Samsung Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/SND-L6013_PD1.ashx"
+      ],
+      "element": {
+        "Overview": "<h3>Key Features:</h3><ul><li>30fps@all resolutions (H.264)</li><li>3.6mm fixed lens</li><li>Motion detection, Tampering</li><li>Hallway view support (Rotate 90˚/270˚)</li><li>LDC support (Lens Distortion Correction)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SND-L6013_Specifications.pdf'>SND-L6013_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SND-L6013_AE_150330.zip'>SND-L6013_AE_150330.zip</a>",
+        "Drawing": "<a href='/scource/zip/SND-L6013_CAD.zip'>SND-L6013_CAD.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SND-L6013_Certifications.zip'>SND-L6013_Certifications.zip</a>",
+        "Manual": "<a href='/scource/zip/UserManual_SND-L6013_ENGLISH.pdf'>UserManual_SND-L6013_ENGLISH.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl6013_Series_1_01_150918.zip'>sndl6013_Series_1_01_150918.zip</a>"
+      }
+    },
+    "snd_l6013r": {
+      "map": "SND-L6013R",
+      "new": false,
+      "brief": "2MP Full HD IR",
+      "detail":"The SND-L6013R is an indoor dome camera perfect for high resolution FullHD monitoring.  Featuring IR LEDs for low light visibility and hallway view mode ideal for hallways or retail stores.  The wide angle lens 3.6mm lens captures an 86° horizontal field of view while the Lens Distortion Correction provides a distortion-free image.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/SND-L6013_PD1.ashx"
+      ],
+      "element": {
+        "Overview": "<h3>Key Features:</h3><ul><li>30fps@all resolutions (H.264)</li><li>3.6mm fixed lens</li><li>Motion detection, Tampering</li><li> IR viewable length 65ft</li><li>Hallway view support (Rotate 90˚/270˚)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SND-L6013R_Specifications.pdf'>SND-L6013R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SND-L6013R_AE_150330.zip'>SND-L6013R_AE_150330.zip</a>",
+        "Firmware": "<a href='/scource/zip/2MP_WisenetLite_Series_1_00.zip'>2MP_WisenetLite_Series_1_00.zip</a>"
+      }
+    },
+    "snd_l6083r": {
+      "map": "SND-L6083R",
+      "new": false,
+      "brief": "2MP Full HD IR",
+      "detail":"The SND-L6083R provides high resolution FullHD images along with a varifocal 2.8-12mm lens for a wide range of installation environments.  The horizontal field of view can be adjusted from 103°-32° while the Lens Distortion Correction ensures a natural, distortion-free image.  The built-in IR LEDs provide illumination up to 15 meters.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/SND-L6013_PD1.ashx"
+      ],
+      "element": {
+        "overview": "<h3>Key Features:</h3><ul><li>30fps@all resolutions (H.264)</li><li>4.3x (2.8 ~ 12mm) varifocal lens</li><li>Motion detection, Tampering</li><li>IR viewable length 49ft</li><li>Hallway view support (Rotate 90˚/270˚)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SND-L6083R_Specifications.pdf'>SND-L6083R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SND-L6083R_AE_150401.zip'>SND-L6083R_AE_150401.zip</a>",
+        "Drawing": "<a href='/scource/zip/SND-L6083R_CAD.zip'>SND-L6083R_CAD.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SND-L6083R_Certifications.zip'>SND-L6083R_Certifications.zip</a>",
+        "Manual": "<a href='/scource/zip/User_Manual-SND-L6013R-ENGLISH_Web-150811.pdf'>User_Manual-SND-L6013R-ENGLISH_Web-150811.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl6013_Series_1_01_150918.zip'>sndl6013_Series_1_01_150918.zip</a>"
+      }
+    },
+    "snv_l6083r": {
+      "map": "SNV-L6083R",
+      "new": false,
+      "brief": "2MP Full HD Vandal-Resistant Network IR",
+      "detail":"The SNV-L6083R is a FullHD IP66 outdoor, IK10 vandal dome camera with a varifocal lens and 20 meter IR LEDs.  Hallway View mode optimizes the image for portrait orientation, perfect for parking lots, roadways, hallways, & more.  Powered by PoE it can withstand conditions down to -22°F.  Tampering detection can provide notification upon damage resulting in a significant change to the camera image.  The SDHC memory card slot allows on-camera recording up to 32Gb.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/sub_SNV-L6083R.ashx"
+      ],
+      "element": {
+        "Overview": "<h3>Key Features:</h3><ul><li>30fps@all resolutions (H.264)</li><li>4.3x (2.8 ~ 12mm) varifocal lens</li><li>Motion detection, Tampering</li><li>IR viewable length 65ft</li><li>Hallway view support (Rotate 90˚/270˚)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SNV-L6083R_Specifications.pdf'>SNV-L6083R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNV-L6083R_AE_150403.zip'>SNV-L6083R_AE_150403.zip</a>",
+        "Drawing": "<a href='/scource/zip/SNV-L6083R_CAD.zip'>SNV-L6083R_CAD.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SNV-L6083R_Certification.zip'>SNV-L6083R_Certification.zip</a>",
+        "Manual": "<a href='/scource/zip/User_Manual-SNV-L6083R-ENGLISH_Web-150811.pdf'>User_Manual-SNV-L6083R-ENGLISH_Web-150811.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl6013_Series_1_01_150918.zip'>sndl6013_Series_1_01_150918.zip</a>"
+      }
+    }
+  },
+  "commercial" :[
+    {
+      "item" : "Samsung IP Cameras Keep Watch On The Museum Of Flight's: New Space Gallery Building Cameras' Low-Light Capabilities Meet New Building's Surveillance Needs",
+      "time" :"02/04/2015",
+      "area" :"Seattle, Washington"
+    },
+    {
+      "item" : "Samsung Video Surveillance Cameras Rock the Castle: PTZ and Fixed Dome Cameras Do Dual Duty in Video Production and Surveillance Applications",
+      "time" :"10/07/2014",
+      "area" :"Nashville, Tennesse"
+    }
+  ],
+  "2mp_wisenet_lite" :["wisenet_lite/snp_l6233h","wisenet_lite/snp_l6233","wisenet_lite/sno_l6083r","wisenet_lite/sno_l6013r","wisenet_lite/snp_l6013","wisenet_lite/snd_l6013r","wisenet_lite/snd_l6083r","wisenet_lite/snv_l6083r"],
+  "1.3mp_wisenet_lite" :["wisenet_lite/snp_l5233h","wisenet_lite/snp_l5233","wisenet_lite/sno_l5083r","wisenet_lite/snd_l5013","wisenet_lite/snd_l5083r","wisenet_lite/snv_l5083r"],
+  "first_nav_content" : {
+    "products" : {
+      "name" :"products",
+      "brief" : "Your Source For Professional Video Security Solutions",
+      "detail" : "Hanwha Techwin America's video surveillance products are based upon cutting edge technologies that are unique in the security industry. When you try our products you will experience the difference that these technologies provide."
+    },
+    "case_studies" : {
+      "name" :"Case Studies",
+      "brief" : "Your Source For Professional Video Security Solutions",
+      "detail" : "Samsung Techwin's video surveillance products are based upon cutting edge technologies that are unique in the security industry. When you try our products you will experience the difference that these technologies provide."
+    },
+    "wisenet_lite" : {
+      "name" : "Wisenet Lite",
+      "brief" : "",
+      "detail" : "Samsung Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "tools" :{
+      "name" :"Free Tools",
+      "detail":"Samsung has developed a group of tools that can be easily navigated and used on a daily basis. These tools are designed to help you find useful product information such as product comparison charts, bandwidth calculators, product literature and many more. We strive to provide you the tools that you need in the field so we are always looking for feedback and suggestions."
+    },
+    "training" :{
+      "name" :"Samsung Techwin Training",
+      "brief" :"",
+      "detail":"Samsung's broad based education program is an investment in our channel partners including sales management, field sales and technicians. Our program aims to enlighten the participants so they gain a useful perspective in technology product knowledge and technical prowess."
+    },
+    "sales" :{
+      "name" :"Sales",
+      "brief" : "Sales & Services for Professional Video Security Solutions",
+      "detail":"With its own proprietary technology and product lines, Samsung Techwin is at the forefront of Samsung's digital accomplishments and rapidly becoming a world-class brand as Samsung's premiere security technology company."
+    },
+    "support" :{
+      "name" :"Support",
+      "brief" : "Your Source For Professional Video Security Solutions",
+      "detail":"Samsung Techwin's video surveillance products are based upon cutting edge technologies that are unique in the security industry. When you try our products you will experience the difference that these technologies provide. Feel free to contact our Customer Service or Technical Support team for assistance with your Samsung CCTV products."
+    }
+  },
+  "main_content" :{
+
+    "commercial":{
+      "name" :"Commercial",
+      "wname" :"Commercial Case Studies",
+      "img":"/source/img/case_studies/commercial.ashx",
+      "detail":"Samsung Techwin's video surveillance products are based upon cutting edge technologies that are unique in the security industry. When you try our products you will experience the difference that these technologies provide."
+    },
+    "city_surveillance":{
+      "name" :"City Surveillance",
+      "wname" :"City Surveillance Case Studies",
+      "img":"/source/img/case_studies/city-surveillance.ashx",
+      "detail":"Samsung Techwin have introduced a number of ways to extend and expand the use of cameras, helping to lower the total cost of ownership of video surveillance.  From the local council workforce to national security operatives, city surveillance can benefit from the technically advanced features of Samsung Techwin’s video surveillance range."
+    },
+    "education":{
+      "name" :"Education",
+      "wname" :"Education Case Studies",
+      "img":"/source/img/case_studies/education-case-study.ashx",
+      "detail":"Recent news tells us that security challenges in educational facilities are expanding while at the same time budgets are shrinking. Samsung offers security solutions to solve these issues by making more effective use of the manpower and equipment budget you have available. From a single building to a large university campus to a county wide district, we can meet your specific needs effectively."
+    },
+    "government":{
+      "name" :"Government",
+      "wname" :"Government Case Studies",
+      "img":"/source/img/case_studies/government.ashx",
+      "detail":"Around the world public agencies have been turning to Samsung Techwin for video security systems at an increasing rate.  Why?  Because Samsung offers superior performance, a wide variety of the products and features needed at a price that helps preserve the budget.  One example of this is privacy masking.  Most public use applications will require that certain areas of surveillance scenes be blocked from view.  With most camera manufacturers this would limit your choice to only the highest price models.  With Samsung this feature comes standard in all of our cameras.  This means that you don’t need to spend twice as much when you don’t need to."
+    },
+    "retail":{
+      "name" : "Retail",
+      "wname" : "Retail Case Studies",
+      "img":"/source/img/case_studies/retail.ashx",
+      "detail":"When you encounter theft and other management issues in retail, Samsung’s security solutions can provide the most practical way to solve your problems. We offer a wide range of camera, recording, and remote management products to suit any size of operation and budget."
+    },
+    "transportation":{
+      "name" :"Transportation",
+      "wname" :"Transportation Studies",
+      "img":"/source/img/case_studies/transportation.ashx",
+      "detail":"Samsung Techwin have introduced a number of ways to extend and expand the use of cameras, helping to lower the total cost of ownership of video surveillance.  From the local council workforce to national security operatives, transportation surveillance can benefit from the technically advanced features of Samsung Techwin’s video surveillance range."
+    },
+    "utilities":{
+      "name" :"Utilities",
+      "wname" :"Utilities Case Studies",
+      "img":"/source/img/case_studies/utilities.ashx",
+      "detail":"Utilities Video surveillance is a cost-effective way of increasing the level of safety and security within your production facility. Regardless of whether it is a solar plant, an electrical substation or a waste management facility. Samsung Techwin have introduced a number of ways to extend and expand the use of cameras, helping to lower the total cost of ownership of video surveillance."
+    },
+
+    "2mp_wisenet_lite":{
+      "name" :"2MP WiseNet Lite",
+      "wname" :"2MP WiseNet Lite Series",
+      "img":"/source/img/case_studies/WN-Lite-Series.ashx",
+      "detail":"Hanwha Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "1.3mp_wisenet_lite":{
+      "name" :"1.3MP WiseNet Lite",
+      "wname" :"1.3MP WiseNet Lite Series",
+      "img":"/source/img/case_studies/WN-Lite-Series.ashx",
+      "detail":"Samsung Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+
+    "wisenet_lite" : {
+      "name" :"Wisenet Lite",
+      "img":"/source/img/product/ipcamera/WN-Lite-Series.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "box" : {
+      "name":"Box",
+      "img":"/source/img/product/ipcamera/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "bullet" : {
+      "name":"Bullet",
+      "img":"/source/img/product/ipcamera/SNO-6084R.jpg",
+      "brief":"Bullet IP Cameras are becoming more and more popular because they make installations simple.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "fisheye" : {
+      "name":"Fisheye",
+      "img":"/source/img/product/ipcamera/SNF-7010.jpg",
+      "brief":"Features our most advanced technology with 3 megapixel 1080p high definition images.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "fixed_domes" : {
+      "name":"Fixed Domes",
+      "img":"/source/img/product/ipcamera/ip-camera-fixed-dome.jpg",
+      "brief":"One of our most requested camera lines, the selection of IP fixed domes.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "vandal_resistant_domes" : {
+      "name":"Vandal Resistant Domes",
+      "img":"/source/img/product/ipcamera/SNV-6084.jpg",
+      "brief":"One of our most requested camera lines, the selection of IP Vandal-Resistant Domes.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "ptz_domes" : {
+      "name":"Ptz Domes",
+      "img":"/source/img/product/ipcamera/PTZ.jpg",
+      "brief":"Samsung’s line to PTZ cameras will help you to maintain the visual connection with your subject.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "wireless" : {
+      "name":"Wireless",
+      "img":"/source/img/product/ipcamera/SNH-06410BN.jpg",
+      "brief":"Keep a watchful eye your home or business anytime and from anywhere.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "security_cameras" : {
+      "name" :"Security Cameras",
+      "brief" : "",
+      "detail" : "Hanwha Techwin’s line of camera's deliver extraordinary capabilities in both image quality, and day-to-day performance.  We offer the industry's most comprehensive selection of Analog and Network Cameras."
+    },
+    "2015_product_comparison_chart":{
+      "name":"2015 Product Comparison Chart",
+      "img":"/source/img/tools/compare-icon-bnr.ashx",
+      "detail" :"The 2015 Samsung Product Comparison Chart is designed for side by side comparisons of all of our security products. Learn about each equipment's technology features including power, resolution, environmental protection and more. Find the security camera and recording system to fit your application.",
+      "content" :"<p class='fz-s'>Our Product team has put together a product comparison chart that helps compare our products side to side. These charts clearly show you the differences in our products and help you to chose the right product for your project.</p><a class='fz-b' href='/source/pdf/2015-Product-Comparison-Chart-FINAL.pdf'>Click here to Download Product Comparison Chart.</a>"
+    },
+    "bandwidth/storage_v4.26_calculator":{
+      "name":"Bandwidth/Storage v4.26 Calculator",
+      "img":"/source/img/tools/bandwidth-icon2.ashx",
+      "detail" :"The Bandwidth/Storage Calculator can be used as a tool to calculate frame rate, resolution and compression. This software is free of charge and is designed for all Samsung NVR and software products to calculate bandwidth and storage utility.",
+      "content" :"<p class='fz-s'>The IP Network Bandwidth/Storage v4.26 Calculator is a free tool that allows you to determine how much bandwidth is necessary to view a given amount of live or recorded video from IP security cameras, and helps identify any bottlenecks related to bandwidth usage.</p><a class='fz-b' href='/source/zip/BandwidthCalculator_4_26_setup_full.zip'>Click here to Download Bandwidth/Storage Calculator Version 4.26 (Full Version). (including .Net installer)</a><a class='fz-b' href='/source/zip/BandwidthCalculator_4_26._setup_lite.zip'>Click here to Download Bandwidth/Storage Calculator Version 4.26 (Lite Version).</a>"
+    },
+    "2015_catalog_full_product_line":{
+      "name":"2015 Catalog Full Product Line",
+      "img":"/source/img/tools/catalog-icon.ashx",
+      "detail" :"Samsung Techwin's security solution products are based upon cutting edge technologies that are unique in the security industry. With the worldwide threat of crime and terrorism increasing daily, the demand for high quality video surveillance systems is also growing rapidly. Users are demanding new capabilities and greater efficiency from their security systems. Samsung Techwin is dedicated to the goal of producing high performance products that introduce features and capabilities that push the boundaries of what can be done with those products. We are redefining what you should expect from total security solution.",
+      "content" :"<p class='fz-s'>Users are demanding new capabilities and greater efficiency from their security systems. Samsung Techwin is dedicated to the goal of producing high performance products that introduce features and capabilities that push the boundaries of what can be done with those products. We are redefining what you should expect from total security solution.</p><a class='fz-s' href='/source/pdf/2015-Samsung-Full-Catalog-Line.pdf'>Please click here to view the 2015 Catalog Full Product Line</a>"
+    },
+    "download_center":{
+      "name":"Product Download Center",
+      "img":"/source/img/tools/literature-tool2.ashx",
+      "detail" :"<p>This page is designed to provide all product related information in one location instead of searching in multiple places to get what you need. We realize that your time is valuable so whether you need datasheets, A&E specs or updated firmware this is the place to find it.</p><p>We strive to keep a database of information for our Samsung product line. Please contact us at marketing@samsung-security.com for any additional on-line or printed marketing materials.</p>",
+      "content" :"<span class='fl'><img src='/source/img/tools/literature-tool2.ashx'></span><a class='fz-b fl hover-a' href='/source/pdf/'>Click here to view Samsung's Download Center.</a>"
+    },
+    "samsung_product_selector_v2.25":{
+      "name":"Samsung Product Selector v2.25",
+      "img":"/source/img/tools/Product-Selector.ashx",
+      "detail" :"The Samsung Product Selector tool is designed to assist you in finding the right Samsung security camera, lens, DVR, NVR, encoders, etc…",
+      "content" :"<p class='fz-s'>The Samsung Product Selector tool is designed to assist you in finding the right Samsung security camera, lens, DVR, NVR, encoders, etc… This tool is easy to navigate and helps you determine what you are looking for by product feature, camera type, resolution or product category. Not sure what camera you need? This tool helps you compare products side by side in order to make the right decision.</p><a class='fz-s' href='/source/zip/ProductSelector_2_25_setup_full.zip'>Click here to Download the Product Selector Tool V2.25 (Full Version).</a><a  class='fz-s'  href='/source/zip/ProductSelector_2_25_setup_lite.zip'>Click here to Download the Product Selector Tool V2.25 (Lite Version).</a>"
+    },
+    "samsung_field_of_view_calculator_v_4.0":{
+      "name":"Samsung Field Of View Calculator V 4.0",
+      "img":"/source/img/tools/fov.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "ipolis_device_manager_v1.18":{
+      "name":"iPOLiS Device Manager v1.18",
+      "img":"/source/img/tools/ip_device.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "samsung_ip_installer_tool_v2.01":{
+      "name":"Samsung IP Installer Tool V2.01",
+      "img":"/source/img/tools/ip-tool.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "samsung_online_tool_updater_v1.3.2":{
+      "name":"Samsung Online Tool Updater V1.3.2",
+      "img":"/source/img/tools/bandwidth-icon2.ashx",
+      "detail" :"The Samsung field of view (FOV) calculator will provide the amount of a given scene captured by the camera. It will also provide the angle of view or angle of coverage. The Samsung FOV determines the FOV by utilizing three elements: the lens and sensor element within the camera and where the camera is positioned in relation to the scene.",
+      "content" :"<p class='fz-s fz-sb'>Please note: In order to install please follow steps below.<ul><li> 1) Install DotNet FX40 Client</li><li> 2) Install VCRedist_x86</li><li> 3) Install WindowsInstaller3_1</li><li>   4) Install FoV Calculator_Setup.msi</li></u></p><a class='fz-b' href='/source/zip/FoVCalculator_4_0-setup_Full.zip'>Click here to download Field Of View Calculator V 4.0 (Full Version).</a><a class='fz-b' href='/source/zip/FoVCalculator_4_0-setup_lite.zip'>Click here to download Field Of View Calculator V 4.0 (Lite Version).</a>"
+    },
+    "ipolis_network_design_tool_v1.6.8":{
+      "name":"iPOLiS Network Design Tool V1.6.8",
+      "img":"/source/img/tools/ip-design-tool.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "network_&_analog_visio_shape_tool":{
+      "name":"Network & Analog Visio Shape Tool",
+      "img":"/source/img/tools/visio-tools.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "techwin_sd_card_player_v1.20":{
+      "name":"Techwin SD Card Player V1.20",
+      "img":"/source/img/tools/sd-card-player.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "hdd_compatible_list_v7.2":{
+      "name":"HDD Compatible List V7.2",
+      "img":"/source/img/tools/HDD-List.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "vms_compatibility_charts":{
+      "name":"VMS Compatibility Charts",
+      "img":"/source/img/tools/ISV-Charts.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "mounting_accessory_selection_guide_ver_4.8":{
+      "name":"Accessory Selection Guide Ver 4.8",
+      "img":"/source/img/tools/Accessory-icon2.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "ip_camera_temp._power,_heater_table_v1.2":{
+      "name":"IP Camera Temp. Power, Heater Table",
+      "img":"/source/img/tools/temp.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "ipolis_toolbox_online":{
+      "name":"iPOLis ToolBox Online",
+      "img":"/source/img/tools/tool-box.ashx",
+      "detail" :"",
+      "content" :"<p>iPOLiS ToolBox includes: Product selector, FoV Calculator and Bandwidth Calculator</p><p>1. [Product Selector] Which camera/recorder is the best for me? <br />-Product Selector is a program that allows the user to search and select the products according to their requirements.<br />-When making their choice the program automatically creates a product list.<br />-You can then drag and drop the products onto a comparison chart and compare the detailed specifications.</p><p>2. [FoV Calculator] Calculate the camera&rsquo;s visible scene.<br />-The field of View Calculator is a program for calculating the camera&rsquo;s visible scene.<br />-When you choose the lens format size or camera model name, input focal length of the lens and distance between lens and object, it will then work out the dimensions of the scene.</p><p>3. [Bandwidth Calculator] <br />-Bandwidth Calculator is a program that estimates the network bandwidth according to the user defined video setting of network camera. <br />-By using a multiple set of network camera settings, it will calculate the whole Bandwidth and storage capacity for the Network Video Recorder (NVR).</p><p></p><h3><a href='http://www.samsungcctv.co.kr/customer/ipolicetoolbox/main.asp?setLang=english'>Click here to view the online iPOLis ToolBox</a>.</h3>"
+    },
+    "samsung_ip_institute":{
+      "name":"Samsung IP Institute",
+      "img":"/source/img/training/Sipi.ashx",
+      "detail" :"<p>SIPI is designed to be the key step in certifying Samsung Dealers to work with Samsung Security Products.  It is aimed at educating technical staff on how to properly program, design, and install a system. The course will review Samsung's line of products, apps and VMS software for a full end-to-end solution and is designed to be a hands-on training for the technician to ensure proper installation of Samsung Equipment.</p><p>In addition, all Gold and Silver STEP dealers are required to successfully complete this course. All participants upon completion will receive 5 CEC’s which can be utilized for industry recognized certifications such as ASIS and BICSI.</p>",
+      "content" :"<p class='fz-sb'>Outline</p><p class='fz-s'>Time Saving Tools</p><p class='fz-s'>Best Practices</p><p class='fz-s'>Feature Differentiators</p><p class='fz-s'>VMS Integration</p><p class='fz-s'>Hands on Training:</p><p class='fz-s'>• Samsung Wisenet III Cameras • Samsung NVR Recorders • Samsung SSM software</p><a class='fz-b' href='/training/samsung_ip_institute/register'>Click here for available dates and to register</a>"
+    },
+    "online_training":{
+      "name":"Online Training",
+      "img":"/source/img/training/ip-available-courses.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "north_america_sales_region":{
+      "name":"North America Sales Region",
+      "img":"/source/img/sales/north-amer-sales.ashx",
+      "detail" :"Our goal at Samsung Techwin America is to continue to strengthen our position as the market leader of video security solutions. We are committed to providing support and resources to our Manufacturer Representatives and Dealers. Our Sales Team consists of industry professionals who are hands-on when it comes to developing and executing our products in any sized application."
+    },
+    "manufacturer_representatives":{
+      "name":"Manufacturer Representatives",
+      "img":"/source/img/sales/manf-reps.ashx",
+      "detail" :"Our mission at Samsung Techwin America is to continue to strengthen our position as the market leader of video security solutions. We are committed to providing our customers with innovative, quality products and services specifically designed for the security professional. Below is a list of Manufacturer Representatives that are dedicated to selling Samsung products in your area and are available to help you with your future or last minute security applications."
+    },
+    "samsung_strategic_distributors":{
+      "name":"Samsung Strategic Distributors",
+      "img":"/source/img/sales/business-develop.ashx",
+      "detail" :"Samsung values your business and in an effort to provide you with choices as to source your Samsung professional security needs, we have established national Samsung Strategic Distributor partners.  Our Partners are ready to fulfill your Samsung Techwin product needs whether it’s our reliable and cost effective analog products, our technology leading IP products. Samsung Techwin products are readily available and can be sourced from the following Samsung Strategic Distributor partners:"
+    },
+    "minimum_advertised_price_map_policy":{
+      "name":"Minimum Advertised Price (MAP) Policy",
+      "img":"/source/img/sales/map-policy.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "Customer Service":{
+      "name":"Customer Service",
+      "img":"/source/img/support/customer-service.ashx",
+      "detail" :"<p>SIPI is designed to be the key step in certifying Samsung Dealers to work with Samsung Security Products.  It is aimed at educating technical staff on how to properly program, design, and install a system. The course will review Samsung's line of products, apps and VMS software for a full end-to-end solution and is designed to be a hands-on training for the technician to ensure proper installation of Samsung Equipment.</p><p>In addition, all Gold and Silver STEP dealers are required to successfully complete this course. All participants upon completion will receive 5 CEC’s which can be utilized for industry recognized certifications such as ASIS and BICSI.</p>",
+      "content" :"<p class='fz-sb'>Outline</p><p class='fz-s'>Time Saving Tools</p><p class='fz-s'>Best Practices</p><p class='fz-s'>Feature Differentiators</p><p class='fz-s'>VMS Integration</p><p class='fz-s'>Hands on Training:</p><p class='fz-s'>• Samsung Wisenet III Cameras • Samsung NVR Recorders • Samsung SSM software</p><a class='fz-b' href='/training/samsung_ip_institute/register'>Click here for available dates and to register</a>"
+    },
+    "Technical Support":{
+      "name":"Technical Support",
+      "img":"/source/img/support/tech-support.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    },
+    "Warranty Policy":{
+      "name":"Warranty Policy",
+      "img":"/source/img/support/warranty.ashx",
+      "detail" :"<p>SIPI is designed to be the key step in certifying Samsung Dealers to work with Samsung Security Products.  It is aimed at educating technical staff on how to properly program, design, and install a system. The course will review Samsung's line of products, apps and VMS software for a full end-to-end solution and is designed to be a hands-on training for the technician to ensure proper installation of Samsung Equipment.</p><p>In addition, all Gold and Silver STEP dealers are required to successfully complete this course. All participants upon completion will receive 5 CEC’s which can be utilized for industry recognized certifications such as ASIS and BICSI.</p>",
+      "content" :"<p class='fz-sb'>Outline</p><p class='fz-s'>Time Saving Tools</p><p class='fz-s'>Best Practices</p><p class='fz-s'>Feature Differentiators</p><p class='fz-s'>VMS Integration</p><p class='fz-s'>Hands on Training:</p><p class='fz-s'>• Samsung Wisenet III Cameras • Samsung NVR Recorders • Samsung SSM software</p><a class='fz-b' href='/training/samsung_ip_institute/register'>Click here for available dates and to register</a>"
+    },
+    "Repair Form":{
+      "name":"Repair Form",
+      "img":"/source/img/support/repair.ashx",
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
+    }
+  }
+}]

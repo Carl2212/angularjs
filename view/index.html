@@ -1,40 +1,73 @@
-<!doctype html>
-<!--ng-app 告诉agularjs处理整个html页并引导应用-->
-<html lang="en" ng-app>
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
-</head>
-<body>
-    <!-- yourname 是一个模型变量 ng-model 绑定模型变量 模型变量在多处地方 一处改变全部改变 双向绑定-->
-    your name :<input type="text" ng-model="yourname" placeholder="world">
-    <hr>
-    hello ! {{yourname || 'world'}} !
 
-    <!--控制器的方法 -->
-    <div class="phone-list" ng-controller="phoneListCtrl">
-        <ul class="phones">
-            <!--迭代器 filter作为一个过滤器 过滤数据模型query-->
-            <!--迭代器 ng-repeat-->
-            <li ng-repeat="phone in phones | filter:query">
-                {{phone.name}}
-                <p>{{phone.snippet}}</p>
-            </li>
+<!--<script src="/source/js/link_box_aj.js" type="text/javascript"></script>-->
+<div id="linkb" ng-controller="linkbox_ctrl">
+    <!--jqueryslider-->
+    <div id="slider-box">
+        <div class="viewport">
+            <ul class="overview">
+                <li class="slider-item">
+                    <div class="tip">
+                        <div class="tip-block">
+                            <em>WiseNet Lite</em>
+                            <h1>NEW! Breakthrough in Price & Quality!</h1>
+                            <p>Samsung Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications. Click here for more information.</p>
+                        </div>
+                    </div>
+                    <div class="advertisement">
+                        <img src="/source/img/index/slider/slider_lite.ashx">
+                    </div>
+                </li>
+                <li class="slider-item">
+                    <div class="tip">
+                        <div class="tip-block">
+                            <em>1080p Analog HD</em>
+                            <h1>WiseNet HD+ Series</h1>
+                            <p>WiseNet HD+ series is an analog HD solution that provides better performance than existing analog products. WiseNet HD+ can transmit 1080p Full-HD high quality images through existing coaxial cable at a distance up to 1640ft. It is also backwards compatible with any existing analog system. Click here for more information.</p>
+                        </div>
+                    </div>
+                    <div class="advertisement">
+                        <img src="/source/img/index/slider/slider_hd.ashx">
+                    </div>
+                </li>
+                <li class="slider-item">
+                    <div class="tip">
+                        <div class="tip-block">
+                            <em>SNP-5430H</em>
+                            <h1>The Industry's First!</h1>
+                            <p>The highest zoom PTZ’s in the world allow you to cover a wide area while still being able to view clear details.  Ultra fast frame rate provides up to 60 frames per second for latency free clear images of moving objects.</p>
+                        </div>
+                    </div>
+                    <div class="advertisement">
+                        <img src="/source/img/index/slider/slider_snp.ashx">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="/source/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/source/js/JquerySlider.js"></script>
+    <!--product-box-->
+    <div class="product">
+        <div class="product-title">
+            <span><em>FEATURED PRODUCTS</em></span>
+        </div>
+
+        <div class="product-content">
+            <a class="a-btn left"></a>
+            <ul>
+                <li><a href="#">
+                    <img src="/source/img/index/product/SNB-9000.ashx">
+                    <h2>4K Technology</h2>
+                </a></li>
+            </ul>
+            <a class="a-btn right"></a>
+        </div>
+    </div>
+    <div class="lbox">
+        <ul class="link-box h-dist">
+            <expanderhdist expander="catalog"></expanderhdist>
+            <expanderhdist expander="contact"></expanderhdist>
+            <expanderhdist expander="events"></expanderhdist>
         </ul>
     </div>
-
-
-
-    <script type="text/javascript">
-        // 需要使用服务时。必须以参数形式传 入
-        //
-        function phoneListCtrl($scope,$http) {
-            $http.get("../static/json_data/phone.json").success(function(data){
-                console.log(data);
-                $scope.phones = data;
-            });
-        }
-    </script>
-</body>
-</html>
+</div>

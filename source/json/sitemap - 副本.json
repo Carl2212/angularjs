@@ -1,0 +1,396 @@
+[{
+    "site": {
+      "products" :{
+        "map": "Products",
+        "smap": {
+          "Security Cameras":{"map":"Security Cameras","smap"}
+          "Network Systems":{"map":"Network Systems",}
+          "IP Kits":{"map":"IP Kits",}
+          "Recording Solutions":{"map":"Recording Solutions",}
+          "Storage Solutions":{"map":"Storage Solutions",}
+          "Camera Lenses":{"map":"Camera Lenses",}
+          "Monitors":{"map":"Monitors",}
+          "Controller Systems":{"map":"Controller Systems",}
+          "Accessories":{"map":"Accessories",}
+          "Samsung Consumer Products":{"map":"Samsung Consumer Products",}
+          "Site Map":{"map":"Site Map"}
+        }
+      },
+      "case_studies":{
+        "map": "Case Studies",
+        "smap": [
+          "Commercial",
+          "City Surveillance",
+          "Education",
+          "Government",
+          "Retail"
+        ]
+      },
+      "wiseNet_lite":{
+        "map": "WiseNet Lite",
+        "smap": [
+          "2MP WiseNet Lite",
+          "1.3MP WiseNet Lite"
+        ]
+      },
+      "tools":{
+        "map": "Tools",
+        "smap": [
+          "2015 Product Comparison Chart",
+          "Bandwidth/Storage v4.26 Calculator",
+          "2015 Catalog Full Product Line",
+          "Download Center",
+          "Samsung Product Selector v2.25",
+          "Samsung Field Of View Calculator V 4.0",
+          "iPOLiS Device Manager v1.18",
+          "Samsung IP Installer Tool V2.01",
+          "Samsung Online Tool Updater V1.3.2",
+          "iPOLiS Network Design Tool V1.6.8",
+          "Network & Analog Visio Shape Tool",
+          "Techwin SD Card Player V1.20",
+          "HDD Compatible List V7.2",
+          "VMS Compatibility Charts",
+          "Mounting Accessory Selection Guide Ver 4.8",
+          "IP Camera Temp. Power, Heater Table v1.2",
+          "iPOLis ToolBox Online"
+        ]
+      },
+      "training":{
+        "map": "Training",
+        "smap": [
+          "Samsung IP Institute",
+          "Online Training"
+        ]
+      },
+      "sales":{
+        "map": "Sales",
+        "smap": [
+          "North America Sales Region",
+          "Manufacturer Representatives",
+          "Samsung Strategic Distributors",
+          "Minimum Advertised Price (MAP) Policy",
+          "Order Samsung Literature"
+        ]
+      },
+      "support":{
+        "map": "Support",
+        "smap": [
+          "Customer Service",
+          "Technical Support",
+          "Warranty Policy",
+          "Repair Form"
+        ]
+      }
+    },
+  "products" :[
+    {
+      "map" : "Security Cameras",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" : ["IP Cameras","Analog Cameras","Mobile Apps"]
+    },
+    {
+      "map" : "Network Systems",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" : ["Network Video Recorders","Switches Ethernet","Network Software"]
+    },
+    {
+      "map" : "IP Kits",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["4 Channel IP Kit","8 Channel IP Kit","16 Channel IP Kit"]
+    },
+    {
+      "map" : "Recording Solutions",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Digital Video Recorders","Encoders/Decoders"]
+    },
+    {
+      "map" : "Storage Solutions",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Seneca"]
+    },
+    {
+      "map" : "Camera Lenses",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Motorized Zoom Lenses","Vari-Focal Lenses","Megapixel Lenses"]
+    },
+    {
+      "map" : "Monitors",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["LCD Monitors","LED Monitors"]
+    },
+    {
+      "map" : "Controller Systems",
+      "img" : "/source/img/product/security_cameras.ashx",
+      "smap" :["Remote Camera Control","Systems"]
+    },
+    {
+     "map" : "Accessories",
+      "img" : "/source/img/product/security_cameras.ashx",
+     "smap" :["Camera Accessories","Camera Power Supplies","Accessory Selector Guide"]
+    }
+  ],
+  "case_studies" : [],
+  "wiseNet_lite" :[],
+  "tools" :[],
+  "Training" :[],
+  "Sales" :[],
+  "Support" :[],
+  "security_cameras" :[
+    {
+      "map":"IP Cameras",
+      "smap":["WiseNet Lite","Box","Bullet","Fixed Domes","Vandal-Resistant Domes","PTZ Domes","Wireless"]
+    },
+    {
+      "map":"Analog Cameras",
+      "smap":["Beyond Series","WiseNet HD+ Series","Box","Bullet","Fixed Domes","Vandal-Resistant Domes","Positioning System","PTZ Cameras","UTP Cameras"]
+    },
+    {
+      "map":"Mobile Apps",
+      "smap":["SSM Apps","iPolis Apps"]
+    }
+  ],
+  "network_systems" :[
+
+  ],
+  "ip_cameras":[
+    {
+      "map":"WiseNet Lite",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Box",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Bullet",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fisheye",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fixed Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Vandal-Resistant Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"PTZ Dome",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Wireless",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    }
+  ],
+  "analog_cameras":[
+    {
+      "map":"WiseNet Lite",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Box",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Bullet",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fisheye",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fixed Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Vandal-Resistant Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"PTZ Dome",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Wireless",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    }
+  ],
+  "mobile_apps":[
+    {
+      "map":"WiseNet Lite",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Box",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Bullet",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fisheye",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Fixed Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Vandal-Resistant Domes",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"PTZ Dome",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    {
+      "map":"Wireless",
+      "img":"/source/img/product/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    }
+  ],
+  "wiseNet_lite": [
+    {
+      "map":"SNP-L5233",
+      "new" : true,
+      "detail" : "1.3Megapixel HD 23x Network PTZ Dome Camera",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/SNP-5300_PD1.ashx"],
+      "element" : {
+        "overview" :"<h3>Key Features:</h3><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    {
+      "map":"SNP-L5233",
+      "new" : true,
+      "detail" : "1.3Megapixel HD 23x Network PTZ Dome Camera",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/SNP-5300_PD1.ashx"],
+      "element" : {
+        "overview" :"<h3>Key Features:</h3><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    {
+      "map":"SNP-L5233",
+      "new" : true,
+      "detail" : "1.3Megapixel HD 23x Network PTZ Dome Camera",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/SNP-5300_PD1.ashx"],
+      "element" : {
+        "overview" :"<h3>Key Features:</h3><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    }],
+
+  "main_content" : {
+    "products" : {
+      "brief" : "Your Source For Professional Video Security Solutions",
+      "detail" : "Hanwha Techwin America's video surveillance products are based upon cutting edge technologies that are unique in the security industry. When you try our products you will experience the difference that these technologies provide."
+    },
+    "security_cameras" : {
+      "brief" : "",
+      "detail" : "Hanwha Techwin’s line of camera's deliver extraordinary capabilities in both image quality, and day-to-day performance.  We offer the industry's most comprehensive selection of Analog and Network Cameras."
+    },
+    "wisenet_lite" : {
+      "img":"/source/img/product/ipcamera/WN-Lite-Series.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "box" : {
+      "img":"/source/img/product/ipcamera/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "bullet" : {
+      "img":"/source/img/product/ipcamera/SNO-6084R.jpg",
+      "brief":"Bullet IP Cameras are becoming more and more popular because they make installations simple.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "fisheye" : {
+      "img":"/source/img/product/ipcamera/SNF-7010.jpg",
+      "brief":"Features our most advanced technology with 3 megapixel 1080p high definition images.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "fixed_domes" : {
+      "img":"/source/img/product/ipcamera/ip-camera-fixed-dome.jpg",
+      "brief":"One of our most requested camera lines, the selection of IP fixed domes.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "vandal_resistant_domes" : {
+      "img":"/source/img/product/ipcamera/SNV-6084.jpg",
+      "brief":"One of our most requested camera lines, the selection of IP Vandal-Resistant Domes.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "ptz_domes" : {
+      "img":"/source/img/product/ipcamera/PTZ.jpg",
+      "brief":"Samsung’s line to PTZ cameras will help you to maintain the visual connection with your subject.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "wireless" : {
+      "img":"/source/img/product/ipcamera/SNH-06410BN.jpg",
+      "brief":"Keep a watchful eye your home or business anytime and from anywhere.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    }
+  }
+}]

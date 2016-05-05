@@ -1,0 +1,65 @@
+<div id="product-detail" ng-controller="productdetailCtrl">
+    <div class="intro">
+        <div class="detail">
+            <span class="left-txt">
+                <pathlist>导航目录</pathlist>
+                <h1>SNP-L5233</h1>
+                <p>The SNP-L5233H WiseNet Lite PTZ dome camera that provides 23x zoom at 1.3 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.</p>
+            </span>
+            <span class="right-logo">
+                <img ng-src="/source/img/samsungbiglogo.ashx">
+            </span>
+        </div>
+    </div>
+    <div class="lr-content">
+        <div class="l-nav">
+            <div class="list-nav">
+                <div class="first-nav">
+                    <a href="{{path}}/{{itemmaps.map | titlefilter}}">{{itemmaps.map}}»</a>
+                    <hr>
+                    <ul>
+                        <li class="second-nav" ng-repeat="smap in itemmaps.smap">
+                            <a href="{{path}}/{{itemmaps.map | titlefilter}}/{{smap | titlefilter}}">
+                                {{smap}}»
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="r-nav">
+            <div class="p-detail">
+                <div class="aside-link"><a href="#">EMAIL THIS PAGE</a> : <a href="#">PRINT THIS PAGE</a></div>
+                <div class="left-content">
+                    <h1>{{product.map}}</h1>
+                    <hr>
+                    <p>{{product.brief}}</p>
+                </div>
+                <div class="detail-img">
+                    <span class="b-img"><img ng-src="{{product.img[0]}}"><a>VIEW LARGER</a></span>
+                    <ul class="s-img">
+                        <li class="s-pro-box" ng-repeat="pimg in product.img track by $index">
+                            <a href="javascript:void(0);">
+                                <img ng-src="{{pimg}}">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="detail-tab">
+                <ul class="tab-title">
+                    <li ng-repeat="(elem,value) in product.element">
+                        <a href="javascript:void(0);">{{elem}}</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <h3>OVERVIEW</h3>
+                    <hr>
+                    <span class="content-element" ng-bind-html="product.element.overview | trusttoHtml">
+
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
