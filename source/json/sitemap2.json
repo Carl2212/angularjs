@@ -1,5 +1,5 @@
 [{
-  "site":{
+    "site":{
       "products":{
         "map" : "Products",
         "smap" :  ["Security Cameras","Network Systems","IP Kits","Recording Solutions","Storage Solutions","Camera Lenses","Monitors","Controller Systems","Accessories","Samsung Consumer Products","Site Map"]
@@ -33,7 +33,7 @@
         "map" : "Company",
         "smap" :  ["About","Press room","Trade shows & Events","Customer Service"]
       }
-    },
+    }
   "products" :[
     {
       "map" : "Security Cameras",
@@ -311,106 +311,25 @@
       }
     }
   },
-  "commercial" :{
-    "com_0":{
+  "commercial" :[
+    {
       "item" : "Samsung IP Cameras Keep Watch On The Museum Of Flight's: New Space Gallery Building Cameras' Low-Light Capabilities Meet New Building's Surveillance Needs",
       "time" :"02/04/2015",
-      "area" :"Seattle, Washington(February 04,2015)",
-      "ticket" : "com_0"
+      "area" :"Seattle, Washington"
     },
-    "com_1":{
+    {
       "item" : "Samsung Video Surveillance Cameras Rock the Castle: PTZ and Fixed Dome Cameras Do Dual Duty in Video Production and Surveillance Applications",
       "time" :"10/07/2014",
-      "area" :"Nashville, Tennesse (October 07, 2014) ",
-      "ticket" : "com_1"
+      "area" :"Nashville, Tennesse"
     }
-  },
-
-  "city_surveillance" :{
-    "city_0":{
-      "item" : "Lansing Lights up the Night With Samsung Video Surveillance",
-      "time" :"12/05/2014",
-      "area" :"Lansing, Michigan (December 05, 2014) ",
-      "ticket" : "city_0"
-    },
-    "city_1":{
-      "item" : "Samsung Video Surveillance Solutions Keep a Watchful Eye Over Houston’s Premier Entertainment Area",
-      "time" :"11/12/2014",
-      "area" :"Houston, Texas (November 12, 2014) ",
-      "ticket" : "city_1"
-    },
-    "city_2":{
-      "item" : "How a Mid-Sized Housing Authority Took the Leap into 21st Century Surveillance to Reduce Crime and Improve Quality of Life",
-      "time" :"07/01/2013",
-      "area" :"Pittsburgh, Pennsylvania (July 01, 2013) ",
-      "ticket" : "city_2"
-    }
-  },
-  "education" :{
-    "edu_0":{
-      "item" : "Live Images from Samsung Cameras Speed Up Emergency Response: Video Surveillance System at All Saints Catholic School Directly Tied into Local Police Station",
-      "time" :"01/30/2015",
-      "area" :"Canton, Michigan (January 30, 2015)",
-      "ticket" : "edu_0"
-    },
-    "edu_1":{
-      "item" : "Middleton High School Uses State-of-the-Art Video Surveillance in its New Facility: Brand New School Incorporates All-Samsung Surveillance System with 112 Cameras",
-      "time" :"07/01/2014",
-      "area" :"Middleton, Idaho (July 01, 2014) ",
-      "ticket" : "edu_1"
-    },
-    "edu_2":{
-      "item" : "Philadelphia Charter School Turns to Samsung Cameras to Secure Unique, Challenging Educational Environment",
-      "time" :"07/01/2015",
-      "area" :"Philadelphia, PA (July 01, 2015) ",
-      "ticket" : "edu_2"
-    }
-  },
-  "government" : {
-    "gov_0": {
-      "item": "Naval Ordnance Test Unit (NOTU) Chooses Samsung",
-      "time": "05/29/2011",
-      "area": "Cape Canaveral, Florida (May 29, 2011) ",
-      "ticket": "gov_0"
-    }
-  },
-  "retail" :{
-    "ret_0":{
-      "item" : "The Mall at Short Hills Upgrades Surveillance with Hybrid System Including Samsung PTZ Domes: Networked System Includes Samsung Cameras Watching Mall's Parking Lot ",
-      "time" :"02/02/2015",
-      "area" :"Short Hills, New Jersey (February 02, 2015) ",
-      "ticket" : "ret_0"
-    },
-    "ret_1":{
-      "item" : "Tannins Restaurant and Wine Bar Improves Security and Productivity with Samsung Video Surveillance System",
-      "time" :"11/13/2014",
-      "area" :"San Juan Capistrano, California (November 13, 2014) ",
-      "ticket" : "ret_1"
-    }
-  },
-  "transportation" :{
-    "tra_0":{
-      "item" : "Collaboration Gets the MBTA into Security's Fast Lane",
-      "time" :"09/03/2013",
-      "area" :"Lansing, Michigan (September 03, 2013) ",
-      "ticket" : "tra_0"
-    }
-  },
-  "utilities" :{
-    "uti_0":{
-      "item" : "California Water Company Calls on Samsung IP Cameras for Surveillance 24/7",
-      "time" :"06/06/2014",
-      "area" :"California (June 06, 2014) ",
-      "ticket" : "uti_0"
-    }
-  },
+  ],
   "press_room" :[
     {
       "name" : "Samsung Unveils 4K Ultra HD Camera with On-Board Analytics",
       "detail":"Samsung Open Platform: What It Is, Why We Need It, & Where It’s Going",
       "time" :"04/15/2015",
       "ticket" : "pr_0",
-      "area" :"Ridgefield Park, NJ (February 12, 2015)"
+      "area" :"Ridgefield Park, NJ (February 12, 2015) "
     },
     {
       "name" : "<p>Samsung and AMID Strategies Team Up to Support A&E/Consultant Community</p><p>Partnership Strengthens Samsung’s Industry Leadership Position</p>",
@@ -441,78 +360,72 @@
       "time" :"02/03/2015",
       "ticket" :"pr_5",
       "area" :"Nashville, Tennesse"
-    }
+    },
   ],
   "2mp_wisenet_lite" :["wisenet_lite/snp_l6233h","wisenet_lite/snp_l6233","wisenet_lite/sno_l6083r","wisenet_lite/sno_l6013r","wisenet_lite/snp_l6013","wisenet_lite/snd_l6013r","wisenet_lite/snd_l6083r","wisenet_lite/snv_l6083r"],
   "1.3mp_wisenet_lite" :["wisenet_lite/snp_l5233h","wisenet_lite/snp_l5233","wisenet_lite/sno_l5083r","wisenet_lite/snd_l5013","wisenet_lite/snd_l5083r","wisenet_lite/snv_l5083r"],
-  "trade_shows___events":{
-    "2016-05":[
-      {
-        "name":"ADl Expo",
-        "time":"May 03,2016",
-        "area":"New Orleans,LA",
-        "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
-      },
-      {
-        "name":"ADI Expo",
-        "time":"May 05, 2016",
-        "area":"Seattle, WA",
-        "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
-      },
-      {
-        "name":"Graybar Solutions Showcase 2016",
-        "time":"May 05, 2016",
-        "area":"Oakbrook Terrace, IL",
-        "img":"/source/img/company/tradeshows/graybar.ashx"
-      },
-      {
-        "name":"Tri-Ed Newfoundland Tech Tour",
-        "time":"May 05, 2016",
-        "area":"",
-        "img":"/source/img/company/tradeshows/new-tri-ed-logo.ashx"
-      },
+  "trade_shows___events":[
+    {
+      "name":"ADl Expo",
+      "time":"May 03,2016",
+      "area":"New Orleans,LA",
+      "img":"/source/img/company/tradeshows/new-tri-ed-logo.ashx"
+    },
+    {
+      "name":"ADI Expo",
+      "time":"May 05, 2016",
+      "area":"Seattle, WA",
+      "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
+    },
+    {
+      "name":"Graybar Solutions Showcase 2016",
+      "time":"May 05, 2016",
+      "area":"Oakbrook Terrace, IL",
+      "img":"/source/img/company/tradeshows/graybar.ashx"
+    },
+    {
+      "name":"Tri-Ed Newfoundland Tech Tour",
+      "time":"May 05, 2016",
+      "area":"",
+      "img":"/source/img/company/tradeshows/new-tri-ed-logo.ashx"
+    },
 
-      {
-        "name":"ADl Expo",
-        "time":"May 06, 2016",
-        "area":"Denver, CO",
-        "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
-      },
-      {
-        "name":"PSA Tec",
-        "time":"May 9 - 13, 2016",
-        "area":"Westminster, CO",
-        "img":"/source/img/company/tradeshows/psa-tech.ashx"
-      },
-      {
-        "name":"ADI Hawaii Technoloy Show",
-        "time":"May 11, 2016",
-        "area":"Honolulu, HI",
-        "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
-      },
-      {
-        "name":"Security Canada Alberta",
-        "time":"May 11, 2016",
-        "area":"Edmonton, AB",
-        "img":"/source/img/company/tradeshows/security-canada.ashx"
-      },
-      {
-        "name":"ADl Expo",
-        "time":"May 12, 2016",
-        "area":"Chicago, IL",
-        "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
-      },
-      {
-        "name":"ADI Expo",
-        "time":"May 17, 2016",
-        "area":"Buffalo, NY",
-        "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
-      }],
-    "2016-04":[],
-    "2016-03":[],
-    "2016-02":[],
-    "2016-01":[]
-  },
+    {
+      "name":"ADl Expo",
+      "time":"May 06, 2016",
+      "area":"Denver, CO",
+      "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
+    },
+    {
+      "name":"PSA Tec",
+      "time":"May 9 - 13, 2016",
+      "area":"Westminster, CO",
+      "img":"/source/img/company/tradeshows/psa-tech.ashx"
+    },
+    {
+      "name":"ADI Hawaii Technoloy Show",
+      "time":"May 11, 2016",
+      "area":"Honolulu, HI",
+      "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
+    },
+    {
+      "name":"Security Canada Alberta",
+      "time":"May 11, 2016",
+      "area":"Edmonton, AB",
+      "img":"/source/img/company/tradeshows/security-canada.ashx"
+    },
+    {
+      "name":"ADl Expo",
+      "time":"May 12, 2016",
+      "area":"Chicago, IL",
+      "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
+    },
+    {
+      "name":"ADI Expo",
+      "time":"May 17, 2016",
+      "area":"Buffalo, NY",
+      "img":"/source/img/company/tradeshows/new-adi-logo.ashx"
+    }],
   "first_nav_content" : {
     "products" : {
       "name" :"products",
@@ -671,7 +584,7 @@
       "detail" :"The 2015 Samsung Product Comparison Chart is designed for side by side comparisons of all of our security products. Learn about each equipment's technology features including power, resolution, environmental protection and more. Find the security camera and recording system to fit your application.",
       "content" :"<p class='fz-s'>Our Product team has put together a product comparison chart that helps compare our products side to side. These charts clearly show you the differences in our products and help you to chose the right product for your project.</p><a class='fz-b' href='/source/pdf/2015-Product-Comparison-Chart-FINAL.pdf'>Click here to Download Product Comparison Chart.</a>"
     },
-    "bandwidth_storage_v4.26_calculator":{
+    "bandwidth/storage_v4.26_calculator":{
       "name":"Bandwidth/Storage v4.26 Calculator",
       "img":"/source/img/tools/bandwidth-icon2.ashx",
       "detail" :"The Bandwidth/Storage Calculator can be used as a tool to calculate frame rate, resolution and compression. This software is free of charge and is designed for all Samsung NVR and software products to calculate bandwidth and storage utility.",
@@ -698,73 +611,73 @@
     "samsung_field_of_view_calculator_v_4.0":{
       "name":"Samsung Field Of View Calculator V 4.0",
       "img":"/source/img/tools/fov.ashx",
-      "detail" :"The Samsung field of view (FOV) calculator will provide the amount of a given scene captured by the camera. It will also provide the angle of view or angle of coverage. The Samsung FOV determines the FOV by utilizing three elements: the lens and sensor element within the camera and where the camera is positioned in relation to the scene.",
-      "content" :"<p><strong>Please note: In order to install please follow steps below.</strong></p><p>1) Install DotNet FX40 Client<br />2) Install VCRedist_x86<br />3) Install WindowsInstaller3_1<br />4) Install FoV Calculator_Setup.msi</p><p><strong><a class='fz-sb' href='/source/zip/Product_Specifications/FoVCalculator_4_0-setup_Full.zip'>Click here to download Field Of View Calculator V 4.0 (Full Version)</a>.</strong></p><p><strong><a class='fz-sb' href='source/zip/Product_Specifications/FoVCalculator_4_0-setup_lite.zip'>Click here to download Field Of View Calculator V 4.0 (Lite Version)</a>.</strong></p>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "ipolis_device_manager_v1.18":{
       "name":"iPOLiS Device Manager v1.18",
       "img":"/source/img/tools/ip_device.ashx",
-      "detail" :"The Samsung iPOLiS Device Manager is a custom program that helps the user to manage multiple IP network devices. This program discovers the Samsung cameras on the network and easily allows the user to modify their IP addresses. The iPolis Manager also lets the user make templates, or groups to maximize programming capabilities on large installations.",
-      "content" :"<a class='fz-b' href='source/zip/Product_Specifications/iPOLiSDeviceManager_v1_18_setup_Full.zip'>Click here to Download the iPOLiS Device Manager v1.18 (Full Version).</a><a class='fz-b' href='source/zip/Product_Specifications/iPOLiSDeviceManager_v1_18_setup_Lite.zip'>Click here to Download the iPOLiS Device Manager v1.18 (Lite Version).</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "samsung_ip_installer_tool_v2.01":{
       "name":"Samsung IP Installer Tool V2.01",
       "img":"/source/img/tools/ip-tool.ashx",
-      "detail" :"The IP installer Tool is an easy to download program that allows the user to search for any Samsung IP camera that resides on the local network.The IP Installer tool also allows the user to manually set individual IP Addresses of each camera in one location, which eliminates the need to enter each individual camera’s GUI to set the appropriate network settings.",
-      "content" :"<span class='fl'><img src='/source/img/tools/ip-tool.ashx'></span><a class='fz-b fl hover-a' href='/source/pdf/'>Click here to Download the IP Installer tool.</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "samsung_online_tool_updater_v1.3.2":{
       "name":"Samsung Online Tool Updater V1.3.2",
       "img":"/source/img/tools/bandwidth-icon2.ashx",
       "detail" :"The Samsung field of view (FOV) calculator will provide the amount of a given scene captured by the camera. It will also provide the angle of view or angle of coverage. The Samsung FOV determines the FOV by utilizing three elements: the lens and sensor element within the camera and where the camera is positioned in relation to the scene.",
-      "content" :"<p class='fz-s'>The Online Tool Updater automatically informs you if any applications such as: Bandwidth Storage Calculator, the Field of View Calculator, and Product Selector have an updated version</p><a class='fz-b' href='/source/zip/OnlineUpdater_setup_1_3_2_0.zip'>Click here to Download Samsung's Online Tool Updater.</a>"
+      "content" :"<p class='fz-s fz-sb'>Please note: In order to install please follow steps below.<ul><li> 1) Install DotNet FX40 Client</li><li> 2) Install VCRedist_x86</li><li> 3) Install WindowsInstaller3_1</li><li>   4) Install FoV Calculator_Setup.msi</li></u></p><a class='fz-b' href='/source/zip/FoVCalculator_4_0-setup_Full.zip'>Click here to download Field Of View Calculator V 4.0 (Full Version).</a><a class='fz-b' href='/source/zip/FoVCalculator_4_0-setup_lite.zip'>Click here to download Field Of View Calculator V 4.0 (Lite Version).</a>"
     },
     "ipolis_network_design_tool_v1.6.8":{
       "name":"iPOLiS Network Design Tool V1.6.8",
       "img":"/source/img/tools/ip-design-tool.ashx",
-      "detail" :"iPOLiS Network Design Tool is a program that specifically designed to assist in designing network surveillance systems with Samsung Techwin's entire IP Product Line.",
-      "content" :"<p><strong><a href='/source/pdf/iPOLiS_NW_Design_Tool_UserGuide.pdf'>Click here to view the User Manual</a></strong>.</p><p><strong><a href='/source/pdf/iPolisNW_Design_Tool_ReleaseNote_EN'>Click here to view the Release Notes</a></strong>. </p>If .Net Framework 4.0 is <strong>NOT</strong> installed on your PC,&nbsp; download using below link.<br /><h3><a href='/source/zip/iPOLiS_NW_Design_Tool_Setup_Full_1_6_8.zip'>Click here to Download the iPOLis Network Design Tool&nbsp; v1.6.8 (Full Version).</a></h3><p>If .Net Framework 4.0 is <strong>ALREADY</strong> installed on your PC,&nbsp; download using below link.</p><h3><a href='/source/zip/iPOLiS_NW_Design_Tool_Setup_Lite_1_6_8.zip'>Click here to Download the iPOLis Network Design Tool v1.6.8 (Lite Version).</a></h3>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
-    "network___analog_visio_shape_tool":{
+    "network_&_analog_visio_shape_tool":{
       "name":"Network & Analog Visio Shape Tool",
       "img":"/source/img/tools/visio-tools.ashx",
-      "detail" :"Microsoft Visio is a common program for network system design. Samsung Techwin provides shape files of Samsung Techwin devices to design the network system included surveillance devices. With Samsung Techwin shapes, network system designer can add devices to network system diagram and get the FoV, pixel density and other information of devices easily.",
-      "content" :"<p class='fz-s'>Microsoft Visio is a common program for network system design. Samsung Techwin provides shape files of Samsung Techwin devices to design the network system included surveillance devices. With Samsung Techwin shapes, network system designer can add devices to network system diagram and get the FoV, pixel density and other information of devices easily.</p><p  class='fz-s'>Microsoft Visio - It is a diagramming and vector graphics application. It helps to design network system diagram easily. </p><a class='fz-b' href='/source/zip/Visio_Network_v1_9.zip'>Click here to Download the Network Visio Shape Design Tool. </a><a class='fz-b' href='/source/zip/Visio_NW_v1_15.zip'>Click here to Download the Analog Visio Shape Design Tool v1.15.</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "techwin_sd_card_player_v1.20":{
       "name":"Techwin SD Card Player V1.20",
       "img":"/source/img/tools/sd-card-player.ashx",
-      "detail" :"Samsung Network Cameras support SD memory cards for data saving that can be used for autonomous saving for events data including broken network alarms and motion detections.",
-      "content" :"<p class='fz-s'>SD Card Player is the program for searching and playing the movie which stored on SD memory card in Samsung Network Camera.</p><a class='fz-b' href='/source/zip/SDCardPlayer_v1_2.zip'>Click here to Download SD Card Player V1.20.</a><a class='fz-b' href='/source/zip/SDCard_Player_Guide.zip'>Click here to Download SD Card Player Guide.</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "hdd_compatible_list_v7.2":{
       "name":"HDD Compatible List V7.2",
       "img":"/source/img/tools/HDD-List.ashx",
-      "detail" :"We strive to ensure that you have the most up to date and accurate information as possible, the Hard Drive Compatibility List below is the latest information on the hard drives that are compatible with our equipment.",
-      "content" :"<a class='fz-b' href='/source/pdf/HDD_Compatible_List_V7_2.pdf'>Click here to Download Samsung Techwin's HDD Compatible List.</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "vms_compatibility_charts":{
       "name":"VMS Compatibility Charts",
       "img":"/source/img/tools/ISV-Charts.ashx",
-      "detail" :"Samsung Techwin is ever-expanding the capabilities of our network products. This table shows compatibility between our network cameras and thirteen industry leading independent software vendors (ISVs). This information is kept concurrent, with updates performed on a weekly basis.",
-      "content" :"<p class='fz-s'>The table below shows compatibility between our VGA, 1.3MP, and 3MP network box, dome, bullet, and PTZ(Pan Tilt Zoom) cameras and leading independent software vendors, such as Milstone/OnSSI, Genetec, ISS, Axxon, Seetec, Exacq, Mirasys, Aimetis, Digifort, Ipronet, Griffid, GVD, and NICE. 'SRA' stands for 'Ship Release Authorization', and indicates when a camera has begun to ship. Local market availability may vary from SRA. 'Tested Firmware' give credence to the 'Essential' functions such as 'Video, Alarm In, Alarm Out, MD(Motion Detection), etc. 'Last Firmware' indicates the most recent version of firmware available. In some cases, 'Tested Firmware', and 'Last Firmware' may not be identical, indicating availability of a new 'untested' firmware for that product. Essential function support is indicated by Yes, No, or an expected date for support</p><a class='fz-b' href='/source/pdf/ISV_D_I_Status_week_6.pdf'>Click here to Download VMS Compatibility charts.</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "mounting_accessory_selection_guide_ver_4.8":{
       "name":"Accessory Selection Guide Ver 4.8",
       "img":"/source/img/tools/Accessory-icon2.ashx",
-      "detail" :"The Samsung CCTV Camera & Dome Accessory Selector Guide is an effective tool designed to help you find the right accessories that will benefit your analog and network security camera applications.  ",
-      "content" :"<p class='fz-s'>This tool helps match up legacy products with compatible accessories. Easily navigate the document to determine what bracket, housing or mount your Samsung camera needs.</p><a class='fz-b' href='/source/pdf/Samsung-Accessory-Chart-Ver4_8.pdf'>Click here to Download the Mounting Accessory Selection Guide Ver 4.8.</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "ip_camera_temp._power,_heater_table_v1.2":{
       "name":"IP Camera Temp. Power, Heater Table",
       "img":"/source/img/tools/temp.ashx",
-      "detail" :"Samsung has developed a group of tools that can be easily navigated and used on a daily basis. These tools are designed to help you find useful product information such as product comparison charts, bandwidth calculators, product literature and many more. We strive to provide you the tools that you need in the field so we are always looking for feedback and suggestions.",
-      "content" :"<a class='fz-s' href='/source/pdf/Samsung-IP-Camera_Source_Heater_Comparison_Chart_Rev.122214.pdf'>Click here to Download the IP Camera Temperature, Power Source & Heater Table v1.2.</a>"
+      "detail" :"",
+      "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "ipolis_toolbox_online":{
       "name":"iPOLis ToolBox Online",
       "img":"/source/img/tools/tool-box.ashx",
-      "detail" :"Do you want to organize your surveillance system? Are you interest in Samsung Techwin’s products?If so, iPOLiS ToolBox is the best choice to you! There is no need to download many applications to your device. ONLY one application, iPOLiS ToolBox! Find products, calculate field of view and calculate bandwidth.All of the above are to be included in iPOLiS ToolBox.",
+      "detail" :"",
       "content" :"<p>iPOLiS ToolBox includes: Product selector, FoV Calculator and Bandwidth Calculator</p><p>1. [Product Selector] Which camera/recorder is the best for me? <br />-Product Selector is a program that allows the user to search and select the products according to their requirements.<br />-When making their choice the program automatically creates a product list.<br />-You can then drag and drop the products onto a comparison chart and compare the detailed specifications.</p><p>2. [FoV Calculator] Calculate the camera&rsquo;s visible scene.<br />-The field of View Calculator is a program for calculating the camera&rsquo;s visible scene.<br />-When you choose the lens format size or camera model name, input focal length of the lens and distance between lens and object, it will then work out the dimensions of the scene.</p><p>3. [Bandwidth Calculator] <br />-Bandwidth Calculator is a program that estimates the network bandwidth according to the user defined video setting of network camera. <br />-By using a multiple set of network camera settings, it will calculate the whole Bandwidth and storage capacity for the Network Video Recorder (NVR).</p><p></p><h3><a href='http://www.samsungcctv.co.kr/customer/ipolicetoolbox/main.asp?setLang=english'>Click here to view the online iPOLis ToolBox</a>.</h3>"
     },
     "samsung_ip_institute":{
@@ -794,7 +707,7 @@
       "img":"/source/img/sales/business-develop.ashx",
       "detail" :"Samsung values your business and in an effort to provide you with choices as to source your Samsung professional security needs, we have established national Samsung Strategic Distributor partners.  Our Partners are ready to fulfill your Samsung Techwin product needs whether it’s our reliable and cost effective analog products, our technology leading IP products. Samsung Techwin products are readily available and can be sourced from the following Samsung Strategic Distributor partners:"
     },
-    "minimum_advertised_price__map__policy":{
+    "minimum_advertised_price_map_policy":{
       "name":"Minimum Advertised Price (MAP) Policy",
       "img":"/source/img/sales/map-policy.ashx",
       "detail" :"",
@@ -809,7 +722,7 @@
     "technical_support":{
       "name":"Technical Support",
       "img":"/source/img/support/tech-support.ashx",
-      "detail" :"<p>We strive to provide the best technical support in the industry. Please contact our team of technical experts at 877-213-1222 if you have any questions about our </p><p>products or need technical assistance.</p><p>If you would like to reach us via email, please complete the form below.</p><p><em>NOTE: If your model number begins with SME, SDE, SDS, SNH or SEC click here to access the corresponding technical support form.</em></p>",
+      "detail" :"",
       "content" :"<p class='fz-s'></p><a class='fz-b' href='/source/zip/'></a>"
     },
     "warranty_policy":{
@@ -854,6 +767,4 @@
       "summary":"<ul><li><a href=''>Technical Support</a></li><li><a href=''>Warranty Policy</a></li><li><a href=''>Repair Form</a></li></ul>"
     }
   }
-
-
 }]

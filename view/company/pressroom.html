@@ -1,10 +1,10 @@
 <div id="casestudies">
-    <div class="intro" ng-controller="casestudiesCtrl">
+    <div class="intro" ng-controller="pressroomCtrl">
         <div class="detail">
             <span class="left-txt">
                 <pathlist>导航目录</pathlist>
-                <h1>{{maintxt[item].name}}</h1>
-                <p>{{maintxt[item].detail}}</p>
+                <h1>{{maintxt.name}}</h1>
+                <p>{{maintxt.detail}}</p>
             </span>
             <span class="right-logo">
                 <img src="/source/img/samsungbiglogo.ashx">
@@ -12,8 +12,9 @@
         </div>
         <ul class="table-list">
             <li class="map-item" ng-repeat="itemmap in itemmaps track by $index">
-                <a class="map" href="/{{path}}/{{itemmap.ticket}}">
-                    {{itemmap.item}}
+                <a class="map" href="/{{path}}{{itemmap.ticket |titlefilter}}">
+                    <span ng-bind-html="itemmap.name | trusttoHtml">
+                    </span>
                 </a>
                 <span class="time">{{itemmap.time}}</span>
             </li>

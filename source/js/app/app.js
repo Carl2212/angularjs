@@ -20,13 +20,25 @@ cn.config(['$routeProvider',function($routeProvider){
         when('/sales/north_america_sales_region',{templateUrl:"view/sales/north_america_sales_region.html",controller:cn.salesmapCtrl}).
         when('/sales/manufacturer_representatives',{templateUrl:"view/sales/manufacturer_representatives.html",controller:cn.salesmapCtrl}).
         when('/sales/samsung_strategic_distributors',{templateUrl:"view/sales/samsung_strategic_distributors.html",controller:cn.salesmapCtrl}).
+        when('/sales/minimum_advertised_price__map__policy',{templateUrl:"view/sales/minimum.html",controller: cn.minimumCtrl}).
         when('/support/',{templateUrl:"view/nav/supportnav.html",controller:cn.sitenavCtrl}).
+        when('/support/customer_service',{templateUrl:"view/support/main.html",controller: cn.supportmainCtrl}).
+        when('/support/technical_support',{templateUrl:"view/support/main.html",controller: cn.supportmainCtrl}).
+        when('/support/warranty_policy',{templateUrl:"view/support/warranty_policy.html",controller:cn.minimumCtrl}).
+        when('/support/repair_form',{templateUrl:"view/support/repair_form.html",controller: cn.minimumCtrl}).
 
-        when('/tools/:pagename',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
-        when('/training/:pagename',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
+        when('/tools/:pagename',{templateUrl:"view/minimum.html",controller:cn.toolsCtrl}).
+        when('/training/:pagename',{templateUrl:"view/minimum.html",controller:cn.toolsCtrl}).
         when('/case_studies/:pagename',{templateUrl:"view/casestudies.html",controller:cn.casestudiesCtrl}).
         when('/case_studies/:prevpage/:pagenum',{templateUrl:"view/casestudies/main.html",controller:cn.casemainCtrl}).
         when('/wisenet_lite/:pagename',{templateUrl:"view/wisenetlite.html",controller:cn.wisenetliteCtrl}).
+        when('/company/',{templateUrl:"view/nav/company.html",controller:cn.sitenavCtrl}).
+        when('/company/about',{templateUrl:"view/company/main.html",controller: cn.companymainCtrl}).
+        when('/company/press_room/:pagename',{templateUrl:"view/company/main.html",controller: cn.companymainCtrl}).
+        when('/company/press_room/',{templateUrl:"view/company/pressroom.html",controller: cn.pressroomCtrl}).
+        when('/company/trade_shows___events/',{templateUrl:"view/company/trade_shows.html",controller: cn.tradeshowsCtrl}).
+
+
     otherwise({redirectTo:"/"});
 }]);
 //_______站点导航$sitemap控制器_______
@@ -131,7 +143,8 @@ cn.controller("homenavCtrl",function($scope,$http) {
 //_______字符串转化过滤器$titlefilter_______
 cn.filter("titlefilter",function(){
     return function(val){
-        var reg = /\s|-/g;
+        //修改
+        var reg = /\s|\(|\)|\-|\&|\//g;
         return val.toLowerCase().replace(reg,"_");
     }
 });
@@ -182,8 +195,6 @@ cn.controller("productdetailCtrl",function($scope,$http) {
         //    console.log($scope.product.element[i]);
         //}
         //console.log($scope.product,$scope.itemmaps);
-
-
         $scope.path = path;
         $scope.item = item;
     });
@@ -203,6 +214,7 @@ cn.controller("sitenavCtrl",function($scope,$http) {
         var item = items[items.length -2];
         var parent = 'site';
         $scope.itemmaps = res[0][parent][item].smap;
+        console.log(res[0][parent][item]);
         $scope.maintxt = res[0].main_content;
         $scope.fnav = res[0].first_nav_content;
         $scope.path = path;
@@ -221,6 +233,18 @@ cn.controller("casestudiesCtrl",function($scope,$http) {
         $scope.item = item;
     });
 });
+cn.controller("pressroomCtrl",function($scope,$http) {
+    $http.get('/source/json/sitemap.json').success(function(res){
+        var path = window.location.hash;
+        var items = path.split("/");
+        var item = items[items.length -2];
+        $scope.itemmaps = res[0][item];
+        $scope.maintxt = res[0].main_content[item];
+        $scope.path = path;
+        $scope.item = item;
+    });
+});
+
 //_______$casemainCtrl下级控制器________
 cn.controller("casemainCtrl",function($scope,$http) {
     $http.get('/source/json/sitemap.json').success(function(res){
@@ -229,7 +253,24 @@ cn.controller("casemainCtrl",function($scope,$http) {
         var item = items[items.length -1];
         var parent = items[items.length -2];
         $scope.itemmaps = res[0][parent][item];
-        $scope.maintxt = res[0].main_content;
+        $scope.path = path;
+        $scope.item = item;
+    });
+});
+//_______$casemainCtrl下级控制器________
+cn.controller("companymainCtrl",function($scope,$http) {
+    $http.get('/source/json/sitemap.json').success(function(res){
+        var path = window.location.hash;
+        var items = path.split("/");
+        var item = items[items.length -1];
+        console.log(items.length,item);
+        if(items.length > 3) {
+            var parent = items[items.length -2];
+            $scope.itemmaps = res[0][parent][item.replace("pr_","")];
+            console.log($scope.itemmaps);
+        }else{
+            $scope.itemmaps = res[0].main_content[item];
+        }
         $scope.path = path;
         $scope.item = item;
     });
@@ -240,7 +281,7 @@ cn.directive("mainessay",function(){
         restrict : 'E',
         link : function(scope,element,attrs){
             attrs.$observe("templatenum",function(v){
-                scope.contentUrl = '/view/casestudies/' + v + '.html';
+                scope.contentUrl = '/view/' + v + '.html';
             });
         },
         template :  '<div ng-include="contentUrl"></div>',
@@ -297,6 +338,24 @@ cn.controller("wisenetliteCtrl",function($scope,$http) {
         $scope.item = item;
     });
 });
+cn.controller("tradeshowsCtrl",function($scope,$http) {
+    $http.get('/source/json/sitemap.json').success(function(res){
+        var path = window.location.hash;
+        var items = path.split("/");
+        var item = items[items.length -2];
+        $scope.maintxt = res[0].main_content[item];
+        var date = new Date;
+        $scope.month = '0'+(date.getMonth()+1);
+        $scope.year = date.getFullYear().toString();
+        $scope.itemsdata = res[0][item];
+        $scope.itemmaps = res[0][item][$scope.year+'-'+$scope.month];
+        $scope.path = path;
+        $scope.item = item;
+    });
+    $scope.timechange = function(y){
+        $scope.itemmaps = $scope.itemsdata[$scope.year+'-'+$scope.month];
+    };
+});
 
 //_______$thirdnavCtrl控制器_______
 cn.controller("toolsCtrl",function($scope,$http) {
@@ -332,7 +391,6 @@ cn.directive("scorllbarmodule",function(){
         replace : true,
         transclude: true,
         link : function(scope,element,attrs){
-            console.log(new Date());
             var $jq;
             if (typeof jQuery != "undefined") {
                 $jq = jQuery.noConflict();
@@ -343,4 +401,29 @@ cn.directive("scorllbarmodule",function(){
 
         }
     };
+});
+cn.controller("companyaboutCtrl",function($scope,$http) {
+    $http.get('/source/json/sitemap.json').success(function(res){
+        var path = window.location.hash;
+        var items = path.split("/");
+        var item = items[items.length-1];//最后一项为当前页面
+        console.log(item);
+        $scope.itemmaps = res[0].main_content[item];
+        $scope.path = path;
+        $scope.item = item;
+    });
+});
+cn.controller("minimumCtrl",function($scope,$http) {
+    $http.get('/source/json/sitemap.json').success(function(res){
+        var path = window.location.hash;
+        $scope.path = path;
+        var $jq;
+        if (typeof jQuery != "undefined") {
+            $jq = jQuery.noConflict();
+        }
+        if ($jq != undefined) {
+            $jq("#scrollbar1").tinyscrollbar({ thumbSize: 58 });
+        }
+    });
+
 });
