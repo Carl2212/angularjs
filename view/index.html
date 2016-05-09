@@ -1,8 +1,8 @@
 
-<!--<script src="/source/js/link_box_aj.js" type="text/javascript"></script>-->
+<script type="text/javascript" src="/source/js/jquery.cycle.all.min.js"></script>
 <div id="linkb" ng-controller="linkbox_ctrl">
     <!--jqueryslider-->
-    <div id="slider-box">
+    <div id="slider-box" ng-slider>
         <div class="viewport">
             <ul class="overview">
                 <li class="slider-item">
@@ -44,7 +44,6 @@
             </ul>
         </div>
     </div>
-    <script type="text/javascript" src="/source/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="/source/js/JquerySlider.js"></script>
     <!--product-box-->
     <div class="product">
@@ -52,22 +51,40 @@
             <span><em>FEATURED PRODUCTS</em></span>
         </div>
 
-        <div class="product-content">
-            <a class="a-btn left"></a>
-            <ul>
-                <li><a href="#">
-                    <img src="/source/img/index/product/SNB-9000.ashx">
-                    <h2>4K Technology</h2>
-                </a></li>
-            </ul>
-            <a class="a-btn right"></a>
+        <div id="slider_pro" class="product-content" ng-sliderbutton>
+            <a class="a-btn prev" href="javascript:void(0);"></a>
+            <div class="viewport">
+                <ul class="overview">
+                    <li><a href="#">
+                        <img src="/source/img/index/product/SNB-9000.ashx">
+                        <h2>4K Technology</h2>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="/source/img/index/product/SND-L6013.ashx">
+                        <h2>SND-L6012</h2>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="/source/img/index/product/SRK-3030S.ashx">
+                        <h2>4CH IP Kit w/Fisheye</h2>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="/source/img/index/product/SRN-473S.ashx">
+                        <h2>Plug & Play NVR</h2>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="/source/img/index/product/SRN-4000.ashx">
+                        <h2>Stand-Alone NVR</h2>
+                    </a></li>
+                </ul>
+            </div>
+            <a class="a-btn next" href="javascript:void(0);"></a>
         </div>
     </div>
     <div class="lbox">
         <ul class="link-box h-dist">
-            <expanderhdist expander="catalog"></expanderhdist>
-            <expanderhdist expander="contact"></expanderhdist>
+            <expanderhdist expander="youtube"></expanderhdist>
             <expanderhdist expander="events"></expanderhdist>
+            <expanderhdist expander="training"></expanderhdist>
         </ul>
     </div>
 </div>

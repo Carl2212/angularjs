@@ -13,20 +13,28 @@ cn.config(['$routeProvider',function($routeProvider){
         when('/products/:firstpage/:secondpage/:prevpage/:pronum',{templateUrl:"view/product/productdetail.html",controller:cn.productdetailCtrl}).
 
         when('/case_studies/',{templateUrl:"view/nav/sitenav.html",controller:cn.sitenavCtrl}).
+        when('/case_studies/:pagename',{templateUrl:"view/casestudies.html",controller:cn.casestudiesCtrl}).
+        when('/case_studies/:prevpage/:pagenum',{templateUrl:"view/casestudies/main.html",controller:cn.casemainCtrl}).
+
         when('/wisenet_lite/',{templateUrl:"view/nav/wisenetnav.html",controller:cn.sitenavCtrl}).
+        when('/wisenet_lite/:pagename',{templateUrl:"view/wisenetlite.html",controller:cn.wisenetliteCtrl}).
+
         when('/tools/',{templateUrl:"view/nav/toolsnav.html",controller:cn.sitenavCtrl}).
+        when('/tools/:pagename',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
+
         when('/training/',{templateUrl:"view/nav/trainingnav.html",controller:cn.sitenavCtrl}).
+        when('/training/:pagename',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
+
         when('/sales/',{templateUrl:"view/nav/salesnav.html",controller:cn.sitenavCtrl}).
         when('/sales/north_america_sales_region',{templateUrl:"view/sales/north_america_sales_region.html",controller:cn.salesmapCtrl}).
         when('/sales/manufacturer_representatives',{templateUrl:"view/sales/manufacturer_representatives.html",controller:cn.salesmapCtrl}).
         when('/sales/samsung_strategic_distributors',{templateUrl:"view/sales/samsung_strategic_distributors.html",controller:cn.salesmapCtrl}).
-        when('/support/',{templateUrl:"view/nav/supportnav.html",controller:cn.sitenavCtrl}).
+        when('/sales/minimum_advertised_price__map__policy',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
 
-        when('/tools/:pagename',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
-        when('/training/:pagename',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
-        when('/case_studies/:pagename',{templateUrl:"view/casestudies.html",controller:cn.casestudiesCtrl}).
-        when('/case_studies/:prevpage/:pagenum',{templateUrl:"view/casestudies/main.html",controller:cn.casemainCtrl}).
-        when('/wisenet_lite/:pagename',{templateUrl:"view/wisenetlite.html",controller:cn.wisenetliteCtrl}).
+        when('/support/',{templateUrl:"view/nav/supportnav.html",controller:cn.sitenavCtrl}).
+        when('/support/warranty_policy',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
+        when('/support/repair_form',{templateUrl:"view/tools.html",controller:cn.toolsCtrl}).
+
     otherwise({redirectTo:"/"});
 }]);
 //_______站点导航$sitemap控制器_______
@@ -43,11 +51,11 @@ cn.controller('linkbox_ctrl',["$scope",function($scope){
         "brief":"See our security products in action.",
         "detail":"Samsung Techwin’s online catalog is your source for professional video surveillance systems. When you try our products you will experience the difference that these technologies provide.",
         "btn":"LEARN MORE>>",
-        "href":"#",
+        "href":"http://www.hanwhatechwinamerica.com/SAMSUNG/upload/Product_Specifications/2016-Sales-Catalog--web.pdf",
     };
     $scope.contact={
         "title":"Contact Us",
-        "img":"/source/img/catalog.ashx",
+        "img":"/source/img/contact.ashx",
         "brief":"Need More Help?",
         "detail":"We strive to provide the best customer support in the industry. Please contact us if you have any questions about our products, need technical assistance or customer service support by calling us",
         "btn":"CONTACT US>>",
@@ -55,11 +63,27 @@ cn.controller('linkbox_ctrl',["$scope",function($scope){
     };
     $scope.events={
         "title":"Trade Shows & Events",
-        "img":"/source/img/catalog.ashx",
+        "img":"/source/img/tradeshow.ashx",
         "brief":"Calendar.",
         "detail":"Learn more about our professional video security solutions and interact with our representatives by visiting our various tradeshows and events organized all around the year.",
         "btn":"LEARN MORE>>",
         "href":"#",
+    };
+    $scope.youtube={
+        "title":"Samsung Techwin YouTube Channel",
+        "img":"/source/img/yout-tube-widget.ashx",
+        "brief":"Explore our video library.",
+        "detail":"Find our feature videos, online training, and new product releases.",
+        "btn":"LEARN MORE>>",
+        "href":"https://www.youtube.com/user/STWSecuritySolution",
+    };
+    $scope.training={
+        "title":"Samsung Training",
+        "img":"/source/img/Trainin_Widget.ashx",
+        "brief":"Samsung IP Institute, Technology Showcases, Webinars and Videos",
+        "detail":"Samsung training is targeted to any individual wanting to learn more about our product line.",
+        "btn":"LEARN MORE>>",
+        "href":"/#/training",
     };
 }]);
 //_______link-box组件纵向$expanderzdist_______
@@ -131,8 +155,22 @@ cn.controller("homenavCtrl",function($scope,$http) {
 //_______字符串转化过滤器$titlefilter_______
 cn.filter("titlefilter",function(){
     return function(val){
-        var reg = /\s|-/g;
+        var reg = /\s|\(|\)|\.|\-/g;
         return val.toLowerCase().replace(reg,"_");
+    }
+});
+//_______字符串转化过滤器$imgfilter size = 0 为普通图 1位大图 2为小图_______
+cn.filter("imgfilter",function(){
+    return function(val,size){
+        console.log(size);
+        var reg = /(b_img)|(s_img)|(p_img)]/g;
+        if(size == 1) {
+            return val.toLowerCase().replace(reg,"b_img");
+        }else if(size == 2){
+            return val.toLowerCase().replace(reg,"s_img");
+        }else{
+            return val.toLowerCase().replace(reg,"p_img");
+        }
     }
 });
 //_______$thirdnavCtrl控制器_______
@@ -169,21 +207,23 @@ cn.controller("productlistCtrl",function($scope,$http) {
 cn.controller("productdetailCtrl",function($scope,$http) {
     $http.get('/source/json/sitemap.json').success(function(res){
         var path = window.location.hash;
-        var item = 'snp_l5233';
+        var items = path.split("/");
+        var item = items[items.length-1];//最后一项为当前页面
+        var parent = items[items.length-2];//父页面
 
-        $scope.product = res[0]['wisenet_lite'][item];
-        $scope.itemmaps = res[0]['security_cameras']['ip_cameras'];
-
-        //console.log($scope.product.element.length,$scope.product.element.img,$scope.product.img,$scope.product.element);
-        //for(elem in $scope.product.element) {
-        //    console.log(elem);
-        //}
-        //for(var i = 0 ; i< $scope.product.element.length ; i++) {
-        //    console.log($scope.product.element[i]);
-        //}
-        //console.log($scope.product,$scope.itemmaps);
-
-
+        $scope.product = res[0][parent][item];
+        $scope.switch = 'Overview';
+        $scope.productid = 0;
+        $scope.itemmaps = res[0][items[items.length-4]][items[items.length-3]];
+        $scope.ahover = function() {
+            $scope.productid = $(this)[0].$index;
+        };
+        $scope.tab_switch = function() {
+            $scope.switch = $(this)[0].elem;
+        };
+        $scope.blowup = function() {
+            console.log('blowup');
+        }
         $scope.path = path;
         $scope.item = item;
     });
@@ -332,15 +372,53 @@ cn.directive("scorllbarmodule",function(){
         replace : true,
         transclude: true,
         link : function(scope,element,attrs){
-            console.log(new Date());
             var $jq;
             if (typeof jQuery != "undefined") {
                 $jq = jQuery.noConflict();
             }
             if ($jq != undefined) {
-                $jq(element).tinyscrollbar({ thumbSize: 58 });
+                setTimeout(function(){
+                    $jq(element).tinyscrollbar({ thumbSize: 58 });
+                },5);
             }
+        }
+    };
+});
+//_______$scorllbarmodule滚动模块_______
+cn.directive("ngSlider",function(){
+    return {
+        restrict : 'A',
+        link : function(scope,element,attrs){
+            var $jq;
+            if (typeof jQuery != "undefined") {
+                $jq = jQuery.noConflict();
+            }
+            if ($jq != undefined) {
+                $jq('#slider-box').cycle({
+                    fx: 'scrollHorz',
+                    speed: 'fast',
+                    timeout: 3000,
+                    slideExpr: 'li',
+                    pause: 1,
+                    speed: 3000
+                });
 
+            }
+        }
+    };
+});
+//_______$scorllbarmodule滚动模块_______
+cn.directive("ngSliderbutton",function(){
+    return {
+        restrict : 'A',
+        link : function(scope,element,attrs){
+            var $jq;
+            if (typeof jQuery != "undefined") {
+                $jq = jQuery.noConflict();
+            }
+            if ($jq != undefined) {
+                $jq('#slider_pro').tinycarousel({ display: 1 });
+            }
         }
     };
 });

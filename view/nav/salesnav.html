@@ -11,7 +11,7 @@
             </span>
         </div>
         <ul class="icon-list">
-            <li class="map-item" ng-repeat="itemmap in itemmaps track by $index">
+            <li class="map-item {{maintxt[(itemmap | titlefilter)] ? '' :'hide'}}" ng-repeat="itemmap in itemmaps track by $index">
                 <a class="map" href="/{{path}}{{itemmap | titlefilter}}">
                     <img ng-src="{{maintxt[(itemmap | titlefilter)].img}}">
                 </a>

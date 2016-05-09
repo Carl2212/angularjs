@@ -50,7 +50,6 @@
          * @default 'tinyscrollbar'
          */
         this._name = pluginName;
-        console.log($container);
         var self = this
         ,   $viewport = $container.find(".viewport")
         ,   $overview = $container.find(".overview")
@@ -161,10 +160,8 @@
          */
         this.update = function(scrollTo) {
             var sizeLabelCap = sizeLabel.charAt(0).toUpperCase() + sizeLabel.slice(1).toLowerCase();
-            console.log($viewport[0]);
             this.viewportSize = $viewport[0]['offset'+ sizeLabelCap];
             this.contentSize = $overview[0]['scroll'+ sizeLabelCap];
-            console.log(this.viewportSize, this.contentSize);
             this.contentRatio = this.viewportSize / this.contentSize;
             this.trackSize = this.options.trackSize || this.viewportSize;
             this.thumbSize = Math.min(this.trackSize, Math.max(this.options.thumbSizeMin, (this.options.thumbSize || (this.trackSize * this.contentRatio))));

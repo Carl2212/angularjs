@@ -44,7 +44,7 @@
             var iLeftover = Math.ceil(((bAxis ? oViewport.outerWidth() : oViewport.outerHeight()) / (iPageSize * options.display)) - 1);
             iSteps = Math.max(1, Math.ceil(oPages.length / options.display) - iLeftover);
             //Tweak done for more sliding by Sagar
-            //iSteps = iSteps + 1;
+            iSteps = iSteps + 1;
 //            alert("Steps" + iSteps);
 //            alert("Page size" + iPageSize);
 //            alert("Pages length" + oPages.length);

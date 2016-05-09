@@ -42,7 +42,7 @@
                     <ul class="icon-list">
                         <li class="map-item" ng-repeat="prod in product">
                             <a class="map" href="/{{path}}/{{prod.map | titlefilter}}">
-                                <span class="map-img"> <img class="map-img" ng-src="{{prod.img[0]}}"></span>
+                                <span class="map-img"> <img class="map-img" ng-src="{{prod.img[0] | imgfilter:0}}"></span>
                                 <em>{{prod.map}}»</em>
                                 <hr>
                             </a>

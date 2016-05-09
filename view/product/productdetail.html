@@ -36,11 +36,11 @@
                     <p>{{product.brief}}</p>
                 </div>
                 <div class="detail-img">
-                    <span class="b-img"><img ng-src="{{product.img[0]}}"><a>VIEW LARGER</a></span>
+                    <span class="b-img"><img ng-src="{{product.img[productid]  | imgfilter:1}}"><a href="javascript:void(0);" ng-click="">VIEW LARGER<img class="icon" src="/source/img/ico-zoom.gif"> </a></span>
                     <ul class="s-img">
                         <li class="s-pro-box" ng-repeat="pimg in product.img track by $index">
-                            <a href="javascript:void(0);">
-                                <img ng-src="{{pimg}}">
+                            <a href="javascript:void(0);" ng-mouseover="ahover()">
+                                <img ng-src="{{pimg | imgfilter:2}}">
                             </a>
                         </li>
                     </ul>
@@ -48,15 +48,14 @@
             </div>
             <div class="detail-tab">
                 <ul class="tab-title">
-                    <li ng-repeat="(elem,value) in product.element">
-                        <a href="javascript:void(0);">{{elem}}</a>
+                    <li ng-repeat="(elem,value) in product.element" class="{{switch == elem ? 'selected' :''}}">
+                        <a href="javascript:void(0);" ng-click="tab_switch()">{{elem}}</a>
                     </li>
                 </ul>
                 <div class="tab-content">
                     <h3>OVERVIEW</h3>
-                    <hr>
-                    <span class="content-element" ng-bind-html="product.element.overview | trusttoHtml">
-
+                    <!--<hr>-->
+                    <span class="content-element" ng-bind-html="product.element[switch] | trusttoHtml">
                     </span>
                 </div>
             </div>

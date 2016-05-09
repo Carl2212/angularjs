@@ -477,18 +477,20 @@ body{
     margin-top: 40px;
     padding:0 4% 10px;
     background: #f2f2f3;
+    @detail-tab-radius:0 0 10px 10px;
+    .mixin-border-radius(@detail-tab-radius);
     .tab-title{
       margin:10px 12px 1px;
       padding-top:20px;
       text-transform: uppercase;
-      height: 2em;
+      height: 35px;
       line-height: 2em;
       &:after{
         .mixin-clearfx();
       }
       li{
         width: 125px;
-        margin: 0 4px;
+        margin: 10px 4px 0px;
         float: left;
         text-align: center;
         .mixin-border-radius(@p-detail-tab-li-radius);
@@ -503,6 +505,8 @@ body{
       }
       .selected{
         background: #fff;
+        .mixin-box-shadow(none);
+        border-bottom: 1px solid #fff;
       }
     }
     .tab-content{
@@ -511,11 +515,12 @@ body{
       border: 1px solid #c1c1c1;
       background: #fff;
       h3{
+        .mixin-clearfx();
         color: @fcolor;
         font-size: @fsize+3;
         font-weight: bold;
         padding: 15px 10px 0;
-
+        border-top: 1px solid #c1c1c1;
       }
       .content-element{
         display: block;
@@ -583,9 +588,6 @@ body{
 
     }
   }
-
-
-
   .product{
     .product-title{
       width: 100%;
@@ -617,32 +619,48 @@ body{
         height: 50px;
         margin-top:-20px;
       }
-      .end{
-        background: url("/source/img/index/component/slidearowd.png") no-repeat;
-      }
-      .left{
+
+      .prev{
         left: 10px;
         background: url("/source/img/index/component/slidearow.png") no-repeat;
         background-position: 0px 0px;
       }
-      .right{
+      .next{
         right: 10px;
         background: url("/source/img/index/component/slidearow.png") no-repeat;
         background-position: -24px 0px;
       }
-      ul {
-        width: 800px;
-        margin: 0 auto;
-        white-space: nowrap;
-        li{
-          display: inline-block;
-          width: 20%;
-          a{
-            padding:0 5% 30%;
-            color: @fcolor;
+      .prev.disable{
+        background: url("/source/img/index/component/slidearowd.png") no-repeat;
+        background-position: 0px 0px;
+      }
+      .next.disable{
+        background: url("/source/img/index/component/slidearowd.png") no-repeat;
+        background-position: -24px 0px;
+      }
+      .viewport{
+        position: relative;
+        width: 86%;
+        height: 220px;
+        margin:0 auto;
+        overflow: hidden;
+        .overview {
+          position: absolute;
+          &:after{
+            .mixin-clearfx();
+          }
+          li{
+            float: left;
+            width: 210px;
+            a{
+              padding:10px 30px 30px;
+              color: @fcolor;
+              text-align: center;
+            }
           }
         }
       }
+
   }
 
 
@@ -980,4 +998,8 @@ body{
 }
 #scrollbar1 .disable{
   display: none;
+}
+.icon{
+  display: inline-block;
+  width: 20px;
 }
