@@ -1,0 +1,46 @@
+<div id="wisenetlite">
+    <div class="intro" ng-controller="tradeshowsCtrl">
+        <div class="detail">
+            <span class="left-txt">
+                <pathlist>导航目录</pathlist>
+                <h1>{{maintxt.name}}</h1>
+                <p>{{maintxt.detail}}</p>
+            </span>
+            <span class="right-logo">
+                <img src="/source/img/samsungbiglogo.ashx">
+            </span>
+        </div>
+        <ul class="table-list">
+            <li><button><<</button>|showEvents for
+                <select class="month" ng-model="month" ng-change="timechange(month)">
+                    <option value="01" >January</option>
+                    <option value="02" >February</option>
+                    <option value="03" >March</option>
+                    <option value="04" >April</option>
+                    <option value="05" >May</option>
+                </select>
+                <select class="year" ng-model="year"  ng-change="timechange()">
+                    <option value="2016">2016</option>
+                </select>
+                |<button>>></button></li>
+            <li class="map-item" ng-repeat="itemmap in itemmaps track by $index">
+                <hr>
+                <span class="pro_img"><img ng-src="{{itemmap.img}}"> </span>
+                <span class="pro_content">
+                    <h2>{{itemmap.name}}</h2>
+                    <em>{{itemmap.time}}</em>
+                    <em>{{itemmap.area}}</em>
+                </span>
+            </li>
+            <hr>
+        </ul>
+
+    </div>
+    <div class="lbox" ng-controller="linkbox_ctrl">
+        <ul class="link-box h-dist">
+            <expanderhdist expander="catalog"></expanderhdist>
+            <expanderhdist expander="contact"></expanderhdist>
+            <expanderhdist expander="events"></expanderhdist>
+        </ul>
+    </div>
+</div>

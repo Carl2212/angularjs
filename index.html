@@ -36,7 +36,7 @@
                 <a href="/#/index"> <img src="/source/img/logo.png"></a>
             </div>
             <ul class="sitemap" ng-controller="sitemap">
-                <li class="map" ng-repeat="site in sites">
+                <li class="map {{site.hide ? 'hide':''}}" ng-repeat="site in sites">
                     <a href="/#/{{site.map | titlefilter}}"> {{site.map}}</a>
                 </li>
             </ul>
@@ -50,7 +50,7 @@
             <img src="/source/img/logo.png">
         </div>
         <ul class="sitemap" ng-controller="sitemap">
-            <li class="map" ng-repeat="site in sites">
+            <li class="map {{site.hide ? 'hide':''}}" ng-repeat="site in sites">
                 <span class="bm-txt"> <a href="/#/{{site.map | titlefilter}}"> {{site.map}}</a></span>
                 <ul class="second-map">
                     <li class="smap" ng-repeat="smap in site.smap track by $index">
