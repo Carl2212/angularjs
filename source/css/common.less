@@ -450,10 +450,10 @@ body{
               .mixin-clearfx();
             }
             .map-item{
-              width: 190px;
+              width: 140px;
               height: 314px;
               margin-right: 12px;
-              padding-right:20px;
+              padding-right:5px;
               float: left;
               border: @map-item-border-trans;
               &:hover{
@@ -464,9 +464,8 @@ body{
                 padding-left: 10px;
                 .map-img{
                   display: block;
-                  width: 140px;
-                  height: 140px;
-                  padding-left:10px;
+                  width: 130px;
+                  height: 130px;
                   img{
                     height: 100%;
                     width: auto;
@@ -487,7 +486,7 @@ body{
                   margin-top: 25px;
                 }
                 .btn{
-                  .btn-style(115px,@btn-padding,center);
+                  .btn-style(100px,@btn-padding,center);
                   margin: 20px 0 0 5px;
                 }
               }
@@ -1077,4 +1076,21 @@ body{
 .icon{
   display: inline-block;
   width: 20px;
+}
+.in-div{
+  height:630px;
+  overflow:scroll;
+  li{
+    &:after{
+      .mixin-clearfx();
+    }
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .in-scroll{
+    display:block;
+    float: left;
+    width:30%;
+  }
 }

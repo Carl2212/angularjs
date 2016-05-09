@@ -81,71 +81,132 @@
       "smap" :["Camera Accessories","Camera Power Supplies","Accessory Selector Guide"]
     }
   ],
+
   "security_cameras" :{
     "ip_cameras":{
       "map":"IP Cameras",
-      "smap":["WiseNet Lite","Box","Bullet","Fixed Domes","Vandal-Resistant Domes","PTZ Domes","Wireless"]
+      "smap":["WiseNet Lite","Box","Bullet","Fisheye","Fixed Domes","Vandal-Resistant Domes","PTZ Domes","Wireless"],
+      "base_url" : "/#/products/security_cameras/ip_cameras"
     },
     "analog_cameras":{
+      "base_url" : "/#/products/security_cameras/analog_cameras",
       "map":"Analog Cameras",
       "smap":["Beyond Series","WiseNet HD+ Series","Box","Bullet","Fixed Domes","Vandal-Resistant Domes","Positioning System","PTZ Cameras","UTP Cameras"]
     },
     "mobile_apps":{
+      "base_url" : "/#/products/security_cameras/mobile_apps",
       "map":"Mobile Apps",
       "smap":["SSM Apps","iPolis Apps"]
     }
   },
-  "mobile_apps":[
-    {
-      "map":"WiseNet Lite",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+  "network_systems" :{
+    "network_video_recorders":{
+      "base_url" : "/#/network_systems/network_video_recorders",
+      "map":"Network Video Recorders",
+      "smap":["4 Channel","8 Channel NVRs","16 Channel","64 Channel"]
     },
-    {
-      "map":"Box",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    "switches_ethernet":{
+      "base_url" : "/#/network_systems/switches_ethernet",
+      "map":"Switches Ethernet",
+      "smap":["Ethernet Switches"]
     },
-    {
-      "map":"Bullet",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    {
-      "map":"Fisheye",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    {
-      "map":"Fixed Domes",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    {
-      "map":"Vandal-Resistant Domes",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    {
-      "map":"PTZ Dome",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    {
-      "map":"Wireless",
-      "img":"/source/img/product/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    "network_software":{
+      "base_url" : "/#/network_systems/network_software",
+      "map":"Network Software",
+      "smap":["SSM-RS00","SSM-RS10L","SSM-RS20L","SSM-RS30L","SSM-VM00","SSM","Smart Viewer 4.5"]
     }
-  ],
-  "wisenet_lite": {
+  },
+  "ip_kits" :{
+    "4_channel_io_kit":{
+      "base_url" : "/#/ip_kits/4_channel_io_kit",
+      "map":"4 Channel IP Kit",
+      "smap":["SRK-3030S»","SRK-3040S"]
+    },
+    "8_channel_ip_kit":{
+      "base_url" : "/#/ip_kits/8_channel_ip_kit",
+      "map":"8 Channel IP Kit",
+      "smap":["SRK-4060S"]
+    },
+    "16_channel_ip_kit":{
+      "base_url" : "/#/ip_kits/16_channel_ip_kit",
+      "map":"16 Channel IP Kit",
+      "smap":["SRK-5120S"]
+    }
+  },
+  "recording_solutions" :{
+    "digital_video_recorders":{
+      "base_url" : "/#/products/recording_solutions/digital_video_recorders",
+      "map":"Digital Video Recorders",
+      "smap":["Beyond Series DVR's","WiseNet HD+ DVRs","16 Channel","8 Channel","4 Channel","HDD Extension Unit"]
+    },
+    "encoders_decoders":{
+      "base_url" : "/#/products/recording_solutions/encoders_decoders",
+      "map":"Encoders/Decoders",
+      "smap":["Decoders","Encoders"]
+    }
+  },
+  "storage_solutions" :{
+    "seneca":{
+      "base_url" : "/#/products/storage_solutions/seneca",
+      "map":"Seneca",
+      "smap":["Central Video Management Displays","Central Video Management Servers","Network Video Recorders"]
+    }
+  },
+  "camera_lenses" :{
+    "motorized_zoom_lenses":{
+      "base_url" : "/#/products/camera_lenses/motorized_zoom_lenses",
+      "map":"Motorized Zoom Lenses",
+      "smap":["SLA-12240","SLA-880"]
+    },
+    "vari_focal_lenses":{
+      "base_url" : "/#/products/camera_lenses/vari_focal_lenses",
+      "map":"Vari-Focal Lenses",
+      "smap":["SLA-3580DN","SLA-2810D","SLA-2812DN","SLA-550DA","SLA-550DV","SLA-612DN"]
+    },
+    "megapixel_lenses":{
+      "base_url" : "/#/products/camera_lenses/megapixel_lenses",
+      "map":"Megapixel Lenses",
+      "smap":["SLA-M2890DN","SLA-M2890PN","SLA-E-M1240DN","SLA-F-M419DN","SLA-M-M21D","SLA-M-M21D","SLA-F-M1550DN","SLA-F-M226DN","SLA-M2882","SLA-M3180DN","SLA-M3180PN"]
+    }
+  },
+  "monitors" :{
+    "lcd monitors":{
+      "base_url" : "/#/products/monitors/lcd monitors",
+      "map":"LCD Monitors",
+      "smap":["17\" Monitors","19\" Monitors","22\" Monitors","32\" Monitors"]
+    },
+    "led_monitors":{
+      "base_url" : "/#/products/monitors/led_monitors",
+      "map":"LED Monitors",
+      "smap":["17\" LED Monitors","19\" LED Monitors","22\" LED Monitors","27\" LED Monitors","32\" LED Monitors","40\" LED Monitors"]
+    }
+  },
+  "controller_systems" :{
+    "remote_camera_control ":{
+      "base_url" : "/#/products/controller_systems/remote_camera_control ",
+      "map":"Remote Camera Control ",
+      "smap":["Analog Controllers","Network Controllers"]
+    }
+  },
+  "accessories" :{
+    "camera_accessories":{
+      "base_url" : "/#/products/accessories/camera_accessories",
+      "map":"Camera Accessories",
+      "smap":["Smoked Dome Covers","Box Camera Housings","PTZ/Dome Housings","PTZ/Dome Mounts","Box Camera Mounts","HD CCTV Accessories","Network Cameras POE Injectors Accessories","UTP Video Devices","Monitor Stands"]
+    },
+    "camera_power_supplies":{
+      "base_url" : "/#/products/accessories/camera_power_supplies",
+      "map":"Camera Power Supplies",
+      "smap":["24V AC Supplies","12V DC Supplies","15V DC Supply","Legacy Accessories Selector Guide"]
+    },
+    "accessory_selector_guide":{
+      "base_url" : "/#/products/accessories/accessory_selector_guide",
+      "map":"Accessory Selector Guide",
+      "smap":["SSM-RS00","SSM-RS10L","SSM-RS20L","SSM-RS30L","SSM-VM00","SSM","Smart Viewer 4.5"]
+    }
+  },
+
+  "se_ip_wisenet_lite": {
     "snp_l5233":{
       "map":"SNP-L5233",
       "new" : true,
@@ -189,23 +250,56 @@
         "Manual": "<a href='/scource/zip/SNP-L6233_Usermanual.pdf'>SNP-L6233_Usermanual.pdf</a>"
       }
     },
-    "snp_l6233h": {
-      "map": "SNP-L6233H",
-      "new": true,
-      "brief": "2Megapixel HD 23x Network PTZ Dome Camera",
-      "detail":"The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Outdoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
-      "img": [
-        "/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300H.ashx"
-      ],
-      "element": {
-        "Overview": "<h4>Key Features:</h4><ul><li>Max. 2M (1920 x 1080) resolution</li><li>16 : 9 Full HD (1080p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L6233H), IK10 (SNP-L6233 + SHP-3701H only)</li></ul>",
-        "Specifications": "<a href='/scource/zip/SNP-L6233_H_Specifications.pdf'>SNP-L6233_H_Specifications.pdf</a>",
-        "A & E Specs": "<a href='/scource/zip/Product_SpecificationsSNP-L6233H_AE.zip'>Product_SpecificationsSNP-L6233H_AE.zip</a>",
-        "Drawing": "<a href='/scource/zip/SNP-L6233H_CAD.zip'>SNP-L6233H_CAD.zip</a>",
-        "Manual": "<a href='/scource/zip/SNP-L6233H_Usermanual.pdf'>SNP-L6233H_Usermanual.pdf</a>"
+    "snp_l6233h":{
+      "map":"SNP-L6233H",
+      "new" : true,
+      "brief" : "1.3Megapixel HD 23x Network PTZ Dome Camera",
+      "detail" :"The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-6233H.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 2M (1920 x 1080) resolution</li><li>16 : 9 Full HD (1080p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>H.264, MJPEG dual codec, Multiple streaming</li><li> Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>233H)IP66 / IK10 (SNP-L6233H), IK10 (SNP-L6233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/pdf/SNP-L6233_H_Specifications.pdf'>SNP-L6233_H_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/Product_SpecificationsSNP-L6233H_AE.zip'>Product_SpecificationsSNP-L6233H_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L6233H_CAD.zip'>SNP-L6233H_CAD.zip</a>",
+        "Manual" : "<a href='/scource/pdf/SNP-L6233H_Usermanual.pdf'>SNP-L6233H_Usermanual.pdf</a>"
       }
     },
-
+    "snd_l6012": {
+      "map": "SND-L6012",
+      "new": true,
+      "brief": "2MP Full HD",
+      "detail":"Samsung Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/s_img/SND-L6012.ashx"
+      ],
+      "element": {
+        "Overview": "<h4>Key Features:</h4><ul><li>30fps@all resolutions (H.264)</li><li>2.8mm fixed lens</li><li>Motion detection, Tampering</li><li>Hallway view support (Rotate 90˚/270˚) </li><li> LDC support (Lens Distortion Correction)</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SND-L6012_Specifications.pdf'>SND-L6012_Specifications.pdf</a>",
+        "Accessories" :"<a href='/scource/pdf/2015-Accessory-Mount-Chart.pdf'>2015-Accessory-Mount-Chart.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SND-L6012_AE_150330.zip'>SND-L6012_AE_150330.zip</a>",
+        "Drawing": "<a href='/scource/zip/SND-L6012_CAD.zip'>SND-L6012_CAD.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SND-L6012_Certifications.zip'>SND-L6012_Certifications.zip</a>",
+        "Manual": "<a href='/scource/pdf/User_Manual-SND-L6012-ENGLISH_Web-1126.pdf'>User_Manual-SND-L6012-ENGLISH_Web-1126.pdf</a>",
+        "Brochure": "<a href='/scource/pdf/WiseNet_Lite_series_Brochure_150914.pdf'>WiseNet_Lite_series_Brochure_150914.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl6012_1_00_150806.zip'>sndl6012_1_00_150806.zip</a>",
+        "Access List" :"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300HM4.ashx'>SBP-300HM7</span><span class='in-scroll'>Hanging Mount<a href=''>read more</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300LM.ashx'>SBP-300LM</span><span class='in-scroll'>PTZ or Dome Parapet Mount<a href=''>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300HM4.ashx'>SBP-300HM7</span><span class='in-scroll'>Hanging Mount<a href=''>read more</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300CM.ashx'>SBP-300CM</span><span class='in-scroll'>PTZ Camera Mount<a href=''>read more...</a></span></li></ul></div>"
+      }
+    },
+    "snp-l6233rh":{
+      "map":"SNP-L6233RH",
+      "new" : true,
+      "brief" : "2MP Full HD 23x Network IR PTZ Dome",
+      "detail" :"The SNP-L6233RH features 23x optical zoom lens and IR viewable length up to 328ft enabling users to capture Full-HD high quality images anytime, anywhere. Additionally, Endless 360°  pan rotation and 190° tilt control, advanced Auto Tracking functions are suitable to make your monitoring more powerful.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-L6233RH.ashx","/source/img/product/ipcamera/wisenetlite/s_img/SNP-L6233RH1.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 2M (1920 x 1080) resolution</li><li>16 : 9 Full HD (1080p) resolution support</li><li>4.4 ~ 101.2mm (23x) IR corrected optical zoom, 12x digital zoom</li><li>H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB)</li><li>Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66, IK10, IR LED (2ea)</li></ul>",
+        "Specifications":"<a href='/scource/pdf/SNP-L6233RH_Specification.pdf'>SNP-L6233RH_Specification.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L6233RH_AE_160308.zip'>SNP-L6233RH_AE_160308.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L6233RH_CAD.zip'>SNP-L6233RH_CAD.zip</a>",
+        "Manual" : "<a href='/scource/pdf/SNP-L6233RH_Usermanual.pdf'>SNP-L6233RH_Usermanual.pdf</a>",
+        "Access List" :"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300WM1.ashx'>SBP-300WM1</span><span class='in-scroll'>PTZ Dome Mount<a href=''>read more...</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300WM.ashx'>SBP-300WM</span><span class='in-scroll'>PTZ or Dome Wall Mount<a href=''>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300CM.ashx'>SBP-300CM</span><span class='in-scroll'>PTZ Camera Mount<a href=''>read more</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/wisenetlite/snd-l6012/SBP-300LM.ashx'>SBP-300LM</span><span class='in-scroll'>PTZ or Dome Parapet Mount<a href=''>read more...</a></span></li></ul></div>"
+      }
+    },
     "sno_l6083r": {
       "map": "SNO-L6083R",
       "new": false,
@@ -241,7 +335,7 @@
         "Firmware": "<a href='/scource/zip/sndl6013_Series_1_01_150918.zip'>sndl6013_Series_1_01_150918.zip</a>"
       }
     },
-    "snp_l6013": {
+    "snd_l6013": {
       "map": "SND-L6013",
       "new": false,
       "brief": "2MP Full HD",
@@ -298,7 +392,7 @@
       "brief": "2MP Full HD Vandal-Resistant Network IR",
       "detail":"The SNV-L6083R is a FullHD IP66 outdoor, IK10 vandal dome camera with a varifocal lens and 20 meter IR LEDs.  Hallway View mode optimizes the image for portrait orientation, perfect for parking lots, roadways, hallways, & more.  Powered by PoE it can withstand conditions down to -22°F.  Tampering detection can provide notification upon damage resulting in a significant change to the camera image.  The SDHC memory card slot allows on-camera recording up to 32Gb.",
       "img": [
-        "/source/img/product/ipcamera/wisenetlite/s_img/sub_SNV-L6083R.ashx"
+        "/source/img/product/ipcamera/wisenetlite/s_img/SNV-L6083R.ashx"
       ],
       "element": {
         "Overview": "<h4>Key Features:</h4><ul><li>30fps@all resolutions (H.264)</li><li>4.3x (2.8 ~ 12mm) varifocal lens</li><li>Motion detection, Tampering</li><li>IR viewable length 65ft</li><li>Hallway view support (Rotate 90˚/270˚)</li></ul>",
@@ -309,8 +403,520 @@
         "Manual": "<a href='/scource/zip/User_Manual-SNV-L6083R-ENGLISH_Web-150811.pdf'>User_Manual-SNV-L6083R-ENGLISH_Web-150811.pdf</a>",
         "Firmware": "<a href='/scource/zip/sndl6013_Series_1_01_150918.zip'>sndl6013_Series_1_01_150918.zip</a>"
       }
+    },
+    "sno_l5083r": {
+      "map": "SNO-L5083R",
+      "new": false,
+      "brief": "1.3MP Full HD Weatherproof IR",
+      "detail":"The SNO-L5083R is a 1.3 megapixel weatherproof Bullet camera.  The IR LEDs provide visibility up to 20 meters.  The 2.8 – 12mm lens suits a variety of installation such as parking lots and entrances.  The SDHC memory card slot allows on-camera recording up to 32Gb.  PoE provides power for operation down to -22°F.  Compliant with the IK10 & IP66 standards for harsh, outdoor installation environments.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/s_img/SNO-L5083R.ashx","/source/img/product/ipcamera/wisenetlite/s_img/SNO-L5083R1.ashx","/source/img/product/ipcamera/wisenetlite/s_img/SNO-L5083R2.ashx"
+      ],
+      "element": {
+        "Overview": "<h4>Key Features:</h4><ul><li>30fps@all resolutions (H.264)</li><li> 4.3x (2.8 ~ 12mm) varifocal lens </li><li>Motion detection, Tampering  </li><li>IR viewable length 65ft </li><li>Hallway view support  (Rotate  90˚/270˚) </li><li>IK10, IP66</li></ul>",
+        "Specifications": "<a href='/scource/zip/SNO-L5083R_Specifications.pdf'>SNO-L5083R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNO-L5083R_AE.zip'>SNO-L5083R_AE.zip</a>",
+        "Manual": "<a href='/scource/zip/User_Manual_SNO-L5083R_ENGLISH.pdf'>User_Manual_SNO-L5083R_ENGLISH.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl5013_Series_1_01_150918.zip'>sndl5013_Series_1_01_150918.zip</a>"
+      }
+    },
+    "snd_l5013": {
+      "map": "SND-L5013",
+      "new": false,
+      "brief": "1.3MP Full HD",
+      "detail":"Samsung Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/s_img/SND-L6013.ashx"
+      ],
+      "element": {
+        "Overview": "<h4>Key Features:</h4><ul><li>30fps@all resolutions (H.264)</li><li>3.6mm fixed lens</li><li>Motion detection, Tampering</li><li>Hallway view support (Rotate 90˚/270˚) </li><li>LDC support (Lens Distortion Correction)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SND-L5013_Specifications.pdf'>SND-L5013_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SND-L5013_AE_150401.zip'>SND-L5013_AE_150401.zip</a>",
+        "Drawing": "<a href='/scource/zip/SND-L5013_CAD.zip'>SND-L5013_CAD.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SND-L5013_Certifications.zip'>SND-L5013_Certifications.zip</a>",
+        "Manual": "<a href='/scource/pdf/User_Manual_SND-L5013_ENGLISH.pdf'>User_Manual_SND-L5013_ENGLISH.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl5013_Series_1_01_150918.zip'>sndl5013_Series_1_01_150918.zip</a>"
+      }
+    },
+    "snv_l5083r": {
+      "map": "SNV-L5083R",
+      "new": true,
+      "brief": "1.3MP Full HD Vandal-Resistant IR",
+      "detail":"The SNV-L5083R is a 1.3 megapixel HD  IP66 outdoor, IK10 vandal dome camera with a 2.8-12 mm varifocal lens and 20 meter IR LEDs.   Powered by PoE it can withstand conditions down to -22°F.  Tampering detection can provide notification upon damage resulting in a significant change to the camera image.  The SDHC memory card slot allows on-camera recording up to 32Gb.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/s_img/SNV-L5083R.ashx"
+      ],
+      "element": {
+        "Overview": "<h4>Key Features:</h4><ul><li>30fps@all resolutions (H.264)</li><li>4.3x (2.8 ~ 12mm) varifocal lens</li><li>Motion detection, Tampering</li><li>IR viewable length 65ft</li><li> Hallway view support (Rotate 90˚/270˚)</li></ul>",
+        "Specifications": "<a href='/scource/zip/SNV-L5083R_Specifications.pdf'>SNV-L5083R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNV-L5083R_AE_150403.zip'>SNV-L5083R_AE_150403.zip</a>",
+        "Drawing": "<a href='/scource/zip/SNV-L5083R_CAD.zip'>SNV-L5083R_CAD.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SNV-L5083R_Certifications.zip'>SNV-L5083R_Certifications.zip</a>",
+        "Manual": "<a href='/scource/pdf/User_Manual-SNV-L5083R-ENGLISH_Web-0821.pdf'>User_Manual-SNV-L5083R-ENGLISH_Web-0821.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl5013_Series_1_01_150918.zip'>sndl5013_Series_1_01_150918.zip</a>"
+      }
+    },
+    "snd_l5083r": {
+      "map": "SND-L5083R",
+      "new": true,
+      "brief": "1.3MP Full HD IR",
+      "detail":"The SND-L5083R is an indoor dome camera equipped with a varifocal lens for greater flexibility in installation requirements.  At its’ widest 2.8mm , the camera can provide 103° horizontal field of view, while the Lens Distortion control ensures natural distortion-free image.   The built-in IR LEDS provide illumination up to 15 meters while the built-in microphone captures audio for remote monitoring.",
+      "img": [
+        "/source/img/product/ipcamera/wisenetlite/s_img/SND-L6013.ashx"
+      ],
+      "element": {
+        "Overview": "<h4>Key Features:</h4><ul><li>30fps@all resolutions (H.264)</li><li> 4.3x (2.8 ~ 12mm) varifocal lens</li><li>Motion detection, Tampering</li><li>IR viewable length 49ft</li><li>Hallway view support (Rotate 90˚/270˚)</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SND-L5083R_Specifications.pdf'>SND-L5083R_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SND-L5083R_AE_150401.zip'>SND-L5083R_AE_150401.zip</a>",
+        "Drawing": "<a href='/scource/zip/SND-L6083R_L5083R_CAD.zip'>SND-L6083R_L5083R_CAD.zip</a>",
+        "Datasheet" :"<a href='/scource/zip/SND-L5083R_Certifications.zip'>SND-L5083R_Certifications.zip</a>",
+        "Manual": "<a href='/scource/pdf/SND-L5083R_UserManual.pdf'>SND-L5083R_UserManual.pdf</a>",
+        "Firmware": "<a href='/scource/zip/sndl5013_Series_1_01_150918.zip'>sndl5013_Series_1_01_150918.zip</a>"
+      }
     }
+
   },
+  "se_ip_box": {
+    "snb_6010a": {
+      "map": "SNB-6010A",
+      "new": true,
+      "brief": "2MP 4.6mm Remote Head Camera",
+      "detail": "Samsung’s leading technology, WiseNetIII, is not only performance driven but a cost effective solution. The unique DSP chipset technology within the WiseNetIII line is developed by Samsung and has unrivaled features found nowhere else in the security industry. The SNB-6010 is perfect for covert locations as well as installations where space is limited. The camera head is separated from the main unit with a 1.5 meter cable allowing installation in unique locations such as bank tellers, ATMs, height strip, or data center racks. The microSDXC memory card slot is located in the main unit away from the camera head further preventing theft of the recording medium. A 4.6mm pinhole lens provides a 71° horizontal viewing angle. High end functions include 120dB WDR, 30 fps @ FullHD 1080p, intelligent video analytics, analog video output, and alarm I/O. The main unit includes a wall mount clip while the camera head bracket allows tilt, rotation, and depth adjustment. Power is provided by PoE or 12v DC.",
+      "img": [
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A1.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A2.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A3.ashx"
+      ],
+      "element": {
+        "Overview": "<p>Key Features:</p><ul><li>Max. 2M (1920 x 1080) resolution</li><li>H.264, MJPEG dual codec, Multiple streaming</li><li>WDR (120dB), Defog</li><li>Advanced motion detection, VA</li><li> SD/SDHC/SDXC memory slot</li><li>Multi-crop streaming</li><li> Extremely discreet design</li><li>Composite video out</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SNB-6010A_Specifications.pdf'>SNB-6010A_Specifications.pdf</a>"
+      }
+    },
+    "snb_j_6010a": {
+      "map": "SNB-J-6010",
+      "new": true,
+      "brief": "2MP 4.6mm Remote Head Camera",
+      "detail": "Samsung’s leading technology, WiseNetIII, is not only performance driven but a cost effective solution. The unique DSP chipset technology within the WiseNetIII line is developed by Samsung and has unrivaled features found nowhere else in the security industry. The SNB-6010 is perfect for covert locations as well as installations where space is limited. The camera head is separated from the main unit with a 1.5 meter cable allowing installation in unique locations such as bank tellers, ATMs, height strip, or data center racks. The microSDXC memory card slot is located in the main unit away from the camera head further preventing theft of the recording medium. A 4.6mm pinhole lens provides a 71° horizontal viewing angle. High end functions include 120dB WDR, 30 fps @ FullHD 1080p, intelligent video analytics, analog video output, and alarm I/O. The main unit includes a wall mount clip while the camera head bracket allows tilt, rotation, and depth adjustment. Power is provided by PoE or 12v DC.",
+      "img": [
+        "/source/img/product/ipcamera/box/s_img/SNB-J-6010.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-J-60101.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A2.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-J-60103.ashx"
+      ],
+      "element": {
+        "Overview": "<p>Key Features:</p><ul><li>Designed for easy installation</li><li>Fits most standard door frames</li><li>Durable aluminum construction</li><li>Curved surface with 180º HFOV camera adjustment</li><li>Available in black </li><li>12VDC and POE</li><li>2MP 1080P camera installed</li><li>Max (1,920 x 1,080) resolution at 30 FPS</li><li>H.264, MJPEG dual codec</li><li>WDR (120dB), Defog</li><li>Advanced motion detection, VA</li><li>Micro SD/SDHC/SDXC memory slot</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SNB-J-6010-DoorJamb_Specifcations.pdf'>SNB-J-6010-DoorJamb_Specifcations.pdf</a>"
+      }
+    },
+    "snb_h_6010": {
+      "map": "SNB-H-6010",
+      "new": true,
+      "brief": "2MP 4.6mm Remote Head Camera",
+      "detail": "Samsung’s leading technology, WiseNetIII, is not only performance driven but a cost effective solution. The unique DSP chipset technology within the WiseNetIII line is developed by Samsung and has unrivaled features found nowhere else in the security industry. The SNB-6010 is perfect for covert locations as well as installations where space is limited. The camera head is separated from the main unit with a 1.5 meter cable allowing installation in unique locations such as bank tellers, ATMs, height strip, or data center racks. The microSDXC memory card slot is located in the main unit away from the camera head further preventing theft of the recording medium. A 4.6mm pinhole lens provides a 71° horizontal viewing angle. High end functions include 120dB WDR, 30 fps @ FullHD 1080p, intelligent video analytics, analog video output, and alarm I/O. The main unit includes a wall mount clip while the camera head bracket allows tilt, rotation, and depth adjustment. Power is provided by PoE or 12v DC.",
+      "img": [
+        "/source/img/product/ipcamera/box/s_img/SNB-H-6010.ashx"
+      ],
+      "element": {
+        "Overview": "<p>Height Marker Key Features Key Features:</p><ul><li>Designed for easy installation</li><li>Fits most standard door frames</li><li>Durable aluminum construction</li><li>Highly visible color coded height levels</li><li>Curved surface w/180º HFOV camera adjustment</li><li>Also available in black and silver</li><li>Wrap-around labels visible from side</li><li>12VDC and POE</li><li>2.4MP 1080P camera installed</li><p>Camera Key Features</p><ul><li>WDR (120dB), Defog</li><li>Max. 2M (1,920 x 1,080) resolution</li><li>H.264, MJPEG dual codec, Multiple streaming</li><li>WDR (120dB), Defog</li><li>Advanced motion detection, VA</li><li>micro SD/SDHC/SDXC memory slot</li><li>Multi-crop streaming</li><li>Extremely discreet design</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SNB-H-6010_Specifications.pdf'>SNB-H-6010_Specifications.pdf</a>"
+      }
+    },
+    "snb_6005": {
+      "map": "SNB-6005",
+      "new": true,
+      "brief": "2MP 4.6mm Remote Head Camera",
+      "detail": "Samsung’s leading technology, WiseNetIII, is not only performance driven but a cost effective solution. The unique DSP chipset technology within the WiseNetIII line is developed by Samsung and has unrivaled features found nowhere else in the security industry. The SNB-6010 is perfect for covert locations as well as installations where space is limited. The camera head is separated from the main unit with a 1.5 meter cable allowing installation in unique locations such as bank tellers, ATMs, height strip, or data center racks. The microSDXC memory card slot is located in the main unit away from the camera head further preventing theft of the recording medium. A 4.6mm pinhole lens provides a 71° horizontal viewing angle. High end functions include 120dB WDR, 30 fps @ FullHD 1080p, intelligent video analytics, analog video output, and alarm I/O. The main unit includes a wall mount clip while the camera head bracket allows tilt, rotation, and depth adjustment. Power is provided by PoE or 12v DC.",
+      "img": [
+        "/source/img/product/ipcamera/box/s_img/SNB-6005.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-60051.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-60052.ashx"
+      ],
+      "element": {
+        "Overview": "<p>Key Features:</p><ul><li>1/1.9\" PS 2.42M CMOS</li><li>0.015Lux@F1.2(Color), 0.0015Lux F1.2(B/W)</li><li>Wide Dynamic Range  (120dB)</li><li>Digital Image Stabilization   </li><li>Multiple streaming </li><li>P-Iris, Simple focus     </li><li>Analytics</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SNB-6005_Specifications.pdf'>SNB-6005_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNB-6005_AE.zip'>SNB-6005_AE.zip</a>",
+        "Drawing": "<a href='/scource/zip/SNB-6005_CAD.zip'>SNB-6005_CAD.zip</a>",
+        "Datasheet": "<a href='/scource/zip/SNB-6005_Certifications.zip'>SNB-6005_Certifications.zip</a>",
+        "Manual": "<a href='/scource/pdf/SNB-6005_UserManual.pdf'>SNB-6005_UserManual.pdf</a>",
+        "Firmware": "<a href='/scource/zip/snb6005_Series_1_00_150723.zip'>snb6005_Series_1_00_150723.zip</a>",
+        "Access List": "<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6005/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href=''>read more...</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6005/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href=''>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6005/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href=''>read more</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6005/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href=''>read more...</a></span></li></ul></div>"
+      }
+    },
+    "snb_9000": {
+      "map": "SNB-9000",
+      "new": true,
+      "brief": "4K UHD & 12Megapixel Network Camera",
+      "detail": "<p>Samsung’s 4K UHD & 12 Megapixel camera, features Max. 12M (4000 x 3000) / 8M (3840 x 2160) resolution at </p><p>20fps@4000 x 3000 / 30fps@3840 x 2160.</p>",
+      "img": [
+        "/source/img/product/ipcamera/box/s_img/SNB-9000.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-90001.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-9000.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-9000.ashx"
+      ],
+      "element": {
+        "Overview": "<p>Key Features:</p><ul><li>Max. 12M (4000 x 3000) / 8M (3840 x 2160) resolution</li><li>20fps@4000 x 3000 / 30fps@3840 x 2160</li><li>Simple focus, Day & Night (ICR)</li><li>Intelligent video analytics</li><li>micro SD/SDHC/SDXC memory slot</li><li>Bi-directional audio support</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SNB-9000_Specifications.pdf'>SNB-9000_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNB-9000_AE.zip'>SNB-9000_AE.zip</a>",
+        "Drawing": "<a href='/scource/zip/SNB-9000_CAD.zip'>SNB-9000_CAD.zip</a>",
+        "Datasheet": "<a href='/scource/zip/SNB-9000_Certifications.zip'>SNB-9000_Certifications.zip</a>",
+        "Manual": "<a href='/scource/pdf/SNB-9000_UserManual.pdf'>SNB-9000_UserManual.pdf</a>",
+        "Firmware": "<a href='/scource/zip/snb9000_1_01_20150821.zip'>snb9000_1_01_20150821.zip</a>",
+        "Access List": "<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-9000/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href=''>read more...</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-9000/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href=''>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-9000/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href=''>read more</a></span></li><li><span  class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-9000/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href=''>read more...</a></span></li></ul></div>"
+      }
+    },
+    "snb_6011": {
+      "map": "SNB-6011",
+      "new": true,
+      "brief": "2MP 2.4mm Covert",
+      "detail": "Samsung’s leading technology, WiseNetIII, is not only performance driven but a cost effective solution. The unique DSP chipset technology within the WiseNetIII line is developed by Samsung and has unrivaled features found nowhere else in the security industry. The SNB-6011 is perfect for covert locations as well as installations where space is limited. The camera head is separated from the main unit allowing installation in unique locations such as bank tellers, ATMs, height strip, or data center racks. The microSDXC memory card slot is located in the main unit away from the camera head further preventing theft of the recording medium. A 2.4mm pinhole lens provides a 134° horizontal viewing angle. High end functions include 120dB WDR, 30 fps @ FullHD 1080p, intelligent video analytics.",
+      "img": [
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A1.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A2.ashx",
+        "/source/img/product/ipcamera/box/s_img/SNB-6010A3.ashx"
+      ],
+      "element": {
+        "Overview": "<p>Key Features:</p><ul><li>1080p @ 30fps</li><li>Wide Dynamic Range (120dB)</li><li>2.4mm wide angle view</li><li>Analog BNC output</li><li>Advanced motion detection, Defog</li><li>Multi-crop streaming</li><li>Extremely discreet design</li><li>Analytics      </li><li>134˚H view angle</li><li>Available in 2 cable lengths;SNB-6011: 8 meters, SNB-6011-15: 1.5 meters</li></ul>",
+        "Specifications": "<a href='/scource/pdf/SNB-6011_Specifications.pdf'>SNB-6011_Specifications.pdf</a>",
+        "A & E Specs": "<a href='/scource/zip/SNB-6011_AE_150413.zip'>SNB-6011_AE_150413.zip</a>",
+        "Drawing": "<a href='/scource/zip/CAD_SNB-6011.zip'>CAD_SNB-6011.zip</a>",
+        "Datasheet": "<a href='/scource/zip/SNB-6011_Certifications.zip'>SNB-6011_Certifications.zip</a>",
+        "Manual": "<a href='/scource/pdf/SNB-6011_UserManual.pdf'>SNB-6011_UserManual.pdf</a>"
+      }
+    },
+    "snz_6320":{"map":"SNZ-6320","img":["/source/img/product/ipcamera/box/s_img/SNZ-6320.ashx"],"brief":"2MP Full HD Zoom","detail":"The SNZ-6320 camera features an industry leading 32x optical zoom. Allowing for clear and crisp images, with 1080p @ 60fps, wide dynamic range at 120db and WiseNet III analytics","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> 1080p @ 60fps\n</li><li> 32x optical zoom\n</li><li> Multiple streaming\n</li><li> Analytics\n</li><li> Wide Dynamic Range (120dB)</li></ul>","Specifications":"<a href='/scource/pdf/SNZ-6320_Specifications.pdf'>SNZ-6320_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNZ-6320_AE.zip'>SNZ-6320_AE.zip</a>","Drawing":"<a href='/scource/zip/SNZ-6320_CAD.zip'>SNZ-6320_CAD.zip</a>","Datasheet":"<a href='/scource/zip/SNZ-6320_Certifications.zip'>SNZ-6320_Certifications.zip</a>","Manual":"<a href='/scource/pdf/SNZ-6320_UserManual.pdf'>SNZ-6320_UserManual.pdf</a>","Firmware":"<a href='/scource/zip/snz6320_v1_03_150918.zip'>snz6320_v1_03_150918.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNZ-6320/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_8000":{"map":"SNB-8000","img":["/source/img/product/ipcamera/box/s_img/SNB-8000.ashx"],"brief":"5MP Network Box Camera","detail":"The SNB-8000 camera features 5 megapixel 1080p of high definition images. Its high functionalities includes 60dB Digital Wide Dynamic Range which delivers 20fps at 5 megapixel.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> 20fps@5MP, P-iris, Simple focus\n</li><li> DWDR (60dB)\n</li><li> Up to 32 privacy masking zones\n</li><li> Tampering, Audio detection\n</li><li> micro SD/SDHC/SDXC memory slot\n</li><li> Bi-directional audio support, Built-in mic.</li></ul>","Specifications":"<a href='/scource/pdf/SNB-8000_Specifications.pdf'>SNB-8000_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-8000_AE.zip'>SNB-8000_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-8000_CAD.zip'>SNB-8000_CAD.zip</a>","Manual":"<a href='/scource/pdf/SNB-8000_UserManual.pdf'>SNB-8000_UserManual.pdf</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SLA-F-M419DN.ashx'>SLA-F-M419DN</span><span class='in-scroll'>6 Megapixel Day/Night Varifocal 1/1.8\"<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SLA-E-M1240DN.ashx'>SLA-E-M1240DN</span><span class='in-scroll'>6 Megapixel Day/Night Varifocal 1/2\"<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SLA-M3180DN.ashx'>SLA-M3180PN</span><span class='in-scroll'>1/3\" CS-mount Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-8000/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_6010":{"map":"SNB-6010","img":["/source/img/product/ipcamera/box/s_img/SNB-6010.ashx","/source/img/product/ipcamera/box/s_img/SNB-60101.ashx","/source/img/product/ipcamera/box/s_img/SNB-60102.ashx","/source/img/product/ipcamera/box/s_img/SNB-60103.ashx"],"brief":"2MP 4.6mm Remote Head Camera","detail":"Samsung’s leading technology, WiseNetIII, is not only performance driven but a cost effective solution. The unique DSP chipset technology within the WiseNetIII line is developed by Samsung and has unrivaled features found nowhere else in the security industry.  The SNB-6010 is perfect for covert locations as well as installations where space is limited.  The camera head is separated from the main unit allowing installation in unique locations such as bank tellers, ATMs, height strip, or data center racks.  The microSDXC memory card slot is located in the main unit away from the camera head further preventing theft of the recording medium. A 4.6mm pinhole lens provides a 71° horizontal viewing angle.  High end functions include 120dB WDR, 30 fps @ FullHD 1080p, intelligent video analytics, and alarm I/O.  The main unit includes a wall mount clip while the camera head bracket allows tilt, rotation, and depth adjustment.  Power is provided by 12v DC or PoE.","element":{"Overview":"<p>Key Features:</p><ul><li>Extremely discreet design</li><li>30fps@1920 x 1080</li><li>Max. 2MP (1920 x 1080) resolution</li><li> Wide Dynamic Range  (120dB)</li><li>Min. illumination 0.5Lux@F1.2 (Color)</li><li>Advanced motion detection, defog</li><li>Multi-crop streaming</li></ul>","Specifications":"<a href='/scource/pdf/SNB-6010_Specifications.pdf'>SNB-6010_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-6010_AE.zip'>SNB-6010_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-6010_CAD.zip'>SNB-6010_CAD.zip</a>","Datasheet":"<a href='/scource/zip/SNB-6010_Certifications.zip'>SNB-6010_Certifications.zip</a>","Manual":"<a href='/scource/pdf/SNB-6010_UserManual.pdf'>SNB-6010_UserManual.pdf</a>","Firmware":"<a href='/scource/zip/snb6010_snv6013_3_00_141101.zip'>snb6010_snv6013_3_00_141101.zip</a>"}},
+    "snb_7004":{"map":"SNB-7004","img":["/source/img/product/ipcamera/box/s_img/SNB-7004.ashx","/source/img/product/ipcamera/box/s_img/SNB-70041.ashx","/source/img/product/ipcamera/box/s_img/SNB-70042.ashx"],"brief":"3MP Network Box Camera","detail":"The SNB-7004 camera features the most advanced WiseNetIII functions from Samsung with 3 megapixel 1080p of high definition images. Its high functionalities includes 120dB Wide Dynamic Range which delivers 30fps at 3 megapixel 1080p, low light performance down to 0.1 lux (F1.2, 50IRE, color) creating clear images under low light conditions.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li>    30fps@2,048 x1,536 / 60fps@1,920 x 1,080\n</li><li>    Simple focus, P-Iris\n</li><li>    Day & Night (ICR), Enhanced DIS, Defog\n</li><li>    3M real-time WDR (Max. 120dB)\n</li><li>    Color : 0.1Lux (F1.2, 50IRE) B/W : 0.01Lux (F1.2, 50IRE)\n</li><li>    Built-in SD/SDHC/SDXC memory slot\n</li><li>    Built-in mic.</li></ul>","Specifications":"<a href='/scource/pdf/SNB-7004_Specifications.pdf'>SNB-7004_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-7004_AE.zip'>SNB-7004_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-7004_CAD.zip'>SNB-7004_CAD.zip</a>","Manual":"<a href='/scource/pdf/User_Manual_SNB-7004_ENGLISH.pdf'>User_Manual_SNB-7004_ENGLISH.pdf</a>","Firmware":"<a href='/scource/zip/snb7004_Series_3_00_140915.zip'>snb7004_Series_3_00_140915.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/SLA-M3180DN.ashx'>SLA-M3180PN</span><span class='in-scroll'>1/3\" CS-mount Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7004/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_5004":{"map":"SNB-5004","img":["/source/img/product/ipcamera/box/s_img/SNB-5004.ashx","/source/img/product/ipcamera/box/s_img/SNB-50041.ashx","/source/img/product/ipcamera/box/s_img/SNB-50042.ashx","/source/img/product/ipcamera/box/s_img/SNB-50043.ashx"],"brief":"1.3MP 720p HD Network Camera","detail":"The SNB-5004 is a camera from Samsung Techwin WiseNetIII network ranges which feature the most advanced functions from Samsung with 1.3 megapixel 720p of high definition images. Its high functionalities includes 130dB WDR, low light performance down to 0.05 lux (F1.2, 50IRE, color) creating clear images under low light conditions, and P-iris support which result in images with better contrast, clarity, resolution and depth of field. With enhanced features and new technologies which combat the challenges of though environmental conditions, the SNB-5004 will meet the market need which requires professional security.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 1.3M (1280 x 1024) resolution, 720p HD support\n</li><li> 60fps@720p HD\n</li><li> Simple Focus, P-iris\n</li><li> True Day & Night (ICR), Enhanced DIS, Defog\n</li><li> WDR (130dB), SD/SDHC/SDXC memory slot\n</li><li> Multi-crop streaming</li></ul>","Specifications":"<a href='/scource/pdf/SNB-5004_5003_Specifications.pdf'>SNB-5004_5003_Specifications.pdf</a>","A & E Specs":"<a href='/scource/pdf/SNB-5004_AE.pdf'>SNB-5004_AE.pdf</a>","Drawing":"<a href='/scource/zip/SNB-5004_CAD.zip1_3MP_HD_Box_BIM_REVIT.zip'>SNB-5004_CAD.zip1_3MP_HD_Box_BIM_REVIT.zip</a>","Datasheet":"<a href='/scource/zip/SNB-5004_Certifications.zip'>SNB-5004_Certifications.zip</a>","Manual":"<a href='/scource/pdf/SNB-5004_UserManual.pdf'>SNB-5004_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-5004_Series_ReleaseNotes.pdf'>SNB-5004_Series_ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb5004_Series_3_00_140903.zip'>snb5004_Series_3_00_140903.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/SLA-M3180DN.ashx'>SLA-M3180PN</span><span class='in-scroll'>1/3\" CS-mount Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5004/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_6003":{"map":"SNB-6003","img":["/source/img/product/ipcamera/box/s_img/SNB-6003.ashx","/source/img/product/ipcamera/box/s_img/SNB-60031.ashx","/source/img/product/ipcamera/box/s_img/SNB-60032.ashx","/source/img/product/ipcamera/box/s_img/SNB-60033.ashx"],"brief":"2MP 1080p  Full HD Network Camera","detail":"The SNB-6003 is a camera from Samsung Techwin WiseNetIII network ranges which feature the most advanced functions from Samsung with 2 megapixel 1080p of high definition images. Its high functionalities includes 100dB WDR which delivers 30fps at 2 megapixel 1080p, low light performance down to 0.1 lux (F1.2, 50IRE, color) creating clear images under low light conditions, and P-iris support which result in images with better contrast, clarity, resolution and depth of field. With enhanced features and new technologies which combat the challenges of though environmental conditions, the SNB-6003 will meet the market need which requires professional security.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 2M (1920x1080) resolution, 1080p Full HD support\n</li><li> 60fps @1080p Full HD\n</li><li> P-iris\n</li><li> Manual Focus, S/W Day & Night\n</li><li> Day & Night (ICR), Enhanced DIS, Defog\n</li><li> WDR (120dB, 30fps @ 2MP)\n</li><li> Built-in SD/SDHC/SDXC memory slot\n</li><li> Multi-crop streaming\n</li><li> Manual Focus\n</li><li> S/W Day & Night</li></ul>","Specifications":"<a href='/scource/pdf/SNB-6003_Specifications.pdf'>SNB-6003_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-6003_AE_Document.zip'>SNB-6003_AE_Document.zip</a>","Drawing":"<a href='/scource/zip/SNB-6003_CAD.zip'>SNB-6003_CAD.zip</a>","Datasheet":"<a href='/scource/zip/SNB-6003_Certifications.zip'>SNB-6003_Certifications.zip</a>","Manual":"<a href='/scource/pdf/SNB-6003_UserManual.pdf'>SNB-6003_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-6003-Series-ReleaseNotes.pdf'>SNB-6003-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb6004_Series_v3_03_150918.zip'>snb6004_Series_v3_03_150918.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SLA-M2890DN.ashx'>SLA-M2890DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SLA-M3180DN.ashx'>SLA-M3180PN</span><span class='in-scroll'>1/3\" CS-mount Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SLA-M2890PN.ashx'>SLA-M2890PN</span><span class='in-scroll'>1/2.8\" CS-mount Auto P-Iris Megapixel...<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6003/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_6004":{"map":"SNB-6004","img":["/source/img/product/ipcamera/box/s_img/SNB-6004.ashx","/source/img/product/ipcamera/box/s_img/SNB-60041.ashx","/source/img/product/ipcamera/box/s_img/SNB-60042.ashx","/source/img/product/ipcamera/box/s_img/SNB-60043.ashx"],"brief":"2MP 1080p  Full HD Network Camera","detail":"The SNB-6004 is a camera from Samsung Techwin WiseNetIII network ranges which feature the most advanced functions from Samsung with 2 megapixel 1080p of high definition images. Its high functionalities includes 100dB WDR which delivers 30fps at 2 megapixel 1080p, low light performance down to 0.1 lux (F1.2, 50IRE, color) creating clear images under low light conditions, and P-iris support which result in images with better contrast, clarity, resolution and depth of field. With enhanced features and new technologies which combat the challenges of though environmental conditions, the SNB-6004 will meet the market need which requires professional security.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 2M (1920x1080) resolution, 1080p Full HD support\n</li><li> 60fps @1080p Full HD\n</li><li> Simple Focus, P-iris\n</li><li> True Day&Night (ICR), Enhanced DIS, Defog\n</li><li> WDR (120dB, 30fps @ 2MP)\n</li><li> Built-in SD/SDHC/SDXC memory slot\n</li><li> Multi-crop streaming</li></ul>","Specifications":"<a href='/scource/pdf/SNB-6004_Specifications.pdf'>SNB-6004_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-6004_AE.zip'>SNB-6004_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-6004_CAD.zip2MP_HD_Box_BIM_REVIT.zip'>SNB-6004_CAD.zip2MP_HD_Box_BIM_REVIT.zip</a>","Manual":"<a href='/scource/pdf/SNB-6004_UserManual.pdf'>SNB-6004_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-6004-Series-ReleaseNotes.pdf'>SNB-6004-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb6004_Series_v3_03_150918.zip'>snb6004_Series_v3_03_150918.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/SLA-M2890PN.ashx'>SLA-M2890PN</span><span class='in-scroll'>1/2.8\" CS-mount Auto P-Iris Megapixel...<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-6004/SLA-M2890DN.ashx'>SLA-M2890DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_7002":{"map":"SNB-7002","img":["/source/img/product/ipcamera/box/s_img/SNB-7002.ashx"],"brief":"3 Megapixel Full HD Network Camera","detail":"Samsung introduces it's updated line of 3MegaPixel Full HD Network Cameras designed for advanced surveillance solutions. These cameras come equipped with progressive technologies such as advanced WDR (Wide Dynamic Range) to provide superior images in high contrast scenes and Auto Back Focus to make installation simple. Other features include: SSDR (Samsung Super Dynamic Range) to enhance color reproduction and resolution and reduce signal noise, Face Detection - prioritizing faces in an image, Audio Detection - alerting the system to events beyond the camera’s field of view, ROI (Region of Interest) - spotlighting the critical areas in the camera's field of view, and True Day/Night for superior images in the dark.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max 3M (2048 x 1536), 16 : 9 Full HD (1080p) resolution    \n</li><li> H.264 & MJPEG dual codec\n</li><li> Simple Focus\n</li><li> Advanced WDR (96dB) / 30fps@2MP WDR\n</li><li> Face Detection, Audio Detection\n</li><li> UPnP (Auto Port Forwarding)</li></ul>","Specifications":"<a href='/scource/pdf/SNB-7002-Specifications.pdf'>SNB-7002-Specifications.pdf</a>","A & E Specs":"<a href='/scource/pdf/SNB _7002_AE.pdf'>SNB _7002_AE.pdf</a>","Drawing":"<a href='/scource/zip/SNB-7002_CAD.zip3MP_HD_Box_BIM_REVIT.zip'>SNB-7002_CAD.zip3MP_HD_Box_BIM_REVIT.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-7002_UserManual.pdf'>SNB-7002_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-7002-Series-ReleaseNotes.pdf'>SNB-7002-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb7002_series_1_24_140701.zip'>snb7002_series_1_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-7002/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_5001":{"map":"SNB-5001","img":["/source/img/product/ipcamera/box/s_img/SNB-5001.ashx","/source/img/product/ipcamera/box/s_img/SNB-50011.ashx","/source/img/product/ipcamera/box/s_img/SNB-50012.ashx"],"brief":"1.3 Megapixel HD Network Camera","detail":"This cost effective 1.3MP High Definition network camera is a great fit for applications which require high resolution video. The SNB-5001 features contrast enhancement and day/night capabilities for challenging lighting conditions, and is equipped with high-end functionalities such as Tampering Detection and Motion Detection.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 1.3M (1280 x 1024) resolution\n</li><li> 16 : 9 HD (720p) resolution support\n</li><li> H.264, MJPEG dual codec\n</li><li> Multiple streaming\n</li><li> Tampering\n</li><li> PoE</li></ul>","Specifications":"<a href='/scource/pdf/SNB-5001_Specifications.pdf'>SNB-5001_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB _5001_AE_.zip'>SNB _5001_AE_.zip</a>","Drawing":"<a href='/scource/zip/SNB-5001_CAD.zip1_3MP_HD_Box_BIM_REVIT.zip'>SNB-5001_CAD.zip1_3MP_HD_Box_BIM_REVIT.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-5001_UserManual.pdf'>SNB-5001_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-5001-Series-ReleaseNotes.pdf'>SNB-5001-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb5001_series_1_24_140701.zip'>snb5001_series_1_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/small_SLA-M2882_web.ashx'>SLA-M2882</span><span class='in-scroll'>1/3\" Megapixel Varifocal Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-5001/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_3002":{"map":"SNB-3002","img":["/source/img/product/ipcamera/box/s_img/SNB-3002.ashx","/source/img/product/ipcamera/box/s_img/SNB-30021.ashx"],"brief":"4CIF WDR Network Camera","detail":"SNB-3002 (Discontinued)\n\n  \nDiscontinued - Suggested Replacement SNB-5001 \nThe SNB-3002 network camera utilizes Samsung Techwin’s A1 DSP chipset to deliver 4-CIF resolution images with best in class clarity and quality. Featuring Wide Dynamic Range (WDR)  technology it is able to tackle challenging lighting conditions in order to display an well-balanced image across the entire scene, making it suitable for areas that have strong light/dark contrasts. A multi-streaming feature means that H.264 or MPEG4 and MJPEG can be transmitted simultaneously, enabling real-time monitoring, high-quality or high efficiency recording, mobile monitoring, E-mail notification and saving to SD memory card.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 30(25)fps at 4CIF resolution\n</li><li> H.264, MPEG-4, MJPEG multiple codec\n</li><li> Multiple streaming\n</li><li> PoE, SD memory, Bi-directional audio support\n</li><li> Tampering detection</li></ul>","Specifications":"<a href='/scource/pdf/SNB-3002_Specifications.pdf'>SNB-3002_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-3002P_AE.zip'>SNB-3002P_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-3002_CAD.zip4CIF_WDR_Box_BIM_REVIT.zip'>SNB-3002_CAD.zip4CIF_WDR_Box_BIM_REVIT.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-3002_UserManual.pdf'>SNB-3002_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-3002-Series-ReleaseNotes.pdf'>SNB-3002-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb3002_Series_2_24_140701.zip'>snb3002_Series_2_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SLA-3580DN.ashx'>SLA-3580DN</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SLA-2812DN.ashx'>SLA-2812DN</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SLA-550DV.ashx'>SLA-550DV</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SLA-612DN.ashx'>SLA-612DN</span><span class='in-scroll'>1/2\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SLA-12240.ashx'>SLA-12240</span><span class='in-scroll'>1/2\" C-mount Motorized 20x Zoom Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SLA-880.ashx'>SLA-880</span><span class='in-scroll'>1/2\" C-mount Motorized 10x Zoom Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SHB-4300H.ashx'>SHB-4300H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/SNB-3002/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_3000":{"map":"SNB-3000","img":["/source/img/product/ipcamera/box/s_img/SNB-3000.ashx","/source/img/product/ipcamera/box/s_img/SNB-30001.ashx"],"brief":"4CIF WDR Network Camera","detail":"SNB-3000\n\n  \nThe SNB-3000 is an ONVIF compliant VGA box camera that offers multiple codecs, H.264, MPEG 4, and MJPEG. It is capable of displaying multiple resolutions from CIF (320 x 240) through 4CIF (704 x 480) and provides video analytics. It features a minimum illumination specification of 0.4 Lux color, Wide Dynamic Range (WDR), True Day / Night operation with ICR, frame integration, Hybrid (analog) video output, a local SD memory card slot, video analytics, and is powered via either PoE or 24 VAC. Maximum frame rate is 30 fps at all resolutions.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 30(25)fps at 4CIF resolution\n</li><li> H.264, MPEG-4, MJPEG multiple codec\n</li><li> PoE, SD memory, bi-directional audio support</li></ul>","Specifications":"<a href='/scource/pdf/SNB-3000-Specifications.pdf'>SNB-3000-Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-3000_AE.zip'>SNB-3000_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-3000_CAD.zip4CIF_WDR_Box_BIM_REVIT.zip'>SNB-3000_CAD.zip4CIF_WDR_Box_BIM_REVIT.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-3000_UserManual.pdf'>SNB-3000_UserManual.pdf</a>","Firmware":"<a href='/scource/zip/SNB-3000_v2_42_130107_with_kernel.zip'>SNB-3000_v2_42_130107_with_kernel.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-2810D.ashx'>SLA-2810D</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-3580DN.ashx'>SLA-3580DN</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-550DA.ashx'>SLA-550DA</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_2000":{"map":"SNB-2000","img":["/source/img/product/ipcamera/box/s_img/SNB-2000.ashx"],"brief":"4CIF Network Camera","detail":"The SNB-2000 is an ONVIF compliant VGA box camera that offers multiple codecs, H.264, MPEG 4, and MJPEG. Because it uses electronic day & night control it is lower in cost. The SNB-2000 provides dual streaming and is capable of displaying multiple resolutions from CIF (320 x 240) through to 4CIF (704 x 480) at 30 fps in all resolution modes. It features a minimum illumination specification of 0.4 Lux color, frame integration, Hybrid (analog) video output, a local SD memory card slot, and is powered via either PoE or 24 VAC.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 30(25)fps at 4CIF resolution\n</li><li> H.264, MPEG-4, MJPEG multiple codec\n</li><li> PoE</li></ul>","Specifications":"<a href='/scource/pdf/SNB-2000-Specifications.pdf'>SNB-2000-Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-2000_AE.zip'>SNB-2000_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-2000_CAD.zip'>SNB-2000_CAD.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-2000_UserManual.pdf'>SNB-2000_UserManual.pdf</a>","Firmware":"<a href='/scource/zip/SNB-3000_v2_42_130107_with_kernel.zip'>SNB-3000_v2_42_130107_with_kernel.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-2810D.ashx'>SLA-2810D</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-3580DN.ashx'>SLA-3580DN</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-550DA.ashx'>SLA-550DA</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snz_5200":{"map":"SNZ-5200","img":["/source/img/product/ipcamera/box/s_img/SNZ-5200.ashx","/source/img/product/ipcamera/box/s_img/SNZ-52001.ashx"],"brief":"1.3Megapixel HD 20x Zoom Network Camera","detail":"SNZ-5200 (Discontinued)\n\n  \nDiscontinued - Suggested Replacement  SNZ-6320 \nThe SNZ-5200 is a high performance 1.3 megapixel zoom camera and provides 20x optical zoom in HD images. This fully ONVIF compliant camera feature multiple displaying resolutionfrom CIF (320 x 240) through to 16:9 format 720p High Definition and up to full 1.3 megapixel (1280 x 1024) and provides simultaneous transmission, which allows the optimal streaming to your viewing or recording device for simultaneous viewing/recording with data transmission. Now users can monitor a scene far away from the camera in more detail, at higher quality of image.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 1.3M (1280 x 1024) resolution\n</li><li> 16 : 9 HD (720p) resolution support\n</li><li> 4.45 ~ 89mm (20x) optical zoom, 16x digital zoom\n</li><li> H.264, MPEG-4, MJPEG multiple codec\n</li><li> Multiple streaming\n</li><li> Intelligent video analytics\n</li><li> PoE, SD memory, Bi-directional audio support</li></ul>","Specifications":"<a href='/scource/pdf/SNZ-5200_Specifications.pdf'>SNZ-5200_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNZ-5200_AE.zip'>SNZ-5200_AE.zip</a>","Drawing":"<a href='/scource/zip/SNZ-5200_CAD.zip1_3MP_20x_HD_Box_BIM_REVIT.zip'>SNZ-5200_CAD.zip1_3MP_20x_HD_Box_BIM_REVIT.zip</a>","Manual":"<a href='/scource/pdf/SNZ-5200_UserManual.pdf'>SNZ-5200_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNZ-5200_ReleaseNotes.pdf'>SNZ-5200_ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snp5200_snz5200_2_23_141105.zip'>snp5200_snz5200_2_23_141105.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_7000":{"map":"SNB-7000","img":["/source/img/product/ipcamera/box/s_img/SNB-7000.ashx","/source/img/product/ipcamera/box/s_img/SNB-70001.ashx"],"brief":"3Megapixel Full HD Network Camera","detail":"SNB-7000 (Discontinued)\n\n  \nDiscontinued - Suggested Replacement SNB-7004\nThe SNB-7000 is an ONVIF compliant 3 Megapixel box camera that incorporates Samsung’s WiseNet2 DSP chipset.  This camera is capable of displaying multiple resolutions from CIF (320 x 240) through to 16:9 format 1080p full HD and up to 3 megapixel (2048 x 1536). The SNB-7000 provides up to 10 video streams and offers both H.264 & MJPEG. This camera features Wide Dynamic Range (WDR), True Day / Night operation with ICR, frame integration, Hybrid (analog) video output, a local SD memory card slot, video analytics, and is powered via either PoE or 24 VAC. Maximum frame rate is 20 fps @ 3MP and 30 fps @ 2MP or less (15 fps when WDR is on).","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 3M (2048 x 1536) resolution\n</li><li> 16 : 9 Full HD (1080p) resolution support\n</li><li> H.264, MJPEG dual codec\n</li><li> Multiple streaming\n</li><li> Smart compression (ROI encoding)\n</li><li> Intelligent video analytics\n</li><li> PoE, SD memory, Bi-directional audio support</li></ul>","Specifications":"<a href='/scource/pdf/SNB-7000-Specifications.pdf'>SNB-7000-Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-7000_AE.zip'>SNB-7000_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-7000_CAD.zip3MP_HD_Box_BIM_REVIT.zip'>SNB-7000_CAD.zip3MP_HD_Box_BIM_REVIT.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-7000_UserManual.pdf'>SNB-7000_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-7000-Series-ReleaseNotes.pdf'>SNB-7000-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb7000_Series_2_24_140701.zip'>snb7000_Series_2_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_5000":{"map":"SNB-5000","img":["/source/img/product/ipcamera/box/s_img/SNB-5000.ashx"],"brief":"1.3Megapixel HD Network Camera","detail":"SNB-5000 (Discontinued) \n\n  \nDiscontinued - Suggested Replacement SNB-5004\nThe SNB-5000 is a high performance ONVIF compliant 1.3 Megapixel box camera that incorporates Samsung’s WiseNet DSP chipset. Capable of displaying multiple resolutions from CIF (320 x 240) through 16:9 format 720p HD and up to full 1.3 megapixel (1280x1024), the SNB-5000 provides up to 10 video streams and video analytics. This camera features a minimum illumination specification of 0.3 Lux color, True Day / Night operation with ICR, Hybrid (analog) video output, a local SD memory card slot, and is powered via either PoE or 24 VAC. Maximum frame rate is 22 fps @  1280 x 1024; 30fps @ 720P.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 1.3M (1280 x 1024) resolution\n</li><li> 16 : 9 HD (720p) resolution support\n</li><li> H.264, MPEG-4, MJPEG multiple codec\n</li><li> Multiple streaming\n</li><li> Intelligent video analytics\n</li><li> PoE, SD memory, Bi-directional audio support</li></ul>","Specifications":"<a href='/scource/pdf/SNB-5000-Specifications.pdf'>SNB-5000-Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-5000_AE.zip'>SNB-5000_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-5000_CAD.zip1_3MP_HD_Box_Bim_Revit.zip'>SNB-5000_CAD.zip1_3MP_HD_Box_Bim_Revit.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-5000_UserManual.pdf'>SNB-5000_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-5000-Series-ReleaseNotes.pdf'>SNB-5000-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb5000_Series_3_24_140701.zip'>snb5000_Series_3_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/small_SLA-M2882_web.ashx'>SLA-M2882</span><span class='in-scroll'>1/3\" Megapixel Varifocal Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_1000":{"map":"SNB-1000","img":["/source/img/product/ipcamera/box/s_img/SNB-1000.ashx"],"brief":"VGA Network Camera (Discontinued)","detail":"SNB-1000 (Discontinued)\n\n  \nDiscontinued - Suggested Replacement SNB-3002 \nThe SNB-1000 is a cost effective ONVIF compliant VGA box camera that offers multiple codecs, H.264, MPEG 4, and MJPEG. The SNB-1000 provides dual streaming and is capable of displaying multiple resolutions from CIF (320 x 240) through to 4CIF (704 x 480), at 30 fps in all resolution modes. It features a minimum illumination specification of 1.4 Lux color, frame integration, and is powered via either PoE or 12 VDC.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Max. 30(25)fps at VGA resolution\n</li><li> H.264, MPEG-4, MJPEG multiple codec\n</li><li> Multiple streaming simultaneously</li></ul>","Specifications":"<a href='/scource/pdf/SNB-1000-Specifications.pdf'>SNB-1000-Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB-1000_AE.zip'>SNB-1000_AE.zip</a>","Software":"<a href='/scource/zip/20110328_19_IPInstallerv2.00_20110221.zip'>20110328_19_IPInstallerv2.00_20110221.zip</a>","Firmware":"<a href='/scource/zip/snb1001_series_v2_24_140701.zip'>snb1001_series_v2_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_1001":{"map":"SNB-1001","img":["/source/img/product/ipcamera/box/s_img/SNB-1001.ashx","/source/img/product/ipcamera/box/s_img/SNB-10011.ashx"],"brief":"VGA Network Camera","detail":"SNB-1001 (Discontinued)\n\n  \nDiscontinued - Suggested Replacement SNB-3002\nThe SNB-1001 is a network VGA Box Camera featuring Samsung's WiseNetS DSP. The WiseNetS chip is a new component designed and manufactured by Samsung, featuring Facial Detection, Motion Detection, Samsung Super Dynamic Range, 2D + 3D Samsung Digital Noise Reduction (SSNRIII), Polygonal Privacy Masking, and many more features. This camera has separate analog output for easy set or hybrid use as an analog camera. The 1/4\" Progressive Scan CMOS delivers a clear image and the camera is capable of multiple streaming over H.264 & MJPEG Dual Codec. The camera may be powered by 12 volt DC or Power over Ethernet and an SD Card Slot is included for those looking for edge storage. This camera is ideal for situations which require a light bandwidth, high quality image such as , small business and retail. Samsung’s WiseNetS VGA camera product line also includes vari-focal (SND-1080) and fixed-lens domes (SND-1011).","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> 30fps at VGA(640x480) resolution\n</li><li> H.264, MJPEG Dual Encoding\n</li><li> Multiple Streaming\n</li><li> Day and Night Function (Software)\n</li><li> SSDR, SSNRIII \n</li><li> PoE, Micro SD Slot, Bi-Directional Audio\n</li><li> Motion Detection, Face Detection</li></ul>","Specifications":"<a href='/scource/pdf/SNB-1001_Specifications.pdf'>SNB-1001_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB_1001_AE_2012.zip'>SNB_1001_AE_2012.zip</a>","Drawing":"<a href='/scource/zip/snb-1001_CAD.zipVGA_Box_BIM_REVIT.zip'>snb-1001_CAD.zipVGA_Box_BIM_REVIT.zip</a>","Manual":"<a href='/scource/pdf/SNB-1001_UserManual.pdf'>SNB-1001_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-1001_Series_ReleaseNotes.pdf'>SNB-1001_Series_ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb1001_series_v2_24_140701.zip'>snb1001_series_v2_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-3580DN.ashx'>SLA-3580DN</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-2812DN.ashx'>SLA-2812DN</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-550DV.ashx'>SLA-550DV</span><span class='in-scroll'>1/3\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-612DN.ashx'>SLA-612DN</span><span class='in-scroll'>1/2\" CS-mount Auto Iris Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-880.ashx'>SLA-880</span><span class='in-scroll'>1/2\" C-mount Motorized 10x Zoom Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}},
+    "snb_7001":{"map":"SNB-7001","img":["/source/img/product/ipcamera/box/s_img/SNB-7001.ashx","/source/img/product/ipcamera/box/s_img/SNB-70011.ashx","/source/img/product/ipcamera/box/s_img/SNB-70012.ashx"],"brief":"3 Megapixel Full HD Network Camera","detail":"SNB-7001 (Discontinued)\n\n  \nDiscontinued - Suggested Replacement SNB-7004\nThis cost effective 3MP High Definition network camera is a great fit for applications which require high resolution video. The SNB-7001 features contrast enhancement and day/night capabilities for challenging lighting conditions, and is equipped with high-end functionalities such as Tampering Detection and Motion Detection.","element":{"Overview":"<p>Key Features:</p><ul><li></li><li> Maximum 3 MP resolution (2048 X 1536)\n</li><li> Multiple Streaming\n</li><li> H.264 & MJPEG dual codec\n</li><li> Tampering Alarm, Motion Detection\n</li><li> Privacy Masking, Smart codec(ROI encoding)\n</li><li> Day & Night (Software)</li></ul>","Specifications":"<a href='/scource/pdf/SNB-7001_Specifications.pdf'>SNB-7001_Specifications.pdf</a>","A & E Specs":"<a href='/scource/zip/SNB _7001_AE.zip'>SNB _7001_AE.zip</a>","Drawing":"<a href='/scource/zip/SNB-7001_CAD.zip3MP_HD_Box_BIM_REVIT.zip'>SNB-7001_CAD.zip3MP_HD_Box_BIM_REVIT.zip</a>","Software":"<a href='/scource/zip/IPInstaller_v2.0.0.3_120308.zip'>IPInstaller_v2.0.0.3_120308.zip</a>","Manual":"<a href='/scource/pdf/SNB-7001_UserManual.pdf'>SNB-7001_UserManual.pdf</a>","Brochure":"<a href='/scource/pdf/SNB-7001-Series-ReleaseNotes.pdf'>SNB-7001-Series-ReleaseNotes.pdf</a>","Firmware":"<a href='/scource/zip/snb7001_series_1_24_140701.zip'>snb7001_series_1_24_140701.zip</a>","ACCESS LIST":"<div class='in-div'><ul><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SLA-M3180DN.ashx'>SLA-M3180DN</span><span class='in-scroll'>1/2.8\" CS-mount Auto Iris Megapixel Lens<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H1</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4300H.ashx'>SHB-4300H2</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/SHB-4200.ashx'>SHB-4200H</span><span class='in-scroll'>Outdoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-400.ashx'>STB-400</span><span class='in-scroll'>Indoor/Outdoor Housing Bracket<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STB-4150V.ashx'>STB-4150V</span><span class='in-scroll'>Fixed Camera Mount<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-200.ashx'>STH-200</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li><li><span class='in-scroll'><img src='/source/img/product/ipcamera/box/accesslist/STH-500.ashx'>STH-500</span><span class='in-scroll'>Indoor Housing for Fixed Camera<a href='#'>read more...</a></span></li></ul></div>"}}
+  },
+
+  "se_ip_bullet":{
+
+  },
+  "se_ip_fisheye":{
+
+  },
+  "se_ip_fixed_domes":{
+
+  },
+  "se_ip_vandal_resistant_domes":{
+
+  },
+  "se_ip_ptz_domes":{
+
+  },
+  "se_ip_wireless":{
+
+  },
+
+  "se_an_beyond_series":{
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "Hanwha Techwin America has redefined the analog market by introducing it’s new “Beyond” series, capturing quality images in 950TVL resolution.  The SCB-5005 belongs to the 1280H Beyond analog camera series that provides 1000TV lines resolution with user-friendly and value added functions such as True Day & Night, Wide Dynamic Range at 120dB, P-Iris, Simple focus, and analytics.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>1000TV lines high resolution</li><li>Day & Night (Electrical)</li><li>0.03Lux@F1.2, 50IRE (Color), 0.003Lux@F1.2 50IRE (B/W)  0.01Lux@F1.2, 30IRE (Color), 0.001Lux@F1.2 30IRE (B/W)</li><li>120dB Wide Dynamic Range, Day & Night (ICR), Simple focus, P-Iris</li><li>Samsung Super Dynamic Range (SSDR), Samsung Super Noise Reduction IV (SSNR IV), Defog, Analytics</li><li>Privacy masking 24 zones (4 point polygonal)</li><li>Coaxial communication</li></ul>",
+        "Specifications":"<a href='/scource/zip/SCB-5005_Specifications.pdf'>SCB-5005_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SCB-5005_CAD.zip'>SCB-5005_CAD.zip</a>",
+        "Drawing" : "<a href='/scource/pdf/SCB-5005_UserManual.pdf'>SCB-5005_UserManual.pdf</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "Hanwha Techwin America has redefined the analog market by introducing it’s new “Beyond” series, capturing quality images in 950TVL resolution.  The SCB-5005 belongs to the 1280H Beyond analog camera series that provides 1000TV lines resolution with user-friendly and value added functions such as True Day & Night, Wide Dynamic Range at 120dB, P-Iris, Simple focus, and analytics.",
+      "img" : ["/source/img/product/analog_cameras/beyond/s_img/SCB-50051.ashx","/source/img/product/analog_cameras/beyond/s_img/SCB-50052.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    },
+    "scb_5005":{
+      "map":"SCB-5005",
+      "new" : true,
+      "brief" : "1280H Box Camera",
+      "detail" : "The SNP-L6233H WiseNet Lite PTZ dome camera that provides 23x zoom at 2 megapixel HD resolution. This Indoor PTZ Dome camera has the ability to zoom in with perfect clarity at an incredible speed allowing you to track your evidence while capturing smooth video.",
+      "img" : ["/source/img/product/ipcamera/wisenetlite/s_img/SNP-5300.ashx"],
+      "element" : {
+        "Overview" :"<p>Key Features:</p><ul><li>Max. 1.3M (1280 x 1024) resolution</li><li>16 : 9 HD (720p) resolution support</li><li>4.44 ~ 102.1mm (23x) optical zoom, 12x digital zoom</li><li>0.05Lux@F1.6 (Color), 0.005Lux@F1.6 (B/W)</li><li> H.264, MJPEG dual codec, Multiple streaming</li><li>Day & Night (ICR), WDR (100dB), Intelligent video analytics</li><li>PoE+, SD/SDHC/SDXC memory slot, Bi-directional audio support</li><li>IP66 / IK10 (SNP-L5233H), IK10 (SNP-L5233 + SHP-3701H only)</li></ul>",
+        "Specifications":"<a href='/scource/zip/SNP-L5233_Specifications.pdf'>SNP-L5233_Specifications.pdf</a>",
+        "A & E Specs" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Drawing" : "<a href='/scource/zip/SNP-L5233_AE.zip'>SNP-L5233_AE.zip</a>",
+        "Manual" : "<a href='/scource/zip/SNP-L5233_Usermanual.pdf'>SNP-L5233_Usermanual.pdf</a>"
+      }
+    }
+
+  },
+  "se_an_wisenet_hd+_series":{},
+  "se_an_box":{},
+  "bullet":{},
+  "se_an_fixed_domes":{},
+  "se_an_vandal_resistant_domes":{},
+  "se_an_positioning_system":{},
+  "se_an_ptz_cameras":{},
+  "se_an_utp_cameras":{},
+
+  "se_mo_ssm_apps":{},
+  "se_mo_ipolis_apps":{},
+
+  "ne_ne_4_channel":{},
+  "ne_ne_8_channel_nvrs":{},
+  "ne_ne_16_channel":{},
+  "ne_ne_64_channel":{},
+
+  "ne_sw_ethernet_switches":{},
+
+  "ne_ne_ssm_rs00":{},
+  "ne_ne_ssm_rs10l":{},
+  "ne_ne_ssm_rs20l":{},
+  "ne_ne_ssm_rs30l":{},
+  "ne_ne_ssm_vm00":{},
+  "ne_ne_ssm":{},
+  "ne_ne_smart_viewer_4.5":{},
+
+  "ip_4__srk_3030s»":{},
+  "ip_4__srk_3040s":{},
+
+  "ip_8__srk_4060s":{},
+
+  "ip_16_srk_5120s":{},
+
+
+  "re_di_beyond_series_dvrs":{},
+  "re_di_wisenet_hd+_dvr's":{},
+  "re_di_16_channel":{},
+  "re_di_8_channel":{},
+  "re_di_4_channel":{},
+  "re_di_hdd_extension_unit":{},
+
+  "re_en_decoders":{},
+  "re_en_encoders":{},
+
+  "st_se_central_video_management_displays":{},
+  "st_se_central_video_management_servers":{},
+  "st_se_network_video_recorders":{},
+
+  "ca_mo_sla_12240":{},
+  "ca_mo_sla_880":{},
+
+  "ca_va_sla_3580dn":{},
+  "ca_va_sla_2810d":{},
+  "ca_va_sla_2812dn":{},
+  "ca_va_sla_550da":{},
+  "ca_va_sla_550dv":{},
+  "ca_va_sla_612dn":{},
+
+  "ca_me_sla_m2890dn":{},
+  "ca_me_sla_m2890pn":{},
+  "ca_me_sla_e_m1240dn":{},
+  "ca_me_sla_f_m419dn":{},
+  "ca_me_sla_m_m21d":{},
+  "ca_me_sla_f_m1550dn":{},
+  "ca_me_sla_f_m226dn":{},
+  "ca_me_sla_m2882":{},
+  "ca_me_sla_m3180dn":{},
+  "ca_me_sla_m3180pn":{},
+
+  "mo_lc_17\"_monitors":{},
+  "mo_lc_19\"_monitors":{},
+  "mo_lc_22\"_monitors":{},
+  "mo_lc_32\"_monitors":{},
+
+  "mo_le_17\"_led_monitors":{},
+  "mo_le_19\"_led_monitors":{},
+  "mo_le_22\"_led_monitors":{},
+  "mo_le_27\"_led_monitors":{},
+  "mo_le_32\"_led_monitors":{},
+  "mo_le_40\"_led_monitors":{},
+
+  "co_re_analog_controllers":{},
+  "co_re_network_controllers":{},
+
+  "ac_ca_smoked_dome_covers":{},
+  "ac_ca_box_camera_housings":{},
+  "ac_ca_ptz_dome_housings":{},
+  "ac_ca_ptz_dome_mounts":{},
+  "ac_ca_box_camera_mounts":{},
+  "ac_ca_hd_cctv_accessories":{},
+  "ac_ca_network_cameras_poe_injectors_accessories":{},
+  "ac_ca_utp_video_devices":{},
+  "ac_ca_monitor_stands":{},
+
+  "ac_ca_24v_ac_supplies":{},
+  "ac_ca_12v_dc_supplies":{},
+  "ac_ca_15v_dc_supply":{},
+  "ac_ca_legacy_accessories_selector_guide":{},
+
+  "ac_ac_ssm_rs00":{},
+  "ac_ac_ssm_rs10l":{},
+  "ac_ac_ssm_rs20l":{},
+  "ac_ac_ssm_rs30l":{},
+  "ac_ac_ssm_vm00":{},
+  "ac_ac_ssm":{},
+  "ac_ac_smart_viewer_4.5":{},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "commercial" :{
     "com_0":{
       "item" : "Samsung IP Cameras Keep Watch On The Museum Of Flight's: New Space Gallery Building Cameras' Low-Light Capabilities Meet New Building's Surveillance Needs",
@@ -611,59 +1217,7 @@
       "detail":"Samsung Techwin introduces its new WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
     },
 
-    "wisenet_lite" : {
-      "name" :"Wisenet Lite",
-      "img":"/source/img/product/ipcamera/WN-Lite-Series.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "box" : {
-      "name":"Box",
-      "img":"/source/img/product/ipcamera/SNB-6004.jpg",
-      "brief":"Breakthrough in Price & Quality!",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "bullet" : {
-      "name":"Bullet",
-      "img":"/source/img/product/ipcamera/SNO-6084R.jpg",
-      "brief":"Bullet IP Cameras are becoming more and more popular because they make installations simple.",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "fisheye" : {
-      "name":"Fisheye",
-      "img":"/source/img/product/ipcamera/SNF-7010.jpg",
-      "brief":"Features our most advanced technology with 3 megapixel 1080p high definition images.",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "fixed_domes" : {
-      "name":"Fixed Domes",
-      "img":"/source/img/product/ipcamera/ip-camera-fixed-dome.jpg",
-      "brief":"One of our most requested camera lines, the selection of IP fixed domes.",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "vandal_resistant_domes" : {
-      "name":"Vandal Resistant Domes",
-      "img":"/source/img/product/ipcamera/SNV-6084.jpg",
-      "brief":"One of our most requested camera lines, the selection of IP Vandal-Resistant Domes.",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "ptz_domes" : {
-      "name":"Ptz Domes",
-      "img":"/source/img/product/ipcamera/PTZ.jpg",
-      "brief":"Samsung’s line to PTZ cameras will help you to maintain the visual connection with your subject.",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "wireless" : {
-      "name":"Wireless",
-      "img":"/source/img/product/ipcamera/SNH-06410BN.jpg",
-      "brief":"Keep a watchful eye your home or business anytime and from anywhere.",
-      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
-    },
-    "security_cameras" : {
-      "name" :"Security Cameras",
-      "brief" : "",
-      "detail" : "Hanwha Techwin’s line of camera's deliver extraordinary capabilities in both image quality, and day-to-day performance.  We offer the industry's most comprehensive selection of Analog and Network Cameras."
-    },
+
     "2015_product_comparison_chart":{
       "name":"2015 Product Comparison Chart",
       "img":"/source/img/tools/compare-icon-bnr.ashx",
@@ -826,7 +1380,9 @@
       "brief":"Samsung Techwin Providing Professional Video Security Solutions",
       "detail":"With its own proprietary technology and product lines, Samsung Techwin is at the forefront of Samsung's digital accomplishments and rapidly becoming a world-class brand.",
       "summary":"<p>Samsung Techwin is at the forefront of Samsung's digital accomplishments and rapidly becoming a world-class brand as Samsung's premiere security technology company</p>",
-      "btn" :"read more"
+      "btn" :"read more",
+      "ticket" :"about",
+      "href" :"/#/company/about"
     },
     "press_room" :{
       "name":"Press Room",
@@ -834,21 +1390,246 @@
       "brief":"Samsung CCTV Press Releases",
       "detail":"These links below are our most recent press releases. For more ways to find press releases, use the site search in the top (right) navigation.",
       "summary":"<ul><li>04/15/2015<i><a href=''>Samsung Unveils 4K Ultra HD Camera with On-Board Analytics</a></i></li><li>04/15/2015<i><a href=''>New Samsung IP Surveillance Kits Ideal for Small and Medium Business Applications</a></i></li><li>04/15/2015<i><a href=''>Samsung Introductions at ISC West Set New Benchmarks in Economy, Efficiency and Performance</a></i><li>04/15/2015<i><a href=''>Samsung Megapixel HD Fisheye Cameras Support Situational Awareness: Advanced Features Include 5 MP Quality, Intelligent Motion Detection and On-board Dewarp</a></i></ul>",
-      "btn" :"View all news"
+      "btn" :"View all news",
+      "href" :"/#/company/press_room"
     },
     "trade_shows___events":{
       "name":"Trade Shows & Events",
       "img" :"/source/img/company/customer-service.ashx",
       "brief":"Samsung Techwin Trade Shows & Events",
       "detail":"Learn more about our professional video security solutions and interact with our representatives by visiting our various tradeshows and events organized all around the year.",
-      "summary":"<a><em>InfoComm</em>June 17-19,2015<em>view details</em></a><a><em>Security Canada East</em>April 20,2016-January 01,0001<em>view details</em></a>"
+      "summary":"<a><em>InfoComm</em>June 17-19,2015<em>view details</em></a><a><em>Security Canada East</em>April 20,2016-January 01,0001<em>view details</em></a>",
+      "href" :"/#/trade_shows___events"
     },
     "customerservice":{
       "name":"Customer Service",
       "img" :"/source/img/company/samsung-booth.ashx",
       "detail":"We strive to provide the best customer support in the industry.Please contact us if you have any questions about our products, need technical assistance or customer service support by calling us at: 877-213-1222",
-      "summary":"<ul><li><a href='/#/support/technical_support'>Technical Support</a></li><li><a href='/#/support/warranty_policy'>Warranty Policy</a></li><li><a href='/#/support/repair_form'>Repair Form</a></li></ul>"
-    }
+      "summary":"<ul><li><a href='/#/support/technical_support'>Technical Support</a></li><li><a href='/#/support/warranty_policy'>Warranty Policy</a></li><li><a href='/#/support/repair_form'>Repair Form</a></li></ul>",
+      "href" :"/#/support/customer_service"
+    },
+    "security_cameras" : {
+      "name" :"Security Cameras",
+      "brief" : "",
+      "detail" : "Hanwha Techwin’s line of camera's deliver extraordinary capabilities in both image quality, and day-to-day performance.  We offer the industry's most comprehensive selection of Analog and Network Cameras."
+    },
+    "ip_cameras" : {
+      "name" :"IP Cameras",
+      "brief" : "",
+      "detail" : "Hanwha Techwin America meets today's demand for ip camera products with a full line of ip cameras cameras. Our new line introduces 3 Megapixel ip cameras cameras in full HD resolution and other great features such as WDR (Wide Dynamic Range), SSDR (Samsung Super Noise Reduction), smart codec and more. Our line of ip cameras come fully equipped with hybrid capabilities. These hybrid ip cameras make it easy to switch from analog to IP camera nnetwork when your company is ready to make the move."
+    },
+    "se_ip_wisenet_lite" : {
+      "name" :"Wisenet Lite",
+      "img":"/source/img/product/ipcamera/WN-Lite-Series.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "se_ip_box":{
+      "name":"Box",
+      "img":"/source/img/product/ipcamera/SNB-6004.jpg",
+      "brief":"Breakthrough in Price & Quality!",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "se_ip_bullet":{
+      "name":"Bullet",
+      "img":"/source/img/product/ipcamera/SNO-6084R.jpg",
+      "brief":"Bullet IP Cameras are becoming more and more popular because they make installations simple.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "se_ip_fisheye":{
+      "name":"ip_fisheye_cameras»",
+      "img":"/source/img/product/ipcamera/SNF-7010.jpg",
+      "brief":"Features our most advanced technology with 3 megapixel 1080p high definition images.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "se_ip_fixed_domes":{
+      "name":"Fixed Domes",
+      "img":"/source/img/product/ipcamera/ip-camera-fixed-dome.jpg",
+      "brief":"One of our most requested camera lines, the selection of IP fixed domes.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "se_ip_vandal_resistant_domes":{
+      "name":"Vandal Resistant Domes",
+      "img":"/source/img/product/ipcamera/SNV-6084.jpg",
+      "brief":"One of our most requested camera lines, the selection of IP Vandal-Resistant Domes.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "se_ip_ptz_domes":{
+      "name":"Ptz Domes",
+      "img":"/source/img/product/ipcamera/PTZ.jpg",
+      "brief":"Samsung’s line to PTZ cameras will help you to maintain the visual connection with your subject.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+    "se_ip_wireless":{
+      "name":"Wireless",
+      "img":"/source/img/product/ipcamera/SNH-06410BN.jpg",
+      "brief":"Keep a watchful eye your home or business anytime and from anywhere.",
+      "detail" :"Hanwha Techwin America introduces its WiseNet Lite series, an affordable product line with simple and essential features ideal for securing small sized applications."
+    },
+
+    "se_an_beyond_series":{
+      "name":"Beyond Series",
+      "img":"/source/img/product/analog_cameras/beyond-series.png",
+      "brief":"1,000TVL Beyond Series",
+      "detail" :"The Beyond Series from Hanwha provides the user with a 1280H complete analog solution. Exceptional image quality through the highest resolution, outstanding backlight compensation and a multitude of user friendly functions.  Offering the best analog system solutions that goes beyond your expectation."
+    },
+    "se_an_wisenet_hd+_series":{
+      "name":"WiseNet HD+ Series",
+      "img":"/source/img/product/analog_cameras/wisenet-hd-plus.png",
+      "brief":"1080p HD Image Quality",
+      "detail" :""
+    },
+    "se_an_box":{
+      "name":"Box Cameras",
+      "img":"/source/img/product/analog_cameras/analog-box-security-camera.jpg",
+      "brief":"Samsung’s Box Cameras provide industry leading performance.",
+      "detail" :""
+    },
+    "se_an_bullet":{
+      "name":"Bullet Cameras",
+      "img":"/source/img/product/analog_cameras/analog-bullet-security-camera.jpg",
+      "brief":"Daylight, true day/night, integrated infrared and zoom models.",
+      "detail" :""
+    },
+    "se_an_fixed_domes":{
+      "name":"Fixed Domes",
+      "img":"/source/img/product/analog_cameras/analog-fixed-dome-security-camera.jpg",
+      "brief":"One of our most requested camera lines, the selection of fixed domes.",
+      "detail" :""
+    },
+    "se_an_vandal_resistant_domes":{
+      "name":"Vandal-Resistant Domes",
+      "img":"/source/img/product/analog_cameras/SNV-6084.jpg",
+      "brief":"Vandal-Resistant Domes are the most widely used camera category because of their ease of installation.",
+      "detail" :""
+    },
+    "se_an_positioning_system":{
+      "name":"Positioning System",
+      "img":"/source/img/product/analog_cameras/analog-positioning-camera-system.jpg",
+      "brief":"With outstanding performance specifications and a robust mechanical build.",
+      "detail" :""
+    },
+    "se_an_ptz_cameras":{
+      "name":"PTZ Cameras",
+      "img":"/source/img/product/analog_cameras/analog-ptz-security-camera.jpg",
+      "brief":"Pan, tilt and zoom are an absolute necessity to certain security applications.",
+      "detail" :""
+    },
+    "se_an_utp_cameras":{
+      "name":"UTP Cameras",
+      "img":"/source/img/product/analog_cameras/UTP-analog-security-camera.jpg",
+      "brief":"Delivering outstanding performance over UTP.",
+      "detail" :""
+    },
+
+    "se_mo_ssm_apps":{
+      "name":"SSM Apps",
+      "img":"/source/img/product/analog_cameras/ssm-mobile2.jpg",
+      "brief":"SSM mobile app for android and iphone",
+      "detail" :""
+    },
+    "se_mo_ipolis_apps":{
+      "name":"iPolis Apps",
+      "img":"/source/img/product/analog_cameras/ipolis.jpg",
+      "brief":"Smartphone application for iphone OS & Android",
+      "detail" :""
+    },
+
+    "ne_ne_4_channel":{},
+    "ne_ne_8_channel_nvrs":{},
+    "ne_ne_16_channel":{},
+    "ne_ne_64_channel":{},
+
+    "ne_sw_ethernet_switches":{},
+
+    "ne_ne_ssm_rs00":{},
+    "ne_ne_ssm_rs10l":{},
+    "ne_ne_ssm_rs20l":{},
+    "ne_ne_ssm_rs30l":{},
+    "ne_ne_ssm_vm00":{},
+    "ne_ne_ssm":{},
+    "ne_ne_smart_viewer_4.5":{},
+
+    "ip_4__srk_3030s»":{},
+    "ip_4__srk_3040s":{},
+
+    "ip_8__srk_4060s":{},
+
+    "ip_16_srk_5120s":{},
+
+
+    "re_di_beyond_series_dvrs":{},
+    "re_di_wisenet_hd+_dvr's":{},
+    "re_di_16_channel":{},
+    "re_di_8_channel":{},
+    "re_di_4_channel":{},
+    "re_di_hdd_extension_unit":{},
+
+    "re_en_decoders":{},
+    "re_en_encoders":{},
+
+    "st_se_central_video_management_displays":{},
+    "st_se_central_video_management_servers":{},
+    "st_se_network_video_recorders":{},
+
+    "ca_mo_sla_12240":{},
+    "ca_mo_sla_880":{},
+
+    "ca_va_sla_3580dn":{},
+    "ca_va_sla_2810d":{},
+    "ca_va_sla_2812dn":{},
+    "ca_va_sla_550da":{},
+    "ca_va_sla_550dv":{},
+    "ca_va_sla_612dn":{},
+
+    "ca_me_sla_m2890dn":{},
+    "ca_me_sla_m2890pn":{},
+    "ca_me_sla_e_m1240dn":{},
+    "ca_me_sla_f_m419dn":{},
+    "ca_me_sla_m_m21d":{},
+    "ca_me_sla_f_m1550dn":{},
+    "ca_me_sla_f_m226dn":{},
+    "ca_me_sla_m2882":{},
+    "ca_me_sla_m3180dn":{},
+    "ca_me_sla_m3180pn":{},
+
+    "mo_lc_17\"_monitors":{},
+    "mo_lc_19\"_monitors":{},
+    "mo_lc_22\"_monitors":{},
+    "mo_lc_32\"_monitors":{},
+
+    "mo_le_17\"_led_monitors":{},
+    "mo_le_19\"_led_monitors":{},
+    "mo_le_22\"_led_monitors":{},
+    "mo_le_27\"_led_monitors":{},
+    "mo_le_32\"_led_monitors":{},
+    "mo_le_40\"_led_monitors":{},
+
+    "co_re_analog_controllers":{},
+    "co_re_network_controllers":{},
+
+    "ac_ca_smoked_dome_covers":{},
+    "ac_ca_box_camera_housings":{},
+    "ac_ca_ptz_dome_housings":{},
+    "ac_ca_ptz_dome_mounts":{},
+    "ac_ca_box_camera_mounts":{},
+    "ac_ca_hd_cctv_accessories":{},
+    "ac_ca_network_cameras_poe_injectors_accessories":{},
+    "ac_ca_utp_video_devices":{},
+    "ac_ca_monitor_stands":{},
+
+    "ac_ca_24v_ac_supplies":{},
+    "ac_ca_12v_dc_supplies":{},
+    "ac_ca_15v_dc_supply":{},
+    "ac_ca_legacy_accessories_selector_guide":{},
+
+    "ac_ac_ssm_rs00":{},
+    "ac_ac_ssm_rs10l":{},
+    "ac_ac_ssm_rs20l":{},
+    "ac_ac_ssm_rs30l":{},
+    "ac_ac_ssm_vm00":{},
+    "ac_ac_ssm":{},
+    "ac_ac_smart_viewer_4.5":{}
   }
 
 

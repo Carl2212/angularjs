@@ -20,7 +20,7 @@
                     <hr>
                     <ul>
                         <li class="second-nav" ng-repeat="smap in itemmap.smap">
-                            <a href="{{path}}/{{itemmap.map | titlefilter}}/{{smap | titlefilter}}">
+                            <a href="{{path}}/{{itemmap.map | titlefilter}}/{{smap  | pathfilter:item:itemmap.map}}">
                                 {{smap}}»
                             </a>
                         </li>
@@ -41,14 +41,14 @@
                     <span class="first-nav-title">{{itemmap.map}}»</span>
                     <ul class="icon-list">
                         <li class="map-item" ng-repeat="smap in itemmap.smap track by $index">
-                            <a class="map" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | titlefilter}}">
-                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | titlefilter)].img}}"></span>
+                            <a class="map" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | pathfilter:item:itemmap.map}}">
+                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | pathfilter:item:itemmap.map)].img}}"></span>
                                 <em>{{smap}}»</em>
                                 <hr>
                             </a>
                             <div class="smap-bottom">
-                                <span class="smap">{{maintxt[(smap | titlefilter)].brief}}</span>
-                                <a class="btn" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | titlefilter}}">VIEW PRODUCTS»</a>
+                                <span class="smap">{{maintxt[(smap | pathfilter:item:itemmap.map)].brief}}</span>
+                                <a class="btn" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | pathfilter:item:itemmap.map}}">VIEW PRODUCTS»</a>
                             </div>
 
                         </li>

@@ -16,11 +16,11 @@
         <div class="l-nav">
             <div class="list-nav">
                 <div class="first-nav">
-                    <a href="{{path}}{{itemmaps.map | titlefilter}}">{{itemmaps.map}}»</a>
+                    <a href="{{itemmaps.base_url}}/">{{itemmaps.map}}»</a>
                     <hr>
                     <ul>
                         <li class="second-nav" ng-repeat="smap in itemmaps.smap">
-                            <a href="{{path}}/{{itemmap.map | titlefilter}}/{{smap | titlefilter}}">
+                            <a href="{{itemmaps.base_url}}/{{smap  | pathfilter:path}}">
                                 {{smap}}»
                             </a>
                         </li>
@@ -38,7 +38,7 @@
         <div class="r-nav">
             <div class="icon-list-nav">
                 <div class="first-nav">
-                    <span class="first-nav-title">{{item}}»</span>
+                    <span class="first-nav-title">{{maintxt[item].name}}»</span>
                     <ul class="icon-list">
                         <li class="map-item" ng-repeat="prod in product">
                             <a class="map" href="/{{path}}/{{prod.map | titlefilter}}">

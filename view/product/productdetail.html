@@ -15,16 +15,23 @@
         <div class="l-nav">
             <div class="list-nav">
                 <div class="first-nav">
-                    <a href="{{path}}/{{itemmaps.map | titlefilter}}">{{itemmaps.map}}»</a>
+                    <a href="{{itemmaps.base_url}}">{{itemmaps.map}}»</a>
                     <hr>
                     <ul>
                         <li class="second-nav" ng-repeat="smap in itemmaps.smap">
-                            <a href="{{path}}/{{itemmaps.map | titlefilter}}/{{smap | titlefilter}}">
+                            <a href="{{itemmaps.base_url}}/{{smap | pathfilter:itemmaps.base_url+'/'}}">
                                 {{smap}}»
                             </a>
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div class="lbox" ng-controller="linkbox_ctrl">
+                <ul class="link-box z-dist">
+                    <expanderzdist expander="catalog"></expanderzdist>
+                    <expanderzdist expander="contact"></expanderzdist>
+                    <expanderzdist expander="events"></expanderzdist>
+                </ul>
             </div>
         </div>
         <div class="r-nav">

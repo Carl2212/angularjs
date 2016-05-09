@@ -16,12 +16,12 @@
         <div class="l-nav">
             <div class="list-nav">
                 <div class="first-nav">
-                    <a href="{{path}}/{{itemmaps.map | titlefilter}}">{{itemmaps.map}}»</a>
+                    <a href="{{itemmaps.base_url}}">{{itemmaps.map}}»</a>
                     <hr>
                     <ul>
                         <li class="second-nav" ng-repeat="smap in itemmaps.smap">
-                            <a href="/{{path}}/{{smap | titlefilter}}">
-                                {{smap}}»
+                            <a href="{{itemmaps.base_url}}/{{smap | pathfilter:parent:item}}">
+                                {{smap }}»
                             </a>
                         </li>
                     </ul>
@@ -41,14 +41,14 @@
                     <span class="first-nav-title">{{itemmaps.map}}»</span>
                     <ul class="icon-list">
                         <li class="map-item" ng-repeat="smap in itemmaps.smap">
-                            <a class="map" href="/{{path}}/{{smap | titlefilter}}">
-                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | titlefilter)].img}}"></span>
+                            <a class="map" href="/{{path}}/{{smap | pathfilter:parent:item}}">
+                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | pathfilter:parent:item)].img}}"></span>
                                 <em>{{smap}}</em>
                                 <hr>
                             </a>
                             <div class="smap-bottom">
-                                <span class="smap">{{maintxt[(smap | titlefilter)].brief}}</span>
-                                <a class="btn" href="/{{path}}/{{smap | titlefilter}}">VIEW PRODUCTS»</a>
+                                <span class="smap">{{maintxt[(smap | pathfilter:parent:item)].brief}}</span>
+                                <a class="btn" href="/{{path}}/{{smap | pathfilter:parent:item}}">VIEW PRODUCTS»</a>
                             </div>
 
                         </li>

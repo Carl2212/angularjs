@@ -50,6 +50,14 @@ cn.controller("sitemap",function($scope,$http) {
         $scope.sites = res[0].site;
     });
 });
+cn.controller("titleCtrl",function($scope){
+    var path = window.location.hash;
+    var items = path.split("/");
+    param1 = items[items.length - 1];
+    param2 = items[items.length - 2];
+    //列出后两级
+    $scope.title = param1.toUpperCase().replace("_"," ")+" | "+param2.toUpperCase().replace("_"," ");
+});
 //_______linkbox_ctrl控制器_______
 cn.controller('linkbox_ctrl',["$scope",function($scope){
     $scope.catalog={
@@ -74,7 +82,7 @@ cn.controller('linkbox_ctrl',["$scope",function($scope){
         "brief":"Calendar.",
         "detail":"Learn more about our professional video security solutions and interact with our representatives by visiting our various tradeshows and events organized all around the year.",
         "btn":"LEARN MORE>>",
-        "href":"#",
+        "href":"/#/company/trade_shows___events/",
     };
     $scope.youtube={
         "title":"Samsung Techwin YouTube Channel",
@@ -167,6 +175,23 @@ cn.filter("titlefilter",function(){
         return val.toLowerCase().replace(reg,"_");
     }
 });
+//_______目录转化过滤器$pathfilter_______
+cn.filter("pathfilter",function(){
+    return function(val,param1,param2){
+        //修改
+        var reg = /\s|\(|\)|\-|\&|\//g;
+        val = val.toLowerCase().replace(reg,"_");
+        if(param2 == undefined) {
+            var items = param1.split("/");
+            param1 = items[items.length - 3].substr(0,2);
+            param2 = items[items.length - 2].substr(0,2);
+        }else{
+            param1 = param1.toLowerCase().substr(0,2);
+            param2 = param2.toLowerCase().substr(0,2);
+        }
+        return param1+"_"+param2+"_"+val;
+    }
+});
 //_______字符串转化过滤器$imgfilter size = 0 为普通图 1位大图 2为小图_______
 cn.filter("imgfilter",function(){
     return function(val,size){
@@ -191,6 +216,7 @@ cn.controller("thirdnavCtrl",function($scope,$http) {
         $scope.itemmaps = res[0][parent][item];
         $scope.maintxt = res[0].main_content;
         $scope.path = path;
+        $scope.parent = parent;
         $scope.item = $scope.itemmaps.map;
 
     });

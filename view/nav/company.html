@@ -12,7 +12,7 @@
         </div>
         <ul class="icon-list">
             <li class="map-item" ng-repeat="itemmap in itemmaps track by $index">
-                <a class="map" href="/{{path}}{{itemmap | titlefilter}}">
+                <a class="map" href="{{maintxt[(itemmap | titlefilter)].href}}">
                     <img ng-src="{{maintxt[(itemmap | titlefilter)].img}}">
                 </a>
                 <a class="title"  href="/{{path}}{{itemmap | titlefilter}}">

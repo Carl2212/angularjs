@@ -2,7 +2,7 @@
 <html lang="en" ng-app="common">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title ng-controller="titleCtrl">{{title}}</title>
     <link href="/source/css/reset.css" type="text/css" rel="stylesheet">
     <link href="/source/css/common.less" type="text/css" rel="stylesheet/less">
     <script>less = { env: 'development'};</script>
@@ -19,7 +19,7 @@
         <div class="language">
             <span class="tip">Select a Language</span>
             <select class="language">
-                <option value="en">English</option>
+                <option value="en" style="overflow: scroll">English</option>
             </select>
         </div>
         <div class="link-nav">
