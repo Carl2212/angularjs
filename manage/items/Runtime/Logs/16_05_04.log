@@ -1,0 +1,12 @@
+[ 2016-05-04T08:27:10+08:00 ] 113.69.42.193 /lyda/index.php/Diy/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.033913s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.003612s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000222s ]
+

@@ -1,0 +1,1326 @@
+[ 2016-03-11T09:34:34+08:00 ] 183.62.183.114 /lyda/index.php/Index/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001523s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000662s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\56e2620824352560a81a2c90b6162793.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024941s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000425s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000404s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-03-11T09:34:38+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001507s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001604s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000719s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\16b3f84a4eeef5578398a1255fc3f30a.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-03-11T09:34:41+08:00 ] 183.62.183.114 /lyda/index.php/code/add/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001543s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000725s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\2534290193f236babcf3606e520f7244.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016398s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-03-11T09:34:57+08:00 ] 183.62.183.114 /lyda/index.php/code/submit_add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001913s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001427s ]
+SQL: SELECT * FROM `app_code` WHERE ( `username` = 'dongya002' ) LIMIT 1   [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001517s ]
+SQL: INSERT INTO `app_code` (`username`,`password`,`nickname`,`phone`,`address`,`groupid`,`guid`,`uid`,`time`) VALUES ('dongya002','12345678','','','','43C1549E222DE8BCFD975AEF5F44443A','B1F9C6DE677E4184896E95D835A46518',4,1457660097) [ RunTime:0.000696s ]
+
+[ 2016-03-11T09:34:57+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001707s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001466s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000724s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001903s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-03-11T09:35:00+08:00 ] 183.62.183.114 /lyda/index.php/Index/unseterror
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-03-11T09:35:01+08:00 ] 183.62.183.114 /lyda/index.php/Index/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001557s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000686s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\56e2620824352560a81a2c90b6162793.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000405s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001830s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-03-11T09:35:05+08:00 ] 183.62.183.114 /lyda/index.php/index/backup/filename/43C1549E222DE8BCFD975AEF5F44443A_1457660101/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001876s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.001031s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000301s ]
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000177s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000310s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000216s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000165s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000164s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000313s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000390s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000173s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000243s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000146s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000162s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000168s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000227s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000136s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000151s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+
+[ 2016-03-11T09:35:05+08:00 ] 183.62.183.114 /lyda/index.php/index/movedb/filename/43C1549E222DE8BCFD975AEF5F44443A_1457660101/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001519s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000752s ]
+
+[ 2016-03-11T09:35:07+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001529s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000673s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001736s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000757s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\16b3f84a4eeef5578398a1255fc3f30a.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018725s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000865s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000817s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-03-11T11:37:18+08:00 ] 183.62.183.114 /lyda/index.php/Content/index/pid/096C17930C3A32BEA3FC8A451008395B
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.002123s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = '096C17930C3A32BEA3FC8A451008395B' ) LIMIT 1   [ RunTime:0.000796s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001352s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `app_dir` WHERE ( guid='0' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000478s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BB6C60AB26F8C32F3ED4CA377C072616' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BB6C60AB26F8C32F3ED4CA377C072616' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C2E43A94ADC8A90955A3D2C0C5C71B59' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6EB3AA74B83AE1208D22263E2A2A3672' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='096C17930C3A32BEA3FC8A451008395B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='893FA0DC5E991B28FF888FE3527F126A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='AC87C1658572CEFF3F9542D11ADD75E2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000427s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='AC87C1658572CEFF3F9542D11ADD75E2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000410s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='B3A4047B0CA790F86C7505FE84C768F1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='EAF2C0A228FA16F4BD7ED99012B72380' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3671E2823DA5B8147A9F4F20E5F0A93B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4067A4ABAC348F07F8D25256D2268F08' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000340s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='ED802521384F2F0FD07132863ABBDD81' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F0EC741FE4E102A3EE580D1AF1759742' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0152EC2C562DB69FDB8D18284625B28A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000410s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='22915C2FE6CA207060D52368D2C09763' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BC21EF825C5B59C7AD55F1CFC6F1B05A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4F869997BEEB1D9376C4FD47602562D1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='077EE49B34C0AF11EF731DFB2294B31F' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0DBBEA8A1A5B171C6BA5410B44D6E3FA' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='7535A63810BDFD1E4D2DA2DC3F1CF968' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='96B67DCBBE31D5B3E960B3453063927D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='96B67DCBBE31D5B3E960B3453063927D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='08855BBA1144E2C855AFB4A12664612C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BBA6D3E79D5B6E9920B3AF1269D31BD8' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000391s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='A760AECC5B5CFDCB95729597D2C8813B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000354s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='CA4303644807CA744E25FE70BE0A8BD5' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='588E885C5E3E56BBEB866FD3FA6323C4' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000338s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='A53E21A423883E7D30EF83A5F974495C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8BE770CBD0EFD2DBA8B2044AE933FA19' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8BE770CBD0EFD2DBA8B2044AE933FA19' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000359s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='34BFB98606D2346CF83339AF82346B74' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000597s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='34BFB98606D2346CF83339AF82346B74' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000768s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='EFF8620C208ED4B5F4CD323055B09890' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000342s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='2FE1898A898FCAA3D67385918941E7FE' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000340s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E504D8144E798E001548D649ABE413DA' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000338s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='D1AB6C16ED3C5BF569013E900CB1C761' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000342s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F5B0B6D1D7A721A2F1425B829A81C369' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='048B6EBE671ACF423D80F02F1F808862' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='86D1DA1304BD5C979B3CB73E4C9921C4' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9481CDA95ACBCB099DB30AA06D6E8AD2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000338s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='1DD447C4603C9B0865135C0AECD6ED62' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='1B03681A9B96DA18846FAA0558E5C4BF' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='368A9EC68A96DA25BD3FF847606D59FF' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000338s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9AD594A6EDB24F8581C17C11A03C577B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='54F2F7E046D7DA4D41D5DB348B84E53B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='B59DF4633DA3A20EC074802B6531F03B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0CD2A271FB08FDB867F4848A02F20AF8' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C1BB1F4D016151844E6ADB307640D5F9' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F1197A02BFE8F389E9575D0150E9F66D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='D415E2C3EC448CECD721B64AE37043FE' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4A8740CC23C42F76BCF22A4371BAB30A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='78C36720A9D4BC420E0DDADB33690D43' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3BEB3C721ED0076012414EF86A7D38B7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='112BFF5D52C9540B361CDC1D4A7AB568' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8518ED49EDF0CD97454454C5BCC5287C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='46DE128E5500C2F49CC99545DFF0BC94' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9A6A6E0F4CEF160A0A08F49DBEE4934E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='217A01C13069390748E12B85713FF072' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='31686FFD236FCEA086262C20400A7F25' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000420s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='CAA03FED07BC1EACFCD0A5F2857C350C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='671257B266BD4DA819B31779296BAAB1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9DA8E9DD58647556E7767C6C64C33D6A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6D4843B6B1A14991BA60407B0A33FA68' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4783F22D7E09A984EA122F16A2E23502' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='FDB3B9A05D771FE67C89F0B4EB9AA881' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8AF8933134338FD63285519C175E6874' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='5D245C040FA914500D7DB4CDEC593F63' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E7FAB408370792F3F0CF22C7AD848E2E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3AF14EE113628F4F1CA3E060FD9A8349' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C09FF1173BC1F500B0D61DA21A97E33A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='5AAB5183F7CFBB15264E14ECA576B0C3' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='13BDF549E1F4C35EA87A3F26E86A72BD' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='24FF9AE0DD3BBBFB9AA69CC7C9F644DD' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='7BA3272F69EA8E9465EADB9070A0D926' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C3EEFC6E68FD5A1337C01EF5F6DEE917' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='FC29071A1DA7C0520E7B65498442E09E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000351s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6D64F692E6F5D87471745F7ADC8B7EE9' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='ADD24F766976385321CCEF51321F5247' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `app_content` [ RunTime:0.002293s ]
+SQL: SELECT * FROM `app_content` WHERE ( pid='096C17930C3A32BEA3FC8A451008395B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc LIMIT 0,20   [ RunTime:0.001238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid='096C17930C3A32BEA3FC8A451008395B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `app_model` [ RunTime:0.030605s ]
+SQL: SELECT * FROM `app_model` WHERE ( `guid` = '8BBE400668745E274195D75FB6E8EFA5' ) LIMIT 1   [ RunTime:0.001521s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\195a58ed6d7d83fcd3b1cf0011a2f996.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000829s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003346s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2016-03-11T11:37:20+08:00 ] 111.206.36.134 /lyda/index.php/Content/index/pid/096C17930C3A32BEA3FC8A451008395B
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.001853s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = '096C17930C3A32BEA3FC8A451008395B' ) LIMIT 1   [ RunTime:0.000717s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001459s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000638s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2016-03-11T11:37:21+08:00 ] 183.62.183.114 /lyda/index.php/Content/index/pid/893FA0DC5E991B28FF888FE3527F126A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.002189s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = '893FA0DC5E991B28FF888FE3527F126A' ) LIMIT 1   [ RunTime:0.000731s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001367s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `app_dir` WHERE ( guid='0' ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BB6C60AB26F8C32F3ED4CA377C072616' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BB6C60AB26F8C32F3ED4CA377C072616' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C2E43A94ADC8A90955A3D2C0C5C71B59' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6EB3AA74B83AE1208D22263E2A2A3672' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='096C17930C3A32BEA3FC8A451008395B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='893FA0DC5E991B28FF888FE3527F126A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='AC87C1658572CEFF3F9542D11ADD75E2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='AC87C1658572CEFF3F9542D11ADD75E2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000401s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='B3A4047B0CA790F86C7505FE84C768F1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='EAF2C0A228FA16F4BD7ED99012B72380' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3671E2823DA5B8147A9F4F20E5F0A93B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4067A4ABAC348F07F8D25256D2268F08' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='ED802521384F2F0FD07132863ABBDD81' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F0EC741FE4E102A3EE580D1AF1759742' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0152EC2C562DB69FDB8D18284625B28A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='22915C2FE6CA207060D52368D2C09763' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BC21EF825C5B59C7AD55F1CFC6F1B05A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4F869997BEEB1D9376C4FD47602562D1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='077EE49B34C0AF11EF731DFB2294B31F' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0DBBEA8A1A5B171C6BA5410B44D6E3FA' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='7535A63810BDFD1E4D2DA2DC3F1CF968' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='96B67DCBBE31D5B3E960B3453063927D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='96B67DCBBE31D5B3E960B3453063927D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='08855BBA1144E2C855AFB4A12664612C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BBA6D3E79D5B6E9920B3AF1269D31BD8' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='A760AECC5B5CFDCB95729597D2C8813B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='CA4303644807CA744E25FE70BE0A8BD5' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='588E885C5E3E56BBEB866FD3FA6323C4' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='A53E21A423883E7D30EF83A5F974495C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8BE770CBD0EFD2DBA8B2044AE933FA19' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8BE770CBD0EFD2DBA8B2044AE933FA19' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='34BFB98606D2346CF83339AF82346B74' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000660s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='34BFB98606D2346CF83339AF82346B74' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000768s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='EFF8620C208ED4B5F4CD323055B09890' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='2FE1898A898FCAA3D67385918941E7FE' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E504D8144E798E001548D649ABE413DA' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='D1AB6C16ED3C5BF569013E900CB1C761' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F5B0B6D1D7A721A2F1425B829A81C369' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='048B6EBE671ACF423D80F02F1F808862' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='86D1DA1304BD5C979B3CB73E4C9921C4' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9481CDA95ACBCB099DB30AA06D6E8AD2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='1DD447C4603C9B0865135C0AECD6ED62' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='1B03681A9B96DA18846FAA0558E5C4BF' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='368A9EC68A96DA25BD3FF847606D59FF' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9AD594A6EDB24F8581C17C11A03C577B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='54F2F7E046D7DA4D41D5DB348B84E53B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='B59DF4633DA3A20EC074802B6531F03B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0CD2A271FB08FDB867F4848A02F20AF8' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C1BB1F4D016151844E6ADB307640D5F9' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F1197A02BFE8F389E9575D0150E9F66D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='D415E2C3EC448CECD721B64AE37043FE' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4A8740CC23C42F76BCF22A4371BAB30A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='78C36720A9D4BC420E0DDADB33690D43' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3BEB3C721ED0076012414EF86A7D38B7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='112BFF5D52C9540B361CDC1D4A7AB568' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8518ED49EDF0CD97454454C5BCC5287C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='46DE128E5500C2F49CC99545DFF0BC94' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9A6A6E0F4CEF160A0A08F49DBEE4934E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='217A01C13069390748E12B85713FF072' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='31686FFD236FCEA086262C20400A7F25' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='CAA03FED07BC1EACFCD0A5F2857C350C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='671257B266BD4DA819B31779296BAAB1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9DA8E9DD58647556E7767C6C64C33D6A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6D4843B6B1A14991BA60407B0A33FA68' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4783F22D7E09A984EA122F16A2E23502' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='FDB3B9A05D771FE67C89F0B4EB9AA881' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8AF8933134338FD63285519C175E6874' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='5D245C040FA914500D7DB4CDEC593F63' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E7FAB408370792F3F0CF22C7AD848E2E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3AF14EE113628F4F1CA3E060FD9A8349' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C09FF1173BC1F500B0D61DA21A97E33A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000447s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='5AAB5183F7CFBB15264E14ECA576B0C3' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='13BDF549E1F4C35EA87A3F26E86A72BD' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='24FF9AE0DD3BBBFB9AA69CC7C9F644DD' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='7BA3272F69EA8E9465EADB9070A0D926' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C3EEFC6E68FD5A1337C01EF5F6DEE917' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='FC29071A1DA7C0520E7B65498442E09E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6D64F692E6F5D87471745F7ADC8B7EE9' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='ADD24F766976385321CCEF51321F5247' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `app_content` [ RunTime:0.001711s ]
+SQL: SELECT * FROM `app_content` WHERE ( pid='893FA0DC5E991B28FF888FE3527F126A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc LIMIT 0,20   [ RunTime:0.001728s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid='893FA0DC5E991B28FF888FE3527F126A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `app_model` [ RunTime:0.001374s ]
+SQL: SELECT * FROM `app_model` WHERE ( `guid` = '8BBE400668745E274195D75FB6E8EFA5' ) LIMIT 1   [ RunTime:0.000636s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\195a58ed6d7d83fcd3b1cf0011a2f996.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018049s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001969s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-03-11T11:37:23+08:00 ] 61.135.169.8 /lyda/index.php/Content/index/pid/893FA0DC5E991B28FF888FE3527F126A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.001740s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = '893FA0DC5E991B28FF888FE3527F126A' ) LIMIT 1   [ RunTime:0.000814s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001360s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2016-03-11T11:37:29+08:00 ] 183.62.183.114 /lyda/index.php/Dir/index/pid/E4BEE8FCD79979F5DE99B60F5E1DA2D7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.001951s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = 'E4BEE8FCD79979F5DE99B60F5E1DA2D7' ) LIMIT 1   [ RunTime:0.000722s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001296s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `app_dir` WHERE ( guid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `app_dir` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" and locked="0" and pid="E4BEE8FCD79979F5DE99B60F5E1DA2D7" ) ORDER BY sort,time desc  [ RunTime:0.000485s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\bfeff962c6aa99d5becfa768db7a4620.php 第 93 行.
+SQL: SHOW COLUMNS FROM `app_content` [ RunTime:0.002310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid="22915C2FE6CA207060D52368D2C09763" ) LIMIT 1   [ RunTime:0.001161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_dir` WHERE ( pid="22915C2FE6CA207060D52368D2C09763" ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid="BC21EF825C5B59C7AD55F1CFC6F1B05A" ) LIMIT 1   [ RunTime:0.001049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_dir` WHERE ( pid="BC21EF825C5B59C7AD55F1CFC6F1B05A" ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid="4F869997BEEB1D9376C4FD47602562D1" ) LIMIT 1   [ RunTime:0.001027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_dir` WHERE ( pid="4F869997BEEB1D9376C4FD47602562D1" ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid="077EE49B34C0AF11EF731DFB2294B31F" ) LIMIT 1   [ RunTime:0.001032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_dir` WHERE ( pid="077EE49B34C0AF11EF731DFB2294B31F" ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid="0DBBEA8A1A5B171C6BA5410B44D6E3FA" ) LIMIT 1   [ RunTime:0.001029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_dir` WHERE ( pid="0DBBEA8A1A5B171C6BA5410B44D6E3FA" ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid="7535A63810BDFD1E4D2DA2DC3F1CF968" ) LIMIT 1   [ RunTime:0.001025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_dir` WHERE ( pid="7535A63810BDFD1E4D2DA2DC3F1CF968" ) LIMIT 1   [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\bfeff962c6aa99d5becfa768db7a4620.php 第 136 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034359s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000498s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-03-11T11:37:33+08:00 ] 183.62.183.114 /lyda/index.php/Content/index/pid/22915C2FE6CA207060D52368D2C09763
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.001960s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = '22915C2FE6CA207060D52368D2C09763' ) LIMIT 1   [ RunTime:0.000728s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001589s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000658s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `app_dir` WHERE ( guid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000571s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BB6C60AB26F8C32F3ED4CA377C072616' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000371s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BB6C60AB26F8C32F3ED4CA377C072616' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C2E43A94ADC8A90955A3D2C0C5C71B59' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000385s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6EB3AA74B83AE1208D22263E2A2A3672' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000395s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='096C17930C3A32BEA3FC8A451008395B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000395s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='893FA0DC5E991B28FF888FE3527F126A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000394s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='AC87C1658572CEFF3F9542D11ADD75E2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='AC87C1658572CEFF3F9542D11ADD75E2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='B3A4047B0CA790F86C7505FE84C768F1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='EAF2C0A228FA16F4BD7ED99012B72380' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3671E2823DA5B8147A9F4F20E5F0A93B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4067A4ABAC348F07F8D25256D2268F08' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='ED802521384F2F0FD07132863ABBDD81' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F0EC741FE4E102A3EE580D1AF1759742' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0152EC2C562DB69FDB8D18284625B28A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000366s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E4BEE8FCD79979F5DE99B60F5E1DA2D7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000476s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='22915C2FE6CA207060D52368D2C09763' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BC21EF825C5B59C7AD55F1CFC6F1B05A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000353s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4F869997BEEB1D9376C4FD47602562D1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='077EE49B34C0AF11EF731DFB2294B31F' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0DBBEA8A1A5B171C6BA5410B44D6E3FA' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='7535A63810BDFD1E4D2DA2DC3F1CF968' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='96B67DCBBE31D5B3E960B3453063927D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='96B67DCBBE31D5B3E960B3453063927D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='08855BBA1144E2C855AFB4A12664612C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='BBA6D3E79D5B6E9920B3AF1269D31BD8' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='A760AECC5B5CFDCB95729597D2C8813B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='CA4303644807CA744E25FE70BE0A8BD5' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000391s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='588E885C5E3E56BBEB866FD3FA6323C4' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='A53E21A423883E7D30EF83A5F974495C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8BE770CBD0EFD2DBA8B2044AE933FA19' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8BE770CBD0EFD2DBA8B2044AE933FA19' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000371s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='34BFB98606D2346CF83339AF82346B74' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='34BFB98606D2346CF83339AF82346B74' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc  [ RunTime:0.000848s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='EFF8620C208ED4B5F4CD323055B09890' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='2FE1898A898FCAA3D67385918941E7FE' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E504D8144E798E001548D649ABE413DA' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='D1AB6C16ED3C5BF569013E900CB1C761' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F5B0B6D1D7A721A2F1425B829A81C369' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='048B6EBE671ACF423D80F02F1F808862' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='86D1DA1304BD5C979B3CB73E4C9921C4' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9481CDA95ACBCB099DB30AA06D6E8AD2' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='1DD447C4603C9B0865135C0AECD6ED62' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='1B03681A9B96DA18846FAA0558E5C4BF' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='368A9EC68A96DA25BD3FF847606D59FF' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9AD594A6EDB24F8581C17C11A03C577B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000345s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='54F2F7E046D7DA4D41D5DB348B84E53B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='B59DF4633DA3A20EC074802B6531F03B' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000351s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='0CD2A271FB08FDB867F4848A02F20AF8' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C1BB1F4D016151844E6ADB307640D5F9' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='F1197A02BFE8F389E9575D0150E9F66D' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='D415E2C3EC448CECD721B64AE37043FE' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4A8740CC23C42F76BCF22A4371BAB30A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='78C36720A9D4BC420E0DDADB33690D43' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3BEB3C721ED0076012414EF86A7D38B7' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000351s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='112BFF5D52C9540B361CDC1D4A7AB568' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8518ED49EDF0CD97454454C5BCC5287C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='46DE128E5500C2F49CC99545DFF0BC94' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000347s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9A6A6E0F4CEF160A0A08F49DBEE4934E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='217A01C13069390748E12B85713FF072' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='31686FFD236FCEA086262C20400A7F25' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='CAA03FED07BC1EACFCD0A5F2857C350C' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='671257B266BD4DA819B31779296BAAB1' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='9DA8E9DD58647556E7767C6C64C33D6A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6D4843B6B1A14991BA60407B0A33FA68' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='4783F22D7E09A984EA122F16A2E23502' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='FDB3B9A05D771FE67C89F0B4EB9AA881' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='8AF8933134338FD63285519C175E6874' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000459s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='5D245C040FA914500D7DB4CDEC593F63' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='E7FAB408370792F3F0CF22C7AD848E2E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000338s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='3AF14EE113628F4F1CA3E060FD9A8349' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000363s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C09FF1173BC1F500B0D61DA21A97E33A' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='5AAB5183F7CFBB15264E14ECA576B0C3' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='13BDF549E1F4C35EA87A3F26E86A72BD' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000359s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='24FF9AE0DD3BBBFB9AA69CC7C9F644DD' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000345s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='7BA3272F69EA8E9465EADB9070A0D926' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000347s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='C3EEFC6E68FD5A1337C01EF5F6DEE917' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000354s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='FC29071A1DA7C0520E7B65498442E09E' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='6D64F692E6F5D87471745F7ADC8B7EE9' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `app_dir` WHERE ( pid='ADD24F766976385321CCEF51321F5247' and groupid='43C1549E222DE8BCFD975AEF5F44443A' )  [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `app_content` [ RunTime:0.001905s ]
+SQL: SELECT * FROM `app_content` WHERE ( pid='22915C2FE6CA207060D52368D2C09763' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY sort,time desc LIMIT 0,20   [ RunTime:0.001693s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_content` WHERE ( pid='22915C2FE6CA207060D52368D2C09763' and groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `app_model` [ RunTime:0.001637s ]
+SQL: SELECT * FROM `app_model` WHERE ( `guid` = '8BBE400668745E274195D75FB6E8EFA5' ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\195a58ed6d7d83fcd3b1cf0011a2f996.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020471s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000527s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000418s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-03-11T11:37:37+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001529s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001393s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000717s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\16b3f84a4eeef5578398a1255fc3f30a.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017910s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000448s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002006s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2016-03-11T11:38:03+08:00 ] 61.135.169.41 /lyda/index.php/Content/index/pid/22915C2FE6CA207060D52368D2C09763
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.001941s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = '22915C2FE6CA207060D52368D2C09763' ) LIMIT 1   [ RunTime:0.000773s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001327s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000624s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2016-03-11T16:33:14+08:00 ] 183.62.183.114 /lyda/index.php/code/edit/guid/B1F9C6DE677E4184896E95D835A46518
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001877s ]
+SQL: SELECT * FROM `app_code` WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) LIMIT 1   [ RunTime:0.000787s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.002107s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\1fb12e41c7297a9bd32e43105d004fa2.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041616s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002085s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001797s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001713s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2016-03-11T16:33:15+08:00 ] 111.206.36.132 /lyda/index.php/code/edit/guid/B1F9C6DE677E4184896E95D835A46518
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001604s ]
+SQL: SELECT * FROM `app_code` WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) LIMIT 1   [ RunTime:0.000743s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001305s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000726s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+
+[ 2016-03-11T16:33:23+08:00 ] 183.62.183.114 /lyda/index.php/code/submit_edit
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001695s ]
+SQL: SELECT * FROM `app_code` WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) LIMIT 1   [ RunTime:0.000687s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001374s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.022551s ]
+SQL: UPDATE `app_code` SET `username`='dongya002',`password`='12345678',`nickname`='康华',`phone`='',`address`='' WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000730s ]
+
+[ 2016-03-11T16:33:23+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001612s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001487s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000863s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000413s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001347s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-03-11T16:33:26+08:00 ] 183.62.183.114 /lyda/index.php/Index/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001986s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000686s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028837s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-03-11T16:33:29+08:00 ] 183.62.183.114 /lyda/index.php/index/backup/filename/43C1549E222DE8BCFD975AEF5F44443A_1457685206/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001524s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000691s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000211s ]
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000149s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000347s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000248s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000170s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000219s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000372s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000248s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000190s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000143s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000143s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000138s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000181s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000309s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000135s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000130s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+
+[ 2016-03-11T16:33:30+08:00 ] 183.62.183.114 /lyda/index.php/index/movedb/filename/43C1549E222DE8BCFD975AEF5F44443A_1457685206/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001602s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000774s ]
+
+[ 2016-03-11T16:33:30+08:00 ] 183.62.183.114 /lyda/index.php/Index/unseterror
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001351s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+
+[ 2016-03-11T16:33:31+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001646s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000672s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001528s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000805s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\16b3f84a4eeef5578398a1255fc3f30a.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020609s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003530s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001048s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-03-11T17:11:45+08:00 ] 183.62.183.114 /lyda/index.php/code/add/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001915s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000721s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\2534290193f236babcf3606e520f7244.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030220s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001620s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006392s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2016-03-11T17:12:08+08:00 ] 183.62.183.114 /lyda/index.php/code/submit_add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001666s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002406s ]
+SQL: SELECT * FROM `app_code` WHERE ( `username` = 'dongya003' ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002559s ]
+SQL: INSERT INTO `app_code` (`username`,`password`,`nickname`,`phone`,`address`,`groupid`,`guid`,`uid`,`time`) VALUES ('dongya003','12345678','李光辉','','','43C1549E222DE8BCFD975AEF5F44443A','956A973D03644B18A70B0EF34BF76995',4,1457687528) [ RunTime:0.000279s ]
+
+[ 2016-03-11T17:12:08+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001785s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000763s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001627s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000769s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000507s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2016-03-11T17:12:13+08:00 ] 183.62.183.114 /lyda/index.php/Index/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001543s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000934s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2016-03-11T17:12:13+08:00 ] 183.62.183.114 /lyda/index.php/Index/unseterror
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-03-11T17:12:16+08:00 ] 183.62.183.114 /lyda/index.php/index/backup/filename/43C1549E222DE8BCFD975AEF5F44443A_1457687533/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001086s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001574s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000215s ]
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000176s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000329s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000233s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000246s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000228s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000346s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000249s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000309s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000176s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000188s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000146s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000175s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000318s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000137s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000129s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+
+[ 2016-03-11T17:12:17+08:00 ] 183.62.183.114 /lyda/index.php/index/movedb/filename/43C1549E222DE8BCFD975AEF5F44443A_1457687533/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001550s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000866s ]
+
+[ 2016-03-11T17:12:17+08:00 ] 183.62.183.114 /lyda/index.php/Index/unseterror
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-03-11T17:12:18+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001801s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000720s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001402s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000744s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\16b3f84a4eeef5578398a1255fc3f30a.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021148s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005248s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2016-03-11T21:13:36+08:00 ] 219.130.224.2 /lyda/index.php/Index/index/groupid/436D3F290AFDF8DF9BE1D77C8B4C9E4C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001666s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\36822e0a35711c8a4b84b9210af18478.php 第 162 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041212s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001257s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001195s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004750s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2016-03-11T21:13:51+08:00 ] 219.130.224.2 /lyda/index.php/index/backup/filename/436D3F290AFDF8DF9BE1D77C8B4C9E4C_1457702016/groupid/436D3F290AFDF8DF9BE1D77C8B4C9E4C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001597s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000182s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000316s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000423s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000205s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000248s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000346s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000370s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000269s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000137s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000133s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000131s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000209s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000229s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000125s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000123s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+
+[ 2016-03-11T21:13:52+08:00 ] 219.130.224.2 /lyda/index.php/index/movedb/filename/436D3F290AFDF8DF9BE1D77C8B4C9E4C_1457702016/groupid/436D3F290AFDF8DF9BE1D77C8B4C9E4C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001545s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000685s ]
+
+[ 2016-03-11T21:13:56+08:00 ] 219.130.224.2 /lyda/index.php/Index/index/groupid/436D3F290AFDF8DF9BE1D77C8B4C9E4C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.002015s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000961s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\36822e0a35711c8a4b84b9210af18478.php 第 162 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016869s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000947s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000784s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003512s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001162s ]
+

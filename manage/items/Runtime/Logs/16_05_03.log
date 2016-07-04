@@ -1,0 +1,24 @@
+[ 2016-05-03T08:27:08+08:00 ] 113.69.251.147 /lyda/index.php/Diy/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.038718s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000921s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2016-05-03T18:13:45+08:00 ] 113.69.42.193 /lyda/index.php/Diy/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.005835s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000981s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000217s ]
+

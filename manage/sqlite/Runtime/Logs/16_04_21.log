@@ -1,0 +1,24 @@
+[ 2016-04-21T17:46:17+08:00 ] 113.70.169.4 /sqlite/index.php/Index/index/filename/43C1549E222DE8BCFD975AEF5F44443A_1461231971/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+
+[ 2016-04-21T17:57:48+08:00 ] 113.70.169.4 /sqlite/index.php/Index/index/filename/43C1549E222DE8BCFD975AEF5F44443A_1461232664/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-04-21T18:00:19+08:00 ] 113.70.169.4 /sqlite/index.php/Index/index/filename/43C1549E222DE8BCFD975AEF5F44443A_1461232816/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+

@@ -1,0 +1,49 @@
+<include file="./Tpl/Index/top.html" />
+<div id="content">
+  <div id="content-header">
+    <h1>超级管理员</h1>
+  </div>
+  <div id="breadcrumb"> <a href="__APP__/Index/"><i class="icon-home"></i>超级管理员</a></div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <if condition="$Think.session.error neq ''">
+        <div class="alert alert-block"> <a class="close" data-dismiss="alert" href="#">×</a><{$Think.session.error}></div>
+      </if>
+      <form action="" name="form" method="post" enctype="application/x-www-form-urlencoded" class="form-horizontal">
+        <div class="widget-box">
+          <div class="widget-content">
+            <table>
+              <thead>
+                <tr role="row">
+                  <th width="25"><input type="checkbox" id="title-checkbox" name="chkall" onclick="CheckAll(this.form)"></th>
+                  <th>帐号名</th>
+                  <th>昵称</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody role="alert" aria-live="polite" aria-relevant="all">
+                <volist name="lists" id="value">
+                  <tr align="center">
+                    <td><if condition="$value.id neq 1"><input type="checkbox" name="select[]" value="<{$value.id}>"></if></td>
+                    <td><{$value.username}></td>
+                    <td><{$value.nickname}></td>
+                    <td><a class="hrefa" href="__URL__/edit/id/<{$value.id}>">修改</a></td>
+                  </tr>
+                </volist>
+              </tbody>
+            </table>
+            <if condition="$Think.session.uid eq 1">
+            <div class="ui-widget-header">
+              <div class="dataTables_filter">
+                <a href="__URL__/add/">添加</a>
+                <input type="button" value="彻底删除" name="delete" onclick="if(getSelect(this.form) && confirm('确实要删除吗?')){this.form.action='__URL__/delete/>';this.form.submit();}" class="btn">
+              </div>
+            </div>
+            </if>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body></html>

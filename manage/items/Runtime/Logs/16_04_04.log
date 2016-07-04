@@ -1,0 +1,14 @@
+[ 2016-04-04T00:18:35+08:00 ] 117.136.41.53 /lyda/index.php/Content/index/pid/2280A0A287ADB2E05C861532BD653A57
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `app_dir` [ RunTime:0.017948s ]
+SQL: SELECT * FROM `app_dir` WHERE ( `guid` = '2280A0A287ADB2E05C861532BD653A57' ) LIMIT 1   [ RunTime:0.012310s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.002788s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000276s ]
+

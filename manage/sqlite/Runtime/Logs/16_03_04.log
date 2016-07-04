@@ -1,0 +1,16 @@
+[ 2016-03-04T14:35:02+08:00 ] 118.197.35.170 /sqlite/index.php/Index/index/filename/43C1549E222DE8BCFD975AEF5F44443A_1457073297/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-03-04T16:50:52+08:00 ] 123.197.168.242 /sqlite/index.php/Index/index/filename/43C1549E222DE8BCFD975AEF5F44443A_1457081446/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+

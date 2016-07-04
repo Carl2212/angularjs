@@ -1,0 +1,48 @@
+<include file="./Tpl/Yihe/Index/top.html" />
+<div id="content">
+  <div id="content-header">
+    <h1>换装图</h1>
+  </div>
+  <div id="breadcrumb"> <a href="__APP__/Index/index/groupid/<{$group.guid}>"><i class="icon-home"></i><{$group.title}></a> <a href="__APP__/Diy/index/groupid/<{$group.guid}>" class="current">DIY空间:<{$diy.title}></a> <a href="__APP__/Focus/index/diyid/<{$diy.guid}>/" class="current">换装区域:<{$focus.title}></a> <a href="__URL__/index/focusid/<{$focus.guid}>/" class="current">换装图</a> </div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <if condition="$Think.session.error neq ''">
+        <div class="alert alert-block"> <a class="close" data-dismiss="alert" href="#">×</a><{$Think.session.error}></div>
+      </if>
+      <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>添加</h5>
+        </div>
+        <form action="__URL__/submit_add" name="form" method="post" enctype="application/x-www-form-urlencoded" class="form-horizontal">
+          <div class="widget-content nopadding">
+            <div class="control-group">
+              <label class="control-label">场景名称:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="title" placeholder="场景名称">
+              </div>
+              <div class="control-group">
+                <label class="control-label">图片:</label>
+                <div class="controls">
+                  <input type="text" class="span11" id="oneimg_value" size="70" name="oneimg">
+                  <a id="oneimg" href="#" class="btn btn-success">预览</a>
+                  <input id="oneimg_upload" type="file" class="span11" size="30" name="oneimg_upload">
+                  <input type="button" name="submit" class="btn btn-success" value=" 上传 " onclick="return ajaxFileUpload('__APP__/Index/upload/name/oneimg/file/oneimg_upload/groupid/<{$group.guid}>','oneimg','oneimg_upload');">
+                </div>
+              </div>
+              <div class="control-group" id="controls">
+                <label class="control-label">坐标:</label>
+                <div class="controls">
+                  <input  name="coordinate" type="text" class="span11" id="coordinate" placeholder="坐标" value="" size="20">
+                </div>
+              </div>
+              <div class="form-actions">
+                <input type="hidden"  name="groupid" value="<{$_GET['groupid']}>">
+                <button type="submit" class="btn btn-success">保存</button>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

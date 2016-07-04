@@ -1,0 +1,1108 @@
+[ 2016-04-24T07:33:41+08:00 ] 113.95.44.245 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/4J0766-04A/password/12345678/uuid/6ED5ADDA-8966-480E-8D36-39A545A96AE2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.050851s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="4J0766-04A" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.017785s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.021668s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000687s ]
+
+[ 2016-04-24T07:33:42+08:00 ] 113.95.44.245 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/4J0766-04A/password/12345678/uuid/6ED5ADDA-8966-480E-8D36-39A545A96AE2/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001663s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="4J0766-04A" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001542s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000723s ]
+
+[ 2016-04-24T08:53:39+08:00 ] 125.73.125.150 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/F2BD55CD-42E5-48B6-9DDA-44D228FF2BF7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.019847s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001519s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: UPDATE `app_code` SET `uuid`='F2BD55CD-42E5-48B6-9DDA-44D228FF2BF7',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.010824s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T08:53:39+08:00 ] 125.73.125.150 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.043204s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="BB080642D4B2254A6ECE9788D722CCF5" ) LIMIT 1   [ RunTime:0.082639s ]
+SQL: UPDATE `app_pro` SET `hot`=18 WHERE ( `guid` = 'BB080642D4B2254A6ECE9788D722CCF5' ) [ RunTime:0.000377s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="5D622616AE824F739D4C1770B5683665" ) LIMIT 1   [ RunTime:0.017620s ]
+SQL: UPDATE `app_pro` SET `hot`=52 WHERE ( `guid` = '5D622616AE824F739D4C1770B5683665' ) [ RunTime:0.000357s ]
+
+[ 2016-04-24T08:53:39+08:00 ] 125.73.125.150 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/F2BD55CD-42E5-48B6-9DDA-44D228FF2BF7/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002114s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001390s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000726s ]
+SQL: UPDATE `app_code` SET `uuid`='F2BD55CD-42E5-48B6-9DDA-44D228FF2BF7',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000247s ]
+
+[ 2016-04-24T09:11:24+08:00 ] 14.18.191.27 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/2BD16442-92E4-4320-913F-0727A9FBCCC2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.018885s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001503s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000636s ]
+SQL: UPDATE `app_code` SET `uuid`='2BD16442-92E4-4320-913F-0727A9FBCCC2',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T09:11:24+08:00 ] 14.18.191.27 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/2BD16442-92E4-4320-913F-0727A9FBCCC2/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002031s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001466s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: UPDATE `app_code` SET `uuid`='2BD16442-92E4-4320-913F-0727A9FBCCC2',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000249s ]
+
+[ 2016-04-24T09:54:33+08:00 ] 183.25.254.54 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/1075232/password/12345678/uuid/3C61DE75-04CE-49AD-B2ED-BF9C48CC6E6B/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002392s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="1075232" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001577s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000717s ]
+
+[ 2016-04-24T10:03:51+08:00 ] 14.211.137.213 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.019623s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001726s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000651s ]
+SQL: UPDATE `app_code` SET `uuid`='8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T10:03:51+08:00 ] 14.211.137.213 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.002212s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="18253A323CC900A5D07A6A09AAC3D757" ) LIMIT 1   [ RunTime:0.014224s ]
+SQL: UPDATE `app_pro` SET `hot`=31 WHERE ( `guid` = '18253A323CC900A5D07A6A09AAC3D757' ) [ RunTime:0.000350s ]
+
+[ 2016-04-24T10:03:51+08:00 ] 14.211.137.213 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001638s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001300s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: UPDATE `app_code` SET `uuid`='8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000239s ]
+
+[ 2016-04-24T10:11:49+08:00 ] 14.211.137.213 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001692s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001305s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: UPDATE `app_code` SET `uuid`='8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T10:11:49+08:00 ] 14.211.137.213 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.002006s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="18253A323CC900A5D07A6A09AAC3D757" ) LIMIT 1   [ RunTime:0.000789s ]
+SQL: UPDATE `app_pro` SET `hot`=32 WHERE ( `guid` = '18253A323CC900A5D07A6A09AAC3D757' ) [ RunTime:0.000267s ]
+
+[ 2016-04-24T10:11:49+08:00 ] 14.211.137.213 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001750s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001343s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: UPDATE `app_code` SET `uuid`='8F02F746-72F5-4C98-BCF0-AC8E66A2FAB4',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000260s ]
+
+[ 2016-04-24T10:16:45+08:00 ] 117.136.74.130 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya015/password/12345678/uuid/A23A7494-6183-4E0B-8CCE-79A411DF8701
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002817s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya015" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001364s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000636s ]
+SQL: UPDATE `app_code` SET `uuid`='A23A7494-6183-4E0B-8CCE-79A411DF8701',`binding`=0 WHERE ( `guid` = '3816EC48214D465BB7FF219AC09651E6' ) [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T10:16:45+08:00 ] 117.136.74.130 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.002196s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="EB8B4CF480F60F49EF80DA55B26C4899" ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: UPDATE `app_pro` SET `hot`=15 WHERE ( `guid` = 'EB8B4CF480F60F49EF80DA55B26C4899' ) [ RunTime:0.000274s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="042F0F252A3462108D63D96784ED3174" ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: UPDATE `app_pro` SET `hot`=30 WHERE ( `guid` = '042F0F252A3462108D63D96784ED3174' ) [ RunTime:0.000232s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="3DE93F1B9FFE45308C4E8BE76D22D23B" ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: UPDATE `app_pro` SET `hot`=30 WHERE ( `guid` = '3DE93F1B9FFE45308C4E8BE76D22D23B' ) [ RunTime:0.000223s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="D8689411CE50401ABDE48A02045BA96A" ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: UPDATE `app_pro` SET `hot`=21 WHERE ( `guid` = 'D8689411CE50401ABDE48A02045BA96A' ) [ RunTime:0.000227s ]
+
+[ 2016-04-24T10:16:46+08:00 ] 117.136.74.130 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya015/password/12345678/uuid/A23A7494-6183-4E0B-8CCE-79A411DF8701/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001735s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya015" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001429s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000678s ]
+SQL: UPDATE `app_code` SET `uuid`='A23A7494-6183-4E0B-8CCE-79A411DF8701',`binding`=0 WHERE ( `guid` = '3816EC48214D465BB7FF219AC09651E6' ) [ RunTime:0.000241s ]
+
+[ 2016-04-24T11:11:37+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002060s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001647s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000652s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000270s ]
+
+[ 2016-04-24T11:12:46+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001661s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001289s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000238s ]
+
+[ 2016-04-24T11:20:19+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.019763s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001447s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000245s ]
+
+[ 2016-04-24T11:21:07+08:00 ] 183.19.185.245 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/20758-23/password/12345678/uuid/9330E98A-7F83-4533-9DEF-3B49F7C69C56
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001587s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="20758-23" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001350s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000965s ]
+
+[ 2016-04-24T11:21:08+08:00 ] 183.19.185.245 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.019735s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="1B36FC1023FC02A8B96D7A97653D6233" ) LIMIT 1   [ RunTime:0.000957s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="08F54CB1ADF8FB9642EA599EA3CD0D35" ) LIMIT 1   [ RunTime:0.021703s ]
+SQL: UPDATE `app_pro` SET `hot`=54 WHERE ( `guid` = '08F54CB1ADF8FB9642EA599EA3CD0D35' ) [ RunTime:0.000289s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="08057A0A68A90DAE8851632B0F534C20" ) LIMIT 1   [ RunTime:0.019061s ]
+SQL: UPDATE `app_pro` SET `hot`=8 WHERE ( `guid` = '08057A0A68A90DAE8851632B0F534C20' ) [ RunTime:0.000251s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="5E3A484FBCB2480D8A1B205CA3C4C3DC" ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: UPDATE `app_pro` SET `hot`=45 WHERE ( `guid` = '5E3A484FBCB2480D8A1B205CA3C4C3DC' ) [ RunTime:0.000233s ]
+
+[ 2016-04-24T11:21:08+08:00 ] 183.19.185.245 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/20758-23/password/12345678/uuid/9330E98A-7F83-4533-9DEF-3B49F7C69C56/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001630s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="20758-23" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001352s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000615s ]
+
+[ 2016-04-24T11:21:17+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001696s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001330s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000629s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000242s ]
+
+[ 2016-04-24T11:21:36+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001651s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001427s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000296s ]
+
+[ 2016-04-24T11:23:16+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001860s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001324s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000247s ]
+
+[ 2016-04-24T11:23:31+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001691s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001839s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000665s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000244s ]
+
+[ 2016-04-24T11:23:49+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001687s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001331s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000713s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000281s ]
+
+[ 2016-04-24T11:24:41+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001975s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001309s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000632s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000250s ]
+
+[ 2016-04-24T11:25:33+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001625s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001291s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000618s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000243s ]
+
+[ 2016-04-24T11:26:48+08:00 ] 121.42.0.33 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002030s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001984s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001854s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2016-04-24T11:29:54+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001651s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001285s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.001264s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000238s ]
+
+[ 2016-04-24T11:32:39+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002123s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001535s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000247s ]
+
+[ 2016-04-24T11:33:58+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001684s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001393s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000651s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000257s ]
+
+[ 2016-04-24T11:42:31+08:00 ] 121.42.0.88 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013107s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001127s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001220s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2016-04-24T12:39:24+08:00 ] 113.101.144.153 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya001/password/12345678/uuid/79A1181A-9730-47A6-9C14-FC9BE9871C7E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001859s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya001" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001676s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000646s ]
+SQL: UPDATE `app_code` SET `uuid`='79A1181A-9730-47A6-9C14-FC9BE9871C7E',`binding`=0 WHERE ( `guid` = '277E551928CA4412BF6CFDDD3F9AAB44' ) [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T12:39:25+08:00 ] 113.101.144.153 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya001/password/12345678/uuid/79A1181A-9730-47A6-9C14-FC9BE9871C7E/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001612s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya001" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001331s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000685s ]
+SQL: UPDATE `app_code` SET `uuid`='79A1181A-9730-47A6-9C14-FC9BE9871C7E',`binding`=0 WHERE ( `guid` = '277E551928CA4412BF6CFDDD3F9AAB44' ) [ RunTime:0.000243s ]
+
+[ 2016-04-24T13:28:07+08:00 ] 119.126.21.118 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya009/password/12345678/uuid/FE825D56-81F7-4A62-8136-66BE56E60711
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001827s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya009" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001494s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000627s ]
+
+[ 2016-04-24T13:28:08+08:00 ] 119.126.21.118 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.002096s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="CA44D866E5EC4F959B9A9FB2D8864875" ) LIMIT 1   [ RunTime:0.016311s ]
+SQL: UPDATE `app_pro` SET `hot`=118 WHERE ( `guid` = 'CA44D866E5EC4F959B9A9FB2D8864875' ) [ RunTime:0.000307s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="327A9048FC0A4266994F8EB8CB78AC61" ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: UPDATE `app_pro` SET `hot`=77 WHERE ( `guid` = '327A9048FC0A4266994F8EB8CB78AC61' ) [ RunTime:0.000228s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="E3BFBE9FE2107E1720F413F453127AC5" ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: UPDATE `app_pro` SET `hot`=9 WHERE ( `guid` = 'E3BFBE9FE2107E1720F413F453127AC5' ) [ RunTime:0.000226s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="921DC0144E1E597BDE934BA871B19984" ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: UPDATE `app_pro` SET `hot`=24 WHERE ( `guid` = '921DC0144E1E597BDE934BA871B19984' ) [ RunTime:0.000252s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="2030BF7E93A2B44A6517D9994CD29A79" ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: UPDATE `app_pro` SET `hot`=9 WHERE ( `guid` = '2030BF7E93A2B44A6517D9994CD29A79' ) [ RunTime:0.000221s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="225EE086815A34A76BA54A5FFFB8F61A" ) LIMIT 1   [ RunTime:0.024233s ]
+SQL: UPDATE `app_pro` SET `hot`=41 WHERE ( `guid` = '225EE086815A34A76BA54A5FFFB8F61A' ) [ RunTime:0.000346s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="2877B6078B7D17EAE58A7CE631FBC568" ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: UPDATE `app_pro` SET `hot`=23 WHERE ( `guid` = '2877B6078B7D17EAE58A7CE631FBC568' ) [ RunTime:0.000351s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="D4A9178525A148F9A353A0AF24E26CEA" ) LIMIT 1   [ RunTime:0.025091s ]
+SQL: UPDATE `app_pro` SET `hot`=60 WHERE ( `guid` = 'D4A9178525A148F9A353A0AF24E26CEA' ) [ RunTime:0.000381s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="FBD7186F6358C0237CAD134366F97D83" ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: UPDATE `app_pro` SET `hot`=14 WHERE ( `guid` = 'FBD7186F6358C0237CAD134366F97D83' ) [ RunTime:0.000249s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="1BDD0617E5AF4EDE9D5982BE9536FB36" ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: UPDATE `app_pro` SET `hot`=87 WHERE ( `guid` = '1BDD0617E5AF4EDE9D5982BE9536FB36' ) [ RunTime:0.000254s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="DD8C29E3BE67BFDF7E3F39E18520DF59" ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: UPDATE `app_pro` SET `hot`=50 WHERE ( `guid` = 'DD8C29E3BE67BFDF7E3F39E18520DF59' ) [ RunTime:0.000259s ]
+
+[ 2016-04-24T13:28:08+08:00 ] 119.126.21.118 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya009/password/12345678/uuid/FE825D56-81F7-4A62-8136-66BE56E60711/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001885s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya009" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001349s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000612s ]
+
+[ 2016-04-24T15:16:05+08:00 ] 113.101.144.153 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya001/password/12345678/uuid/79A1181A-9730-47A6-9C14-FC9BE9871C7E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002163s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya001" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001495s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000715s ]
+SQL: UPDATE `app_code` SET `uuid`='79A1181A-9730-47A6-9C14-FC9BE9871C7E',`binding`=0 WHERE ( `guid` = '277E551928CA4412BF6CFDDD3F9AAB44' ) [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T15:16:05+08:00 ] 113.101.144.153 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya001/password/12345678/uuid/79A1181A-9730-47A6-9C14-FC9BE9871C7E/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001667s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya001" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001474s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: UPDATE `app_code` SET `uuid`='79A1181A-9730-47A6-9C14-FC9BE9871C7E',`binding`=0 WHERE ( `guid` = '277E551928CA4412BF6CFDDD3F9AAB44' ) [ RunTime:0.000243s ]
+
+[ 2016-04-24T15:45:05+08:00 ] 27.42.98.246 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/25F219F2-8117-4223-ACC7-5910AD06A546/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002314s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001535s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000653s ]
+SQL: UPDATE `app_code` SET `uuid`='25F219F2-8117-4223-ACC7-5910AD06A546',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000244s ]
+
+[ 2016-04-24T16:43:48+08:00 ] 163.179.237.173 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya016/password/12345678/uuid/2926B643-3ED6-4346-9390-0787B6E7B3B5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.028491s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya016" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.021407s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000706s ]
+SQL: UPDATE `app_code` SET `uuid`='2926B643-3ED6-4346-9390-0787B6E7B3B5',`binding`=0 WHERE ( `guid` = '16127BB894594FC59193D9375E3BB657' ) [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T16:43:49+08:00 ] 163.179.237.173 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.031019s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="2EF170F1F941C350FA2DF936CDFA8CC0" ) LIMIT 1   [ RunTime:0.021903s ]
+SQL: UPDATE `app_pro` SET `hot`=23 WHERE ( `guid` = '2EF170F1F941C350FA2DF936CDFA8CC0' ) [ RunTime:0.000341s ]
+
+[ 2016-04-24T16:43:49+08:00 ] 163.179.237.173 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya016/password/12345678/uuid/2926B643-3ED6-4346-9390-0787B6E7B3B5/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001619s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya016" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001364s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000712s ]
+SQL: UPDATE `app_code` SET `uuid`='2926B643-3ED6-4346-9390-0787B6E7B3B5',`binding`=0 WHERE ( `guid` = '16127BB894594FC59193D9375E3BB657' ) [ RunTime:0.000242s ]
+
+[ 2016-04-24T17:44:35+08:00 ] 116.5.62.58 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya008/password/12345678/uuid/2C891F67-6C7F-4B2D-A6A1-B1A16F77061A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001814s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya008" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001489s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000712s ]
+SQL: UPDATE `app_code` SET `uuid`='2C891F67-6C7F-4B2D-A6A1-B1A16F77061A',`binding`=0 WHERE ( `guid` = 'C215052EF9AE478B8CD892CF337B4B31' ) [ RunTime:0.000296s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T17:44:35+08:00 ] 116.5.62.58 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.002134s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="C78496C65E3402C26642CC699534B47E" ) LIMIT 1   [ RunTime:0.000793s ]
+SQL: UPDATE `app_pro` SET `hot`=9 WHERE ( `guid` = 'C78496C65E3402C26642CC699534B47E' ) [ RunTime:0.000275s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="29F1CC9337030645856179C91F104A61" ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: UPDATE `app_pro` SET `hot`=19 WHERE ( `guid` = '29F1CC9337030645856179C91F104A61' ) [ RunTime:0.000233s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="2EF8029A10E1723CFC39F1EC28648392" ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: UPDATE `app_pro` SET `hot`=21 WHERE ( `guid` = '2EF8029A10E1723CFC39F1EC28648392' ) [ RunTime:0.000228s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="E2972327EF7C08621DEFA2FFA362793B" ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: UPDATE `app_pro` SET `hot`=35 WHERE ( `guid` = 'E2972327EF7C08621DEFA2FFA362793B' ) [ RunTime:0.000267s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="AAE66116F743675FEFED6B628FE4171E" ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: UPDATE `app_pro` SET `hot`=7 WHERE ( `guid` = 'AAE66116F743675FEFED6B628FE4171E' ) [ RunTime:0.000229s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="C5CAB2D466BC4C5BBDB277667A618AC9" ) LIMIT 1   [ RunTime:0.004502s ]
+SQL: UPDATE `app_pro` SET `hot`=34 WHERE ( `guid` = 'C5CAB2D466BC4C5BBDB277667A618AC9' ) [ RunTime:0.000239s ]
+
+[ 2016-04-24T17:44:36+08:00 ] 116.5.62.58 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya008/password/12345678/uuid/2C891F67-6C7F-4B2D-A6A1-B1A16F77061A/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001733s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya008" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001378s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: UPDATE `app_code` SET `uuid`='2C891F67-6C7F-4B2D-A6A1-B1A16F77061A',`binding`=0 WHERE ( `guid` = 'C215052EF9AE478B8CD892CF337B4B31' ) [ RunTime:0.000244s ]
+
+[ 2016-04-24T17:44:39+08:00 ] 116.5.62.58 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya008/password/12345678/uuid/2C891F67-6C7F-4B2D-A6A1-B1A16F77061A/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001625s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya008" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001284s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000653s ]
+SQL: UPDATE `app_code` SET `uuid`='2C891F67-6C7F-4B2D-A6A1-B1A16F77061A',`binding`=0 WHERE ( `guid` = 'C215052EF9AE478B8CD892CF337B4B31' ) [ RunTime:0.000241s ]
+
+[ 2016-04-24T17:44:49+08:00 ] 116.5.62.58 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya008/password/12345678/uuid/2C891F67-6C7F-4B2D-A6A1-B1A16F77061A/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001643s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya008" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001288s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000655s ]
+SQL: UPDATE `app_code` SET `uuid`='2C891F67-6C7F-4B2D-A6A1-B1A16F77061A',`binding`=0 WHERE ( `guid` = 'C215052EF9AE478B8CD892CF337B4B31' ) [ RunTime:0.000247s ]
+
+[ 2016-04-24T18:04:43+08:00 ] 183.32.97.193 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/C0D8E4A1-B813-4614-A527-ADC6B3AE12DE
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.017801s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001589s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000678s ]
+SQL: UPDATE `app_code` SET `uuid`='C0D8E4A1-B813-4614-A527-ADC6B3AE12DE',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T18:04:44+08:00 ] 183.32.97.193 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.002156s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="F35D0AC97144ECF26210C9BB709F2FBE" ) LIMIT 1   [ RunTime:0.000770s ]
+SQL: UPDATE `app_pro` SET `hot`=45 WHERE ( `guid` = 'F35D0AC97144ECF26210C9BB709F2FBE' ) [ RunTime:0.000268s ]
+
+[ 2016-04-24T18:04:44+08:00 ] 183.32.97.193 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/C0D8E4A1-B813-4614-A527-ADC6B3AE12DE/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001686s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001329s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: UPDATE `app_code` SET `uuid`='C0D8E4A1-B813-4614-A527-ADC6B3AE12DE',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000239s ]
+
+[ 2016-04-24T18:04:49+08:00 ] 183.32.97.193 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya002/password/12345678/uuid/C0D8E4A1-B813-4614-A527-ADC6B3AE12DE/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001724s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya002" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001389s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000692s ]
+SQL: UPDATE `app_code` SET `uuid`='C0D8E4A1-B813-4614-A527-ADC6B3AE12DE',`binding`=0 WHERE ( `guid` = 'B1F9C6DE677E4184896E95D835A46518' ) [ RunTime:0.000250s ]
+
+[ 2016-04-24T18:18:58+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001645s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001274s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000598s ]
+
+[ 2016-04-24T18:18:59+08:00 ] 202.105.72.220 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.001854s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="6FD990A9EEDDD28F2C07BF70CB1672A5" ) LIMIT 1   [ RunTime:0.000929s ]
+SQL: UPDATE `app_pro` SET `hot`=18 WHERE ( `guid` = '6FD990A9EEDDD28F2C07BF70CB1672A5' ) [ RunTime:0.000278s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="C1C1AB0CD7FBA65BFB4D3BE9118AB798" ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: UPDATE `app_pro` SET `hot`=8 WHERE ( `guid` = 'C1C1AB0CD7FBA65BFB4D3BE9118AB798' ) [ RunTime:0.000232s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="D8689411CE50401ABDE48A02045BA96A" ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: UPDATE `app_pro` SET `hot`=22 WHERE ( `guid` = 'D8689411CE50401ABDE48A02045BA96A' ) [ RunTime:0.000232s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="88134345BA30468FAFEE816A6C7DC053" ) LIMIT 1   [ RunTime:0.006331s ]
+SQL: UPDATE `app_pro` SET `hot`=35 WHERE ( `guid` = '88134345BA30468FAFEE816A6C7DC053' ) [ RunTime:0.000230s ]
+
+[ 2016-04-24T18:18:59+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001862s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001796s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000684s ]
+
+[ 2016-04-24T18:19:10+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001678s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001342s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000628s ]
+
+[ 2016-04-24T18:19:44+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001668s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001294s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000605s ]
+
+[ 2016-04-24T18:19:54+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001648s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001733s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000688s ]
+
+[ 2016-04-24T18:20:06+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002262s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001732s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000694s ]
+
+[ 2016-04-24T18:20:11+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001639s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001441s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000670s ]
+
+[ 2016-04-24T18:48:58+08:00 ] 183.25.254.54 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/1075232/password/12345678/uuid/3C61DE75-04CE-49AD-B2ED-BF9C48CC6E6B/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001817s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="1075232" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001460s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000611s ]
+
+[ 2016-04-24T18:54:20+08:00 ] 183.25.254.54 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/1075232/password/12345678/uuid/3C61DE75-04CE-49AD-B2ED-BF9C48CC6E6B/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001349s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001771s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="1075232" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001364s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000680s ]
+
+[ 2016-04-24T18:57:33+08:00 ] 183.25.254.54 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/1075232/password/12345678/uuid/3C61DE75-04CE-49AD-B2ED-BF9C48CC6E6B/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001642s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="1075232" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001318s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000604s ]
+
+[ 2016-04-24T19:49:09+08:00 ] 14.219.198.152 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/10769510/password/12345678/uuid/533D2876-B9EC-493A-8A79-881585BF3215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001795s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="10769510" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001582s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000640s ]
+
+[ 2016-04-24T19:49:10+08:00 ] 14.219.198.152 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/10769510/password/12345678/uuid/533D2876-B9EC-493A-8A79-881585BF3215/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001597s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="10769510" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001337s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000714s ]
+
+[ 2016-04-24T19:53:53+08:00 ] 14.219.198.152 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/10769510/password/12345678/uuid/533D2876-B9EC-493A-8A79-881585BF3215/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001526s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001784s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="10769510" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001318s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000602s ]
+
+[ 2016-04-24T20:50:49+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001397s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001894s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001791s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000658s ]
+
+[ 2016-04-24T20:50:50+08:00 ] 202.105.72.220 /index.php/Uploadprohot
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `app_pro` [ RunTime:0.002253s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="6FD990A9EEDDD28F2C07BF70CB1672A5" ) LIMIT 1   [ RunTime:0.000920s ]
+SQL: UPDATE `app_pro` SET `hot`=19 WHERE ( `guid` = '6FD990A9EEDDD28F2C07BF70CB1672A5' ) [ RunTime:0.000274s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="C1C1AB0CD7FBA65BFB4D3BE9118AB798" ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: UPDATE `app_pro` SET `hot`=9 WHERE ( `guid` = 'C1C1AB0CD7FBA65BFB4D3BE9118AB798' ) [ RunTime:0.000232s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="D8689411CE50401ABDE48A02045BA96A" ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: UPDATE `app_pro` SET `hot`=23 WHERE ( `guid` = 'D8689411CE50401ABDE48A02045BA96A' ) [ RunTime:0.000229s ]
+SQL: SELECT * FROM `app_pro` WHERE ( guid="88134345BA30468FAFEE816A6C7DC053" ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: UPDATE `app_pro` SET `hot`=36 WHERE ( `guid` = '88134345BA30468FAFEE816A6C7DC053' ) [ RunTime:0.000224s ]
+
+[ 2016-04-24T20:50:50+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001677s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001289s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000609s ]
+
+[ 2016-04-24T20:51:03+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002080s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001482s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000764s ]
+
+[ 2016-04-24T20:51:17+08:00 ] 202.105.72.220 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/18665059848/password/028104mls/uuid/BA411558-928F-4C7A-828A-B7E8D077118D/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001672s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="18665059848" and password="028104mls" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001292s ]
+SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000611s ]
+
+[ 2016-04-24T22:41:47+08:00 ] 117.136.79.170 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003724s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.042983s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.004691s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.017177s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000690s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.016925s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T22:41:48+08:00 ] 117.136.79.170 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001625s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001335s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000239s ]
+
+[ 2016-04-24T22:41:57+08:00 ] 117.136.79.170 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001804s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001361s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000659s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000243s ]
+
+[ 2016-04-24T22:58:32+08:00 ] 183.23.106.175 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001956s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001347s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000658s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index:  type D:\PHPnow\htdocs\dongya\Lib\Action\IndexAction.class.php 第 74 行.
+
+[ 2016-04-24T22:58:32+08:00 ] 183.23.106.175 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001679s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001398s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000264s ]
+
+[ 2016-04-24T22:59:21+08:00 ] 183.23.106.175 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001669s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001277s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000622s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000238s ]
+
+[ 2016-04-24T23:33:28+08:00 ] 183.23.106.175 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001942s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001929s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000258s ]
+
+[ 2016-04-24T23:40:13+08:00 ] 183.23.106.175 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001358s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001823s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001286s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000242s ]
+
+[ 2016-04-24T23:40:21+08:00 ] 183.23.106.175 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/dongya003/password/12345678/uuid/7095FA8F-6318-478B-B629-333DBD2F8FEC/type/updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001722s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="dongya003" and password="12345678" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001408s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000655s ]
+SQL: UPDATE `app_code` SET `uuid`='7095FA8F-6318-478B-B629-333DBD2F8FEC',`binding`=0 WHERE ( `guid` = '956A973D03644B18A70B0EF34BF76995' ) [ RunTime:0.000271s ]
+

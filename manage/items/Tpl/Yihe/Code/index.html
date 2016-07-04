@@ -1,0 +1,63 @@
+<include file="./Tpl/Yihe/Index/top.html" />
+<div id="content">
+  <div id="content-header">
+    <h1><{$group.title}></h1>
+  </div>
+  <div id="breadcrumb"><a href="#" class="current"><i class="icon-home"></i><{$group.title}></a> <a href="#" class="current">账号管理</a> </div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <if condition="$Think.session.error neq ''">
+        <div class="alert alert-block"> <a class="close" data-dismiss="alert" href="#">×</a><{$Think.session.error}></div>
+      </if>
+      <form action="" name="form" method="post" enctype="application/x-www-form-urlencoded" class="form-horizontal">
+        <div class="widget-box">
+          <div class="widget-content">
+            <table>
+              <thead>
+                <tr role="row">
+                  <th width="25"><input type="checkbox" id="title-checkbox" name="chkall" onclick="CheckAll(this.form)"></th>
+                  <th>用户名</th>
+                  <th>密码</th>
+                  <th>姓名</th>
+                  <th>电话</th>
+                  <th>地区</th>
+                  <th>是否锁定</th>
+                  <th>是否锁定更新</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody role="alert" aria-live="polite" aria-relevant="all">
+                <volist name="lists" id="value">
+                  <tr align="center">
+                    <td><input type="checkbox" name="select[]" value="<{$value.guid}>"></td>
+                    <td><{$value.username}></td>
+                    <td><{$value.password}></td>
+                    <td><{$value.nickname}></td>
+                    <td><{$value.phone}></td>
+                    <td><{$value.address}></td>
+                    <td><if condition="$value['locked'] eq 0">否<else/><font style="color:#f00;">是</font></if></td>
+                    <td><if condition="$value['noupdata'] eq 0">否<else/><font style="color:#f00;">是</font></if></td>
+                    <td><a class="hrefa" href="__URL__/edit/guid/<{$value.guid}>">修改</a></td>
+                  </tr>
+                </volist>
+              </tbody>
+            </table>
+            <div class="ui-widget-header">
+              <div class="dataTables_filter">
+                <a href="__URL__/add/groupid/<{$group.guid}>">添加</a>
+                <input type="hidden" name="groupid" value="<{$group.guid}>">
+                <input type="button" value="锁定" name="lock" onclick="if(getSelect(this.form) && confirm('确实要锁定吗?')){this.form.action='__URL__/lock/';this.form.submit();}" class="btn">
+                <input type="button" value="解锁" name="unlock" onclick="if(getSelect(this.form) && confirm('确实要解锁吗?')){this.form.action='__URL__/unlock/';this.form.submit();}" class="btn">
+                <input type="button" value="锁定更新" name="lockupdata" onclick="if(getSelect(this.form) && confirm('确实要锁定吗?')){this.form.action='__URL__/lockupdata/';this.form.submit();}" class="btn">
+                <input type="button" value="解锁更新" name="unlockupdata" onclick="if(getSelect(this.form) && confirm('确实要解锁吗?')){this.form.action='__URL__/unlockupdata/';this.form.submit();}" class="btn">
+                <input type="button" value="彻底删除" name="delete" onclick="if(getSelect(this.form) && confirm('确实要删除吗?')){this.form.action='__URL__/delete/';this.form.submit();}" class="btn">
+              </div>
+              <div class="dataTables_paginate"><{$page}></div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body></html>

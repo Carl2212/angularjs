@@ -1,0 +1,66 @@
+<include file="./Tpl/Yihe/Index/top.html" />
+<div id="content">
+  <div id="content-header">
+    <h1>栏目管理</h1>
+  </div>
+  <div id="breadcrumb"> <a href="__APP__/Index/index/groupid/<{$group.guid}>"><i class="icon-home"></i><{$group.title}></a> <?php if(session('uid')=='1'){?><a href="__URL__/index/groupid/<{$group.guid}>" class="current">栏目</a><?php }?> <{$Title}></div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <if condition="$Think.session.error neq ''">
+        <div class="alert alert-block"> <a class="close" data-dismiss="alert" href="#">×</a><{$Think.session.error}></div>
+      </if>
+        <form action="" name="form" method="post" enctype="application/x-www-form-urlencoded" class="form-horizontal">
+        <div class="widget-box">
+          <div class="widget-content">
+            <table>
+              <thead>
+                <tr role="row">
+                  <th width="25"><input type="checkbox" id="title-checkbox" name="chkall" onclick="CheckAll(this.form)"></th>
+                  <th width="40">排序</th>
+                  <th>标题</th>
+                  <th>内容数</th>
+                  <th width="90">是否隐藏</th>
+                  <th width="100">录入时间</th>
+                  <th width="350">操作</th>
+                </tr>
+              </thead>
+              <tbody role="alert" aria-live="polite" aria-relevant="all">
+                <volist name="lists" id="value">
+                  <tr align="center">
+                    <td><input type="checkbox" name="select[]" value="<{$value.guid}>"></td>
+                    <td><input type="text" class="inputtext" name="sort[<{$value.guid}>]" value="<{$value.sort}>"></td>
+                    <td><{$value.title}></td>
+                    <?php $count = M('content')->where('pid="'.$value['guid'].'"')->count();?>
+                    <td><{$count}></td>
+                    <td><if condition="$value['status'] eq 0">否<else/><font style="color:#f00;">是</font></if></td>
+                    <td><{$value.time|date="Y-m-d",###}></td>
+                    <td>
+                    <a class="hrefa" href="__URL__/edit/guid/<{$value.guid}>">修改</a> 
+                    <?php $count = M('dir')->where('pid="'.$value['guid'].'"')->count();?>
+                    <neq name="count" value="0"><a class="hrefa" href="__URL__/index/pid/<{$value.guid}>">子栏目</a> </neq>
+                    <a class="hrefa" href="__APP__/Content/index/pid/<{$value.guid}>">管理内容</a>
+                    </td>
+                  </tr>
+                </volist>
+              </tbody>
+            </table>
+            <div class="ui-widget-header">
+              <div class="dataTables_filter">
+              <if condition="$pid eq '0'">
+              <a href="__URL__/add/groupid/<{$group.guid}>">添加栏目</a><else/>
+              <a href="__URL__/add/pid/<{$pid}>">添加子栏目</a>
+              </if>
+              <input type="button" value="显示" name="delete" onclick="if(getSelect(this.form)){this.form.action='__URL__/statusshow';this.form.submit();}" class="btn">
+              <input type="button" value="隐藏" name="delete" onclick="if(getSelect(this.form)){this.form.action='__URL__/statushidden';this.form.submit();}" class="btn">
+              <input type="button" value="排序" name="delete" onclick="if(getSelect(this.form)){this.form.action='__URL__/sort';this.form.submit();}" class="btn">
+              <input type="button" value="彻底删除" name="delete" onclick="if(getSelect(this.form) && confirm('确实要删除吗?')){this.form.action='__URL__/delete';this.form.submit();}" class="btn">
+              </div>
+              <div class="dataTables_paginate"><{$page}></div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body></html>

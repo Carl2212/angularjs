@@ -1,0 +1,8 @@
+[ 2015-10-14T11:17:03+08:00 ] 127.0.0.1 /sqlite/index.php/Index/index/filename/436D3F290AFDF8DF9BE1D77C8B4C9E4C_1444792622/groupid/436D3F290AFDF8DF9BE1D77C8B4C9E4C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+

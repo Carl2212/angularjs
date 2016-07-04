@@ -1,0 +1,143 @@
+<include file="./Tpl/Longshu/Index/top.html" />
+<div id="content">
+  <div id="content-header">
+    <h1>产品中心</h1>
+  </div>
+  <div id="breadcrumb"> <a href="__APP__/Index/index/groupid/<{$group.guid}>"><i class="icon-home"></i><{$group.title}></a> <a href="__APP__/Prodir/index/groupid/<{$group.guid}>" class="current">产品系列</a> <{$Title}> <a href="__URL__/index/pid/<{$prodir.guid}>" class="current"><{$prodir.title}></a></div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <if condition="$Think.session.error neq ''">
+        <div class="alert alert-block"> <a class="close" data-dismiss="alert" href="#">×</a><{$Think.session.error}></div>
+      </if>
+      <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>添加</h5>
+        </div>
+        <form action="__URL__/submit_add" name="form" method="post" enctype="application/x-www-form-urlencoded" class="form-horizontal">
+          <div class="widget-content nopadding">
+            <div class="control-group">
+              <label class="control-label">型号:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="title" placeholder="">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">防盗等级:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="level">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">标准规格:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="bzgg">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">门扇厚度:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="mshd">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">门框料度:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="mkld">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">门扇料度:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="msld">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">铰链:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="jiaolian">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">锁具:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="suoju">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">锁芯:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="suoxin">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">拉手:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="lashou">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">门面工艺:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="mmgy">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">门面款式:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="mmks">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">填充物:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="tcw">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">门镜:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="menjing">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">密封条:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="100" name="mft">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">备注:</label>
+              <div class="controls">
+                <textarea class="span11" rows="5" cols="100" name="remarks"></textarea>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">大图:</label>
+              <div class="controls">
+                <input type="text" class="span11" id="oneimg_value" size="70" name="oneimg">
+                <a id="oneimg" href="#" class="btn btn-success">预览</a>
+                <input id="oneimg_upload" type="file" class="span11" size="30" name="oneimg_upload">
+                <input type="button" name="submit" class="btn btn-success" value=" 上传 " onclick="return ajaxFileUpload('__APP__/Index/upload/name/oneimg/file/oneimg_upload/groupid/<{$group.guid}>','oneimg','oneimg_upload');">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">小图:</label>
+              <div class="controls">
+                <input type="text" class="span11" id="twoimg_value" size="70" name="twoimg">
+                <a id="twoimg" href="#" class="btn btn-success">预览</a>
+                <input id="twoimg_upload" type="file" class="span11" size="30" name="twoimg_upload">
+                <input type="button" name="submit" class="btn btn-success" value=" 上传 " onclick="return ajaxFileUpload('__APP__/Index/upload/name/twoimg/file/twoimg_upload/groupid/<{$group.guid}>','twoimg','twoimg_upload');">
+              </div>
+            </div>
+            <div class="form-actions">
+              <input type="hidden"  name="groupid" value="<{$group.guid}>">
+              <input type="hidden"  name="pid" value="<{$prodir.guid}>">
+              <button type="submit" class="btn btn-success">保存</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

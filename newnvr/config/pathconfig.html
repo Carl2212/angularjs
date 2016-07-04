@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="pathconfig.js" type="text/javascript"></script>
+<title></title>
+
+</head>
+<body>
+	<div>
+		<label><script type="text/javascript">document.write(lang.vedioPath);</script>：</label>
+		<input type="text"   id="getvedioPath" class="select" matchval="getvedioPath"/>
+		<input id="vedioPath"  type="button"  value="浏览..." />
+	</div>
+	<div>
+		<label><script type="text/javascript">document.write(lang.playbackPath);</script>：</label>
+		<input type="text" id="getplaybackPath" class="select" matchval="getplaybackPath"/>
+		<input id="playbackPath"  type="button"  value="浏览..." />
+	</div>
+	<div>
+		<label><script type="text/javascript">document.write(lang.previewImgPath);</script>：</label>
+		<input type="text" id="getpreviewImgPath" class="select" matchval="getpreviewImgPath"/>
+		<input id="previewImgPath"  type="button"  value="浏览..." />
+	</div>
+	<div>
+		<label><script type="text/javascript">document.write(lang.logPath);</script>：</label>
+		<input type="text" id="getlogPath" class="select" matchval="getlogPath"/>
+		<input id="logPath"  type="button"  value="浏览..." />
+	</div>
+	<div>
+		<input id="path_save"  type="button"  value="保存" />
+	</div>
+</body>
+</html>
+<div class="logo">
+	<img src="/source/img/logo.png">
+</div>
+<ul class="sitemap" ng-controller="sitemap">
+	<li class="map {{site.hide ? 'hide':''}}" ng-repeat="site in sites">
+		<span class="bm-txt"> <a href="/#/{{site.name | titlefilter}}"> {{site.name}}</a></span>
+		<ul class="second-map">
+			<li class="smap" ng-repeat="smap in site.smap track by $index">
+				<p><a href="{{outlink[smap] ? outlink[smap] : '/#/'+(site.name | titlefilter)+'/'+(smap | titlefilter)}}">{{smap}} </a></p>
+			</li>
+		</ul>
+	</li>
+</ul>

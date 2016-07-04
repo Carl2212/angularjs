@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<link href="css/ui.css" rel="stylesheet">
+<link href="css/default.css" rel="stylesheet">
+</head>
+<body>
+<script type="text/javascript">
+if($.cookies.get('lang')){
+	langJs=$.cookies.get('lang');
+$.cookies.set('lang', langJs,{'hoursToLive':24*365});
+}
+document.write("<script src='../lang/"+langJs+".js'><\/script>"); 
+</script>
+
+	<div id="optionsContainer"><!---------------------------------------------------optionsContainer--------------------------------------------------->
+
+		<div class="optionsMenu"><!---------------------------------------------------optionsMenu--------------------------------------------------->
+        
+
+			<dl><!---------------------------------------------------dl--------------------------------------------------->
+            
+                <!---------------------------------------------------本地配置查看样式--------------------------------------------------->
+				<dt current="optLocaled" class="optLocaled"><a class="tagTarget" href="javascript:void(0);"><script type="text/javascript">document.write(lang.localOptions);</script></a></dt>
+				<dd test="test">
+					<ul>
+						<li><a style="display: block;" class="current" target="iframeOptions" href="config/pathconfig.html"><script type="text/javascript">document.write(lang.localOptions);</script></a></li>
+
+					</ul>
+				</dd>
+				<!---------------------------------------------------本地配置查看样式--------------------------------------------------->
+
+				<!---------------------------------------------------摄像头--------------------------------------------------->
+				<dt class="optBase" current="optHeighted"><a class="tagTarget" href="javascript:void(0);"><script type="text/javascript">document.write(lang.optionecamera);</script></a></dt>
+				<dd class="hide">
+					<ul>
+						<li><a target="iframeOptions" href="config/remoteset.html"><script type="text/javascript">document.write(lang.optionremote);</script></a></li>
+						<li><a target="iframeOptions" href="config/encodeset.html"><script type="text/javascript">document.write(lang.optionencodeparam);</script></a></li>
+					</ul>
+				</dd>
+                <!---------------------------------------------------摄像头--------------------------------------------------->
+                
+                
+                <!---------------------------------------------------系统查看样式--------------------------------------------------->
+				<dt class="optBase" current="optHeighted"><a class="tagTarget" href="javascript:void(0);"><script type="text/javascript">document.write(lang.localNet);</script></a></dt>
+                
+				<dd class="hide">
+					<ul>
+						<li><a target="iframeOptions" href="config/network.html">IP/Port</a></li>
+						<li><a target="iframeOptions" href="config/ddns.html">DDNS</a></li>
+						<li><a target="iframeOptions" href="config/email.html"><script type="text/javascript">document.write(lang.optionemail);</script></a></li>
+						<li><a target="iframeOptions" href="config/p2p.html">P2P</a></li>
+						<li><a target="iframeOptions" href="config/ftp.html">FTP</a></li>
+						<li><a target="iframeOptions" href="config/upnp.html">UPNP</a></li>
+						<li style="display: none;"><a target="iframeOptions" href="config/pppoe.html">PPPOE</a></li>
+						<li style="display: none;"><a target="iframeOptions" href="config/cloud.html"><script type="text/javascript">document.write(lang.optioncloud);</script></a></li>
+					</ul>
+				</dd>
+                <!---------------------------------------------------系统查看样式--------------------------------------------------->
+                
+                
+                <!---------------------------------------------------网络查看样式--------------------------------------------------->
+				<dt class="optHeight" current="optHeighted"><a class="tagTarget" href="javascript:void(0);"><script type="text/javascript">document.write(lang.event);</script></a></dt>
+				<dd class="hide">
+					<ul>
+						<li><a target="iframeOptions" href="config/motion.html"><script type="text/javascript">document.write(lang.motionDetecting);</script></a></li>
+						<li><a target="iframeOptions" href="config/exception.html"><script type="text/javascript">document.write(lang.optionexception);</script></a></li>
+					</ul>
+				</dd>
+                <!---------------------------------------------------网络查看样式--------------------------------------------------->
+
+
+
+                <!---------------------------------------------------视频查看样式--------------------------------------------------->
+                <dt class="optHeight1" current="optHeighted1"><a class="tagTarget" href="javascript:void(0);"><script type="text/javascript">document.write(lang.optionstorage);</script></a></dt>
+
+                <dd class="hide">
+					<ul>
+						<li><a target="iframeOptions" href="config/recset.html"><script type="text/javascript">document.write(lang.optionrecset);</script></a></li>
+                        <li ><a target="iframeOptions" href="config/diskset.html"><script type="text/javascript">document.write(lang.optiondiskmanage);</script></a></li>
+					</ul>
+				</dd>
+                <!---------------------------------------------------视频查看样式--------------------------------------------------->
+
+
+                <!---------------------------------------------------图像查看样式--------------------------------------------------->
+                <dt class="optHeight2" current="optHeighted2"><a class="tagTarget" href="javascript:void(0);"><script type="text/javascript">document.write(lang.system);</script></a></dt>
+
+                <dd class="hide">
+					<ul>
+						<li><a target="iframeOptions" href="config/devicesetting.html"><script type="text/javascript">document.write(lang.baseOptions);</script></a></li>
+						<li><a target="iframeOptions" href="config/datetime.html"><script type="text/javascript">document.write(lang.timeOption);</script></a></li>
+						<li><a target="iframeOptions" href="config/userset.html"><script type="text/javascript">document.write(lang.userControl);</script></a></li>
+						<li><a target="iframeOptions" href="config/autoreboot.html"><script type="text/javascript">document.write(lang.setTimeRestart);</script></a></li>
+						<li><a target="iframeOptions" href="config/factoryset.html"><script type="text/javascript">document.write(lang.optiondefault);</script></a></li>
+						<li><a target="iframeOptions" href="config/upgrade_set.html"><script type="text/javascript">document.write(lang.optionupgrade);</script></a></li>
+						<li style="display: none;"><a target="iframeOptions" href="config/channelconfig.html"><script type="text/javascript">document.write(lang.optionchanconfig);</script></a></li>
+						<li><a target="iframeOptions" href="config/ptzset.html"><script type="text/javascript">document.write(lang.optionptzset);</script></a></li>
+					</ul>
+				</dd>
+                <!---------------------------------------------------图像查看样式--------------------------------------------------->
+
+
+                <!---------------------------------------------------事件查看样式--------------------------------------------------->
+                <dt class="optHeight3" current="optHeighted3"><a class="tagTarget" href="javascript:void(0);"><script type="text/javascript">document.write(lang.optioninfo);</script></a></dt>
+				<dd class="hide">
+					<ul>
+						<li style="display: none;"><a target="iframeOptions" href="config/streaminfo.html"><script type="text/javascript">document.write(lang.optionestreaminfo);</script></a></li>
+						<li><a target="iframeOptions" href="config/version.html"><script type="text/javascript">document.write(lang.optionverinfo);</script></a></li>
+						<li><a target="iframeOptions" href="config/log_set.html"><script type="text/javascript">document.write(lang.optionloginfo);</script></a></li>
+					</ul>
+				</dd>
+                <!---------------------------------------------------事件查看样式--------------------------------------------------->
+                
+                
+			</dl><!---------------------------------------------------dl--------------------------------------------------->
+
+		</div><!---------------------------------------------------optionsMenu--------------------------------------------------->
+
+
+		<div class="optionsMain" style="position: absolute; z-index:10; margin-left:240px;">
+			<iframe id="iframeOptions" name="iframeOptions" src="config/pathconfig.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+		</div>
+        
+	</div>
+<!---------------------------------------------------optionsContainer--------------------------------------------------->
+
+</body>
+<script type="text/javascript">
+	function got_random() {
+		return Math.random(10);
+	}
+	$LAB.script("js/jquery-1.11.1.min.js").wait()
+			.script("js/jquery.cookies.2.2.0.min.js").wait()
+			.script("bootstrap/dist/js/bootstrap.js").wait()
+			.script("config/common.js?v="+got_random()).wait()
+			.script("js/pagejs/options.js?v="+got_random()).wait(function(){
+				InitOption();
+			});
+</script>
+</html>

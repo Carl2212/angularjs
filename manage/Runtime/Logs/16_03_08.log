@@ -1,0 +1,267 @@
+[ 2016-03-08T18:02:29+08:00 ] 113.105.192.69 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002538s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001796s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001833s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007705s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2016-03-08T18:02:36+08:00 ] 113.105.192.69 /index.php/index/code_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002751s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.074831s ]
+SQL: SELECT * FROM `app_member` WHERE ( username="yacai" and password="4297f44b13955235245b2497399d7a93" ) LIMIT 1   [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.014765s ]
+SQL: SELECT * FROM `app_admin` WHERE ( username="yacai" and password="4297f44b13955235245b2497399d7a93" ) LIMIT 1   [ RunTime:0.000703s ]
+
+[ 2016-03-08T18:02:39+08:00 ] 113.105.192.69 /index.php/index/code_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.001830s ]
+SQL: SELECT * FROM `app_member` WHERE ( username="yacai" and password="2243b4ad910e45cb76326883fb5390df" ) LIMIT 1   [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.001364s ]
+SQL: SELECT * FROM `app_admin` WHERE ( username="yacai" and password="2243b4ad910e45cb76326883fb5390df" ) LIMIT 1   [ RunTime:0.000636s ]
+
+[ 2016-03-08T18:02:45+08:00 ] 113.105.192.69 /index.php/index/code_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.001566s ]
+SQL: SELECT * FROM `app_member` WHERE ( username="admin" and password="3bd8e792001a1cf337651a0541fbaede" ) LIMIT 1   [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.001268s ]
+SQL: SELECT * FROM `app_admin` WHERE ( username="admin" and password="3bd8e792001a1cf337651a0541fbaede" ) LIMIT 1   [ RunTime:0.000614s ]
+
+[ 2016-03-08T18:02:45+08:00 ] 113.105.192.69 /index.php/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-03-08T18:02:45+08:00 ] 113.105.192.69 /index.php/Group
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\Lib\Action\ImpotAction.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.005301s ]
+SQL: SELECT * FROM `app_group` ORDER BY time desc  [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\Runtime\Cache\69ca12b66dfcec81cd9966338bf75189.php 第 48 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.002073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_member` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.004414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_member` WHERE ( groupid="436D3F290AFDF8DF9BE1D77C8B4C9E4C" ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid="436D3F290AFDF8DF9BE1D77C8B4C9E4C" ) LIMIT 1   [ RunTime:0.000239s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057141s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000506s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-03-08T18:02:50+08:00 ] 113.105.192.69 /index.php/Index/outlogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009892s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-03-08T18:02:51+08:00 ] 113.105.192.69 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008745s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000410s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000412s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-03-08T18:02:55+08:00 ] 113.105.192.69 /index.php/index/code_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.001958s ]
+SQL: SELECT * FROM `app_member` WHERE ( username="dongya" and password="4297f44b13955235245b2497399d7a93" ) LIMIT 1   [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.001261s ]
+SQL: SELECT * FROM `app_admin` WHERE ( username="dongya" and password="4297f44b13955235245b2497399d7a93" ) LIMIT 1   [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001268s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000623s ]
+
+[ 2016-03-08T18:02:55+08:00 ] 113.105.192.69 /index.php/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-03-08T18:03:26+08:00 ] 113.105.192.69 /index.php/Index/outlogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009799s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000640s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003138s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-03-08T18:03:27+08:00 ] 113.105.192.69 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009794s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000417s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000432s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-03-08T20:00:12+08:00 ] 121.42.0.16 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004122s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047246s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002088s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001832s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001984s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2016-03-08T20:35:29+08:00 ] 219.130.225.24 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017551s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000794s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000802s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003374s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-03-08T20:35:34+08:00 ] 219.130.225.24 /index.php/index/code_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012381s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.018457s ]
+SQL: SELECT * FROM `app_member` WHERE ( username="yacai" and password="4297f44b13955235245b2497399d7a93" ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `app_admin` [ RunTime:0.019843s ]
+SQL: SELECT * FROM `app_admin` WHERE ( username="yacai" and password="4297f44b13955235245b2497399d7a93" ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2016-03-08T21:21:02+08:00 ] 121.42.0.15 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000930s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003552s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-03-08T22:05:12+08:00 ] 121.42.0.39 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018399s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000825s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001257s ]
+

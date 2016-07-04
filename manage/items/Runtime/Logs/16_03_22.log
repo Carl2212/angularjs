@@ -1,0 +1,32 @@
+[ 2016-03-22T12:41:47+08:00 ] 220.181.132.218 /lyda/index.php/Diyimg/index/focusid/A61B1E61DB72C7E38B15FDD15F3C6080
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `app_focus` [ RunTime:0.033950s ]
+SQL: SELECT * FROM `app_focus` WHERE ( `guid` = 'A61B1E61DB72C7E38B15FDD15F3C6080' ) LIMIT 1   [ RunTime:0.003614s ]
+SQL: SHOW COLUMNS FROM `app_diy` [ RunTime:0.028554s ]
+SQL: SELECT * FROM `app_diy` WHERE ( `guid` = '9D07161EF8989C3C574EB31DC257663C' ) LIMIT 1   [ RunTime:0.019155s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001984s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000241s ]
+
+[ 2016-03-22T12:41:57+08:00 ] 101.199.108.118 /lyda/index.php/Diyimg/index/focusid/A61B1E61DB72C7E38B15FDD15F3C6080
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `app_focus` [ RunTime:0.010169s ]
+SQL: SELECT * FROM `app_focus` WHERE ( `guid` = 'A61B1E61DB72C7E38B15FDD15F3C6080' ) LIMIT 1   [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `app_diy` [ RunTime:0.001815s ]
+SQL: SELECT * FROM `app_diy` WHERE ( `guid` = '9D07161EF8989C3C574EB31DC257663C' ) LIMIT 1   [ RunTime:0.000729s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001517s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000722s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '436D3F290AFDF8DF9BE1D77C8B4C9E4C' ) LIMIT 1   [ RunTime:0.000215s ]
+

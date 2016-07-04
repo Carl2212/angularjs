@@ -1,0 +1,365 @@
+[ 2016-03-28T10:08:02+08:00 ] 183.62.183.114 /lyda/index.php/Diy/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001787s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000684s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2016-03-28T10:08:08+08:00 ] 183.62.183.114 /lyda/index.php/Index/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001587s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\56e2620824352560a81a2c90b6162793.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023069s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-03-28T10:08:13+08:00 ] 61.135.165.8 /lyda/index.php/Index/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001593s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000692s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2016-03-28T10:08:14+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001529s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000672s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001611s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000835s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\16b3f84a4eeef5578398a1255fc3f30a.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019596s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000505s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-03-28T10:08:15+08:00 ] 111.206.36.147 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001552s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000686s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2016-03-28T10:08:19+08:00 ] 183.62.183.114 /lyda/index.php/code/add/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001589s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\2534290193f236babcf3606e520f7244.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027828s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001913s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-03-28T10:08:23+08:00 ] 61.135.169.40 /lyda/index.php/code/add/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001570s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000681s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000229s ]
+
+[ 2016-03-28T10:08:42+08:00 ] 183.62.183.114 /lyda/index.php/code/submit_add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001604s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.002418s ]
+SQL: SELECT * FROM `app_code` WHERE ( `username` = 'dongya015' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001951s ]
+SQL: INSERT INTO `app_code` (`username`,`password`,`nickname`,`phone`,`address`,`groupid`,`guid`,`uid`,`time`) VALUES ('dongya015','12345678','','','东莞','43C1549E222DE8BCFD975AEF5F44443A','3816EC48214D465BB7FF219AC09651E6',4,1459130922) [ RunTime:0.000276s ]
+
+[ 2016-03-28T10:08:42+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001571s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000698s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001476s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000899s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018732s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000740s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002213s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-03-28T10:08:47+08:00 ] 183.62.183.114 /lyda/index.php/Index/unseterror
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-03-28T10:08:48+08:00 ] 183.62.183.114 /lyda/index.php/Index/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001742s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000884s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\56e2620824352560a81a2c90b6162793.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000817s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002554s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-03-28T10:08:52+08:00 ] 183.62.183.114 /lyda/index.php/index/backup/filename/43C1549E222DE8BCFD975AEF5F44443A_1459130928/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001679s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000712s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000222s ]
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000134s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000434s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000215s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000162s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000152s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000348s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000227s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000249s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000219s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000163s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000141s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000149s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000328s ]
+ERR: 1065:Query was empty
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000134s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for Model::query(), called in D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php on line 33 and defined D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1119 行.
+NOTIC: [8] Undefined variable: sql D:\PHPnow\htdocs\dongya\XThinkPHP\Lib\Core\Model.class.php 第 1124 行.
+SQL:  [ RunTime:0.000130s ]
+ERR: 1065:Query was empty
+NOTIC: [2] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource D:\PHPnow\htdocs\dongya\lyda\Lib\Action\IndexAction.class.php 第 35 行.
+
+[ 2016-03-28T10:08:53+08:00 ] 183.62.183.114 /lyda/index.php/index/movedb/filename/43C1549E222DE8BCFD975AEF5F44443A_1459130928/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001555s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000683s ]
+
+[ 2016-03-28T10:11:04+08:00 ] 183.62.183.114 /lyda/index.php/Diy/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001705s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000691s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `app_diy` [ RunTime:0.001460s ]
+SQL: SELECT * FROM `app_diy` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" ) ORDER BY sort,time desc LIMIT 0,20   [ RunTime:0.000810s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_diy` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `app_style` [ RunTime:0.001401s ]
+SQL: SELECT * FROM `app_style` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" ) ORDER BY sort,time desc  [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `app_spacestyle` [ RunTime:0.001392s ]
+SQL: SELECT * FROM `app_spacestyle` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" ) ORDER BY sort,time desc  [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `app_function` [ RunTime:0.001376s ]
+SQL: SELECT * FROM `app_function` WHERE ( groupid="43C1549E222DE8BCFD975AEF5F44443A" ) ORDER BY sort,time desc  [ RunTime:0.000686s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\5652887e4dceaf3c4d3c9018aab4b86a.php 第 94 行.
+SQL: SHOW COLUMNS FROM `app_focus` [ RunTime:0.002154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="B6A2B040B5EC60696FF61DAA56AD26A6" ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="1399ED2697CCAD7EC35ED3B6136F3296" ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="0311A762FD8B3A4B4201C9B0902523D0" ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="F83746EB5682300B623A244E2936C3C6" ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="F832EC6DA9E5380CE370CBAA9DEF8E0D" ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="C9FCCAE6C3F226E5914EB06D1CCE7A42" ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="832BA89F6E97B551FC258AD26DA88707" ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="4CED71818EDE65D5330BB2CB19030A17" ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_focus` WHERE ( diyid="A356D87FFA0C5CF2C350E7E84AE7DFE5" ) LIMIT 1   [ RunTime:0.000240s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000942s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000817s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2016-03-28T10:14:49+08:00 ] 183.62.183.114 /lyda/index.php/Code/index/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [2048] Declaration of ImpotAction::error() should be compatible with that of Action::error() D:\PHPnow\htdocs\dongya\lyda\Lib\Action\ImpotAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001556s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000670s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001399s ]
+SQL: SELECT * FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.000811s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_code` WHERE ( groupid='43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `app_group` WHERE ( `guid` = '43C1549E222DE8BCFD975AEF5F44443A' ) LIMIT 1   [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  error D:\PHPnow\htdocs\dongya\lyda\Runtime\Cache\16b3f84a4eeef5578398a1255fc3f30a.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020450s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001119s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004756s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001514s ]
+

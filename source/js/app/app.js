@@ -1,7 +1,6 @@
 /**
  * Created by wxh on 2016/4/25.
  */
-
 var cn = angular.module('common',['ngRoute']);
 //_______模板引擎路由$routeProvider_______
 cn.config(['$routeProvider',function($routeProvider){
@@ -44,17 +43,39 @@ cn.config(['$routeProvider',function($routeProvider){
         when('/company/trade_shows___events/',{templateUrl:"view/company/trade_shows.html",controller: cn.tradeshowsCtrl}).
     otherwise({redirectTo:"/"});
 }]);
+
+cn.factory("pathservice",function(){
+    function pop_repeat(attr) {
+        var out_attr = [];
+        var json = {};
+        for(var i = 0 ; i< attr.length; i++) {
+            if(attr[i] && !json[attr[i]]) {
+                out_attr.push(attr[i]);
+                json[attr[i]] = 1;
+            }
+        }
+        return out_attr;
+    }
+    return {
+        path : function(p) {
+            var link = p || window.location.hash;
+            link  = link.replace(/\s|\#/g,"");
+            var items = link.split("/");
+            items = pop_repeat(items);
+            return items;
+        }
+    };
+});
 //_______站点导航$sitemap控制器_______
 cn.controller("sitemap",function($scope,$http) {
     $http.get('/source/json/sitemap.json').success(function(res){
         $scope.sites = res[0].site;
     });
 });
-cn.controller("titleCtrl",function($scope){
-    var path = window.location.hash;
-    var items = path.split("/");
-    param1 = items[items.length - 1];
-    param2 = items[items.length - 2];
+cn.controller("titleCtrl",function($scope,pathservice){
+    var items = pathservice.path();
+    param1 = items[items.length - 1] || 'index';
+    param2 = items[items.length - 2] || 'camera';
     //列出后两级
     $scope.title = param1.toUpperCase().replace("_"," ")+" | "+param2.toUpperCase().replace("_"," ");
 });
@@ -171,23 +192,39 @@ cn.controller("homenavCtrl",function($scope,$http) {
 cn.filter("titlefilter",function(){
     return function(val){
         //修改
-        var reg = /\s|\(|\)|\-|\&|\//g;
+        var reg = /\s|\(|\)|\-|\&|\/|\+|\./g;
         return val.toLowerCase().replace(reg,"_");
+        //return encodeURI(val);
+    }
+});
+cn.filter("getimgfilter",function(){
+    return function(img){
+        //修改
+        console.log(angular.isArray(img));
+        if(angular.isArray(img)) {
+            var reg = /(b_img)|(s_img)|(p_img)]/g;
+            console.log(img[0].replace(reg,"p_img"));
+            return img[0].replace(reg,"p_img");
+        }else if(angular.isString(img)) {
+            return img;
+        }else{
+            return "/source/img/no_img.png";
+        }
     }
 });
 //_______目录转化过滤器$pathfilter_______
 cn.filter("pathfilter",function(){
     return function(val,param1,param2){
         //修改
-        var reg = /\s|\(|\)|\-|\&|\//g;
+        var reg = /\s|\(|\)|\-|\&|\/|\"|\./g;
         val = val.toLowerCase().replace(reg,"_");
         if(param2 == undefined) {
             var items = param1.split("/");
             param1 = items[items.length - 3].substr(0,2);
             param2 = items[items.length - 2].substr(0,2);
         }else{
-            param1 = param1.toLowerCase().substr(0,2);
-            param2 = param2.toLowerCase().substr(0,2);
+            param1 = param1.toLowerCase().replace(reg,"_").substr(0,2);
+            param2 = param2.toLowerCase().replace(reg,"_").substr(0,2);
         }
         return param1+"_"+param2+"_"+val;
     }
@@ -195,7 +232,6 @@ cn.filter("pathfilter",function(){
 //_______字符串转化过滤器$imgfilter size = 0 为普通图 1位大图 2为小图_______
 cn.filter("imgfilter",function(){
     return function(val,size){
-        console.log(size);
         var reg = /(b_img)|(s_img)|(p_img)]/g;
         if(size == 1) {
             return val.toLowerCase().replace(reg,"b_img");
@@ -217,13 +253,19 @@ cn.controller("thirdnavCtrl",function($scope,$http) {
         $scope.maintxt = res[0].main_content;
         $scope.path = path;
         $scope.parent = parent;
-        $scope.item = $scope.itemmaps.map;
+        $scope.item = item;
 
     });
 });
 //_______$productlistCtrl控制器_______
-cn.controller("productlistCtrl",function($scope,$http) {
+cn.controller("productlistCtrl",function($scope,$http,$routeParams) {
     $http.get('/source/json/sitemap.json').success(function(res){
+        $scope.maintxt = res[0].main_content;
+        //假如没有第二等级下一个分类则跳转到详情页
+        var maintxt = $scope.maintxt[$routeParams.prevpage];
+        if(maintxt && maintxt.no_next_nav) {
+            window.location.href= window.location.href+'/'+$routeParams.pagename;
+        }
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length-1];//最后一项为当前页面
@@ -231,34 +273,47 @@ cn.controller("productlistCtrl",function($scope,$http) {
         var parents = items[items.length-3];
 
         $scope.product = res[0][item];
-        $scope.itemmaps = res[0][parents][parent];
-        $scope.maintxt = res[0].main_content;
-        $scope.path = path;
+        $scope.itemmaps = res[0][parents][parent] || res[0][parent][item];
         $scope.item = item;
+        $scope.path = path;
     });
 });
 //_______$productdetailCtrl控制器_______
 cn.controller("productdetailCtrl",function($scope,$http) {
     $http.get('/source/json/sitemap.json').success(function(res){
-        var path = window.location.hash;
-        var items = path.split("/");
+        var items = (window.location.hash).split("/");
+
         var item = items[items.length-1];//最后一项为当前页面
         var parent = items[items.length-2];//父页面
-
-        $scope.product = res[0][parent][item];
+        if(item == parent) {//说明是跳级进入产品详情页，数据查询方式不同
+            $scope.product = res[0].main_content[item];
+        }else{
+            $scope.product = res[0][parent][item];
+        }
+        $scope.itemmaps = res[0][items[items.length-4]][items[items.length-3]];
         $scope.switch = 'Overview';
         $scope.productid = 0;
-        $scope.itemmaps = res[0][items[items.length-4]][items[items.length-3]];
         $scope.ahover = function() {
             $scope.productid = $(this)[0].$index;
         };
         $scope.tab_switch = function() {
             $scope.switch = $(this)[0].elem;
+            $(".tab-title li").each(function(){
+                if($(this).children("a").text() == $scope.switch) {
+                    $(this).addClass('selected');
+                }else{
+                    $(this).removeClass('selected');
+                }
+            });
         };
         $scope.blowup = function() {
-            console.log('blowup');
-        }
-        $scope.path = path;
+            var src = $(".b-img img").attr("src");
+            $("body").append("<div class='blowup-box'><a href='javascript:void(0);' class='close-btn'>close</a><img src='"+src+"'</div>");
+        };
+        $scope.close = function(){
+            $(".blowup-box").remove();
+        };
+        $scope.items = items;
         $scope.item = item;
     });
 });
@@ -277,7 +332,6 @@ cn.controller("sitenavCtrl",function($scope,$http) {
         var item = items[items.length -2];
         var parent = 'site';
         $scope.itemmaps = res[0][parent][item].smap;
-        console.log(res[0][parent][item]);
         $scope.maintxt = res[0].main_content;
         $scope.fnav = res[0].first_nav_content;
         $scope.path = path;
@@ -316,8 +370,9 @@ cn.controller("casemainCtrl",function($scope,$http) {
         var item = items[items.length -1];
         var parent = items[items.length -2];
         $scope.itemmaps = res[0][parent][item];
-        $scope.path = path;
+        $scope.path = path.substr(0,path.lastIndexOf("/"));
         $scope.item = item;
+        $scope.parent = parent;
     });
 });
 //_______$casemainCtrl下级控制器________
@@ -326,11 +381,9 @@ cn.controller("companymainCtrl",function($scope,$http) {
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -1];
-        console.log(items.length,item);
         if(items.length > 3) {
             var parent = items[items.length -2];
             $scope.itemmaps = res[0][parent][item.replace("pr_","")];
-            console.log($scope.itemmaps);
         }else{
             $scope.itemmaps = res[0].main_content[item];
         }
@@ -352,30 +405,26 @@ cn.directive("mainessay",function(){
     };
 });
 //_______但前目录展示组件$pathlist________
-cn.directive("pathlist",function(){
+cn.directive("pathlist",["pathservice",function(pathservice){
     return {
         restrict : 'E',
         link : function(scope){
-            scope.$watch("path",function(v){
-                var path = v;
-                if(path != undefined) {
-                    var items = path.split("/");
-                    path = '';
-                    scope.items = [];
-                    scope.items[0] ={"name":"home","path":''};
-                    for(var i = 0 ; i< items.length ;i++){
-                        if(items[i] != "" && items[i] !="#" && items[i] != undefined){
-                            path += items[i]+'/';
-                            scope.items.push({"name":items[i],"path":path});
-                        }
-
+            scope.$watch("items",function(it){
+                var items = pathservice.path();
+                var path = '';
+                scope.items = [];
+                scope.items[0] ={"name":"home","path":''};
+                for(var i = 0 ; i< items.length ;i++){
+                    if(items[i] != "" && items[i] !="#" && items[i] != undefined){
+                        path += items[i]+'/';
+                        scope.items.push({"name":items[i],"path":path});
                     }
                 }
-            });
+            },true);
         },
         template :  '<ul class="pathlist"><li ng-repeat="v in items"><a href="/#/{{v.path}}">{{v.name}}</a>»</li></ul>',
     };
-});
+}]);
 //_______$wisenetliteCtrl控制器________
 cn.controller("wisenetliteCtrl",function($scope,$http) {
     $http.get('/source/json/sitemap.json').success(function(res){
@@ -386,16 +435,18 @@ cn.controller("wisenetliteCtrl",function($scope,$http) {
         var itemmaps = [];
         for(var i = 0 ; i < itemcontent.length; i++) {
             var content = itemcontent[i].split("/");
+            var root = [];
             for(var j = 0 ;j < content.length ; j++) {
                 if(j == 0){
-                    itemmaps[i] = res[0][content[j]];
+                    console.log(content[j],content);
+                    root = res[0][content[j]];
                 }else{
-                    itemmaps[i] = itemmaps[i][content[j]];
+                    itemmaps[i] = root[content[j]];
                 }
             }
         }
         $scope.itemmaps = itemmaps;
-        $scope.linkpath ="products/security_cameras/ip_cameras/wisenet_lite";
+        $scope.linkpath ="products/security_cameras/ip_cameras/se_ip_wisenet_lite";
         $scope.maintxt = res[0].main_content;
         $scope.path = path;
         $scope.item = item;
@@ -438,8 +489,8 @@ cn.controller("salesmapCtrl",function($scope,$http) {
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length-1];//最后一项为当前页面
-        console.log(item);
         $scope.itemmaps = res[0].main_content[item];
+
         $scope.path = path;
         $scope.item = item;
 
@@ -509,7 +560,6 @@ cn.controller("companyaboutCtrl",function($scope,$http) {
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length-1];//最后一项为当前页面
-        console.log(item);
         $scope.itemmaps = res[0].main_content[item];
         $scope.path = path;
         $scope.item = item;

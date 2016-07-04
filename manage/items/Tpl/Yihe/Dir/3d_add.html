@@ -1,0 +1,116 @@
+<include file="./Tpl/Yihe/Index/top.html" />
+<div id="content">
+  <div id="content-header">
+    <h1>栏目管理</h1>
+  </div>
+  <div id="breadcrumb"> <a href="__APP__/Index/index/groupid/<{$group.guid}>"><i class="icon-home"></i><{$group.title}></a> <?php if(session('uid')=='1'){?><a href="__URL__/index/groupid/<{$group.guid}>" class="current">栏目</a><?php }?> <{$Title}></div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <if condition="$Think.session.error neq ''">
+        <div class="alert alert-block"> <a class="close" data-dismiss="alert" href="#">×</a><{$Think.session.error}></div>
+      </if>
+      <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>添加栏目</h5>
+        </div>
+        <form action="__URL__/submit_add" name="form" method="post" enctype="application/x-www-form-urlencoded" class="form-horizontal">
+          <div class="widget-content nopadding">
+            <div class="control-group">
+              <label class="control-label">标题:</label>
+              <div class="controls">
+                <input type="text" class="span11" size="200" placeholder="标题" name="title">
+              </div>
+            </div>
+            <?php if(session('uid')=='1'){?>
+            <div class="control-group">
+            <label class="control-label">所属栏目:</label>
+            <div class="controls">
+            <select name="pid" class="span11">
+            <option value="0">请选择</option>
+            <{$dirlist}>
+            </select>
+            </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">是否锁定:</label>
+              <div class="controls">
+                <input name="locked" type="radio" value="0" checked="checked">否
+                <input name="locked" type="radio" value="1">是
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">能否添加子栏目:</label>
+              <div class="controls">
+                <input name="isadd" type="radio" value="0" checked="checked">能
+                <input name="isadd" type="radio" value="1">不能
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">能否添加内容:</label>
+              <div class="controls">
+                <input name="isaddc" type="radio" value="0" checked="checked">能
+                <input name="isaddc" type="radio" value="1">不能
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">显示模版:</label>
+              <div class="controls">
+                <select name="show_model" class="span11">
+                  <{$show_model}>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">添加模版:</label>
+              <div class="controls">
+                <select name="add_model" class="span11">
+                  <{$add_model}>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">修改模版:</label>
+              <div class="controls">
+                <select name="edit_model" class="span11">
+                  <{$edit_model}>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">绑定内容模版:</label>
+              <div class="controls">
+                <select name="mid" class="span11">
+                  <volist name="model" id="value">
+                    <option value="<{$value.guid}>"><{$value.title}></option>
+                  </volist>
+                </select>
+              </div>
+            </div>
+            <?php }else{?>
+            <input type="hidden" name="pid" value="<{$pid}>">
+            <input type="hidden" name="isadd" value="1">
+            <input type="hidden" name="show_model" value="3d.html">
+            <input type="hidden" name="add_model" value="3d_add.html">
+            <input type="hidden" name="edit_model" value="3d_edit.html">
+            <input type="hidden" name="mid" value="8104853443DA91FAA97D84084D25B152">
+            <?php }?>
+            <div class="control-group">
+              <label class="control-label">大图:</label>
+              <div class="controls">
+                <input type="text" class="span11" id="oneimg_value" size="70" name="oneimg">
+                <a id="oneimg" href="#" class="btn btn-success">预览</a>
+                <input id="oneimg_upload" type="file" class="span11" size="30" name="oneimg_upload">
+                <input type="button" name="submit" class="btn btn-success" value=" 上传 " onclick="return ajaxFileUpload('__APP__/Index/upload/name/oneimg/file/oneimg_upload/groupid/<{$group.guid}>','oneimg','oneimg_upload');">
+              </div>
+            </div>
+            <div class="form-actions">
+              <input type="hidden" name="groupid" value="<{$group.guid}>">
+              <button type="submit" class="btn btn-success">保存</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

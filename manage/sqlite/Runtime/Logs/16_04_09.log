@@ -1,0 +1,8 @@
+[ 2016-04-09T08:41:46+08:00 ] 113.70.58.160 /sqlite/index.php/Index/index/filename/43C1549E222DE8BCFD975AEF5F44443A_1460162501/groupid/43C1549E222DE8BCFD975AEF5F44443A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+

@@ -1,0 +1,60 @@
+<div id="product-list-nav" ng-controller="productlistCtrl">
+    <div class="intro">
+        <div class="detail">
+            <span class="left-txt">
+                <pathlist>导航目录</pathlist>
+                <h1>{{maintxt[item].name}}</h1>
+                <em>{{maintxt[item].brief}}</em>
+                <p>{{maintxt[item].detail}}</p>
+            </span>
+            <span class="right-logo">
+                <img ng-src="/source/img/samsungbiglogo.ashx">
+            </span>
+        </div>
+    </div>
+    <div class="lr-content">
+        <div class="l-nav">
+            <div class="list-nav">
+                <div class="first-nav">
+                    <a href="{{itemmaps.base_url}}/">{{itemmaps.name}}»</a>
+                    <hr>
+                    <ul>
+                        <li class="second-nav" ng-repeat="smap in itemmaps.smap">
+                            <a href="{{itemmaps.base_url}}/{{smap  | pathfilter:path}}">
+                                {{smap}}»
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lbox" ng-controller="linkbox_ctrl">
+                <ul class="link-box z-dist">
+                    <expanderzdist expander="catalog"></expanderzdist>
+                    <expanderzdist expander="contact"></expanderzdist>
+                    <expanderzdist expander="events"></expanderzdist>
+                </ul>
+            </div>
+        </div>
+        <div class="r-nav">
+            <div class="icon-list-nav">
+                <div class="first-nav">
+                    <span class="first-nav-title">{{maintxt[item].name}}»</span>
+                    <ul class="icon-list">
+                        <li class="map-item" ng-repeat="prod in product">
+                            <a class="map" href="/{{path}}/{{prod.name | titlefilter}}">
+                                <span class="map-img"> <img class="map-img" ng-src="{{prod.img[0] | imgfilter:0}}"></span>
+                                <span class="{{prod.new ? 'new-icon':''}}"></span>
+                                <em>{{prod.name}}»</em>
+                                <hr>
+                            </a>
+                            <div class="smap-bottom">
+                                <span class="smap">{{prod.brief}}<i>readmore</i></span>
+                                <a class="btn" href="/{{path}}/{{prod.name | titlefilter}}">VIEW DETAILS»</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
