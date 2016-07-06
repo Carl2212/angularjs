@@ -1,0 +1,72 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="devicesetting.js" type="text/javascript"></script>
+<!--<title>设备设置</title>-->
+
+</head>
+<body >
+	<div >
+		<label ><script type="text/javascript">document.write(lang.language);</script></label>
+		<select id="getlanguage" class="select" matchval="getlanguage" >
+			<option value="0">中文简体</option>
+			<option value="1">English</option>
+			<option value="2">Polski</option>
+			<option value="3">Čeština</option>
+			<option value="4">Русский</option>
+			<option value="5">ภาษาไทย</option>
+			<option value="6">العربية</option>
+			<option value="7">עברית</option>
+			<option value="8">Български език</option>
+			<option value="9">زبان فارسی</option>
+			<option value="10">Deutsch</option>
+			<option value="11">Français</option>
+			<option value="12">Português</option>
+			<option value="13">Türk</option>
+			<option value="14">Español</option>
+			<option value="15">Italiano</option>
+			<option value="16">Magyar nyelv</option>
+			<option value="17">România</option>
+			<option value="18">한국어</option>
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.recmode);</script></label>
+		<select id="getrecyclerecord" class="select" matchval="getrecyclerecord" >
+			<option value="0"><script type="text/javascript">document.write(lang.recoverwrite);</script></option>
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.recdays);</script></label>
+		<select id="getdrvid" class="select" matchval="getdrvid" >
+			<option value="0"><script type="text/javascript">document.write(lang.recnolimit);</script></option>
+			<option value="1">15</option>
+			<option value="2">10</option>
+			<option value="3">7</option>
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.videostandard);</script></label>
+		<select id="getvideomode" class="select" matchval="getvideomode" >
+			<option value="0">PAL</option>
+			<option value="1">NTSC</option>
+		</select>
+	</div>
+
+	<div >
+		<label><script type="text/javascript">document.write(lang.standytime);</script>(min)</label>
+		<input type="text" id="getstandbytime" class="select" matchval="getstandbytime"/>
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.deviceName);</script></label>
+		<input type="text" id="getdevname" class="select" matchval="getdevname"/>
+	</div>
+<div>
+	<input type="button" id="device_save" value ='devicesave'/>
+</div>
+	
+</body>
+</html>

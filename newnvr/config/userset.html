@@ -1,0 +1,89 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="../js/jquery-ui.min.css" rel="stylesheet">
+	<link href="../css/default.css" rel="stylesheet">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="userset.js" type="text/javascript"></script>
+	<title>version</title>
+
+</head>
+<body>
+<div>
+	<input type="button" id="user_user" value ='user_user'/>
+	<input type="button" id="user_group" value ='user_group'/>
+</div>
+<div class="logMain" id="user_list"  style="display: block;">
+	<div class="resizeLine"></div>
+	<div class="tabHead">
+		<ul>
+			<li style="width: 70px; text-align:left; line-height:28px;">
+				<span><label><script type="text/javascript">document.write(lang.diskno);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 145px; line-height:28px;">
+				<span><label><script type="text/javascript">document.write(lang.diskstatus);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px;">
+				<span><label><script type="text/javascript">document.write(lang.disktotal);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px;">
+				<span><label><script type="text/javascript">document.write(lang.disktotal);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px;">
+				<span><label><script type="text/javascript">document.write(lang.disktotal);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px;">
+				<span><label><script type="text/javascript">document.write(lang.diskfree);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+		</ul>
+	</div>
+	<table id="userList" cellspacing="1px">
+	</table>
+</div>
+
+<div class="logMain" id="group_list" style="display: none;">
+	<div  class="resizeLine"></div>
+	<div class="tabHead">
+		<ul>
+			<li style="width: 70px; text-align:left; line-height:28px;">
+				<span><label><script type="text/javascript">document.write(lang.diskno);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px; line-height:28px;">
+				<span><label><script type="text/javascript">document.write(lang.diskstatus);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px;">
+				<span><label><script type="text/javascript">document.write(lang.disktotal);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px;">
+				<span><label><script type="text/javascript">document.write(lang.disktotal);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+			<li style="width: 110px;">
+				<span><label><script type="text/javascript">document.write(lang.disktotal);</script></label></span>
+				<div class="resizebtn"></div>
+			</li>
+
+		</ul>
+	</div>
+	<table id="groupList" cellspacing="1px">
+	</table>
+</div>
+
+
+
+<input type="button" id="logadduer" value ='添加用户' style="display: block;"/>
+<input type="button" id="logadduergroup" value ='添加用户组' style="display: none;"/>
+
+</body>
+</html>

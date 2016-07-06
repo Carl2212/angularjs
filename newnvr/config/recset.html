@@ -1,0 +1,112 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="../js/jquery-ui.min.css" rel="stylesheet">
+	<link href="../css/default.css" rel="stylesheet">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="../js/jquery-ui.min.js" type="text/javascript" ></script>
+	<script src="../js/plugin.js" type="text/javascript" ></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="recset.js" type="text/javascript"></script>
+<title>version</title>
+
+</head>
+<body >
+	<div >
+		<label ><script type="text/javascript">document.write(lang.channel);</script></label>
+		<select id="getrecchannum" class="select" matchval="getrecchannum" >
+			<option value="250" id="ch_250"><script type="text/javascript">document.write(lang.allchannel);</script></option>
+			<option value="1" id="ch_01">1</option>
+			<option value="2" id="ch_02">2</option>
+			<option value="3" id="ch_03">3</option>
+			<option value="4" id="ch_04">4</option>
+			<option value="5" id="ch_05">5</option>
+			<option value="6" id="ch_06">6</option>
+			<option value="7" id="ch_07">7</option>
+			<option value="8" id="ch_08">8</option>
+			<option value="9" id="ch_09">9</option>
+			<option value="10" id="ch_10">10</option>
+			<option value="11" id="ch_11">11</option>
+			<option value="12" id="ch_12">12</option>
+			<option value="13" id="ch_13">13</option>
+			<option value="14" id="ch_14">14</option>
+			<option value="15" id="ch_15">15</option>
+			<option value="16" id="ch_16">16</option>
+			<option value="17" id="ch_17">17</option>
+			<option value="18" id="ch_18">18</option>
+			<option value="19" id="ch_19">19</option>
+			<option value="20" id="ch_20">20</option>
+			<option value="21" id="ch_21">21</option>
+			<option value="22" id="ch_22">22</option>
+			<option value="23" id="ch_23">23</option>
+			<option value="24" id="ch_24">24</option>
+			<option value="25" id="ch_25">25</option>
+		</select>
+	</div>
+	<div >
+
+		<select id="getahdencodechannelno1" class="select" matchval="getahdencodechannelno11" >
+			<option value="1"><script type="text/javascript">document.write(lang.recnormal);</script></option>
+			<option value="2"><script type="text/javascript">document.write(lang.recmotion);</script></option>
+		</select>
+	</div>
+	<div >
+		<input type="checkbox" id="recsunday"  matchval="recsunday"/>
+		<!--<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>-->
+		<label ><script type="text/javascript">document.write(lang.recsun);</script></label>
+
+		<span style="width: 55px;"><a href="javascript:clearrecshcudel(0);" ><label >清除</label></a></span>
+		<span style="width: 55px;"><a href="javascript:editrecshcudel(0);" title="编辑">编辑</a></span>
+	</div>
+	<div >
+		<input type="checkbox" id="recmonday"  matchval="recmonday"/>
+		<!--<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>-->
+		<label ><script type="text/javascript">document.write(lang.recmon);</script></label>
+
+		<span style="width: 55px;"><a href="javascript:clearrecshcudel(1);" ><label >清除</label></a></span>
+		<span style="width: 55px;"><a href="javascript:editrecshcudel(1);" title="编辑">编辑</a></span>
+	</div>
+	<div >
+		<input type="checkbox" id="recthesday"  matchval="recthesday"/>
+		<!--<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>-->
+		<label ><script type="text/javascript">document.write(lang.recfeb);</script></label>
+
+		<span style="width: 55px;"><a href="javascript:clearrecshcudel(2);" ><label >清除</label></a></span>
+		<span style="width: 55px;"><a href="javascript:editrecshcudel(2);" title="编辑">编辑</a></span>
+	</div>
+	<div >
+		<input type="checkbox" id="recwensday"  matchval="recwensday"/>
+		<!--<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>-->
+		<label ><script type="text/javascript">document.write(lang.recwen);</script></label>
+
+		<span style="width: 55px;"><a href="javascript:clearrecshcudel(3);" ><label >清除</label></a></span>
+		<span style="width: 55px;"><a href="javascript:editrecshcudel(3);" title="编辑">编辑</a></span>
+	</div>
+	<div >
+		<input type="checkbox" id="recthursday"  matchval="recthursday"/>
+		<!--<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>-->
+		<label ><script type="text/javascript">document.write(lang.recthe);</script></label>
+
+		<span style="width: 55px;"><a href="javascript:clearrecshcudel(4);" ><label >清除</label></a></span>
+		<span style="width: 55px;"><a href="javascript:editrecshcudel(4);" title="编辑">编辑</a></span>
+	</div>
+	<div >
+		<input type="checkbox" id="recfriday"  matchval="recfriday"/>
+		<!--<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>-->
+		<label ><script type="text/javascript">document.write(lang.recfri);</script></label>
+
+		<span style="width: 55px;"><a href="javascript:clearrecshcudel(5);" ><label >清除</label></a></span>
+		<span style="width: 55px;"><a href="javascript:editrecshcudel(5);" title="编辑">编辑</a></span>
+	</div>
+	<div >
+		<input type="checkbox" id="recsaterday"  matchval="recsaterday"/>
+		<!--<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>-->
+		<label ><script type="text/javascript">document.write(lang.recsat);</script></label>
+
+		<span style="width: 55px;"><a href="javascript:clearrecshcudel(6);" ><label >清除</label></a></span>
+		<span style="width: 55px;"><a href="javascript:editrecshcudel(6);" title="编辑">编辑</a></span>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="../js/jquery-ui.min.css" rel="stylesheet">
+	<link href="../css/default.css" rel="stylesheet">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="../js/jquery-ui.min.js" type="text/javascript" ></script>
+	<script src="../js/plugin.js" type="text/javascript" ></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="upnp.js" type="text/javascript"></script>
+	<title>version</title>
+
+</head>
+<body >
+	<div >
+		<input type="checkbox" id="getupnpen"  matchval="getupnpen"/>
+		<label ><script type="text/javascript">document.write(lang.exceptionenable);</script> </label>
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.diskstatus);</script></label>
+		<label id="upnptip"></label>
+
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.upnpinputip);</script></label>
+		<input type="text" id="getupnpdevinip" class="select" readonly="readonly" matchval="getupnpdevinip"/>
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.upnpoutputip);</script></label>
+		<input type="text" id="getupnpdevextip" class="select" readonly="readonly" matchval="getupnpdevextip"/>
+	</div>
+
+	<div >
+		<label><label><script type="text/javascript">document.write(lang.upnpportmap);</script></label></label>
+	</div>
+	<div class="upnpMain" style="margin-top:25px">
+		<div class="resizeLine" style="display: none;"></div>
+		<div class="tabHead">
+			<ul>
+				<!--<li style="width: 55px; text-align:left; line-height:28px;"><span><input type="checkbox" id="diskcheck" onclick="enablecheckvalue(100)" value="100"/><label><script type="text/javascript">document.write(lang.diskno);</script></label>序号</span><div class="resizebtn"></div></li>-->
+				<li style="width: 55px; text-align:left; line-height:28px;"><span><input type="checkbox" id="upnpallcheck" onclick="enableupnpallvalue()" value="1000"/></span><div class="resizebtn"></div></li>
+
+				<li style="width: 145px; line-height:28px;">
+					<span> <label><script type="text/javascript">document.write(lang.upnpservername);</script></label></span>
+					<div class="resizebtn"></div>
+				</li>
+				<li style="width: 220px;">
+					<!--<span><label><script type="text/javascript">document.write(lang.disktotal);</script>IP地址</label></span>-->
+					<span><label><script type="text/javascript">document.write(lang.upnpprotocol);</script></label></span>
+					<div class="resizebtn"></div>
+				</li>
+				<li style="width: 220px;">
+					<!--<span><label><script type="text/javascript">document.write(lang.diskfree);</script>端口</label></span>-->
+					<span><label><script type="text/javascript">document.write(lang.upnpinput);</script></label></span>
+					<div class="resizebtn"></div>
+				</li>
+				<li style="width: 75px;">
+					<!--<span><label><script type="text/javascript">document.write(lang.disktyep);</script>协议</label></span>-->
+					<span><label><script type="text/javascript">document.write(lang.upnpoutput);</script></label></span>
+					<div class="resizebtn"></div>
+				</li>
+			</ul>
+		</div>
+		<table id="upnpTab" cellspacing="1px">
+		</table>
+	</div>
+	<div>
+		<input type="button" id="upnp_add" value ='添加'/>
+		<input type="button" id="upnp_del" value ='删除'/>
+	</div>
+	<div>
+		<input type="button" id="upnp_save" value ='upnp保存'/>
+
+	</div>
+</body>
+</html>

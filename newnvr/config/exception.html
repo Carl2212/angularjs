@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="exception.js" type="text/javascript"></script>
+<title>异常</title>
+
+</head>
+<body >
+
+	<div >
+		<input type="button" id="disk_exception" value ='磁盘异常'/>
+		<label>            </label>
+		<input type="button" id="network_exception" value ='网络异常'/>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.eventtype);</script></label>
+		<select id="geteventtype" class="select" matchval="geteventtype" >
+			<option value="0" id="geteventtype_0"><script type="text/javascript">document.write(lang.nodisk);</script></option>
+			<option value="1" id="geteventtype_1"><script type="text/javascript">document.write(lang.diskerror);</script></option>
+			<option value="2" id="geteventtype_2"><script type="text/javascript">document.write(lang.netnolick);</script></option>
+			<option value="3" id="geteventtype_3"><script type="text/javascript">document.write(lang.iperror);</script></option>
+		</select>
+
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.exceptionenable);</script></label>
+		<input type="checkbox" id="geteventenalbe"  matchval="geteventenalbe"/>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.exdisplay);</script></label>
+		<input type="checkbox" id="geteventdisplay"  matchval="geteventdisplay"/>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.sendemali);</script></label>
+		<input type="checkbox" id="geteventemail"  matchval="geteventemail"/>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.buzzeralarm);</script></label>
+		<input type="checkbox" id="geteventbuzzer"  matchval="geteventbuzzer"/>
+	</div>
+
+<div>
+		<input type="button" id="exception_save" value ='exceptionsave'/>
+</div>
+	
+</body>
+</html>

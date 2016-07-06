@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="ptzset.js" type="text/javascript"></script>
+<title>ptz</title>
+
+</head>
+<body >
+	<div >
+		<label ><script type="text/javascript">document.write(lang.channel);</script></label>
+		<select id="getptzserialchannel" class="select" matchval="getptzserialchannel" >
+			<option value="0" id="ch_01">1</option>
+			<option value="1" id="ch_02">2</option>
+			<option value="2" id="ch_03">3</option>
+			<option value="3" id="ch_04">4</option>
+			<option value="4" id="ch_05">5</option>
+			<option value="5" id="ch_06">6</option>
+			<option value="6" id="ch_07">7</option>
+			<option value="7" id="ch_08">8</option>
+			<option value="8" id="ch_09">9</option>
+			<option value="9" id="ch_10">10</option>
+			<option value="10" id="ch_11">11</option>
+			<option value="11" id="ch_12">12</option>
+			<option value="12" id="ch_13">13</option>
+			<option value="13" id="ch_14">14</option>
+			<option value="14" id="ch_15">15</option>
+			<option value="15" id="ch_16">16</option>
+			<option value="16" id="ch_17">17</option>
+			<option value="17" id="ch_18">18</option>
+			<option value="18" id="ch_19">19</option>
+			<option value="19" id="ch_20">20</option>
+			<option value="20" id="ch_21">21</option>
+			<option value="21" id="ch_22">22</option>
+			<option value="22" id="ch_23">23</option>
+			<option value="23" id="ch_24">24</option>
+			<option value="24" id="ch_25">25</option>
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.ptzprotocol);</script></label>
+		<select id="getptzserialnnprotocol" class="select" matchval="getptzserialnnprotocol" >
+			<option value="0">PelcoD</option>
+			<option value="1">PelcoP</option>
+
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.ptzserialnaddr);</script></label>
+		<input type="text" id="getptzserialnaddr" class="select" matchval="getptzserialnaddr"/>
+	</div>
+<div >
+	<label ><script type="text/javascript">document.write(lang.ptzserialnbaudrate);</script></label>
+	<select id="getptzserialnbaudrate" class="select" matchval="getptzserialnbaudrate" >
+		<option value="110">110</option>
+		<option value="300">300</option>
+		<option value="600">600</option>
+		<option value="1200">1200</option>
+		<option value="2400">2400</option>
+		<option value="4800">4800</option>
+		<option value="9600">9600</option>
+		<option value="19200">19200</option>
+		<option value="38400">38400</option>
+		<option value="57600">57600</option>
+		<option value="115200">115200</option>
+		<option value="230400">230400</option>
+		<option value="460800">460800</option>
+		<option value="921600">921600</option>
+	</select>
+</div>
+<div >
+	<label ><script type="text/javascript">document.write(lang.ptzserialndatabit);</script></label>
+	<select id="getptzserialndatabit" class="select" matchval="getptzserialndatabit" >
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+	</select>
+</div>
+<div >
+	<label ><script type="text/javascript">document.write(lang.ptzserialnstopbit);</script></label>
+	<select id="getptzserialnstopbit" class="select" matchval="getptzserialnstopbit" >
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+</div>
+<div >
+	<label ><script type="text/javascript">document.write(lang.ptzserialnchecktype);</script></label>
+	<select id="getptzserialnchecktype" class="select" matchval="getptzserialnchecktype" >
+		<option value="0">NONE</option>
+		<option value="1">ODD</option>
+		<option value="2">EVEN</option>
+	</select>
+</div>
+
+<div>
+		<input type="button" id="ptzset_save" value ='ptzsetsave'/>
+</div>
+	
+</body>
+</html>

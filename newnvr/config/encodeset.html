@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+	<script src="common.js" type="text/javascript"></script>
+	<script src="encodeset.js" type="text/javascript"></script>
+<title>version</title>
+
+</head>
+<body >
+	<div >
+		<label ><script type="text/javascript">document.write(lang.channel);</script></label>
+		<select id="getahdencodechannelno" class="select" matchval="getahdencodechannelno1" >
+			<option value="1" id="ch_01">1</option>
+			<option value="2" id="ch_02">2</option>
+			<option value="3" id="ch_03">3</option>
+			<option value="4" id="ch_04">4</option>
+			<option value="5" id="ch_05">5</option>
+			<option value="6" id="ch_06">6</option>
+			<option value="7" id="ch_07">7</option>
+			<option value="8" id="ch_08">8</option>
+			<option value="9" id="ch_09">9</option>
+			<option value="10" id="ch_10">10</option>
+			<option value="11" id="ch_11">11</option>
+			<option value="12" id="ch_12">12</option>
+			<option value="13" id="ch_13">13</option>
+			<option value="14" id="ch_14">14</option>
+			<option value="15" id="ch_15">15</option>
+			<option value="16" id="ch_16">16</option>
+			<option value="17" id="ch_17">17</option>
+			<option value="18" id="ch_18">18</option>
+			<option value="19" id="ch_19">19</option>
+			<option value="20" id="ch_20">20</option>
+			<option value="21" id="ch_21">21</option>
+			<option value="22" id="ch_22">22</option>
+			<option value="23" id="ch_23">23</option>
+			<option value="24" id="ch_24">24</option>
+			<option value="25" id="ch_25">25</option>
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.codeType);</script></label>
+		<select id="getahdencodemainencodemode" class="select" matchval="getahdencodemainencodemode" >
+			<option value="0" >H264</option>
+
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.mainStream);</script></label>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.resultion);</script></label>
+		<select id="getahdencodemainresolutionjoin" class="select" matchval="getahdencodemainresolution1" >
+
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.streamType);</script></label>
+		<select id="getahdencodemainencodetype" class="select" matchval="getahdencodemainencodetype" >
+			<option value="0" ><script type="text/javascript">document.write(lang.veido);</script></option>
+			<option value="1" ><script type="text/javascript">document.write(lang.auvideo);</script></option>
+		</select>
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.bitrateType);</script>(Kb/s)</label>
+		<input type="text" id="getahdencodemainbiterate" class="select" onkeyup="if(keyboardFilter()) {value=NumberRangeLimt(this,64,12000)}" onblur="if(this.value == '') this.value='0'" matchval="getahdencodemainbiterate"/>
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.frame);</script></label>
+		<input type="text" id="getahdencodemainframerate" class="select" onkeyup="if(keyboardFilter()) {value=NumberRangeLimt(this,0,30)}" onblur="if(this.value == '') this.value='0'" matchval="getahdencodemainframerate"/>
+	</div>
+
+	<div >
+		<label ><script type="text/javascript">document.write(lang.childStream);</script></label>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.resultion);</script></label>
+		<select id="getahdencodesubresolutionjoin" class="select" matchval="getahdencodesubresolution1" >
+
+		</select>
+	</div>
+	<div >
+		<label ><script type="text/javascript">document.write(lang.streamType);</script></label>
+		<select id="getahdencodesubencodetype" class="select" matchval="getahdencodesubencodetype" >
+			<option value="0" ><script type="text/javascript">document.write(lang.veido);</script></option>
+			<option value="1" ><script type="text/javascript">document.write(lang.auvideo);</script></option>
+		</select>
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.bitrateType);</script>(Kb/s)</label>
+		<input type="text" id="getahdencodesubbitrate" class="select" onkeyup="if(keyboardFilter()) {value=NumberRangeLimt(this,64,12000)}" onblur="if(this.value == '') this.value='0'" matchval="getahdencodesubbitrate"/>
+	</div>
+	<div >
+		<label><script type="text/javascript">document.write(lang.frame);</script></label>
+		<input type="text" id="getahdencodesubframerate" class="select" onkeyup="if(keyboardFilter()) {value=NumberRangeLimt(this,0,30)}" onblur="if(this.value == '') this.value='0'" matchval="getahdencodesubframerate"/>
+	</div>
+	<div>
+		<input type="button" id="encode_save" value ='保存'/>
+	</div>
+</body>
+</html>
