@@ -43,8 +43,8 @@
 		<input type="text" id="getsmtptheme" class="select" matchval="getsmtptheme"/>
 	</div>
 	<div >
-		<label><script type="text/javascript">document.write(lang.smtpinterval);</script></label>
-		<input type="text" id="getsmtpinterval" onkeyup="if(keyboardFilter()) {value=NumberRangeLimt(this,0,999)}" onblur="if(this.value == '') this.value='0'" class="select" matchval="getsmtpinterval"/>
+		<label ><script type="text/javascript">document.write(lang.smtpfileen);</script></label>
+		<input type="checkbox" id="getsmtpfileen"  matchval="getsmtpfileen"/>
 	</div>
 	<div >
 		<label ><script type="text/javascript">document.write(lang.smtpenctype);</script></label>
@@ -55,14 +55,19 @@
 		</select>
 	</div>
 	<div >
-		<label ><script type="text/javascript">document.write(lang.smtpfileen);</script></label>
-		<input type="checkbox" id="getsmtpfileen"  matchval="getsmtpfileen"/>
+		<label><script type="text/javascript">document.write(lang.smtpinterval);</script></label>
+		<input type="text" id="getsmtpinterval" onkeyup="if(keyboardFilter()) {value=NumberRangeLimt(this,0,999)}" onblur="if(this.value == '') this.value='0'" class="select" matchval="getsmtpinterval"/>
+	</div>
+	<div >
+		<label data-id="emailopen"></label>
+		<input type="checkbox" id="getemailopen"  matchval="getsmtpfileen"/>
+	</div>
+	<div>
 		<input type="button" id="emailtest" value ='emailtest'/>
 	</div>
-
-<div>
+	<div>
 		<input type="button" id="email_save" value ='emailsave'/>
-</div>
+	</div>
 	
 </body>
 </html>

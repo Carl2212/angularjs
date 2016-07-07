@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title ng-controller="titleCtrl">{{title}}</title>
     <link href="/source/css/reset.css" type="text/css" rel="stylesheet">
-    <link href="/source/css/common.less" type="text/css" rel="stylesheet/less">
-    <script>less = { env: 'development'};</script>
-    <script src="/source/css/less.min.js" type="text/javascript"></script>
-    <script>less.watch();</script>
+    <link href="/source/css/common.css" type="text/css" rel="stylesheet">
+    <!--<link href="/source/css/common.less" type="text/css" rel="stylesheet/less">-->
+    <!--<script>less = { env: 'development'};</script>-->
+    <!--<script src="/source/css/less.min.js" type="text/javascript"></script>-->
+    <!--<script>less.watch();</script>-->
     <script src="/source/js/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script src="/source/js/angular.min.js"></script>
     <script src="/source/js/angular-route.min.js"></script>
@@ -23,10 +24,10 @@
             </select>
         </div>
         <div class="link-nav">
-            <a href="#">Consumer Products</a>:
-            <a href="#">Minimum Advertised Price (MAP) Policy</a>:
-            <a href="#">Employment Opportunties</a>:
-            <a href="#">STEP Partner Login</a>
+            <a href="http://www.samsungsv.com/">Consumer Products</a>:
+            <a href="https://www.samsung-security.com/SAMSUNG/upload/Product_Specifications/Samsung-Techwin-Minimum-Advertised-Price-Policy.pdf">Minimum Advertised Price (MAP) Policy</a>:
+            <a href="https://samsungsecurity.applicantpro.com/jobs/">Employment Opportunties</a>:
+            <a href="https://www.samsungsecuritypartner.com/usa_EN/Default.aspx">STEP Partner Login</a>
         </div>
     </div>
 
@@ -37,7 +38,7 @@
             </div>
             <ul class="sitemap" ng-controller="sitemap">
                 <li class="map {{site.hide ? 'hide':''}}" ng-repeat="site in sites">
-                    <a href="/#/{{site.map | titlefilter}}"> {{site.map}}</a>
+                    <a href="/#/{{site.name | titlefilter}}"> {{site.name}}</a>
                 </li>
             </ul>
         </div>
@@ -51,20 +52,19 @@
         </div>
         <ul class="sitemap" ng-controller="sitemap">
             <li class="map {{site.hide ? 'hide':''}}" ng-repeat="site in sites">
-                <span class="bm-txt"> <a href="/#/{{site.map | titlefilter}}"> {{site.map}}</a></span>
+                <span class="bm-txt"> <a href="/#/{{site.name | titlefilter}}"> {{site.name}}</a></span>
                 <ul class="second-map">
                     <li class="smap" ng-repeat="smap in site.smap track by $index">
-                        <p><a href="/#/{{site.map | titlefilter}}/{{smap | titlefilter}}">{{smap}} </a></p>
+                        <p><a href="{{outlink[smap] ? outlink[smap] : '/#/'+(site.name | titlefilter)+'/'+(smap | titlefilter)}}">{{smap}} </a></p>
                     </li>
                 </ul>
             </li>
         </ul>
         <div class="copy-txt">
             © 2011 Samsung Techwin America. All rights reserved.
-            <a href="#">Privacy</a>  :<a href="#">Sitemap</a>
+            <a href="#">Privacy</a>  :<a href="/#/site_map/">Sitemap</a>
         </div>
     </div>
 </footer>
-<!--<script src="/source/js/link_box.js" type="text/javascript"></script>-->
 </body>
 </html>

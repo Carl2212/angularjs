@@ -5,11 +5,11 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="/Public/Style/login.css" />
+<link rel="stylesheet" href="/manage/Public/Style/login.css" />
 </head>
 <body>
-<script type="text/javascript" src="/Public/Script/jquery.min.js"></script>
-<div id="logo"><img src="/Public/image/logo.png"></div>
+<script type="text/javascript" src="/manage/Public/Script/jquery.min.js"></script>
+<div id="logo"><img src="/manage/Public/image/logo.png"></div>
 <div id="loginbox">
   <form id="loginform" class="form-vertical" action="" />
   <p></p>

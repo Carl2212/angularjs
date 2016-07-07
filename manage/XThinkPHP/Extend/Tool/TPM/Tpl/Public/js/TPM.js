@@ -443,7 +443,7 @@ var TPM={
 		tpl_path_var:'_think_template_path',//接口指定模板
 
 		tpl_parse_string:{
-            '../Public':'./Public'
+            '../manage/Public':'./manage/Public'
         },//模板替换变量
 
         //指定接口请求的header

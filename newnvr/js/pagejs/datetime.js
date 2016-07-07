@@ -8,11 +8,53 @@ function InitConfig() {
 	//语言初始化
 	langJs=$.cookies.get('lang') || defaultLang;
 	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
-
 	$.getScript("../lang/"+langJs+".js",function(){
-		InitLang();
+		InitLang();//初始化语言
+		InitSelecttimezone();//初始化时区
+
+		$(".dropdown").each(function(){//下拉菜单初始化
+			$(this).find(".select-value").text($(this).find(".select-option").eq(0).text())
+					.attr('data-value',$(this).find(".select-option").eq(0).attr("data-value"));
+		});
+
+		$(".select-option").on("click",function(){//下拉菜单点击
+			var option_text = $(this).text();
+			var option_value = $(this).attr("data-value");
+			$(this).parents(".dropdown").find(".select-value").text(option_text).attr("data-value", option_value);
+		});
+	});
+	//初始化时间
+	InitSelecthour();
+	InitSelectminutes();
+	InitSelectseconds();
+
+	//初始操作
+	var d=new Date();
+	$('#setDate').val(d.Format("yyyy-MM-dd"));
+
+	$(".datepicker").datepicker({
+		language : 'zh-CN',
+		autoclose : true,
+		todayBtn : true,
+		clearBtn : true,
+		format : "yyyy-mm-dd"
+	});
+
+	$('input[name="ucModel"]').on("click",function(){
+		console.log($(this));
+		ucModelChecked($(this));
+	});
+
+	ucModelChecked($("#ntpsettime"));//初始化
+	load_time();
+	setDeviceTime();
+
+	//保存
+	$("#datetime_save").click(function(){
+		datetime_save();
 	});
 }
+
 function InitLang() {
 	$("[data-id]").each(function(){
 		$(this).text(lang[$(this).attr("data-id")]);
@@ -21,134 +63,59 @@ function InitLang() {
 		$(this).val(lang[$(this).attr("value-id")]);
 	});
 }
-
-
-
-
-
-
-var d=new Date();
-var pc_time=new Date();
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-
-$(document).ready(function(){
-	//初始操作
-	//$('#setDate').val(d.Format("yyyy-MM-dd"));
-    //
-	//var $datepicker=$("#setDate").datepicker({
-	//	dateFormat: "yy-mm-dd",
-	//	showButtonPanel: true
-	//});
-    //
-	//$('input[name="ucModel"]').click(function(){
-	//	var $this=$(this);
-	//	ucModelChecked($this);
-	//});
-    //load_time();
-	//setDeviceTime();
-    ////保存
-	//$("#datetime_save").click(function(){
-    //
-	//	datetime_save();
-	//});
-})
-
-function ucModelChecked($ele){
-	$('#setDate').attr('disabled','disabled');
-	$('#getsystemtimehour').attr('disabled','disabled');
-	$('#getsystemtimeminutes').attr('disabled','disabled');
-	$('#getsystemtimeseconds').attr('disabled','disabled');
-
-	$('#pc_time').attr('disabled','disabled');
-
-	$('#getntpserver').attr('disabled','disabled');
-	$('#getntptimezone').attr('disabled','disabled');
-	$('#getntpport').attr('disabled','disabled');
-	$('#getntinterval').attr('disabled','disabled');
-
-	$('#getntptimezone').attr('disabled','disabled');
-
-
-	var tmp_index=parseInt($ele.val());
-	switch(tmp_index){
-		case 0:
-			if($('input[name="ucModel"][value="0"]').is(':checked'))
-			{
-
-				$('input[name="ucModel"][value="0"]').click();
-				$('input[name="ucModel"][value="0"]').click();
-				$('input[name="ucModel"][value="0"]').attr('checked','checked');
-			}
-			else
-			{
-				$('input[name="ucModel"][value="0"]').click();
-				$('input[name="ucModel"][value="0"]').attr('checked','checked');
-			}
-			$('input[name="ucModel"][value="1"]').prop('checked',false);
-			$('input[name="ucModel"][value="2"]').prop('checked',false);
-
-			$('#setDate').prop('disabled',false);
-			$('#getsystemtimehour').prop('disabled',false);
-			$('#getsystemtimeminutes').prop('disabled',false);
-			$('#getsystemtimeseconds').prop('disabled',false);
-			break;
-		case 1:
-			if($('input[name="ucModel"][value="1"]').is(':checked'))
-			{
-
-				$('input[name="ucModel"][value="1"]').click();
-				$('input[name="ucModel"][value="1"]').click();
-				$('input[name="ucModel"][value="1"]').attr('checked','checked');
-			}
-			else
-			{
-				$('input[name="ucModel"][value="1"]').click();
-				$('input[name="ucModel"][value="1"]').attr('checked','checked');
-			}
-			$('input[name="ucModel"][value="0"]').prop('checked',false);
-			$('input[name="ucModel"][value="2"]').prop('checked',false);
-			$('#pc_time').prop('disabled',false);
-			break;
-		case 2:
-			if($('input[name="ucModel"][value="2"]').is(':checked'))
-			{
-
-				$('input[name="ucModel"][value="2"]').click();
-				$('input[name="ucModel"][value="2"]').click();
-				$('input[name="ucModel"][value="2"]').attr('checked','checked');
-			}
-			else
-			{
-				$('input[name="ucModel"][value="2"]').click();
-				$('input[name="ucModel"][value="2"]').attr('checked','checked');
-			}
-
-
-
-			$('input[name="ucModel"][value="0"]').prop('checked',false);
-			$('input[name="ucModel"][value="1"]').prop('checked',false);
-			$('#getntpserver').prop('disabled',false);
-			$('#getntptimezone').prop('disabled',false);
-			$('#getntpport').prop('disabled',false);
-			$('#getntinterval').prop('disabled',false);
-			$('#getntptimezone').prop('disabled',false);
-			break;
+function InitSelecttimezone() {
+	var timezone = $("#getntptimezone").siblings(".dropdown-menu");
+	var zone_list = '';
+	for(var i =0 ;i < 48 ; i++) {
+		zone_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+lang['GMT'+i]+'</a></li>';
 	}
+	timezone.append(zone_list);
+}
+function InitSelecthour() {
+	var timehour = $("#getsystemtimehour").siblings(".dropdown-menu");
+	var hour_list = '';
+	for(var i =0 ;i < 24 ; i++) {
+		var j = (i < 10) ? ('0'+i) : i;
+		hour_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	}
+	timehour.append(hour_list);
+}
+function InitSelectminutes() {
+	var timeminutes = $("#getsystemtimeminutes").siblings(".dropdown-menu");
+	var minutes_list = '';
+	for(var i =0 ;i < 60 ; i++) {
+		var j = (i < 10) ? ('0'+i) : i;
+		minutes_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	}
+	timeminutes.append(minutes_list);
+}
+function InitSelectseconds() {
+	var timeseconds = $("#getsystemtimeseconds").siblings(".dropdown-menu");
+	var seconds_list = '';
+	for(var i =0 ;i < 60 ; i++) {
+		var j = (i < 10) ? ('0'+i) : i;
+		seconds_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	}
+	timeseconds.append(seconds_list);
 }
 
+function ucModelChecked(elem) {
+	var selected_model_id = elem.val();
+	$("input[name=ucModel]").not(elem).each(function(){
+		var model_id = $(this).val();
+		$(this).prop("checked",false);
+		$("dt[name=ucModelcontent][model-id="+model_id+"]").find("input,button,a,select").attr('disabled','disabled');
+	});
+	elem.attr("checked","checked");
+	$("dt[name=ucModelcontent][model-id="+selected_model_id+"]").find("input,button,a,select").prop('disabled',false);
+}
 function setDeviceTime(){
-
+	var pc_time=new Date();
 	var pc_t=pc_time.getTime();
 	pc_t+=1000;
 	pc_time=new Date(pc_t);
 	$('#pc_time').val(pc_time.Format("yyyy-MM-dd hh:mm:ss"));
 	setTimeout("setDeviceTime()", 1000);
-
 }
 
 
@@ -188,16 +155,19 @@ function load_time()
 				var mode = get_split_span_val(str_sub,"getntpcontrol");
 				if(mode == 0)
 				{
-					$('input[name="ucModel"][value="0"]').attr('checked','checked');
-					ucModelChecked($('input[name="ucModel"]:checked'));
+					ucModelChecked($('#manualsettime'));
 				}
 				else if(mode == 1)
 				{
-					$('input[name="ucModel"][value="2"]').attr('checked','checked');
-					ucModelChecked($('input[name="ucModel"]:checked'));
+					ucModelChecked($('#pcsettime'));
+				}else{
+					ucModelChecked($('#ntpsettime'));
 				}
 				d=new Date(year,month-1,day,hour,min,sec);			//rtJson.ucMonth-1   跟设备的月分有差别
-				$('#setDate').val(d.Format("yyyy-MM-dd"));
+				var setdate = d.Format("yyyy-MM-dd");
+				$('#setDate').val(setdate);
+				//$(".datepicker").datepicker("getDate").toLocaleString();//获取
+				$(".datepicker").datepicker("setDate", setdate);//设置
 			}
 	    }
 	}

@@ -2,7 +2,7 @@
 //$config = require("config.php");
 return $array = array(
     'DB_HOST'    => 'localhost',
-    'DB_NAME'    => 'longshu',	    //数据库名
+    'DB_NAME'    => 'csdz',	    //数据库名
     'DB_USER'    => 'root',	    //访问数据库账号
     'DB_PWD'     => '',       //访问数据库密码
     'DB_PREFIX'  => 'app_',	    //表前缀
@@ -14,7 +14,8 @@ return $array = array(
     'TMPL_L_DELIM'=>'<{',
     'TMPL_R_DELIM'=>'}>',
     'URL_HTML_SUFFIX'=>'.html',
-    'BASE_URL'  =>'http://dongya.company.com/'//网站WEB地址
+    'BASE_URL'  =>'http://module.com/manage/',//网站WEB地址
+    'NBASE_URL' => 'http://module.com/',
 );
 //return array_merge($config,$array);
 ?>

@@ -16,11 +16,11 @@
         <div class="l-nav">
             <ul class="list-nav">
                 <li class="first-nav" ng-repeat="itemmap in itemmaps">
-                    <a href="{{path}}/{{itemmap.map | titlefilter}}">{{itemmap.map}}»</a>
+                    <a href="{{path}}/{{itemmap.name | titlefilter}}">{{itemmap.name}}»</a>
                     <hr>
                     <ul>
                         <li class="second-nav" ng-repeat="smap in itemmap.smap">
-                            <a href="{{path}}/{{itemmap.map | titlefilter}}/{{smap  | pathfilter:item:itemmap.map}}">
+                            <a href="{{path}}/{{itemmap.name | titlefilter}}/{{smap  | pathfilter:item:itemmap.name}}">
                                 {{smap}}»
                             </a>
                         </li>
@@ -38,17 +38,17 @@
         <div class="r-nav">
             <ul class="icon-list-nav">
                 <li class="first-nav" ng-repeat="itemmap in itemmaps">
-                    <span class="first-nav-title">{{itemmap.map}}»</span>
+                    <span class="first-nav-title">{{itemmap.name}}»</span>
                     <ul class="icon-list">
                         <li class="map-item" ng-repeat="smap in itemmap.smap track by $index">
-                            <a class="map" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | pathfilter:item:itemmap.map}}">
-                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | pathfilter:item:itemmap.map)].img}}"></span>
+                            <a class="map" href="/{{path}}/{{itemmap.name | titlefilter}}/{{smap | pathfilter:item:itemmap.name}}">
+                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | pathfilter:item:itemmap.name)].img | getimgfilter}}"></span>
                                 <em>{{smap}}»</em>
                                 <hr>
                             </a>
                             <div class="smap-bottom">
-                                <span class="smap">{{maintxt[(smap | pathfilter:item:itemmap.map)].brief}}</span>
-                                <a class="btn" href="/{{path}}/{{itemmap.map | titlefilter}}/{{smap | pathfilter:item:itemmap.map}}">VIEW PRODUCTS»</a>
+                                <span class="smap">{{maintxt[(smap | pathfilter:item:itemmap.name)].brief}}</span>
+                                <a class="btn" href="/{{path}}/{{itemmap.name | titlefilter}}/{{smap | pathfilter:item:itemmap.name}}">VIEW PRODUCTS»</a>
                             </div>
 
                         </li>

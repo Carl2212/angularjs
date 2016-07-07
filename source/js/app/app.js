@@ -41,6 +41,7 @@ cn.config(['$routeProvider',function($routeProvider){
         when('/company/press_room/:pagename',{templateUrl:"view/company/main.html",controller: cn.companymainCtrl}).
         when('/company/press_room/',{templateUrl:"view/company/pressroom.html",controller: cn.pressroomCtrl}).
         when('/company/trade_shows___events/',{templateUrl:"view/company/trade_shows.html",controller: cn.tradeshowsCtrl}).
+        when('/site_map/',{templateUrl:"view/sitemap.html",controller: cn.sitepageCtrl}).
     otherwise({redirectTo:"/"});
 }]);
 
@@ -68,8 +69,9 @@ cn.factory("pathservice",function(){
 });
 //_______站点导航$sitemap控制器_______
 cn.controller("sitemap",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         $scope.sites = res[0].site;
+        $scope.outlink = res[0].outlink;
     });
 });
 cn.controller("titleCtrl",function($scope,pathservice){
@@ -89,13 +91,21 @@ cn.controller('linkbox_ctrl',["$scope",function($scope){
         "btn":"LEARN MORE>>",
         "href":"http://www.hanwhatechwinamerica.com/SAMSUNG/upload/Product_Specifications/2016-Sales-Catalog--web.pdf",
     };
+    $scope.catalog16={
+        "title":"2016 Sales Catalog",
+        "img":"/source/img/2016-sales-catalog-widge.ashx",
+        "brief":"See our security products in action.",
+        "detail":"Samsung Techwin’s online catalog is your source for professional video surveillance systems. When you try our products you will experience the difference that these technologies provide.",
+        "btn":"LEARN MORE>>",
+        "href":"http://www.hanwhatechwinamerica.com/SAMSUNG/upload/Product_Specifications/2016-Sales-Catalog--web.pdf",
+    };
     $scope.contact={
         "title":"Contact Us",
         "img":"/source/img/contact.ashx",
         "brief":"Need More Help?",
         "detail":"We strive to provide the best customer support in the industry. Please contact us if you have any questions about our products, need technical assistance or customer service support by calling us",
         "btn":"CONTACT US>>",
-        "href":"#",
+        "href":"/#/support/customer_service",
     };
     $scope.events={
         "title":"Trade Shows & Events",
@@ -170,15 +180,15 @@ cn.controller("indexCtrl",function($scope,jQuery) {
 });
 //_______$productCtrl控制器_______
 cn.controller("productCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         $scope.path = window.location.hash;
         $scope.products = res[0].products;
-        $scope.maintxt = res[0].first_nav_content.products;
+        $scope.maintxt = res[0].main_content.products;
     });
 });
 //_______$homenavCtrl控制器_______
 cn.controller("homenavCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var reg = /\s|-/g;
         var path = window.location.hash;
         var item = path.substring(path.lastIndexOf("/")+1);
@@ -200,10 +210,9 @@ cn.filter("titlefilter",function(){
 cn.filter("getimgfilter",function(){
     return function(img){
         //修改
-        console.log(angular.isArray(img));
+        console.log(img);
         if(angular.isArray(img)) {
             var reg = /(b_img)|(s_img)|(p_img)]/g;
-            console.log(img[0].replace(reg,"p_img"));
             return img[0].replace(reg,"p_img");
         }else if(angular.isString(img)) {
             return img;
@@ -232,25 +241,25 @@ cn.filter("pathfilter",function(){
 //_______字符串转化过滤器$imgfilter size = 0 为普通图 1位大图 2为小图_______
 cn.filter("imgfilter",function(){
     return function(val,size){
-        var reg = /(b_img)|(s_img)|(p_img)]/g;
+        var reg = /(b_img)|(s_img)|(p_img)/g;
         if(size == 1) {
-            return val.toLowerCase().replace(reg,"b_img");
+            return val.replace(reg,"b_img");
         }else if(size == 2){
-            return val.toLowerCase().replace(reg,"s_img");
+            return val.replace(reg,"s_img");
         }else{
-            return val.toLowerCase().replace(reg,"p_img");
+            return val.replace(reg,"p_img");
         }
     }
 });
 //_______$thirdnavCtrl控制器_______
 cn.controller("thirdnavCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
+        $scope.maintxt = res[0].main_content;
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length-1];//最后一项为当前页面
         var parent = items[items.length-2];//父页面
         $scope.itemmaps = res[0][parent][item];
-        $scope.maintxt = res[0].main_content;
         $scope.path = path;
         $scope.parent = parent;
         $scope.item = item;
@@ -259,7 +268,7 @@ cn.controller("thirdnavCtrl",function($scope,$http) {
 });
 //_______$productlistCtrl控制器_______
 cn.controller("productlistCtrl",function($scope,$http,$routeParams) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         $scope.maintxt = res[0].main_content;
         //假如没有第二等级下一个分类则跳转到详情页
         var maintxt = $scope.maintxt[$routeParams.prevpage];
@@ -271,22 +280,25 @@ cn.controller("productlistCtrl",function($scope,$http,$routeParams) {
         var item = items[items.length-1];//最后一项为当前页面
         var parent = items[items.length-2];//父页面
         var parents = items[items.length-3];
-
+        console.log($scope.maintxt[item]);
+        console.log(item,parent,parents);
         $scope.product = res[0][item];
         $scope.itemmaps = res[0][parents][parent] || res[0][parent][item];
+        console.log(res[0][parents][parent]);
         $scope.item = item;
         $scope.path = path;
     });
 });
 //_______$productdetailCtrl控制器_______
 cn.controller("productdetailCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var items = (window.location.hash).split("/");
 
         var item = items[items.length-1];//最后一项为当前页面
         var parent = items[items.length-2];//父页面
+        $scope.maintxt = res[0].main_content;
         if(item == parent) {//说明是跳级进入产品详情页，数据查询方式不同
-            $scope.product = res[0].main_content[item];
+            $scope.product = $scope.maintxt[item];
         }else{
             $scope.product = res[0][parent][item];
         }
@@ -306,13 +318,6 @@ cn.controller("productdetailCtrl",function($scope,$http) {
                 }
             });
         };
-        $scope.blowup = function() {
-            var src = $(".b-img img").attr("src");
-            $("body").append("<div class='blowup-box'><a href='javascript:void(0);' class='close-btn'>close</a><img src='"+src+"'</div>");
-        };
-        $scope.close = function(){
-            $(".blowup-box").remove();
-        };
         $scope.items = items;
         $scope.item = item;
     });
@@ -326,21 +331,20 @@ cn.filter('trusttoHtml', ['$sce',function($sce) {
 }]);
 //_______$sitenavCtrl控制器________
 cn.controller("sitenavCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -2];
         var parent = 'site';
         $scope.itemmaps = res[0][parent][item].smap;
         $scope.maintxt = res[0].main_content;
-        $scope.fnav = res[0].first_nav_content;
         $scope.path = path;
         $scope.item = item;
     });
 });
 //_______$casestudiesCtrl控制器________
 cn.controller("casestudiesCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -1];
@@ -351,7 +355,7 @@ cn.controller("casestudiesCtrl",function($scope,$http) {
     });
 });
 cn.controller("pressroomCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -2];
@@ -364,7 +368,7 @@ cn.controller("pressroomCtrl",function($scope,$http) {
 
 //_______$casemainCtrl下级控制器________
 cn.controller("casemainCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -1];
@@ -372,12 +376,13 @@ cn.controller("casemainCtrl",function($scope,$http) {
         $scope.itemmaps = res[0][parent][item];
         $scope.path = path.substr(0,path.lastIndexOf("/"));
         $scope.item = item;
+        $scope.maintxt = res[0].main_content;
         $scope.parent = parent;
     });
 });
 //_______$casemainCtrl下级控制器________
 cn.controller("companymainCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -1];
@@ -387,6 +392,7 @@ cn.controller("companymainCtrl",function($scope,$http) {
         }else{
             $scope.itemmaps = res[0].main_content[item];
         }
+        $scope.maintxt = res[0].main_content;
         $scope.path = path;
         $scope.item = item;
     });
@@ -409,15 +415,17 @@ cn.directive("pathlist",["pathservice",function(pathservice){
     return {
         restrict : 'E',
         link : function(scope){
-            scope.$watch("items",function(it){
+            scope.$watch("maintxt",function(txt){
                 var items = pathservice.path();
                 var path = '';
                 scope.items = [];
-                scope.items[0] ={"name":"home","path":''};
+                scope.items[0] ={"name":"Home","path":''};
                 for(var i = 0 ; i< items.length ;i++){
                     if(items[i] != "" && items[i] !="#" && items[i] != undefined){
                         path += items[i]+'/';
-                        scope.items.push({"name":items[i],"path":path});
+                        console.log(txt,items[i]);
+                        scope.items.push({"name":txt[items[i]].name,"path":path});
+
                     }
                 }
             },true);
@@ -427,7 +435,7 @@ cn.directive("pathlist",["pathservice",function(pathservice){
 }]);
 //_______$wisenetliteCtrl控制器________
 cn.controller("wisenetliteCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -1];
@@ -453,7 +461,7 @@ cn.controller("wisenetliteCtrl",function($scope,$http) {
     });
 });
 cn.controller("tradeshowsCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length -2];
@@ -473,10 +481,11 @@ cn.controller("tradeshowsCtrl",function($scope,$http) {
 
 //_______$thirdnavCtrl控制器_______
 cn.controller("toolsCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length-1];//最后一项为当前页面
+        $scope.maintxt = res[0].main_content;
         $scope.itemmaps = res[0].main_content[item];
         $scope.path = path;
         $scope.item = item;
@@ -485,10 +494,11 @@ cn.controller("toolsCtrl",function($scope,$http) {
 });
 //_______$salesmapCtrl控制器_______
 cn.controller("salesmapCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length-1];//最后一项为当前页面
+        $scope.maintxt = res[0].main_content;
         $scope.itemmaps = res[0].main_content[item];
 
         $scope.path = path;
@@ -556,17 +566,19 @@ cn.directive("ngSliderbutton",function(){
     };
 });
 cn.controller("companyaboutCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
         var path = window.location.hash;
         var items = path.split("/");
         var item = items[items.length-1];//最后一项为当前页面
+        $scope.maintxt = res[0].main_content;
         $scope.itemmaps = res[0].main_content[item];
         $scope.path = path;
         $scope.item = item;
     });
 });
 cn.controller("minimumCtrl",function($scope,$http) {
-    $http.get('/source/json/sitemap.json').success(function(res){
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
+        $scope.maintxt = res[0].main_content;
         var path = window.location.hash;
         $scope.path = path;
         var $jq;
@@ -576,6 +588,18 @@ cn.controller("minimumCtrl",function($scope,$http) {
         if ($jq != undefined) {
             $jq("#scrollbar1").tinyscrollbar({ thumbSize: 58 });
         }
+    });
+
+});
+cn.controller("sitepageCtrl",function($scope,$http) {
+    $http.get('/source/json/sitemap.json',{cache:true}).success(function(res){
+        var path = window.location.hash;
+        var items = path.split("/");
+        var item = items[items.length-1];//最后一项为当前页面
+        $scope.maintxt = res[0].main_content;
+        var itemmaps = res[0].site;
+        $scope.path = path;
+        $scope.item = item;
     });
 
 });

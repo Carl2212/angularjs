@@ -6,10 +6,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="/Public/Style/style.css" />
-<script type="text/javascript" src="/Public/Script/jquery.min.js"></script>
-<script type="text/javascript" src="/Public/Script/script.js"></script>
-<script type="text/javascript" src='/Public/Script/jquery.cookie.js'></script>
+<link rel="stylesheet" href="/manage/Public/Style/style.css" />
+<script type="text/javascript" src="/manage/Public/Script/jquery.min.js"></script>
+<script type="text/javascript" src="/manage/Public/Script/script.js"></script>
+<script type="text/javascript" src='/manage/Public/Script/jquery.cookie.js'></script>
 <script type="text/javascript">
 $(function(){
 	$('.alert .close').click(function(){
@@ -21,7 +21,7 @@ $(function(){
 </script>
 </head>
 <body>
-<div id="header"><a href="__APP__"><img src="/Public/Image/logo.png" width="185"></a> </div>
+<div id="header"><a href="__APP__"><img src="/manage/Public/Image/logo.png" width="185"></a> </div>
 <div id="user-nav">
   <ul class="nav">
     <li class=""><a href="__APP__/Index/outlogin"><i class="icon-share-alt"></i><span>退出系统</span></a></li>
@@ -32,6 +32,7 @@ $(function(){
     <li class="nav-li submenu"> <a href="#"><span class="icon-chevron-down"></span><span>全局管理</span></a>
       <ul>
         <li><a href="__APP__/Admin">超级管理员</a></li>
+        <li><a href="__APP__/Product">产品上传</a></li>
       </ul>
     </li>
   </ul>

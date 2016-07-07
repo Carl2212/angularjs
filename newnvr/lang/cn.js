@@ -93,10 +93,10 @@ var lang={
 	
 	//框架页面
 	'realTime':'实时预览',
-	'logSearch':'日志查询',
 	'options':'配置',
 	'exit':'注销',
 	'exitTips':'是否注销?',
+	'help' : '帮助',
 	
 	//实时预览
 	'setPic':'截图',
@@ -121,19 +121,62 @@ var lang={
 	'setTimeTips2':'时间格式错误！',
 	
 	//配置   菜单
-	'localOptions':'本地配置',
-	'baseOptions':'普通设置',
 	'system':'系统',
-	'systemOptions':'系统配置',
-	'localNet':'网络',
-	'vedio':'视频',
+	'channel':'通道',
+	'video':'录像',
+	'systemSet':'维护',
+
+	//系统子项
+	'baseOptions':'普通设置',
+	'localNet':'网络设置',
+	'userControl':'用户管理',
+	'default_email' : 'SMTP设置',
+	'default_ftp' : 'FTP',
+	'default_ddns' : 'DDNS设置',
+	'default_p2p' : 'P2P设置',
+	'default_upnp' :'Upnp',
+	'default_cloud' : '云存储',
+	'default_pppoe' :'PPPOE',
+
+
+	//通道子项
+	'channel_setting':'通道设置',
+	'default_encode':'编码设置',
+	'motionDetecting':'移动侦测',
+
+	//录像
+	'playback':'录像回放',
+	'default_record':'录像设置',
+
+
+	//维护
+	'optiondefault':'恢复默认',
+	'default_disk' :'磁盘管理',
+	'default_device':'设备管理',
+	'setTimeRestart':'自动维护',
+	'optionstorage':'存储',
+	'optionexception':'异常',
+	'optionverinfo':'版本',
+	'optionloginfo':'日志查询',
+
+
+
+	'default_common':'常规设置',
+	'default_net':'网络设置',
+	'default_motion':'视频检测',
+	'default_display':'显示设置',
+	'default_liveview':'预览配置',
+
+
+
+	'localOptions':'本地配置',
+
+
 	'image':'图像',
 	'safety':'安全',
 	'advanced':'高级配置',
 	'event':'事件',
-	
-	
-	
+
 	//本地配置-本地配置
 	'playParam':'播放参数',
 	'protocolType':'协议类型',
@@ -152,17 +195,19 @@ var lang={
 	'playbackImgPath':'回放抓图保存路径',
 	'playbackClipPath':'回放剪辑保存路径',
 	
-	
+
+
+
 	//基本配置－系统
+
 	'deviceInfo':'设备信息',
 	'timeOption':'时间设置',
-	'systemSet':'系统维护',
 	
 	'baseInfo':'基本信息',
 	'deviceName':'设备名称',
 	'hardwareVer':'硬件版本',
 	'softwareVer':'软件版本',
-	'channel':'通道',
+
 	
 	'timeZone':'时区',
 	'checkTime':'校时',
@@ -288,7 +333,6 @@ var lang={
 	
 	
 	//基本配置本地-安全
-	'userControl':'用户管理',
 	'user':'用户',
 	'right':'权限',
 	'eidt':'编辑',
@@ -311,7 +355,6 @@ var lang={
 	
 	
 	//高级配置-系统
-	'setTimeRestart':'自动维护',
 	'notSet':'从不',
 	'weekDay0':'周一',
 	'weekDay1':'周二',
@@ -396,7 +439,6 @@ var lang={
 	
 	
 	//高级配置-事件
-	'motionDetecting':'移动侦测',
 	'privacyMasking':'隐私遮挡',
 	'alarmSet':'报警设置',
 	
@@ -645,7 +687,7 @@ var lang={
 	'ntpdate2':'日 月 年',
 	'ntphour':'小时',
 
-	'language':'语言',
+	'language':'默认语言',
 	'recmode':'录像模式',
 	'recoverwrite':'覆盖',
 	'recdays':'录像天数',
@@ -684,18 +726,7 @@ var lang={
 
 
 	'default_all':'全部选择',
-	'default_common':'常规设置',
-	'defalut_user':'用户管理',
-	'default_channel':'通道配置',
-	'default_record':'录像设置',
-	'default_net':'网络设置',
-	'default_motion':'视频检测',
-	'default_display':'显示设置',
-	'default_liveview':'预览配置',
-	'default_ddns':'ddns设置',
-	'default_email':'email设置',
-	'default_encode':'编码参数',
-	'default_factory':'恢复出厂设置',
+
 
 	'ftpprot':'FTP端口',
 	'uploadfile':'文件上传',
@@ -794,6 +825,7 @@ var lang={
 
 	'allplay':'全部开始预览',
 	'allstop':'全部停止预览',
+	'allrec' :'全部开始录像',
 
 	'ptzcurise':'巡航设置',
 	'ptzpath':'路径',//add 2016.06.24
@@ -840,6 +872,12 @@ var lang={
 	'upnpoutputip':'外网IP',
 	'upnpportmap':'端口映射表',
 
+
+	//用户管理
+	'username' : '用户名',
+	'groupname':'组名',
+	'remark':'备注',
+	'emailopen' :'邮件开启',
 };
 
 

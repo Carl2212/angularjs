@@ -13,14 +13,14 @@
         </div>
         <ul class="icon-list">
             <li class="map-item" ng-repeat="product in products">
-                <a class="map" href="/{{path}}{{product.map | titlefilter}}">
+                <a class="map" href="/{{path}}{{product.name | titlefilter}}">
                     <img src="{{product.img}}">
-                    <h2>{{product.map}}</h2>
+                    <h2>{{product.name}}</h2>
                     <hr>
                 </a>
                 <ul class="smap">
                     <li class="smap-item" ng-repeat="smap in product.smap">
-                        <a href="/{{path}}{{product.map | titlefilter}}/{{smap | titlefilter}}">{{smap}}»</a>
+                        <a href="/{{path}}{{product.name | titlefilter}}/{{smap | titlefilter}}">{{smap}}»</a>
                     </li>
                 </ul>
             </li>

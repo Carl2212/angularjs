@@ -1,40 +1,5 @@
 /*2016.6.20 按页面*/
-html,body,head,header,footer,
-nav,div,article,aside,section,menu,details,
-table,input,form,th,tr,td,dl,dd,dt,ul,ol,li,
-h1,h2,h3,h4,h5,h6,img,
-p,pre,code,a,b,i,em {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-ul,ol {
-  list-style: none;
-}
-
-b,i,em,strong {
-  font-style: normal;
-  font-weight: normal;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-weight: normal;
-  font-size: 100%;
-}
-html{
-  height: 100%;
-}
 /*icon*/
 .icon{
 
@@ -99,10 +64,12 @@ html{
 @base-color-blue : #337ab7;
 @base-color-red : #a01337;
 @font-size-base : 14px;
+@base-background : #f9f9f9;
 body{
   font-size: @font-size-base;
   font-family: "微软雅黑", sans-serif;
   color: #000;
+  background: @base-background;
 }
 
 .color-b {
@@ -205,6 +172,12 @@ footer {
   overflow:hidden;
   font-size:12px;
 }
+/*表单全局public*/
+
+
+
+
+
 
 /*页面 login-page*/
 .loginBody {
@@ -276,28 +249,29 @@ footer {
     background: #333;
     border-bottom:2px solid #000;
     .menu{
-      margin-left: 20%;
-      float: left;
+      position: absolute;
+      left: 20%;
       height: @frame-height;
       li{
+        list-style: none;
         float: left;
         width: 150px;
+        background: #333;
         a{
-          display: inline-block;
-          width: 100%;
-          height: @frame-height;
-          line-height : @frame-height;
-          text-decoration: none;
-          text-align: center;
-          color: #ccc;
-          background: #333;
-          &:hover {
-            color: #fff;
-          }
-        }
-        .selected{
-          background: #0a0a0a;
-        }
+           display: inline-block;
+           width: 100%;
+           height: @frame-height;
+           line-height : @frame-height;
+           text-decoration: none;
+           text-align: center;
+           color: #ccc;
+           &:hover {
+             color: #fff;
+           }
+         }
+      }
+      .selected{
+        background: @base-color-red;
       }
     }
     .userInfo{
@@ -308,7 +282,7 @@ footer {
         height: @frame-height;
         line-height: @frame-height;
         padding:0;
-        margin:0;
+        margin:0 10px;
         width: 50px;
       }
     }
@@ -318,6 +292,10 @@ footer {
 
 /*子页面*/
 .realtime-page{
+  .dropdown-menu{
+    height: 500px;
+    overflow: scroll;
+  }
   .left-channel{
     float: left;
     width: 200px;
@@ -514,7 +492,7 @@ footer {
               background-color: #FBFBC2;
             }
             .selected{
-              background-color: #a01337;
+              background-color: @base-color-red;
             }
             li{
               text-align: center;
@@ -596,19 +574,183 @@ footer {
       }
     }
   }
+}
 
+/*配置框架*/
+.option-page{
+  background: @base-background;
+  .optionsMenu {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 250px;
+    background: #333;
+    min-height: 95%;
+    border: 2px solid #000;
+    border-left: none;
+    border-bottom: none;
+    dd,dt{
+      a{
+        display: inline-block;
+        height: 3em;
+        line-height: 3em;
+        width:100%;
+        text-align: center;
+      }
+    }
+    dt{
+      color:@base-color-blue;
+      font-size: @body-size + 4;
+    }
+    dt.open{
+      background: @base-color-red;
+    }
+    dd{
+      ul li a{
+        color: #fff;
+        font-size: @body-size + 2;
+        font-weight: bold;
+      }
+      .selected{
+        background: @base-color-red;
+      }
+      background: #000;
+      @optionsmenudd-shadow: inset 0 2px 1px @base-color-red;
+      .mixin-box-shadow(@optionsmenudd-shadow);
+    }
+  }
+  .optionsMain{
+    width: 100%;
+    margin-left: 250px;
+  }
+  &:after{
+    .mixin-clearfx();
+  }
+}
 
+.userset-page{
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border : none;
+    border-bottom :3px solid  @base-color-red;
+    background-color : @base-background;
+    color: @base-color-red;
+    font-weight: bold;
+  }
+  .logMain{
+    .user-table{
+      width: 500px;
+      margin-top:50px;
+      margin-left: 100px;
+      tfoot{
+        td{
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+/*******************公共部分样式 public*********************/
+.widget-box{
+  @pathconfig-border : 1px solid #cdcdcd;
+  background: none repeat scroll 0 0 @base-background;
+  border-top:@pathconfig-border;
+  border-right:@pathconfig-border;
+  clear: both;
+  margin : 0 auto;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  .widget-title{
+    @title-height : 36px;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background: #efefef;
+    border-left: @pathconfig-border;
+    border-bottom: @pathconfig-border;
+    height: @title-height;
+    background: url("../img/css/ml.jpg");
+    .icon{
+      height: @title-height;
+      line-height: @title-height;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+  .widget-content {
+    margin-top:50px;
+    clear: both;
+    //第一种组件模式
+    .control-group{
+      margin:30px 0;
+      .control-label{
+        float: left;
+        padding-top:10px;
+        width: 280px;
+        margin-right:10px;
+        text-align: right;
+        font-size: @body-size + 2;
+        font-weight:  normal;
+      }
+      .controls{
+        margin-left: 200px;
+        padding:10px 0 ;
+      }
+      .input-sm{
+        width: 300px;
+      }
+    }
+    .control-group.control-sm{
+      margin: 8px;
+    }
+    //第二种组件模式
+    .list-dl{
+      margin:10px 50px;
+      width: 800px;
+      dd,dt{
+        height: 42px;
+        line-height: 42px;
+        float: left;
+      }
+      dd{
+        width: 200px;
+        text-align: left;
+      }
+      dt{
+        width:600px;
+        .dropdown{
+          display: inline-block;
+        }
+
+      }
+      &:after{
+        .mixin-clearfx();
+      }
+    }
+    .form-action{
+      padding: 19px 20px 20px;
+      margin-top: 20px;
+      background-color: #f5f5f5;
+      border-top: 1px solid #e5e5e5;
+    }
+  }
 }
 
 
+
+
+
+
+/***********pathconfig-page**************/
+.pathconfig-page,.datetime-page{
+  background: @base-background;
+}
 
 li{
   cursor: pointer;
 }
-.dropdown-menu{
-  height: 500px;
-  overflow: scroll;
-}
+
 /*icon-to-bootstrap*/
 .left-top,.right-bottom {
   transform: rotate(-45deg);

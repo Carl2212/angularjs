@@ -16,7 +16,7 @@
         <div class="l-nav">
             <div class="list-nav">
                 <div class="first-nav">
-                    <a href="{{itemmaps.base_url}}">{{itemmaps.map}}»</a>
+                    <a href="{{itemmaps.base_url}}">{{itemmaps.name}}»</a>
                     <hr>
                     <ul>
                         <li class="second-nav" ng-repeat="smap in itemmaps.smap">
@@ -38,11 +38,11 @@
         <div class="r-nav">
             <div class="icon-list-nav">
                 <div class="first-nav">
-                    <span class="first-nav-title">{{itemmaps.map}}»</span>
+                    <span class="first-nav-title">{{itemmaps.name}}»</span>
                     <ul class="icon-list">
                         <li class="map-item" ng-repeat="smap in itemmaps.smap">
                             <a class="map" href="/{{path}}/{{smap | pathfilter:parent:item}}">
-                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | pathfilter:parent:item)].img}}"></span>
+                                <span class="map-img"> <img class="map-img" ng-src="{{maintxt[(smap | pathfilter:parent:item)].img | getimgfilter}}"></span>
                                 <em>{{smap}}</em>
                                 <hr>
                             </a>

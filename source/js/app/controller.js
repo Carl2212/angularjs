@@ -1,4 +1,4 @@
-var path = '/source/img/product/ipcamera/box/';
+var path = '/source/img/product/switches/ethernet/';
 var json = {};
 json.map = $.trim($(".product-name h2").text());
 var more_img = $(".more-views li");
@@ -24,13 +24,10 @@ tab.each(function(){
     if(element !=''){
         if(element == 'Overview') {
             var title = $.trim($(this).children('p').eq(0).text());
-            var p = $.trim($(this).children('p').eq(1).text());
-            var pp = p.split("•");
-            text = '<p>'+title+'</p><ul>';
-            for(var i = 0 ;i < pp.length ; i++) {
-                text += '<li>'+pp[i]+'</li>';
-            }
-            text += '</ul>';
+            $(this).children('h2').remove();
+
+            var p = $.trim($(this).html());
+            text += p;
         }else if(element !== 'Accessories List'){
             var a = $.trim($(this).children("a").text());
             var suffix = a.substr(-3);

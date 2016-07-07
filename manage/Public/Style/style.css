@@ -561,3 +561,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 	vertical-align: middle;
 	background: url(../Image/loading.gif) no-repeat center;
 }
+.content-center{
+	text-align: center;
+}
+.attr-box {
+	padding:10px;
+	border:1px solid rgba(0,0,0,0.1);
+}

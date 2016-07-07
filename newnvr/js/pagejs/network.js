@@ -2,23 +2,15 @@ var src_httpport = 0;
 var src_ip = "";
 var src_rtspport = 0;
 var src_dhcp = false;
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
 
-$(document).ready(function(){
-		$("[matchval='mac']").attr('disabled','disabled');
-	    load_net_setting();
-	
-	
+function InitConfig(){
+	langJs=$.cookies.get('lang') || defaultLang;
+	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
+	$.getScript("../lang/"+langJs+".js",function() {
+		InitLang();//初始化语言
+	});
+	$("[matchval='mac']").attr('disabled','disabled');
+	load_net_setting();
     //保存
 	$("#net_save").click(function(){
 		 var ipRegEx = /^(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$/;
@@ -48,8 +40,15 @@ $(document).ready(function(){
 	});
 	
 
-})
-
+};
+function InitLang() {
+	$("[data-id]").each(function(){
+		$(this).text(lang[$(this).attr("data-id")]);
+	});
+	$("[value-id]").each(function(){
+		$(this).val(lang[$(this).attr("value-id")]);
+	});
+}
 function save_net()
 {
      var str="netip=";

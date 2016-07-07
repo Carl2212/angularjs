@@ -1,26 +1,28 @@
 
 //参数
+var defaultLang = 'cn'; //默认语言
 var src_httpport = 0;
 var src_ip = "";
 var src_rtspport = 0;
 var src_dhcp = false;
 var encode_user = '';
-var defaultLang = 'cn'; //默认语言
 var get_url_vb = 'http://%ip/vb.htm?setloginpro&setlogin=%login&setloginip=%ip';
 var get_url_ini = 'http://%ip/ini.htm';
 
 
-//测试参数
+//使用设备登陆
+var ip=window.location.href.split('/')[2].split(':')[0];
+var port='80';
+var tmpArr=window.location.href.split(':');
+if(tmpArr[2]){
+	port=tmpArr[2];
+}
 var test_ip = '172.18.194.203';
 var test_user = 'admin';
 
 function Initlogin() {
 	//语言下拉菜单初始化
-	var langJs = 'cn';
-	$('#lang').val(langJs);
-	if($.cookies.get('lang')){
-		langJs=$.cookies.get('lang');
-	}
+	langJs=$.cookies.get('lang') || defaultLang;
 	$('#lang .dval').text($("[data-value="+langJs+"]").text());
 
 	//语言下拉菜单选择
@@ -84,8 +86,8 @@ $("#loginBtn").on("click",function(){
 
 function InitLang() {
 	$("#loginBtn").text( lang.loginBtn);
-	$('#userName').val($.cookies.get('userName') || lang.userName);
-	$('#pwd').val($.cookies.get('pwd') || lang.pwd);
+	$.cookies.get('userName') ? $('#userName').val($.cookies.get('userName')) : $('#userName').attr("placeholder",lang.userName);
+	$.cookies.get('pwd') ? $('#pwd').val($.cookies.get('pwd')) : $('#pwd').attr("placeholder",lang.pwd);
 }
 
 
@@ -113,15 +115,6 @@ function detectOS() {
 	return "other";
 }
 
-//使用设备登陆
-	ip=window.location.href.split('/')[2].split(':')[0];
-
-	port='80';
-	var tmpArr=window.location.href.split(':');
-	if(tmpArr[2]){
-		port=tmpArr[2];
-	}
-	//var bInit = true;
 
 
 //javaScript如何监听浏览器关闭事件

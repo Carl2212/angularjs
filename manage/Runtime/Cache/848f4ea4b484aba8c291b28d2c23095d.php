@@ -1,15 +1,23 @@
 <?php if (!defined('THINK_PATH')) exit(); if(!session('isadmin')){ redirect(C('BASE_URL')); } ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="managepro">
 <head>
 <title>后台管理系统</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="/Public/Style/style.css" />
-<script type="text/javascript" src="/Public/Script/jquery.min.js"></script>
-<script type="text/javascript" src="/Public/Script/script.js"></script>
-<script type="text/javascript" src='/Public/Script/jquery.cookie.js'></script>
+<link rel="stylesheet" href="/manage/Public/Style/style.css" />
+<script type="text/javascript" src="/manage/Public/Script/jquery.min.js"></script>
+<script type="text/javascript" src='/source/js/angular.js'></script>
+<script type="text/javascript" src='/source/js/angular-route.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+<script type="text/javascript" src="/manage/Public/Script/script.js"></script>
+<script type="text/javascript" src='/manage/Public/Script/jquery.cookie.js'></script>
+  <link href="/manage/Public/umeditor/lib/umeditor/dist/utf8-php/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" charset="utf-8" src="/manage/Public/umeditor/lib/umeditor/dist/utf8-php/umeditor.config.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/manage/Public/umeditor/lib/umeditor/dist/utf8-php/umeditor.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/manage/Public/umeditor/src/meta.umeditor.js"></script>
+  <script type="text/javascript" src='/manage/Public/jQuery_calendar/js/manage.js'></script>
 <script type="text/javascript">
 $(function(){
 	$('.alert .close').click(function(){
@@ -21,19 +29,26 @@ $(function(){
 </script>
 </head>
 <body>
-<div id="header"><a href="__APP__"><img src="/Public/Image/logo.png" width="185"></a> </div>
+<div id="header"><a href="__APP__"><img src="/manage/Public/Image/logo.png" width="185"></a> </div>
 <div id="user-nav">
   <ul class="nav">
     <li class=""><a href="__APP__/Index/outlogin"><i class="icon-share-alt"></i><span>退出系统</span></a></li>
   </ul>
 </div>
-<div id="sidebar">
+<div id="sidebar" >
   <ul>
     <li class="nav-li submenu"> <a href="#"><span class="icon-chevron-down"></span><span>全局管理</span></a>
       <ul>
         <li><a href="__APP__/Admin">超级管理员</a></li>
-        <li><a href="__APP__/Group">项目列表</a></li>
       </ul>
+    </li>
+    <li class="nav-li submenu"> <a href="#"><span class="icon-chevron-down"></span><span>产品分类</span></a>
+      <ul ng-controller="protypelistCtrl">
+        <li ng-repeat="type in protype track by $index" ><a href="__APP__/pro/typeid/type.name">{{type.name}}</a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-li submenu"> <a href="__APP__/pro"><span class="icon-chevron-down"></span><span>产品列表</span></a>
     </li>
   </ul>
 </div>

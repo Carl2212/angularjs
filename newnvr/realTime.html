@@ -27,15 +27,15 @@
 				<a id="channel16" class="btn"><span class="glyphicon glyphicon-th"></span><span class="sub-icon i-16">16</span></a>
 				<a id="channel25" class="btn"><span class="glyphicon glyphicon-th"></span><span class="sub-icon i-25">25</span></a>
 
-				<a id="stream" class="btn" title="子码流"><span class="glyphicon glyphicon-fire"></span>子码流</a>
-				<a  id="allplay" class="btn" title="所有通道预览"><span class="glyphicon glyphicon-play"></span>所有通道预览</a>
-				<a id="allrec" class="btn" title="所有通道录像"><span class="glyphicon glyphicon-facetime-video"></span>所有通道录像</a>
+				<a class="btn" title="子码流"><span class="glyphicon glyphicon-fire"></span>  <span id="childStream"></span></a>
+				<a class="btn" title="所有通道预览"><span class="glyphicon glyphicon-play"></span> <span id="allplay"></span></a>
+				<a  class="btn" title="所有通道录像"><span class="glyphicon glyphicon-facetime-video"></span><span id="allrec"></span></a>
 			</div>
 			<div class="shrink-tab right"><span class="glyphicon glyphicon-chevron-right"></span> </div>
 		</div>
 		<!--PTZ-->
 		<div id="ptzlist" class="ptzlist">
-			<div class="ptz-title">云台</div>
+			<div id="optionptzset" class="ptz-title"></div>
 			<div class="config-bx">
 				<table class="config-platform">
 				<tr>
@@ -106,7 +106,7 @@
 				<!--PTZ预置点-->
 				<div class="tab-body">
 					<div class="ptz-main" data-id="1" >
-						<table  class="preset-point" id="ptzpreset">
+						<table  class="preset-point" id="point-ptzpreset">
 
 						</table>
 					</div>
@@ -149,7 +149,7 @@
 					<div class="close edit-bx-close"><span class="glyphicon glyphicon-remove-circle"></span> </div>
 					<dl>
 						<dd>
-							<label class="edit-preset-txt txt">预置点</label>
+							<label id="ptzpreset" class="edit-preset-txt txt"></label>
 						</dd>
 						<dt>
 							<div class="dropdown" id="preset-selected-bx">
@@ -165,7 +165,7 @@
 					</dl>
 					<dl>
 						<dd>
-							<label class="edit-time-txt txt">停留时间</label>
+							<label id="ptzstay" class="edit-time-txt txt"></label>
 						</dd>
 						<dt>
 							<input id="edit-time" type="text" class="input-sm sm-input-bx">s
@@ -173,7 +173,7 @@
 					</dl>
 					<dl>
 						<dd>
-							<label class="edit-speed-txt txt">速度</label>
+							<label id="ptzspeed" class="edit-speed-txt txt"></label>
 						</dd>
 						<dt>
 							<input id="edit-speed" type="text" class="input-sm sm-input-bx">
@@ -181,7 +181,7 @@
 					</dl>
 					<dl>
 						<dd class="btn-col save-preset">
-							<a class="btn btn-default btn-sm" href="javascript:void(0);">保存</a>
+							<a id="save" class="btn btn-default btn-sm" href="javascript:void(0);"></a>
 						</dd>
 					</dl>
 				</div>

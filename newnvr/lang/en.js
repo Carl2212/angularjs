@@ -72,6 +72,7 @@ var lang={
 	'options':'Config',
 	'exit':'Logout',
 	'exitTips':'Log out?',
+	'help' :'help?',
 	
 	//实时预览
 	'setPic':'Screenshot',

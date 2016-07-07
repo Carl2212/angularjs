@@ -12,7 +12,7 @@ class SwitchMobileTplBehavior extends Behavior {
                     $replace=__ROOT__.'/client/'; 
                     $parse_string=C('TMPL_PARSE_STRING');
                     if(is_null($parse_string)) $parse_string=array();
-                    //自动增加一个模板替换变量，用于修复SAE平台下模板中使用../Public 会解析错误的问题。
+                    //自动增加一个模板替换变量，用于修复SAE平台下模板中使用../manage/Public 会解析错误的问题。
                     C('TMPL_PARSE_STRING',array_merge($parse_string,array($find=>$replace)));
                     //判断如果是云窗调试器访问跳转访问首页到client目录
                     if(APP_DEBUG && ''==__INFO__ && preg_match('/android|iphone/i',$_SERVER['HTTP_USER_AGENT'])){ 

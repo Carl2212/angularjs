@@ -1,3 +1,37 @@
+/*参数params*/
+var defaultLang = 'cn';
+
+/*初始化js*/
+function Initindex() {
+	//语言下拉菜单初始化
+	langJs=$.cookies.get('lang') || defaultLang;
+	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
+
+	$(".menu_items").on("click",function(e){
+		$(this).addClass('selected').siblings(".selected").removeClass("selected");
+	});
+
+
+
+	//iframe高度
+	$("iframe1").height($(window).height - 80);
+	$.getScript("./lang/"+langJs+".js",function() {
+		InitLang();
+	});
+}
+function InitLang(){
+	console.log('into language');
+	$("#realTime").text(lang.realTime);
+	$("#playback").text(lang.playback);
+	$("#options").text(lang.options);
+	$("#exit").text(lang.exit);
+	$("#help").text(lang.help);
+	$("#explain").text(lang.explain);
+	$("#saved").text(lang.saved);
+}
+
+
+
 if($.cookies.get('userName')) {
 	loginUser = $.cookies.get('userName');
 }

@@ -25,15 +25,12 @@ var PresetPathNum = 50; //初始化巡航路径个数
  ****************************************/
 function InitrealTime(){
     //语言最后才显示写入以保证js正常调用顺序
-    if(!$.cookies.get('lang')) {
-        langJs = defaultLang;
-    }
+    langJs = $.cookies.get('lang') || defaultLang;
     $.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
-    langJs = $.cookies.get('lang');
-    /*测试*/
-    langJs = defaultLang;
+
     $.getScript("lang/"+langJs+".js",function(){
         //进入语言包,显示语言功能
+        InitLang();
         //初始化预置点
         InitPrePoint();
         InitPathSelected();
@@ -110,7 +107,17 @@ function InitrealTime(){
  Output:
  return:
  ****************************************/
-
+function InitLang(){
+    console.log('realtime2',lang.optionptzset);
+    $("#optionptzset").text(lang.optionptzset);
+    $("#childStream").text(lang.childStream);
+    $("#allplay").text(lang.allplay);
+    $("#allrec").text(lang.allrec);
+    $("#ptzpreset").text(lang.ptzpreset);
+    $("#ptzstay").text(lang.ptzstay);
+    $("#ptzspeed").text(lang.ptzspeed);
+    $("#save").text(lang.save);
+}
 
 
 
@@ -175,7 +182,7 @@ function InitPrePoint() {
     var iLen = PresetNum;
     var szName = lang.ptzpresetdot;
     for(var i = 0 ; i < iLen ; i++) {
-        $('<tr><td class="title">'+ szName+' '+(i+1) +'</td><td class="glyphicon glyphicon-share-alt"></td><td class="glyphicon glyphicon-cog"></td></tr>').appendTo('#ptzpreset');
+        $('<tr><td class="title">'+ szName+' '+(i+1) +'</td><td class="glyphicon glyphicon-share-alt"></td><td class="glyphicon glyphicon-cog"></td></tr>').appendTo('#point-ptzpreset');
     }
 }
 /*************************************************
@@ -348,7 +355,6 @@ function InitPathSelected() {
 
 }
 function DropdownSelected(list_elem,default_preset,root_elem,select_elem,callback) {
-    console.log(list_elem,root_elem,select_elem,callback);
     if(!default_preset) {
         default_preset = 1;
     }

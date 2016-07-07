@@ -3,8 +3,8 @@
         <div class="detail">
             <span class="left-txt">
                 <pathlist>导航目录</pathlist>
-                <h1>{{fnav[item].name}}</h1>
-                <p>{{fnav[item].detail}}</p>
+                <h1>{{maintxt[item].name}}</h1>
+                <p>{{maintxt[item].detail}}</p>
             </span>
             <span class="right-logo">
                 <img src="/source/img/samsungbiglogo.ashx">
@@ -14,10 +14,10 @@
             <li class="map-item" ng-repeat="itemmap in itemmaps track by $index">
                 <input type="hidden" value="{{itemmap | titlefilter}}" ng-model="itemmaps[$index]">
                 <a class="map" href="/{{path}}{{itemmap | titlefilter}}">
-                    <img ng-src="{{maintxt[itemmap].img}}">
+                    <img ng-src="{{maintxt[(itemmap | titlefilter)].img}}">
                 </a>
                 <a class="title"  href="/{{path}}{{itemmap | titlefilter}}">
-                    <h2>{{maintxt[itemmap].name}}»</h2>
+                    <h2>{{maintxt[(itemmap | titlefilter)].name}}»</h2>
                 </a>
                 <a class="rm"  href="/{{path}}{{itemmap | titlefilter}}">
                     read more»

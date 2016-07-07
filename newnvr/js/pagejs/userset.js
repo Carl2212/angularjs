@@ -33,10 +33,6 @@ if($.cookies.get('userName')) {
 if($.cookies.get('pwd')) {
 	loginpsw = $.cookies.get('pwd');
 }
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
 if($.cookies.get('arrayUser')) {
 	arrayUser = 0;
 }
@@ -49,12 +45,24 @@ if($.cookies.get('selectUserIndex')) {
 if($.cookies.get('selectGroupIndex')) {
 	selectGroupIndex = 0;
 }
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
 
-$(document).ready(function(){
-	GetUserData();
-	GetGroupData();
+function InitConfig(){
+	//语言初始化
+	langJs=$.cookies.get('lang') || defaultLang;
+	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
+	$.getScript("../lang/"+langJs+".js",function() {
+		InitLang();//初始化语言
+	});
+	//GetUserData();
+	//GetGroupData();
 	//click user
+	$(".nav.nav-tabs li").on("click",function(){
+		if(!$(this).hasClass('active')) {
+			var tab_id = $(this).attr('tab-id');
+			$(this).addClass('active').siblings(".active").removeClass('active');
+			$(".logMain table[tab-id="+tab_id+"]").removeClass('hide').siblings().not(".hide").addClass('hide');
+		}
+	});
 	$("#user_user").click(function(){
 		OnBnClickUser();
 	});
@@ -73,8 +81,15 @@ $(document).ready(function(){
 		window.location.href="addgroupset.html";
 	});
 
-})
-
+};
+function InitLang() {
+	$("[data-id]").each(function(){
+		$(this).text(lang[$(this).attr("data-id")]);
+	});
+	$("[value-id]").each(function(){
+		$(this).val(lang[$(this).attr("value-id")]);
+	});
+}
 function GetUserData()
 {
 	var XMLHttpRequestObject = null;

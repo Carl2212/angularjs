@@ -446,7 +446,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.002189s ]
 INFO: [ view_end ] --END-- [ RunTime:0.002273s ]
 
-[ 2016-05-11T13:24:54+08:00 ] 14.153.197.70 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/Ð¡»ï×Ó/password/q123456/uuid/609C3587-D0DA-47C6-B654-8BE6ED4595F2
+[ 2016-05-11T13:24:54+08:00 ] 14.153.197.70 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/Ð¡ï¿½ï¿½ï¿½ï¿½/password/q123456/uuid/609C3587-D0DA-47C6-B654-8BE6ED4595F2
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001335s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001451s ]
@@ -454,11 +454,11 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001002s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
 SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001909s ]
-SQL: SELECT * FROM `app_code` WHERE ( username="Ð¡»ï×Ó" and password="q123456" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="Ð¡ï¿½ï¿½ï¿½ï¿½" and password="q123456" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000732s ]
 SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001614s ]
 SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000643s ]
 
-[ 2016-05-11T13:24:54+08:00 ] 14.153.197.70 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/Ð¡»ï×Ó/password/q123456/uuid/609C3587-D0DA-47C6-B654-8BE6ED4595F2/type/updata
+[ 2016-05-11T13:24:54+08:00 ] 14.153.197.70 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/Ð¡ï¿½ï¿½ï¿½ï¿½/password/q123456/uuid/609C3587-D0DA-47C6-B654-8BE6ED4595F2/type/updata
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001077s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
@@ -466,11 +466,11 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
 SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001706s ]
-SQL: SELECT * FROM `app_code` WHERE ( username="Ð¡»ï×Ó" and password="q123456" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000715s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="Ð¡ï¿½ï¿½ï¿½ï¿½" and password="q123456" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000715s ]
 SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001346s ]
 SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000623s ]
 
-[ 2016-05-11T13:25:12+08:00 ] 14.153.197.70 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/Ð¡»ï×Ó/password/q123456/uuid/609C3587-D0DA-47C6-B654-8BE6ED4595F2/type/updata
+[ 2016-05-11T13:25:12+08:00 ] 14.153.197.70 /index.php/Index/iscode/groupid/43C1549E222DE8BCFD975AEF5F44443A/username/Ð¡ï¿½ï¿½ï¿½ï¿½/password/q123456/uuid/609C3587-D0DA-47C6-B654-8BE6ED4595F2/type/updata
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.000999s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
@@ -478,7 +478,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
 SQL: SHOW COLUMNS FROM `app_code` [ RunTime:0.001845s ]
-SQL: SELECT * FROM `app_code` WHERE ( username="Ð¡»ï×Ó" and password="q123456" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000718s ]
+SQL: SELECT * FROM `app_code` WHERE ( username="Ð¡ï¿½ï¿½ï¿½ï¿½" and password="q123456" and groupid="43C1549E222DE8BCFD975AEF5F44443A" ) LIMIT 1   [ RunTime:0.000718s ]
 SQL: SHOW COLUMNS FROM `app_group` [ RunTime:0.001297s ]
 SQL: SELECT * FROM `app_group` LIMIT 1   [ RunTime:0.000647s ]
 
@@ -1626,7 +1626,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/Public/Style/style.css
+[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/manage/Public/Style/style.css
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -1636,7 +1636,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.min.js
+[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.min.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
@@ -1646,7 +1646,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/Public/Script/script.js
+[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/script.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -1656,7 +1656,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.cookie.js
+[ 2016-05-11T21:46:33+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.cookie.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -2846,7 +2846,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/Public/Script/script.js
+[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/script.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
@@ -2856,7 +2856,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/Public/Style/style.css
+[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/manage/Public/Style/style.css
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -2866,7 +2866,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 
-[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.min.js
+[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.min.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
@@ -2876,7 +2876,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.cookie.js
+[ 2016-05-11T21:46:36+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.cookie.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -4066,7 +4066,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:38+08:00 ] 127.0.0.1 /index.php/Public/Style/style.css
+[ 2016-05-11T21:46:38+08:00 ] 127.0.0.1 /index.php/manage/Public/Style/style.css
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
@@ -4076,7 +4076,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:38+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.cookie.js
+[ 2016-05-11T21:46:38+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.cookie.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
@@ -4086,7 +4086,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:39+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.min.js
+[ 2016-05-11T21:46:39+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.min.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -4096,7 +4096,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:39+08:00 ] 127.0.0.1 /index.php/Public/Script/script.js
+[ 2016-05-11T21:46:39+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/script.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -5557,7 +5557,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/Public/Style/style.css
+[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/manage/Public/Style/style.css
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
@@ -5567,7 +5567,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/Public/Script/script.js
+[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/script.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
@@ -5577,7 +5577,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.cookie.js
+[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.cookie.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -5587,7 +5587,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.min.js
+[ 2016-05-11T21:46:51+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.min.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
@@ -6777,7 +6777,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/Public/Style/style.css
+[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/manage/Public/Style/style.css
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
@@ -6787,7 +6787,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.cookie.js
+[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.cookie.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
@@ -6797,7 +6797,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 
-[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.min.js
+[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.min.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
@@ -7043,7 +7043,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/Public/Script/script.js
+[ 2016-05-11T21:53:02+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/script.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
@@ -8007,7 +8007,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.002001s ]
 INFO: [ view_end ] --END-- [ RunTime:0.002001s ]
 
-[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/Public/Style/style.css
+[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/manage/Public/Style/style.css
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
@@ -8017,7 +8017,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/Public/Script/script.js
+[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/script.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
@@ -8027,7 +8027,7 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.cookie.js
+[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.cookie.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
@@ -8273,7 +8273,7 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/Public/Script/jquery.min.js
+[ 2016-05-11T21:56:32+08:00 ] 127.0.0.1 /index.php/manage/Public/Script/jquery.min.js
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.007000s ]
 INFO: [ route_check ] --END-- [ RunTime:0.007000s ]
