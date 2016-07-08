@@ -20,16 +20,16 @@
 				</dt>
 				<dd class="hide">
 					<ul>
-						<li><a data-id="baseOptions" target="iframeOptions" href="config/datetime.html?v=4"></a></li>
-						<li><a data-id="localNet" target="iframeOptions" href="config/network.html?v=1"></a></li>
-						<li><a data-id="userControl" target="iframeOptions" href="config/userset.html?v=2"></a></li>
-						<li><a data-id="default_email" target="iframeOptions" href="config/email.html"></a></li>
-						<li><a data-id="default_ftp" target="iframeOptions" href="config/ftp.html"></a></li>
-						<li><a data-id="default_ddns" target="iframeOptions" href="config/ddns.html"></a></li>
-						<li><a data-id="default_p2p" target="iframeOptions" href="config/p2p.html"></a></li>
-						<li><a data-id="default_upnp" target="iframeOptions" href="config/upnp.html"></a></li>
-						<li><a data-id="default_cloud" target="iframeOptions" href="config/cloud.html"></a></li>
-						<li><a data-id="default_pppoe" target="iframeOptions" href="config/pppoe.html"></a></li>
+						<li><a data-id="baseOptions" target="iframeOptions" href="config/datetime.html?v=5"></a></li>
+						<li><a data-id="localNet" target="iframeOptions" href="config/network.html?v=2"></a></li>
+						<li><a data-id="userControl" target="iframeOptions" href="config/userset.html?v=3"></a></li>
+						<li><a data-id="default_email" target="iframeOptions" href="config/email.html?v=1"></a></li>
+						<li><a data-id="default_ftp" target="iframeOptions" href="config/ftp.html?v=1"></a></li>
+						<li><a data-id="default_ddns" target="iframeOptions" href="config/ddns.html?v=1"></a></li>
+						<li><a data-id="default_p2p" target="iframeOptions" href="config/p2p.html?v=2"></a></li>
+						<li><a data-id="default_upnp" target="iframeOptions" href="config/upnp.html?v=1"></a></li>
+						<li><a data-id="default_cloud" target="iframeOptions" href="config/cloud.html?v=2"></a></li>
+						<!--<li><a data-id="default_pppoe" target="iframeOptions" href="config/pppoe.html"></a></li>-->
 					</ul>
 				</dd>
 				<!---------------------------------------------------系统查看样式--------------------------------------------------->
@@ -52,9 +52,9 @@
 				<dt class="optHeight" current="optHeighted"><a data-id="video" class="tagTarget" href="javascript:void(0);"></a></dt>
 				<dd class="hide">
 					<ul>
-						<li><a data-id="timeOption" target="iframeOptions" href="config/datetime.html"></a></li>
+						<li><a data-id="optionrecset" target="iframeOptions" href="config/recset.html"></a></li>
 						<li><a data-id="optionptzset" target="iframeOptions" href="config/ptzset.html"></a></li>
-						<li><a data-id="optiondefault" target="iframeOptions" href="config/factoryset.html"></a></li>
+
 					</ul>
 				</dd>
                 <!---------------------------------------------------录像查看样式--------------------------------------------------->
@@ -64,9 +64,9 @@
 
                 <dd class="hide">
 					<ul>
-						<li><a data-id="default_disk" target="iframeOptions" href="config/diskset.html"></a></li>
-						<li><a data-id="optionupgrade" target="iframeOptions" href="config/upgrade_set.html"></a></li>
-						<li><a data-id="optionrecset" target="iframeOptions" href="config/recset.html"></a></li>
+						<li><a data-id="default_disk" target="iframeOptions" href="config/diskset.html?v=2"></a></li>
+						<li><a data-id="optionupgrade" target="iframeOptions" href="config/upgrade_set.html?v=2"></a></li>
+						<li><a data-id="optiondefault" target="iframeOptions" href="config/factoryset.html?v=1"></a></li>
 						<li><a data-id="optionloginfo" target="iframeOptions" href="config/log_set.html"></a></li>
 						<li><a data-id="setTimeRestart" target="iframeOptions" href="config/autoreboot.html"></a></li>
 						<li><a data-id="optionverinfo" target="iframeOptions" href="config/version.html"></a></li>
@@ -94,6 +94,6 @@
 			.script("bootstrap/dist/js/bootstrap.js").wait()
 			.script("config/common.js?v="+got_random()).wait()
 			.script("js/pagejs/options.js?v="+got_random()).wait(function(){
-				InitOption();
+				InitPublic();
 			});
 </script>

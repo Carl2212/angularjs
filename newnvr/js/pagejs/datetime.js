@@ -5,29 +5,11 @@ var test_ip = '172.18.194.203';
 var test_user = 'admin';
 
 function InitConfig() {
-	//语言初始化
-	langJs=$.cookies.get('lang') || defaultLang;
-	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
-	$.getScript("../lang/"+langJs+".js",function(){
-		InitLang();//初始化语言
-		InitSelecttimezone();//初始化时区
-
-		$(".dropdown").each(function(){//下拉菜单初始化
-			$(this).find(".select-value").text($(this).find(".select-option").eq(0).text())
-					.attr('data-value',$(this).find(".select-option").eq(0).attr("data-value"));
-		});
-
-		$(".select-option").on("click",function(){//下拉菜单点击
-			var option_text = $(this).text();
-			var option_value = $(this).attr("data-value");
-			$(this).parents(".dropdown").find(".select-value").text(option_text).attr("data-value", option_value);
-		});
-	});
 	//初始化时间
 	InitSelecthour();
 	InitSelectminutes();
 	InitSelectseconds();
-
+	InitSelecttimezone();//初始化时区
 	//初始操作
 	var d=new Date();
 	$('#setDate').val(d.Format("yyyy-MM-dd"));
@@ -54,51 +36,6 @@ function InitConfig() {
 		datetime_save();
 	});
 }
-
-function InitLang() {
-	$("[data-id]").each(function(){
-		$(this).text(lang[$(this).attr("data-id")]);
-	});
-	$("[value-id]").each(function(){
-		$(this).val(lang[$(this).attr("value-id")]);
-	});
-}
-function InitSelecttimezone() {
-	var timezone = $("#getntptimezone").siblings(".dropdown-menu");
-	var zone_list = '';
-	for(var i =0 ;i < 48 ; i++) {
-		zone_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+lang['GMT'+i]+'</a></li>';
-	}
-	timezone.append(zone_list);
-}
-function InitSelecthour() {
-	var timehour = $("#getsystemtimehour").siblings(".dropdown-menu");
-	var hour_list = '';
-	for(var i =0 ;i < 24 ; i++) {
-		var j = (i < 10) ? ('0'+i) : i;
-		hour_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
-	}
-	timehour.append(hour_list);
-}
-function InitSelectminutes() {
-	var timeminutes = $("#getsystemtimeminutes").siblings(".dropdown-menu");
-	var minutes_list = '';
-	for(var i =0 ;i < 60 ; i++) {
-		var j = (i < 10) ? ('0'+i) : i;
-		minutes_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
-	}
-	timeminutes.append(minutes_list);
-}
-function InitSelectseconds() {
-	var timeseconds = $("#getsystemtimeseconds").siblings(".dropdown-menu");
-	var seconds_list = '';
-	for(var i =0 ;i < 60 ; i++) {
-		var j = (i < 10) ? ('0'+i) : i;
-		seconds_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
-	}
-	timeseconds.append(seconds_list);
-}
-
 function ucModelChecked(elem) {
 	var selected_model_id = elem.val();
 	$("input[name=ucModel]").not(elem).each(function(){

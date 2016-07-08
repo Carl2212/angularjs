@@ -402,6 +402,7 @@ var lang={
 	'logining':'登录中',
 
 
+	//云存储
 	'cloudstoragetype':'云存储类型',
 	'web':'云网站',
 	'authcode':'验证码',
@@ -411,7 +412,8 @@ var lang={
 	'unbound':'未绑定',
 	'binding':'绑定',
 	'unbind':'解绑',
-	
+	'cloudtest' :'测试',
+	'uploadpath' : '上传目录',
 	
 	
 	//高级配置-图像
@@ -878,8 +880,33 @@ var lang={
 	'groupname':'组名',
 	'remark':'备注',
 	'emailopen' :'邮件开启',
-};
+	'ftptest' :'测试',
+	'upnp_add' :'添加',
 
+
+	//恢复默认
+	'factory_color':'色彩纠正',
+	'factory_imgcol':'图像颜色',
+	'factory_event':'事件设置',
+	'factory_ptz':'ptz设置',
+	'factory_autoptz' :'自动巡航',
+	'factory_ptzpath' :'巡航线路',
+	'factory_datetime' :'日期设置',
+	'factory_channel' :'通道设置',
+	'factory_user' :'用户设置',
+
+
+
+	'uploadfilepath' : '升级文件路径',
+
+
+	'diskexception' :'磁盘异常',
+	'netexception' :'网络异常',
+
+
+
+
+}
 
 
 

@@ -146,7 +146,7 @@
 //        {
 //            //$();
 //            alert('baby i love you');
-//            var browserCfg = {};//获取浏览器类�?
+//            var browserCfg = {};//获取浏览器类�?
 //           // var tipMsg = v_update_11;
 //            var ua = window.navigator.userAgent;
 //            if (ua.indexOf("Trident")>=1)
@@ -167,11 +167,11 @@
 //            }
 //
 //            try{
-//                var obj_file = document.getElementById("txtFileName");//判断文件是否为空和类�?
+//                var obj_file = document.getElementById("txtFileName");//判断文件是否为空和类�?
 //                //alert(obj_file);
 //                if(obj_file.value=="")
 //                {
-//                    //alert('·��Ϊ��');
+//                    //alert('·��Ϊ��');
 //                    alert('void path');
 //                    return false;
 //                }
@@ -234,22 +234,7 @@
 //        SYS_UPDATE.UpdateSubmit();
 //    });
 //};
-
-if($.cookies.get('userName')) {
-    loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-    loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-    langJs=$.cookies.get('lang');
-    $.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
-
-
-
-$(document).ready(function(){
+function InitConfig(){
 
      $("#upgrade_upgrade").click(function(){
          //gVar.errTitle = $("#upgrade_set2").text();
@@ -281,7 +266,7 @@ $(document).ready(function(){
     });
     setProgress();
 
-})
+};
 
 
 var $progressInner=$('#progressInner');
@@ -299,8 +284,8 @@ function setProgress(){
             $progressInner.css('width',362);
             window.parent.parent.modeAlert();
         }else{
-            //alert(lang.upgradeError3+progress+'��');
-            window.parent.parent.save2(lang.upgradeError3+progress+'��');
+            //alert(lang.upgradeError3+progress+'��');
+            window.parent.parent.save2(lang.upgradeError3+progress+'��');
         }
     }
 }
@@ -308,7 +293,7 @@ function setProgress(){
 function device_reboot()
 {
      //if (confirm(lg.get("IDS_CONFIRM_REBOOT")))
-    if (confirm('�Ƿ������豸'))
+    if (confirm('�Ƿ������豸'))
 	{
         var str="setuser=";
         str = str + "admin"

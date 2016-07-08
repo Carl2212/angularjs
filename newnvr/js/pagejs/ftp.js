@@ -16,23 +16,9 @@ var ftpscheduleval = new FtpScheduleVal();
 var ftpschedulevalcopy = new FtpScheduleVal();
 var str1 = "";
 
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('pwd')) {
-	channelnum = $.cookies.get('getsyschannum');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
 
-
-$(document).ready(function(){
+function InitConfig(){
+	InitFtpsChedchn();
 	//获取当天星期几
 	var nDate = new Date();
 	weeksel = nDate.getDay();
@@ -128,7 +114,7 @@ $(document).ready(function(){
 	$("#ftp_test").click(function(){
 		ftp_test();
 	});
-})
+};
 
 //显示通道数
 function getselectoption(num)

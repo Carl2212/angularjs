@@ -4,11 +4,6 @@ var src_rtspport = 0;
 var src_dhcp = false;
 
 function InitConfig(){
-	langJs=$.cookies.get('lang') || defaultLang;
-	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
-	$.getScript("../lang/"+langJs+".js",function() {
-		InitLang();//初始化语言
-	});
 	$("[matchval='mac']").attr('disabled','disabled');
 	load_net_setting();
     //保存
@@ -41,14 +36,6 @@ function InitConfig(){
 	
 
 };
-function InitLang() {
-	$("[data-id]").each(function(){
-		$(this).text(lang[$(this).attr("data-id")]);
-	});
-	$("[value-id]").each(function(){
-		$(this).val(lang[$(this).attr("value-id")]);
-	});
-}
 function save_net()
 {
      var str="netip=";

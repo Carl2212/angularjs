@@ -24,18 +24,9 @@ var PresetPathNum = 50; //初始化巡航路径个数
  *
  ****************************************/
 function InitrealTime(){
-    //语言最后才显示写入以保证js正常调用顺序
-    langJs = $.cookies.get('lang') || defaultLang;
-    $.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
-
-    $.getScript("lang/"+langJs+".js",function(){
-        //进入语言包,显示语言功能
-        InitLang();
-        //初始化预置点
-        InitPrePoint();
-        InitPathSelected();
-
-    });
+    //初始化预置点
+    InitPrePoint();
+    InitPathSelected();
     //预置点tab
     var tab = $(".nav-tabs li");
     tab.on("click",function(){

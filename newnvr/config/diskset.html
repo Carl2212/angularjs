@@ -1,46 +1,59 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link href="../js/jquery-ui.min.css" rel="stylesheet">
-	<link href="../css/default.css" rel="stylesheet">
-	<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
-	<script  src="../js/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
-	<script src="common.js" type="text/javascript"></script>
-	<script src="diskset.js" type="text/javascript"></script>
 	<title>diskmanage</title>
-
+	<link href="../bootstrap/dist/css/bootstrap.css?v=1" type="text/css" rel="stylesheet">
+	<link href="../css/ui.less" type="text/css" rel="stylesheet/less">
+	<script>less = { env: 'development'};</script>
+	<script src="../css/less.min.js" type="text/javascript"></script>
+	<script>less.watch();</script>
+	<script type="text/javascript" src="../js/LAB.min.js"></script>
 </head>
-<body >
-<div class="logMain" style="margin-top:25px">
-	<div class="resizeLine" style="display: none;"></div>
-	<div class="tabHead">
-		<ul>
-			<li style="width: 55px; text-align:left; line-height:28px;"><span><label><script type="text/javascript">document.write(lang.diskno);</script></label></span><div class="resizebtn"></div></li>
-			<li style="width: 145px; line-height:28px;">
-				<span><label><script type="text/javascript">document.write(lang.diskstatus);</script></label></span>
-				<div class="resizebtn"></div>
-			</li>
-			<li style="width: 220px;">
-				<span><label><script type="text/javascript">document.write(lang.disktotal);</script></label></span>
-				<div class="resizebtn"></div>
-			</li>
-			<li style="width: 220px;">
-				<span><label><script type="text/javascript">document.write(lang.diskfree);</script></label></span>
-				<div class="resizebtn"></div>
-			</li>
-			<li style="width: 75px;">
-				<span><label><script type="text/javascript">document.write(lang.disktyep);</script></label></span>
-				<div class="resizebtn"></div>
-			</li>
-		</ul>
+<body>
+<div class="widget-box">
+	<div class="widget-title">
+		<span class="icon glyphicon glyphicon-th-list"></span>
+		<h5></h5>
 	</div>
-	<table id="logTab" cellspacing="1px">
-	</table>
+	<div class="widget-content">
+		<div class="logMain">
+			<div class="outer-frame">
+				<table id="userList" class="table table-hover user-table tb-4">
+					<thead>
+					<tr><th></th><th data-id="diskno"></th><th data-id="diskstatus"></th><th data-id="disktotal"></th><th data-id="diskfree"></th><th data-id="disktyep"></th></tr>
+					</thead>
+					<tbody>
+
+					</tbody>
+					<tfoot>
+					<tr>
+						<td colspan="4">
+							<label data-id="disktip"></label>
+						</td>
+					</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+		<div class="form-action">
+			<input type="button" class="btn btn-sm btn-default" id="disk_format" value-id="save" value =''/>
+		</div>
+	</div>
+
 </div>
 
-<div ><label><script type="text/javascript">document.write(lang.disktip);</script></label></div>
-<div >
-	<input type="button" id="disk_format" value ='格式化'/>
-</div>
+<script type="text/javascript">
+	function got_random() {
+		return Math.random(10);
+	}
+	$LAB.script("../js/jquery-1.11.1.min.js").wait()
+			.script("../js/jquery.cookies.2.2.0.min.js").wait()
+			.script("../js/date.format.js").wait()
+			.script("../bootstrap/dist/js/bootstrap.js").wait()
+			.script("../config/common.js?v="+got_random()).wait()
+			.script("../js/pagejs/diskset.js?v="+got_random()).wait(function(){
+		InitPublic(InitConfig());
+	});
+</script>
 </body>
 </html>

@@ -56,6 +56,7 @@
 	var arrayGroup = 0;
 	var selectUserIndex = 0;
 	var selectGroupIndex = 0;
+	var default_lang = 'cn';
 
 var browserCfg = {};//鑾峰彇娴忚鍣ㄧ被鍨?
 var ua = window.navigator.userAgent;
@@ -1115,4 +1116,136 @@ var Base64 = {
 
 		return string;
 	}
+}
+/*************************************************
+ Function:		InitConfig
+ Description:	初始化公共配置
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitPublic(callback) {
+	langJs = $.cookies.get('lang') || defaultLang;
+	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
+	$.getScript("../lang/" + langJs + ".js", function () {
+		InitLang();//初始化语言
+		Initdropdown();
+		if(callback && callback != undefined) {
+			callback();
+		}
+	});
+};
+/*************************************************
+ Function:		Initdropdown
+ Description:	初始化下拉菜单
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function Initdropdown() {
+	$(".dropdown").each(function(){//下拉菜单初始化
+		$(this).find(".select-value").text($(this).find(".select-option").eq(0).text())
+				.attr('data-value',$(this).find(".select-option").eq(0).attr("data-value"));
+	});
+
+	$(".select-option").on("click",function(){//下拉菜单点击
+		var option_text = $(this).text();
+		var option_value = $(this).attr("data-value");
+		$(this).parents(".dropdown").find(".select-value").text(option_text).attr("data-value", option_value);
+	});
+}
+/*************************************************
+ Function:		InitLang
+ Description:	初始化语言(必须先加载完语言再调用此方法)
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+
+function InitLang() {
+	$("[data-id]").each(function(){
+		$(this).text(lang[$(this).attr("data-id")]);
+	});
+	$("[value-id]").each(function(){
+		$(this).val(lang[$(this).attr("value-id")]);
+	});
+}
+/*************************************************
+ Function:		InitSelecttimezone
+ Description:	初始化时区下拉菜单选项
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitSelecttimezone() {
+	var timezone = $("#getntptimezone").siblings(".dropdown-menu");
+	var zone_list = '';
+	for(var i =0 ;i < 48 ; i++) {
+		zone_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+lang['GMT'+i]+'</a></li>';
+	}
+	timezone.append(zone_list);
+}
+/*************************************************
+ Function:		InitSelecthour
+ Description:	初始化小时下拉菜单选项
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitSelecthour() {
+	var timehour = $("#getsystemtimehour").siblings(".dropdown-menu");
+	var hour_list = '';
+	for(var i =0 ;i < 24 ; i++) {
+		var j = (i < 10) ? ('0'+i) : i;
+		hour_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	}
+	timehour.append(hour_list);
+}
+/*************************************************
+ Function:		InitSelectminutes
+ Description:	初始化分钟下拉菜单选项
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitSelectminutes() {
+	var timeminutes = $("#getsystemtimeminutes").siblings(".dropdown-menu");
+	var minutes_list = '';
+	for(var i =0 ;i < 60 ; i++) {
+		var j = (i < 10) ? ('0'+i) : i;
+		minutes_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	}
+	timeminutes.append(minutes_list);
+}
+/*************************************************
+ Function:		InitSelectseconds
+ Description:	初始化秒下拉菜单选项
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitSelectseconds() {
+	var timeseconds = $("#getsystemtimeseconds").siblings(".dropdown-menu");
+	var seconds_list = '';
+	for(var i =0 ;i < 60 ; i++) {
+		var j = (i < 10) ? ('0'+i) : i;
+		seconds_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	}
+	timeseconds.append(seconds_list);
+}
+/*************************************************
+ Function:		InitSelectseconds
+ Description:	初始化通道下拉菜单选项
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitFtpsChedchn() {
+	var timeseconds = $("#getftpschedchn").siblings(".dropdown-menu");
+	var seconds_list = '';
+	for(var i =0 ;i < 25 ; i++) {
+		var j = (i < 10) ? ('0'+i) : i;
+		seconds_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	}
+	timeseconds.append(seconds_list);
 }

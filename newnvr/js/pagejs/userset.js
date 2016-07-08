@@ -47,12 +47,6 @@ if($.cookies.get('selectGroupIndex')) {
 }
 
 function InitConfig(){
-	//语言初始化
-	langJs=$.cookies.get('lang') || defaultLang;
-	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
-	$.getScript("../lang/"+langJs+".js",function() {
-		InitLang();//初始化语言
-	});
 	//GetUserData();
 	//GetGroupData();
 	//click user
@@ -60,7 +54,7 @@ function InitConfig(){
 		if(!$(this).hasClass('active')) {
 			var tab_id = $(this).attr('tab-id');
 			$(this).addClass('active').siblings(".active").removeClass('active');
-			$(".logMain table[tab-id="+tab_id+"]").removeClass('hide').siblings().not(".hide").addClass('hide');
+			$(".logMain div[tab-id="+tab_id+"]").removeClass('hide').siblings().not(".hide").addClass('hide');
 		}
 	});
 	$("#user_user").click(function(){
@@ -82,14 +76,6 @@ function InitConfig(){
 	});
 
 };
-function InitLang() {
-	$("[data-id]").each(function(){
-		$(this).text(lang[$(this).attr("data-id")]);
-	});
-	$("[value-id]").each(function(){
-		$(this).val(lang[$(this).attr("value-id")]);
-	});
-}
 function GetUserData()
 {
 	var XMLHttpRequestObject = null;

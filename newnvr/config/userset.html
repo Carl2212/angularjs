@@ -21,38 +21,43 @@
 			<li tab-id="2" ><a id="user_group" data-id="logmodifyusergrop" href="javascript:void(0);"></a> </li>
 		</ul>
 		<div class="logMain">
-			<table id="userList" tab-id="1" class="table table-hover user-table">
-				<thead>
-				<tr><td></td><td data-id="username"></td><td  data-id="groupname"></td><td data-id="remark"></td></tr>
-				</thead>
-				<tbody>
-				</tbody>
-				<tfoot>
-				<tr>
-					<td colspan="4">
-						<a class="btn btn-sm btn-default" data-id="logadduer"></a>
-						<a class="btn btn-sm btn-default" data-id="logmodifyuser"></a>
-						<a class="btn btn-sm btn-default" data-id="logdeleteuer"></a>
-					</td>
-				</tr>
-				</tfoot>
-			</table>
-			<table id="groupList" tab-id="2" class="table table-hover user-table hide">
-				<thead>
-				<tr><td></td><td data-id="groupname"></td><td data-id="remark"></td></tr>
-				</thead>
-				<tbody>
-				</tbody>
-				<tfoot>
-				<tr>
-					<td colspan="3">
-						<a class="btn btn-sm btn-default" data-id="logadduergroup"></a>
-						<a class="btn btn-sm btn-default" data-id="logdeleteusergroup"></a>
-						<a class="btn btn-sm btn-default" data-id="logmodifyusergrop"></a>
-					</td>
-				</tr>
-				</tfoot>
-			</table>
+			<div class="outer-frame" tab-id="1" >
+				<table id="userList" class="table table-hover user-table tb-4">
+					<thead>
+					<tr><th></th><th data-id="username"></th><th  data-id="groupname"></th><th data-id="remark"></th></tr>
+					</thead>
+					<tbody>
+
+					</tbody>
+					<tfoot>
+					<tr>
+						<td colspan="4">
+							<a class="btn btn-sm btn-default" data-id="logadduer"></a>
+							<a class="btn btn-sm btn-default" data-id="logmodifyuser"></a>
+							<a class="btn btn-sm btn-default" data-id="logdeleteuer"></a>
+						</td>
+					</tr>
+					</tfoot>
+				</table>
+			</div>
+			<div class="outer-frame hide" tab-id="2" >
+				<table id="groupList" class="table table-hover user-table tb-3">
+					<thead>
+					<tr><th></th><th data-id="groupname"></th><th data-id="remark"></th></tr>
+					</thead>
+					<tbody>
+					</tbody>
+					<tfoot>
+					<tr>
+						<td colspan="3">
+							<a class="btn btn-sm btn-default" data-id="logadduergroup"></a>
+							<a class="btn btn-sm btn-default" data-id="logdeleteusergroup"></a>
+							<a class="btn btn-sm btn-default" data-id="logmodifyusergrop"></a>
+						</td>
+					</tr>
+					</tfoot>
+				</table>
+			</div>
 		</div>
 	</div>
 
@@ -68,7 +73,7 @@
 			.script("../bootstrap/dist/js/bootstrap.js").wait()
 			.script("../config/common.js?v="+got_random()).wait()
 			.script("../js/pagejs/userset.js?v="+got_random()).wait(function(){
-		InitConfig();
+		InitPublic(InitConfig());
 	});
 </script>
 </body>

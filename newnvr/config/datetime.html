@@ -232,7 +232,7 @@
             .script("../bootstrap/dist/js/bootstrap-datepicker.js").wait()
             .script("../config/common.js?v="+got_random()).wait()
             .script("../js/pagejs/datetime.js?v="+got_random()).wait(function(){
-        InitConfig();
+        InitPublic(InitConfig());
     });
 </script>
 </body>

@@ -1,17 +1,12 @@
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
-
-$(document).ready(function(){
-	load_email_setting();
+/*************************************************
+ Function:		InitConfig
+ Description:	初始化页面
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitConfig(){
+	//load_email_setting();
 
     //保存
     $("#email_save").click(function(){
@@ -23,7 +18,7 @@ $(document).ready(function(){
 	});
 	
 
-});
+};
 
 //
 function email_test()
