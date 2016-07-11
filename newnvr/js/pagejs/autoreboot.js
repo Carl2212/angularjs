@@ -1,19 +1,11 @@
 var d=new Date();
 var pc_time=new Date();
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
 
-$(document).ready(function(){
+function InitConfig(){
 
+	console.log('1');
+	InitSelectweek();
+	InitSelectday();
 	//初始操作
     load_autoreboot();
 
@@ -83,7 +75,7 @@ $(document).ready(function(){
 		autoreboot_save();
 	});
 
-})
+};
 
 function autoreboot_save()
 {

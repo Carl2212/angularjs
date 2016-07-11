@@ -1,17 +1,6 @@
 var cursel = 0;
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
 
-$(document).ready(function(){
+function InitConfig(){
 	getselectoption(0);
 	load_exception_setting(0);
 
@@ -56,7 +45,7 @@ $(document).ready(function(){
     });
 	
 
-})
+};
 
 function getselectoption(num)
 {

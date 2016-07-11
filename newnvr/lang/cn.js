@@ -903,8 +903,10 @@ var lang={
 	'diskexception' :'磁盘异常',
 	'netexception' :'网络异常',
 
-
-
+	'autorebootsystem' : '自动重启系统',
+	'remotesearch' : '搜索',
+	'editchan':'编辑通道',
+	'remoteadd' :'添加',
 
 }
 

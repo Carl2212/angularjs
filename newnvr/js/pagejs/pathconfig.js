@@ -1,26 +1,8 @@
 //参数
 var defaultLang = 'cn';
 
+
 function InitConfig() {
-	//语言初始化
-	langJs=$.cookies.get('lang') || defaultLang;
-	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
-
-	$.getScript("../lang/"+langJs+".js",function(){
-		InitLang();
-	});
-}
-
-function InitLang() {
-	$("#viewing").val(lang.viewing);
-	$("#save").val(lang.save);
-	$("#vedioPath").text(lang.vedioPath+' : ');
-	$("#playbackPath").text(lang.playbackPath+' : ');
-	$("#previewImgPath").text(lang.previewImgPath+' : ');
-	$("#logPath").text(lang.logPath+' : ');
-}
-
-$(document).ready(function(){
 
 	window.parent.parent.setPlugin(-10000,-10000,-100,-100);
 
@@ -57,7 +39,7 @@ $(document).ready(function(){
 		save();
 	});
 
-});
+};
 
 
 function getPath(eleId){

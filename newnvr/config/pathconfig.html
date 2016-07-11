@@ -14,36 +14,36 @@
 		<div class="widget-title"><span class="icon glyphicon glyphicon-th-list"></span><h5></h5> </div>
 		<div class="widget-content">
 			<div class="control-group">
-				<label id="vedioPath" class="control-label"></label>
+				<label data-id="vedioPath" class="control-label"></label>
 				<div class="contrals">
 					<input type="text" id="getvedioPath" class="select input-sm" matchval="getvedioPath">
-					<input class="viewing btn btn-sm btn-default" type="button"  value="浏览..." >
+					<input class="viewing btn btn-sm btn-default" type="button" value-id="browse" value="" >
 				</div>
 			</div>
 			<div class="control-group">
-				<label id="playbackPath" class="control-label"></label>
+				<label data-id="playbackPath" class="control-label"></label>
 				<div class="contrals">
 					<input type="text" id="getplaybackPath" class="select input-sm" matchval="getplaybackPath">
-					<input class="viewing btn btn-sm btn-default" type="button"  value="浏览...">
+					<input class="viewing btn btn-sm btn-default" type="button" value-id="browse" value="">
 				</div>
 			</div>
 			<div class="control-group">
-				<label id="previewImgPath" class="control-label"></label>
+				<label data-id="previewImgPath" class="control-label"></label>
 				<div class="contrals">
 					<input type="text" id="getpreviewImgPath" class="select input-sm" matchval="getpreviewImgPath">
-					<input class="viewing btn btn-sm btn-default" type="button"  value="浏览...">
+					<input class="viewing btn btn-sm btn-default" type="button" value-id="browse" value="">
 				</div>
 			</div>
 			<div class="control-group">
-				<label id="logPath" class="control-label"></label>
+				<label data-id="logPath" class="control-label"></label>
 				<div class="contrals">
 					<input type="text" id="getlogPath" class="select input-sm" matchval="getlogPath"/>
-					<input class="viewing btn btn-sm btn-default" type="button"  value="浏览..." />
+					<input class="viewing btn btn-sm btn-default" type="button" value-id="browse" value=""/>
 				</div>
 			</div>
 			<div class="form-action">
 				<div class="contrals">
-					<input id="save" class="btn btn-sm btn-default"  type="button"  value="保存" />
+					<input value-id="save" class="btn btn-sm btn-default"  type="button"  value="" />
 				</div>
 			</div>
 		</div>
@@ -57,7 +57,7 @@
 				.script("../bootstrap/dist/js/bootstrap.js").wait()
 				.script("../config/common.js?v="+got_random()).wait()
 				.script("../js/pagejs/pathconfig.js?v="+got_random()).wait(function(){
-			InitConfig();
+			InitPublic(InitConfig);
 		});
 	</script>
 </body>

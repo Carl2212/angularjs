@@ -1,26 +1,13 @@
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-if($.cookies.get('getsyschannum')) {
-	channelnum = $.cookies.get('getsyschannum');
-}
 var cursel = 0;
 var bmainreslution = false;
 var nmainnum = 0;
 var bsubreslution = false;
 var nsubnum = 0;
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
 
+function InitConfig(){
 
+	InitFtpsChedchn();
 
-$(document).ready(function(){
 	getselectoption(channelnum);
 	//alert(window.parent.parent.selchannel);
 	load_encode_setting(window.parent.parent.selchannel);
@@ -38,13 +25,13 @@ $(document).ready(function(){
 		}
 	});
 
-	//////±£´æ
+
 	$("#encode_save").click(function(){
 		encode_save();
 	});
 
 
-});
+};
 
 function encode_save()
 {

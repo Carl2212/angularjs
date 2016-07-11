@@ -21,25 +21,25 @@
 					<label data-id="deviceName"></label>：
 				</dd>
 				<dt>
-					<input type="text" id="getdeviceserial" class="input-sm" matchval="getdeviceserial"/>
+					<input type="text" id="getdeviceserial" class="input-sm">
 				</dt>
 				<dd>
 					<label data-id="getdevicetype"></label>：
 				</dd>
 				<dt>
-					<input type="text" id="getdevicetype" class="input-sm" matchval="getdevicetype"/>
+					<input type="text" id="getdevicetype" class="input-sm">
 				</dt>
 				<dd>
 					<label data-id="getsoftwareversion"></label>：
 				</dd>
 				<dt>
-					<input type="text" id="getsoftwareversion" class="input-sm" matchval="getsoftwareversion"/>
+					<input type="text" id="getsoftwareversion" class="input-sm">
 				</dt>
 				<dd>
 					<label data-id="getsoftwaredate"></label>：
 				</dd>
 				<dt>
-					<input type="text" id="getsoftwaredate" class="input-sm" matchval="getsoftwaredate"/>
+					<input type="text" id="getsoftwaredate" class="input-sm">
 				</dt>
 
 			</dl>
@@ -56,7 +56,7 @@
 				.script("../bootstrap/dist/js/bootstrap.js").wait()
 				.script("../config/common.js?v="+got_random()).wait()
 				.script("../js/pagejs/version.js?v="+got_random()).wait(function(){
-			InitPublic(InitConfig());
+			InitPublic(InitConfig);
 		});
 	</script>
 </body>

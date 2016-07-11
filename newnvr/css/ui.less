@@ -65,6 +65,7 @@
 @base-color-red : #a01337;
 @font-size-base : 14px;
 @base-background : #f9f9f9;
+@base-background-deep : #eee;
 body{
   font-size: @font-size-base;
   font-family: "微软雅黑", sans-serif;
@@ -235,6 +236,9 @@ footer {
           line-height: 46px;
           font-size: 16px;
         }
+        .input-lg.login{
+          padding: 10px 0px 10px 34px;
+        }
       }
     }
   }
@@ -249,12 +253,14 @@ footer {
     background: #333;
     .menu{
       position: absolute;
+      margin-bottom: 0;
       left: 20%;
       height: @frame-height;
       li{
         list-style: none;
         float: left;
         width: 150px;
+        height: @frame-height;
         background: #333;
         a{
            display: inline-block;
@@ -641,11 +647,86 @@ footer {
     display: inline-block;
   }
 }
-  /*******************公共部分样式 public*********************/
-  .user-table {
-    width: 500px;
-    margin-left: 50px;
+.logset-page {
+  .log-bx{
+    width: 1030px;
+    margin: 10px auto;
+    border:1px solid @border-color;
+    .outer-frame{
+      @outer-frame-width : 704px;
+      float: left;
+      margin:0;
+      padding:0;
+      width: @outer-frame-width;
+      .user-table {
+        width: @outer-frame-width;
+        td,th{
+          background: @base-background-deep;
+          border : 1px solid #fff;
+          width: 100px;
+        }
+        .td-col-2{
+          width:400px;
+        }
+        tbody{
+          height: 500px;
+          width: @outer-frame-width;
+        }
+
+      }
+    }
+    .search-bx{
+      float: right;
+      width: 300px;
+      height: 542px;
+      background: @base-background-deep;
+      padding:80px 20px;
+      ul{
+        margin: 0 auto;
+        li{
+          margin-bottom: 20px;
+          list-style: none;
+          .input-sm.block{
+            width: 100%;
+          }
+          .dropdown{
+            display: inline-block;
+          }
+        }
+      }
+
+    }
   }
+}
+.remoteset-page{
+  .user-table{
+    tfoot tr td{
+      text-align: left;
+      position: relative;
+    }
+    .dropdown{
+      position: absolute;
+      right: 10px;
+      top:10px;
+    }
+  }
+  .interlayer-frame{
+    margin-left:100px;
+    margin-top: 50px;
+    margin-bottom: -40px;
+  }
+}
+
+
+
+  /*******************公共部分样式 public*********************/
+.input-sm.xs{
+  width: 50px;
+}
+.user-table {
+  width: 500px;
+  margin-left: 50px;
+}
 .outer-frame {
   border: 1px solid @border-color;
   padding: 2px;

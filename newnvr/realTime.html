@@ -100,8 +100,8 @@
 			<!--PTZ预置点、巡航点选择按钮-->
 			<div class="wrench-tab">
 				<ul class="nav nav-tabs">
-					<li class="active"  data-id="1" ><a class="nav nav-tabs" id="ptzpresetbtn"onclick="set_ptzpresetbtn()"  title="预置点"><span class="glyphicon glyphicon-flag"></span></a></li>
-					<li  data-id="2"><a class="nav nav-tabs" id="ptzcursiebtn" onclick="set_ptzcursiebtn()" title="巡航设置"><span class="glyphicon glyphicon-wrench"></span></a></li>
+					<li class="active"  data-id="1" ><a class="nav nav-tabs" id="ptzpresetbtn"  title="预置点"><span class="glyphicon glyphicon-flag"></span></a></li>
+					<li  data-id="2"><a class="nav nav-tabs" id="ptzcursiebtn"  title="巡航设置"><span class="glyphicon glyphicon-wrench"></span></a></li>
 				</ul>
 				<!--PTZ预置点-->
 				<div class="tab-body">
@@ -116,7 +116,7 @@
 							<!--添加巡航点-->
 							<div class="dropdown" id="ptzpath-bx">
 								<a class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" data-id="">
-									<span id="pathTxt"></span>
+									<span id="select-value"></span>
 									<span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu" id="ptzPath">
@@ -201,11 +201,11 @@
 			.script("js/jquery.cookies.2.2.0.min.js").wait()
 			.script("bootstrap/dist/js/bootstrap.js").wait()
 			.script("js/map.js").wait()
-			.script("config/common.js").wait()
+			.script("config/common.js?v=1").wait()
 			.script("js/slider_extras.js").wait()
 			.script("js/jquery-ui.min.js").wait()
 			.script("js/pagejs/realTime2.js?v="+got_random()).wait(function(){
-				InitrealTime();
+			InitPublic(InitConfig,false);
 		});
 	</script>
 

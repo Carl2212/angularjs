@@ -33,10 +33,10 @@
 						<span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="javascript:void(0);" value="0" id="geteventtype_0" data-id="nodisk"></a> </li>
-						<li><a href="javascript:void(0);" value="1" id="geteventtype_1" data-id="diskerror"></a> </li>
-						<li><a href="javascript:void(0);" value="2" id="geteventtype_2" data-id="netnolick"></a> </li>
-						<li><a href="javascript:void(0);" value="3" id="geteventtype_3" data-id="iperror"></a> </li>
+						<li><a class="select-option" href="javascript:void(0);" value="0" data-id="nodisk"></a> </li>
+						<li><a class="select-option" href="javascript:void(0);" value="1" data-id="diskerror"></a> </li>
+						<li><a class="select-option" href="javascript:void(0);" value="2" data-id="netnolick"></a> </li>
+						<li><a class="select-option" href="javascript:void(0);" value="3" data-id="iperror"></a> </li>
 					</ul>
 				</div>
 			</dt>
@@ -44,19 +44,22 @@
 				<label data-id="exceptionenable"></label>
 				<input type="checkbox" id="geteventenalbe">
 			</dd>
+			<dt></dt>
 			<dd>
 				<label data-id="exdisplay"></label>
 				<input type="checkbox" id="geteventdisplay">
 			</dd>
+			<dt></dt>
 			<dd>
 				<label data-id="sendemali"></label>
 				<input type="checkbox" id="geteventemail">
 			</dd>
+			<dt></dt>
 			<dd>
 				<label data-id="buzzeralarm"></label>
 				<input type="checkbox" id="geteventbuzzer">
 			</dd>
-
+			<dt></dt>
 		</dl>
 
 		<div class="form-action">
@@ -75,7 +78,7 @@
 				.script("../bootstrap/dist/js/bootstrap.js").wait()
 				.script("../config/common.js?v="+got_random()).wait()
 				.script("../js/pagejs/exception.js?v="+got_random()).wait(function(){
-			InitPublic(InitConfig());
+			InitPublic(InitConfig);
 		});
 	</script>
 </body>

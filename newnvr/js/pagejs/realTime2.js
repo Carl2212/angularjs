@@ -14,16 +14,12 @@ var PresetPathNum = 50; //初始化巡航路径个数
 
 
 
-
-
-
-
 /****************************************
  * 初始化页面
  * 页面动态交互js
  *
  ****************************************/
-function InitrealTime(){
+function InitConfig(){
     //初始化预置点
     InitPrePoint();
     InitPathSelected();
@@ -171,7 +167,9 @@ function leftupdown(){
 function InitPrePoint() {
     //获取预置点数量参数
     var iLen = PresetNum;
+    console.log('11111111111111111111111111');
     var szName = lang.ptzpresetdot;
+    console.log(lang);
     for(var i = 0 ; i < iLen ; i++) {
         $('<tr><td class="title">'+ szName+' '+(i+1) +'</td><td class="glyphicon glyphicon-share-alt"></td><td class="glyphicon glyphicon-cog"></td></tr>').appendTo('#point-ptzpreset');
     }

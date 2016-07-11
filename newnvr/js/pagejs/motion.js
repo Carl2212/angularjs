@@ -1,23 +1,9 @@
 var cursel = 0;
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
 
-if($.cookies.get('pwd')) {
-	channelnum = $.cookies.get('getsyschannum');
-}
-
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
-
-$(document).ready(function(){
+function InitConfig(){
 	///////设置通道数
+	InitFtpsChedchn();
+
 	getselectoption(channelnum);
 	load_motion_setting(1);
 
@@ -29,7 +15,7 @@ $(document).ready(function(){
 		motion_save();
     });
 
-})
+};
 
 //获取通道数，并在下拉菜单中显示
 function getselectoption(num)

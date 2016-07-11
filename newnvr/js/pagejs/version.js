@@ -1,20 +1,8 @@
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
 
 
-
-$(document).ready(function(){
+function InitConfig(){
 	load_version_setting();
-})
+};
 
 function load_version_setting()
 {

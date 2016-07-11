@@ -9,130 +9,63 @@
 	<script>less.watch();</script>
 	<script type="text/javascript" src="../js/LAB.min.js"></script>
 </head>
-<body>
-<div class="logMain">
-	<div class="resizeLine"></div>
-	<div class="tabHead">
-		<ul>
-			<li>
-				<span>
-					<input type="checkbox" id="diskcheck" onclick="enablecheckvalue(100)" value="100">
-					<label data-id="diskno"></label>序号
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span>
-					<input type="checkbox" id="searchcheck" onclick="enablesearchallvalue()" value="1000">
-					<label data-id="logNum" class="searchindex"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-
-			<li>
-				<span>
-					<label data-id="eidt"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span>
-					<label data-id="IPAddr"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span>
-					<label data-id="port"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span>
-					<label data-id="remoteprotol"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-		</ul>
+<body class="remoteset-page">
+<div class="widget-box">
+	<div class="widget-title">
+		<span class="icon glyphicon glyphicon-th-list"></span><h5></h5>
 	</div>
-	<table id="logTab" cellspacing="1px">
-	</table>
-</div>
-<div>
-	<input type="button" id="device_search" value ='设备搜索'>
-	<input type="button" id="device_add" value ='添加'>
-	<input type="button" id="device_addall" value ='一键添加'>
-	<label id="shuaixuan"></label>
-	<select id="getprotocl" class="select" matchval="getprotocl">
-		<option value="0">Onvif</option>
-		<option value="1">Multi net segment</option>
-		<option value="2">Private</option>
-		<option value="3">Onvif and Private</option>
-	</select>
-</div>
+	<div class="widget-content">
+		<div class="outer-frame" tab-id="1" >
+			<table class="table table-hover user-table tb-5">
+				<thead>
+				<tr><th data-id="diskno"></th><th data-id="IPAddr"></th><th data-id="port"></th><th data-id="disktyep"></th><th data-id="remoteprotol"></th></tr>
+				</thead>
+				<tbody>
 
-<div class="logMain" style="margin-top:25px">
-	<div class="resizeLine" style="display: none;"></div>
-	<div class="tabHead">
-		<ul>
-			<!--<li style="width: 55px; text-align:left; line-height:28px;"><span><input type="checkbox" id="diskcheck" onclick="enablecheckvalue(100)" value="100"/><label><script type="text/javascript">document.write(lang.diskno);</script></label>序号</span><div class="resizebtn"></div></li>-->
-			<li>
-				<span>
-					<input type="checkbox" id="searchcheckadded" onclick="enablesearchaddedallvalue()" value="2000">
-					<label data-id="channel"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
+				</tbody>
+				<tfoot>
+				<tr>
+					<td colspan="5">
+						<a class="btn btn-sm btn-default" data-id="remotesearch"></a>
+						<a class="btn btn-sm btn-default" data-id="remoteadd"></a>
+						<div class="dropdown">
+							<button id="getdisplaytype" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" data-value="">
+								<span class="select-value"></span>
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="javascript:void(0);" class="select-option" data-value="0">Onvif</a> </li>
+								<li><a href="javascript:void(0);" class="select-option" data-value="1">Multi net segment</a> </li>
+								<li><a href="javascript:void(0);" class="select-option" data-value="2">Private</a> </li>
+								<li><a href="javascript:void(0);" class="select-option" data-value="3">Onvif and Private</a> </li>
+							</ul>
+						</div>
+					</td>
+				</tr>
+				</tfoot>
+			</table>
+		</div>
+		<div class="interlayer-frame">已添加设备</div>
+		<div class="outer-frame" tab-id="2">
 
-			<li>
-				<span>
-					<label data-id="eidt"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span>
-					<label data-id="remotedel"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span>
-					<label data-id="remotecfg"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span>
-					<label data-id="diskstatus"></label>
-				</span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span><label data-id="IPAddr"></label></span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span><label data-id="port"></label></span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span><label id="remoteprotol"></label></span>
-				<div class="resizebtn"></div>
-			</li>
-			<li>
-				<span><label data-id="other"></label></span>
-				<div class="resizebtn"></div>
-			</li>
-		</ul>
+			<table class="table table-hover user-table tb-5">
+				<thead>
+				<tr><th data-id="diskno"></th><th data-id="IPAddr"></th><th data-id="port"></th><th data-id="disktyep"></th><th data-id="remoteprotol"></th></tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+				<tfoot>
+				<tr>
+					<td colspan="5">
+						<a class="btn btn-sm btn-default" data-id="remotedel"></a>
+						<a class="btn btn-sm btn-default" data-id="editchan"></a>
+					</td>
+				</tr>
+				</tfoot>
+			</table>
+		</div>
 	</div>
-	<table id="logTab1" cellspacing="1px">
-	</table>
-</div>
-
-<div>
-	<input type="button" id="device_del" data-id="remotedel" value ='删除'/>
-	<input type="button" id="device_manul" data-id="" value ='手动添加'/>
 </div>
 <script type="text/javascript">
 	function got_random() {
@@ -143,7 +76,7 @@
 			.script("../bootstrap/dist/js/bootstrap.js").wait()
 			.script("../config/common.js?v="+got_random()).wait()
 			.script("../js/pagejs/remoteset.js?v="+got_random()).wait(function(){
-		InitConfig();
+		InitPublic(InitConfig);
 	});
 </script>
 </body>

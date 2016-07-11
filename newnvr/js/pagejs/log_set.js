@@ -1,21 +1,19 @@
 var d=new Date();
 var pc_time=new Date();
 var searchlog_page = 0;
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
+function InitConfig(){
 
+	var d=new Date();
+	$('#starttime').val(d.Format("yyyy-MM-dd") + ' 00:00:00');
+	$('#endtime').val(d.Format("yyyy-MM-dd") + ' 23:59:59');
 
-$(document).ready(function(){
-
+	$(".datepicker").datepicker({
+		language : 'zh-CN',
+		autoclose : true,
+		todayBtn : true,
+		clearBtn : true,
+		format : "yyyy-mm-dd"
+	});
 
 	load_device_time();
 
@@ -55,7 +53,7 @@ $(document).ready(function(){
 	    }
 
 	});
-})
+};
 
 function load_device_time()
 {

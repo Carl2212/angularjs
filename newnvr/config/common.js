@@ -1124,13 +1124,17 @@ var Base64 = {
  Output:
  return:
  *************************************************/
-function InitPublic(callback) {
+function InitPublic(callback,isdropdown) {
+	isdropdown = isdropdown == false ? false : true;
+
 	langJs = $.cookies.get('lang') || defaultLang;
 	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
 	$.getScript("../lang/" + langJs + ".js", function () {
 		InitLang();//初始化语言
-		Initdropdown();
-		if(callback && callback != undefined) {
+		if(isdropdown) {
+			Initdropdown();
+		}
+		if(callback && typeof callback == 'function') {
 			callback();
 		}
 	});
@@ -1144,11 +1148,14 @@ function InitPublic(callback) {
  *************************************************/
 function Initdropdown() {
 	$(".dropdown").each(function(){//下拉菜单初始化
-		$(this).find(".select-value").text($(this).find(".select-option").eq(0).text())
-				.attr('data-value',$(this).find(".select-option").eq(0).attr("data-value"));
+		var initvalue = $(this).find(".select-option").eq(0);
+		if(initvalue.length > 0) {
+			$(this).find(".select-value").text(initvalue.text())
+					.attr('data-value',$(this).find(".select-option").eq(0).attr("data-value"));
+		}
 	});
 
-	$(".select-option").on("click",function(){//下拉菜单点击
+	$(".dropdown").on("click",'.select-option',function(){//下拉菜单点击
 		var option_text = $(this).text();
 		var option_value = $(this).attr("data-value");
 		$(this).parents(".dropdown").find(".select-value").text(option_text).attr("data-value", option_value);
@@ -1168,6 +1175,9 @@ function InitLang() {
 	});
 	$("[value-id]").each(function(){
 		$(this).val(lang[$(this).attr("value-id")]);
+	});
+	$("[title-id]").each(function(){
+		$(this).attr('title',lang[$(this).attr("title-id")]);
 	});
 }
 /*************************************************
@@ -1234,6 +1244,39 @@ function InitSelectseconds() {
 	timeseconds.append(seconds_list);
 }
 /*************************************************
+ Function:		InitSelecthour
+ Description:	初始化周期下拉菜单选项
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitSelectweek() {
+	console.log('week');
+	var timehour = $("#getsystemtiweek").siblings(".dropdown-menu");
+	var hour_list = '';
+	for(var i =0 ;i < 7 ; i++) {
+		hour_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+lang['weekDay'+i]+'</a></li>';
+	}
+	timehour.append(hour_list);
+}
+/*************************************************
+ Function:		InitSelecthour
+ Description:	初始化每月日期下拉菜单选项
+ Input:			none
+ Output:
+ return:
+ *************************************************/
+function InitSelectday() {
+	console.log('day');
+	var timehour = $("#getsystemtimeday").siblings(".dropdown-menu");
+	var hour_list = '';
+	for(var i =1 ;i <= 31 ; i++) {
+		hour_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+i+'</a></li>';
+	}
+	timehour.append(hour_list);
+}
+
+/*************************************************
  Function:		InitSelectseconds
  Description:	初始化通道下拉菜单选项
  Input:			none
@@ -1243,9 +1286,8 @@ function InitSelectseconds() {
 function InitFtpsChedchn() {
 	var timeseconds = $("#getftpschedchn").siblings(".dropdown-menu");
 	var seconds_list = '';
-	for(var i =0 ;i < 25 ; i++) {
-		var j = (i < 10) ? ('0'+i) : i;
-		seconds_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">'+j+'</a></li>';
+	for(var i =1 ;i <= 25 ; i++) {
+		seconds_list += '<li><a class="select-option" href="javascript:void(0);" data-value="'+i+'">CH'+i+'</a></li>';
 	}
 	timeseconds.append(seconds_list);
 }

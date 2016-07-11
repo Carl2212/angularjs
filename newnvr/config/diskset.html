@@ -18,7 +18,7 @@
 	<div class="widget-content">
 		<div class="logMain">
 			<div class="outer-frame">
-				<table id="userList" class="table table-hover user-table tb-4">
+				<table id="userList" class="table table-hover user-table tb-6">
 					<thead>
 					<tr><th></th><th data-id="diskno"></th><th data-id="diskstatus"></th><th data-id="disktotal"></th><th data-id="diskfree"></th><th data-id="disktyep"></th></tr>
 					</thead>
@@ -52,7 +52,7 @@
 			.script("../bootstrap/dist/js/bootstrap.js").wait()
 			.script("../config/common.js?v="+got_random()).wait()
 			.script("../js/pagejs/diskset.js?v="+got_random()).wait(function(){
-		InitPublic(InitConfig());
+		InitPublic(InitConfig);
 	});
 </script>
 </body>

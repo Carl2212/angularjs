@@ -17,160 +17,52 @@
             <h5></h5>
         </div>
         <div class="widget-content">
+            <dl class="list-dl">
+                <dd>
+                    <label data-id="autorebootsystem"></label>
 
+                </dd>
+                <dt>
+                    <div class="dropdown">
+                        <button id="getinteval" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-value="">
+                            <span class="select-value"></span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="select-option" href="javascript:void(0);" data-value="0" data-id="notSet"></a></li>
+                            <li><a class="select-option" href="javascript:void(0);" data-value="1" data-id="weekDay7"></a></li><!--每天-->
+                            <li><a class="select-option" href="javascript:void(0);" data-value="2" data-id="weekDay8"></a></li><!--每周-->
+                            <li><a class="select-option" href="javascript:void(0);" data-value="3" data-id="weekDay9"></a></li><!--每月-->
+                        </ul>
+                    </div>
+                    <span class="timepoint">
+                        <div class="dropdown" data-value="3">
+                            <button id="getsystemtimeday" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-value="1">
+                                <span class="select-value">1</span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu"></ul>
+                        </div>
+                        <div class="dropdown" data-value="2">
+                            <button id="getsystemtiweek" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-value="0">
+                                <span class="select-value">周一</span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu"></ul>
+                        </div>
+                        <span data-value="1">
+                            <input class="input-sm xs" id="weekDay11" type="text"><label data-id="weekDay11" ></label>
+                            <input class="input-sm xs" id="weekDay12" type="text"><label data-id="weekDay12" ></label>
+                        </span>
+                    </span>
+
+                </dt>
+            </dl>
+            <div class="form-action">
+                <input type="button" class="btn btn-sm btn-default" id="autoreboot_save" value-id="save" value =''/>
+            </div>
         </div>
     </div>
-    <!--<span>-->
-    <select class="" name="getautomaintaintype" id="getautomaintaintype" matchval="getautomaintaintype">
-        <option value="0"><script type="text/javascript">document.write(lang.notSet);</script></option>
-        <option value="1"><script type="text/javascript">document.write(lang.weekDay7);</script></option>
-        <option value="2"><script type="text/javascript">document.write(lang.weekDay8);</script></option>
-        <option value="3"><script type="text/javascript">document.write(lang.weekDay9);</script></option>
-
-    </select>
-
-    <select>
-        <option value="0"><script type="text/javascript">document.write(lang.weekDay6);</script></option>
-        <option value="1"><script type="text/javascript">document.write(lang.weekDay0);</script></option>
-        <option value="2"><script type="text/javascript">document.write(lang.weekDay1);</script></option>
-        <option value="3"><script type="text/javascript">document.write(lang.weekDay2);</script></option>
-        <option value="4"><script type="text/javascript">document.write(lang.weekDay3);</script></option>
-        <option value="5"><script type="text/javascript">document.write(lang.weekDay4);</script></option>
-        <option value="6"><script type="text/javascript">document.write(lang.weekDay5);</script></option>
-
-    </select>
-
-    <select>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-        <option value="4">04</option>
-        <option value="5">05</option>
-        <option value="6">06</option>
-        <option value="7">07</option>
-        <option value="8">08</option>
-        <option value="9">09</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-        <option value="31">31</option>
-    </select>
-    <label data-id="weekDay10"></label>
-    <select>
-        <option value="0">00</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-        <option value="4">04</option>
-        <option value="5">05</option>
-        <option value="6">06</option>
-        <option value="7">07</option>
-        <option value="8">08</option>
-        <option value="9">09</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-    </select>
-    <label data-id="weekDay11"></label>
-    <select>
-        <option value="0">00</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-        <option value="4">04</option>
-        <option value="5">05</option>
-        <option value="6">06</option>
-        <option value="7">07</option>
-        <option value="8">08</option>
-        <option value="9">09</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-        <option value="31">31</option>
-        <option value="32">32</option>
-        <option value="33">33</option>
-        <option value="34">34</option>
-        <option value="35">35</option>
-        <option value="36">36</option>
-        <option value="37">37</option>
-        <option value="38">38</option>
-        <option value="39">39</option>
-        <option value="40">40</option>
-        <option value="41">41</option>
-        <option value="42">42</option>
-        <option value="43">43</option>
-        <option value="44">44</option>
-        <option value="45">45</option>
-        <option value="46">46</option>
-        <option value="47">47</option>
-        <option value="48">48</option>
-        <option value="49">49</option>
-        <option value="50">50</option>
-        <option value="51">51</option>
-        <option value="52">52</option>
-        <option value="53">53</option>
-        <option value="54">54</option>
-        <option value="55">55</option>
-        <option value="56">56</option>
-        <option value="57">57</option>
-        <option value="58">58</option>
-        <option value="59">59</option>
-    </select>
-    <label data-id="weekDay12"></label>
-    <!--</span>-->
-
-</div>
-
-
-<div>
-    <input type="button" id="autoreboot_save" value ='autorebootsave'/>
 </div>
     <script type="text/javascript">
         function got_random() {
@@ -181,8 +73,8 @@
                 .script("../js/date.format.js").wait()
                 .script("../bootstrap/dist/js/bootstrap.js").wait()
                 .script("../config/common.js?v="+got_random()).wait()
-                .script("../js/pagejs/userset.js?v="+got_random()).wait(function(){
-            InitPublic(InitConfig());
+                .script("../js/pagejs/autoreboot.js?v="+got_random()).wait(function(){
+            InitPublic(InitConfig);
         });
     </script>
 </body>

@@ -2,29 +2,24 @@
 var defaultLang = 'cn';
 
 function InitConfig() {
-	//语言初始化
-	langJs=$.cookies.get('lang') || defaultLang;
-	$.cookies.set('lang', langJs, {'hoursToLive': 24 * 365});
+	load_device_search_added();
+	$("#device_search").click(function(){
+		load_device_search();
+	});
 
-	$.getScript("../lang/"+langJs+".js",function(){
-		InitLang();
+	$("#device_add").click(function(){
+		load_device_add();
+	});
+
+	$("#device_del").click(function(){
+		load_device_del();
+	});
+
+	$("#device_manul").click(function(){
+		editaddedip(0);
 	});
 }
-function InitLang(){
-	$("[data-id=diskno]").text(lang.diskno);
-	$("[data-id=logNum]").text(lang.logNum);
-	$("[data-id=eidt]").text(lang.eidt);
-	$("[data-id=IPAddr]").text(lang.IPAddr);
-	$("[data-id=port]").text(lang.port);
-	$("[data-id=remoteprotol]").text(lang.remoteprotol);
-	$("[data-id=shuaixuan]").text(lang.shuaixuan);
-	$("[data-id=channel]").text(lang.channel);
-	$("[data-id=remotedel]").text(lang.remotedel);
-	$("[data-id=remotecfg]").text(lang.remotecfg);
-	$("[data-id=diskstatus]").text(lang.diskstatus);
-	$("[data-id=remotedel]").text(lang.remotedel);
-	$("[data-id=other]").text(lang.other);
-}
+
 
 //搜索获取的设备信息
 function SearchDeviceVal() {
@@ -61,13 +56,6 @@ var indexadded = 0;//已经添加的设置通道号
 var searchcount = 0;
 var indexaddedcount = 0;//已经添加的设置通道数
 
-if($.cookies.get('userName')) {
-	loginUser = $.cookies.get('userName');
-}
-if($.cookies.get('pwd')) {
-	loginpsw = $.cookies.get('pwd');
-}
-
 if($.cookies.get('netmask')) {
 	netmask = $.cookies.get('netmask');
 }
@@ -78,37 +66,6 @@ if($.cookies.get('gateway')) {
 if($.cookies.get('getsyschannum')) {
 	channelnum = $.cookies.get('getsyschannum');
 }
-
-
-if($.cookies.get('lang')){
-	langJs=$.cookies.get('lang');
-	$.cookies.set('lang', langJs,{'hoursToLive':24*365});
-}
-document.write("<script src='../lang/"+langJs+".js'><\/script>");
-
-
-
-$(document).ready(function(){
-
-	load_device_search_added();
-	$("#device_search").click(function(){
-		load_device_search();
-	});
-
-	$("#device_add").click(function(){
-		load_device_add();
-	});
-
-	$("#device_del").click(function(){
-		load_device_del();
-	});
-
-	$("#device_manul").click(function(){
-		editaddedip(0);
-	});
-
-
-});
 
 
 function load_device_search_added()
